@@ -1,0 +1,73 @@
+{
+  "company_name": "Vnmsr",
+  "source_file": "VNMSR_Full_VN_Smart_PDF_0807_compressed_614c2277d9.pdf",
+  "total_chunks_processed": 658,
+  "relevant_chunks_count": 20,
+  "claims_detected": [],
+  "scraped_incidents": [
+    {
+      "incident_id": "inc_64e29dc6",
+      "company_name": "Vnmsr",
+      "title": "Nghị định 45/2022/NĐ-CP quy định về xử phạt vi phạm hành chính trong ...",
+      "source": "Báo chí / Tin tức ngoài",
+      "url": "https://m.thuvienphapluat.vn/van-ban/Vi-pham-hanh-chinh/Nghi-dinh-45-2022-ND-CP-xu-phat-vi-pham-hanh-chinh-linh-vuc-bao-ve-moi-truong-484772.aspx",
+      "published_date": "2024-2025",
+      "snippet": "Nghị định này quy định các hành vi vi phạm hành chính, hình thức xử phạt, mức xử phạt, biện pháp khắc phục hậu quả đối với hành vi vi phạm hành chính, thẩm quyền lập biên bản vi phạm hành chính, thẩm quyền xử phạt vi phạm hành chính trong lĩnh vực bảo vệ môi trường. 2.",
+      "relevance_score": 0.75
+    },
+    {
+      "incident_id": "inc_08292696",
+      "company_name": "Vnmsr",
+      "title": "Quy định về xử phạt vi phạm hành chính trong lĩnh vực bảo vệ môi trường",
+      "source": "Cổng thông tin / Cơ quan Nhà nước",
+      "url": "https://mps.gov.vn/chinh-sach-phap-luat/bai-viet/quy-dinh-ve-xu-phat-vi-pham-hanh-chinh-trong-linh-vuc-bao-ve-moi-truong-d1-t766",
+      "published_date": "2024-2025",
+      "snippet": "Chính phủ vừa ban hành Nghị định số 45/2022/NĐ-CP quy định về xử phạt vi phạm hành chính trong lĩnh vực bảo vệ môi trường; có hiệu lực thi hành từ ngày 25/8/2022.",
+      "relevance_score": 1.0
+    },
+    {
+      "incident_id": "inc_deb5e5f9",
+      "company_name": "Vnmsr",
+      "title": "Nghị định 45/2022/NĐ-CP xử phạt vi phạm hành chính lĩnh vực bảo vệ môi ...",
+      "source": "Báo chí / Tin tức ngoài",
+      "url": "https://luatvietnam.vn/vi-pham-hanh-chinh/nghi-dinh-45-2022-nd-cp-225156-d1.html",
+      "published_date": "2024-2025",
+      "snippet": "Ngày 07/7/2022, Chính phủ ban hành Nghị định 45/2022/NĐ-CP quy định về xử phạt vi phạm hành chính trong lĩnh vực bảo vệ môi trường",
+      "relevance_score": 0.75
+    },
+    {
+      "incident_id": "inc_44d211d5",
+      "company_name": "Vnmsr",
+      "title": "Văn bản hợp nhất 05/VBHN-BTNMT 2021 Nghị định xử phạt hành chính bảo vệ ...",
+      "source": "Báo chí / Tin tức ngoài",
+      "url": "https://thuvienphapluat.vn/van-ban/Vi-pham-hanh-chinh/Van-ban-hop-nhat-05-VBHN-BTNMT-2021-Nghi-dinh-xu-phat-hanh-chinh-bao-ve-moi-truong-507594.aspx",
+      "published_date": "2024-2025",
+      "snippet": "Nghị định này quy định các hành vi vi phạm hành chính, hình thức xử phạt, mức xử phạt, biện pháp khắc phục hậu quả đối với hành vi vi phạm hành chính, thẩm quyền lập biên bản vi phạm hành chính, thẩm quyền xử phạt vi phạm hành chính; trách nhiệm và cơ chế phối hợp trong hoạt động kiểm tra, thanh tra và xử phạt vi phạm hành chính trong lĩnh vực b...",
+      "relevance_score": 0.75
+    },
+    {
+      "incident_id": "inc_d8bf3103",
+      "company_name": "Vnmsr",
+      "title": "Nghị định của Chính phủ Quy định về xử phạt vi phạm hành chính trong ...",
+      "source": "Cổng thông tin / Cơ quan Nhà nước",
+      "url": "https://moit.gov.vn/van-ban-phap-luat/van-ban-phap-quy/nghi-dinh-cua-chinh-phu-quy-dinh-ve-xu-phat-vi-pham-hanh-chinh-trong-linh-vuc-bao-ve-moi-truong.html",
+      "published_date": "2024-2025",
+      "snippet": "Nghị định của Chính phủ Quy định về xử phạt vi phạm hành chính trong lĩnh vực bảo vệ môi trường Tập tin đính kèm",
+      "relevance_score": 1.0
+    }
+  ],
+  "incident_matches": [],
+  "metrics": {
+    "true_positives": 0,
+    "false_positives": 0,
+    "true_negatives": 0,
+    "false_negatives": 0,
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1_score": 0.0,
+    "accuracy": 0.0,
+    "cohens_kappa_round1": 0.45,
+    "cohens_kappa_final": 0.85,
+    "kappa_growth": 0.4
+  }
+}

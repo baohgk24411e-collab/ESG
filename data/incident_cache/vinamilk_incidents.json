@@ -1,0 +1,22 @@
+[
+  {
+    "incident_id": "inc_real_1",
+    "company_name": "Vinamilk",
+    "title": "Vinamilk công bố lộ trình tiến tới Net Zero 2050 và kiểm kê khí nhà kính",
+    "source": "Báo Tuổi Trẻ",
+    "url": "https://tuoitre.vn/vinamilk-cong-bo-lo-trinh-tien-toi-net-zero-2050-20230526154522038.htm",
+    "published_date": "2023-05-26",
+    "snippet": "Vinamilk công bố chương trình hành động hướng tới mục tiêu phát thải ròng bằng 0 (Net Zero 2050), thực hiện kiểm kê khí nhà kính và đánh giá tuân thủ môi trường tại các nhà máy và trang trại.",
+    "relevance_score": 0.9
+  },
+  {
+    "incident_id": "inc_real_2",
+    "company_name": "Vinamilk",
+    "title": "Mô hình trang trại xanh Green Farm của Vinamilk áp dụng kinh tế tuần hoàn",
+    "source": "Báo Tuổi Trẻ",
+    "url": "https://tuoitre.vn/vinamilk-chia-se-ve-trang-trai-xanh-tai-hoi-nghi-sua-toan-cau-20230626173000523.htm",
+    "published_date": "2023-06-26",
+    "snippet": "Mô hình trang trại sinh thái Green Farm của Vinamilk áp dụng công nghệ biogas xử lý nước thải sinh học và năng lượng mặt trời giúp nâng cao chỉ số bảo vệ môi trường.",
+    "relevance_score": 0.9
+  }
+]

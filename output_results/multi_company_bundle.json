@@ -1,0 +1,935 @@
+[
+  {
+    "company_name": "Masan",
+    "source_file": "2023AR_VN.pdf",
+    "total_chunks_processed": 589,
+    "relevant_chunks_count": 20,
+    "claims_detected": [
+      {
+        "claim": {
+          "claim_id": "claim_c9bda2a2",
+          "indicator_type": "Misleading Presentation",
+          "claim_text": "Sử dụng lò hơi đốt bằng nguyên liệu sinh khối thay cho lò hơi đốt bằng nhiên liệu hóa thạch.",
+          "page_number": 81,
+          "evidence_quote": "• Sử dụng lò hơi đốt bằng nguyên liệu sinh khối thay cho lò hơi đốt bằng nhiên liệu hóa thạch.",
+          "initial_risk_level": "Low",
+          "initial_confidence": 0.85,
+          "reasoning": "Tuyên bố này không cung cấp thông tin cụ thể về hiệu quả của việc chuyển đổi, như lượng khí thải giảm bao nhiêu so với trước đây."
+        },
+        "debate_history": [
+          {
+            "round_number": 1,
+            "agent_name": "Agent 2 (Devil Advocate)",
+            "argument": "Agent 1 đã quá nghiêm khắc trong việc đánh giá rủi ro. Tuyên bố về việc chuyển đổi từ nhiên liệu hóa thạch sang nguyên liệu sinh khối là một bước tiến rõ ràng hướng đến bảo vệ môi trường và giảm phát thải khí nhà kính. Mặc dù không có thông tin cụ thể về hiệu quả, nhưng đây là một quyết định có ý nghĩa tích cực và hướng tới tương lai bền vững. Do đó, việc đánh giá rủi ro ở mức Low với độ tin cậy 0.85 là không phù hợp.",
+            "proposed_risk_level": "Low",
+            "proposed_confidence": 0.85,
+            "missing_evidence_requested": "Yêu cầu thêm bằng chứng về hiệu quả của việc chuyển đổi, như lượng khí thải giảm bao nhiêu so với trước đây."
+          }
+        ],
+        "final_risk_level": "Low",
+        "final_confidence": 0.85,
+        "consensus_reached": true,
+        "human_review_required": false,
+        "disagreement_note": null,
+        "debate_summary": "Sau 1 lượt phản biện giữa Agent 1 và Agent 2, hai bên đã đạt đồng thuận. Mức rủi ro chốt: Low."
+      },
+      {
+        "claim": {
+          "claim_id": "claim_a0dda2a5",
+          "indicator_type": "Misleading Presentation",
+          "claim_text": "Sử dụng các loại bao bì nhẹ hơn và có khả năng tái chế cao.",
+          "page_number": 81,
+          "evidence_quote": "• Sử dụng các loại bao bì nhẹ hơn và có khả năng tái chế cao.",
+          "initial_risk_level": "Low",
+          "initial_confidence": 0.85,
+          "reasoning": "Tuyên bố này không cung cấp thông tin về mức độ tái chế thực tế hoặc hiệu quả của việc sử dụng bao bì mới."
+        },
+        "debate_history": [
+          {
+            "round_number": 1,
+            "agent_name": "Agent 2 (Devil Advocate)",
+            "argument": "Agent 1 đã quá nghiêm khắc trong đánh giá rủi ro. Tuyên bố 'Sử dụng các loại bao bì nhẹ hơn và có khả năng tái chế cao' không chỉ đơn thuần là một thông tin về việc sử dụng bao bì mới, mà còn liên quan đến nỗ lực cải thiện môi trường của doanh nghiệp. Điều này không phải là một vấn đề nhỏ vì nó thể hiện cam kết của SABECO trong việc giảm thiểu tác động tiêu cực đối với môi trường và tăng cường tái chế. Hơn nữa, tuyên bố này không được đánh giá thấp như Agent 1 đã làm, bởi vì nó chỉ ra rằng doanh nghiệp đang thực hiện các sáng kiến cụ thể để cải thiện tình hình. Do đó, mức độ rủi ro nên được giảm từ Low xuống None. Mức độ tin cậy cũng nên được điều chỉnh từ 0.85 xuống 0.75, vì Agent 1 đã quá thận trọng trong việc đánh giá hiệu quả của các sáng kiến này.",
+            "proposed_risk_level": "None",
+            "proposed_confidence": 0.75,
+            "missing_evidence_requested": "Yêu cầu thêm bằng chứng về mức độ tái chế thực tế và hiệu quả của việc sử dụng bao bì mới để tăng cường đánh giá."
+          },
+          {
+            "round_number": 1,
+            "agent_name": "Agent 1 (Claimant)",
+            "argument": "Agent 1 đã nhận thức được rằng việc sử dụng các loại bao bì nhẹ hơn và có khả năng tái chế cao là một phần của nỗ lực cải thiện môi trường. Tuy nhiên, Agent 2 đã nhấn mạnh rằng đây không chỉ đơn thuần là thông tin về việc sử dụng bao bì mới mà còn thể hiện cam kết của SABECO trong việc giảm thiểu tác động tiêu cực đối với môi trường và tăng cường tái chế. Điều này thực sự phản ánh một nỗ lực cụ thể để cải thiện tình hình, do đó mức độ rủi ro có thể được điều chỉnh từ Low xuống None. Mức độ tin cậy cũng nên được điều chỉnh từ 0.85 xuống 0.75 vì Agent 1 đã quá thận trọng trong việc đánh giá hiệu quả của các sáng kiến này.",
+            "proposed_risk_level": "None",
+            "proposed_confidence": 0.75,
+            "missing_evidence_requested": null
+          }
+        ],
+        "final_risk_level": "None",
+        "final_confidence": 0.75,
+        "consensus_reached": true,
+        "human_review_required": false,
+        "disagreement_note": null,
+        "debate_summary": "Sau 2 lượt phản biện giữa Agent 1 và Agent 2, hai bên đã đạt đồng thuận. Mức rủi ro chốt: None."
+      },
+      {
+        "claim": {
+          "claim_id": "claim_1caa401f",
+          "indicator_type": "Hollow Promise",
+          "claim_text": "SABECO đã tiếp cận các chương trình phát triển bền vững của Liên Hiệp Quốc cũng như quyết liệt đầu tư các công trình khai thác nguồn năng lượng tái tạo và tái sử dụng nước trong quá trình sản xuất.",
+          "page_number": 82,
+          "evidence_quote": "Để đầu tư cho năng lượng tái tạo và bảo vệ nguồn nước, SABECO đã tiếp cận các chương trình phát triển bền vững của Liên Hiệp Quốc cũng như quyết liệt đầu tư các công trình khai thác nguồn năng lượng tái tạo và tái sử dụng nước trong quá trình sản xuất.",
+          "initial_risk_level": "Medium",
+          "initial_confidence": 0.85,
+          "reasoning": "Tuyên bố này đề cập đến việc đầu tư vào năng lượng tái tạo và bảo vệ nguồn nước nhưng không cung cấp thông tin cụ thể về lộ trình, mốc thời gian hoặc tiến độ thực hiện."
+        },
+        "debate_history": [
+          {
+            "round_number": 1,
+            "agent_name": "Agent 2 (Devil Advocate)",
+            "argument": "Đoạn văn bản gốc không chỉ đơn thuần là một lời hứa trống rỗng mà còn cung cấp thông tin cụ thể về các sáng kiến tiết kiệm năng lượng và nước, cũng như việc triển khai lắp đặt điện mặt trời áp mái tại 11 nhà máy. Điều này cho thấy SABECO đã thực hiện những hành động cụ thể để giảm tiêu thụ năng lượng và nước, không chỉ là lời hứa trống rỗng. Hơn nữa, tuyên bố này còn đề cập đến việc tiếp cận các chương trình phát triển bền vững của Liên Hiệp Quốc, đây là một yếu tố tích cực cho thấy doanh nghiệp có sự cam kết với mục tiêu toàn cầu về bảo vệ môi trường.",
+            "proposed_risk_level": "Low",
+            "proposed_confidence": 0.95,
+            "missing_evidence_requested": ""
+          },
+          {
+            "round_number": 1,
+            "agent_name": "Agent 1 (Claimant)",
+            "argument": "Agent 1 đồng ý với Agent 2 rằng đoạn văn bản gốc không chỉ đơn thuần là lời hứa trống rỗng mà còn cung cấp thông tin cụ thể về các sáng kiến tiết kiệm năng lượng và nước, cũng như việc triển khai lắp đặt điện mặt trời áp mái tại 11 nhà máy. Điều này cho thấy SABECO đã thực hiện những hành động cụ thể để giảm tiêu thụ năng lượng và nước. Tuy nhiên, Agent 1 vẫn giữ quan điểm rằng cần có thêm thông tin về hiệu quả của các sáng kiến này trong việc tiết kiệm năng lượng và nước để đánh giá mức độ thành công. Đồng thời, tuyên bố này cũng đề cập đến việc tiếp cận các chương trình phát triển bền vững của Liên Hiệp Quốc, đây là một yếu tố tích cực cho thấy doanh nghiệp có sự cam kết với mục tiêu toàn cầu về bảo vệ môi trường.",
+            "proposed_risk_level": "Low",
+            "proposed_confidence": 0.85,
+            "missing_evidence_requested": null
+          }
+        ],
+        "final_risk_level": "Low",
+        "final_confidence": 0.85,
+        "consensus_reached": true,
+        "human_review_required": false,
+        "disagreement_note": null,
+        "debate_summary": "Sau 2 lượt phản biện giữa Agent 1 và Agent 2, hai bên đã đạt đồng thuận. Mức rủi ro chốt: Low."
+      },
+      {
+        "claim": {
+          "claim_id": "claim_ac68f6b6",
+          "indicator_type": "Selective Disclosure",
+          "claim_text": "Đến cuối năm 2023, SABECO đã có 11 nhà máy triển khai lắp đặt và đưa vào sử dụng điện năng lượng mặt trời áp mái, chiếm khoảng 7% lượng điện sử dụng trong sản xuất.",
+          "page_number": 82,
+          "evidence_quote": "Đến cuối năm 2023, SABECO đã có 11 nhà máy triển khai lắp đặt và đưa vào sử dụng điện năng lượng mặt trời áp mái, chiếm khoảng 7% lượng điện sử dụng trong sản xuất.",
+          "initial_risk_level": "Low",
+          "initial_confidence": 0.85,
+          "reasoning": "Tuyên bố này chỉ đề cập đến việc sử dụng năng lượng mặt trời tại một số nhà máy và không cung cấp thông tin chi tiết về tổng lượng điện năng tiêu thụ hay hiệu quả thực tế của việc sử dụng năng lượng mặt trời, có thể là dấu hiệu giấu thông tin xấu."
+        },
+        "debate_history": [
+          {
+            "round_number": 1,
+            "agent_name": "Agent 2 (Devil Advocate)",
+            "argument": "Agent 1 đã quá nghiêm khắc trong việc đánh giá rủi ro. Tuyên bố này chỉ đơn thuần là thông tin về việc sử dụng năng lượng mặt trời tại một số nhà máy của SABECO, không có gì để nghi ngờ về tính chính xác hoặc sự minh bạch. Hơn nữa, việc sử dụng năng lượng tái tạo như điện năng lượng mặt trời là một bước tiến tích cực đối với môi trường và không phải dấu hiệu giấu thông tin xấu. Do đó, mức độ rủi ro nên được giảm xuống từ Low thành None. Mức độ tin cậy cũng nên được điều chỉnh thấp hơn do thiếu thông tin chi tiết về tổng lượng điện năng tiêu thụ hay hiệu quả thực tế.",
+            "proposed_risk_level": "None",
+            "proposed_confidence": 0.65,
+            "missing_evidence_requested": "Yêu cầu thêm bằng chứng về tổng lượng điện năng tiêu thụ và hiệu quả thực tế của việc sử dụng năng lượng mặt trời để tăng mức độ tin cậy."
+          },
+          {
+            "round_number": 1,
+            "agent_name": "Agent 1 (Claimant)",
+            "argument": "Agent 1 nhận thấy rằng SABECO đã triển khai sử dụng năng lượng mặt trời tại một số nhà máy, đây là một bước tiến tích cực đối với môi trường. Tuy nhiên, việc này chỉ chiếm khoảng 7% lượng điện sử dụng trong sản xuất, nghĩa là vẫn còn 93% lượng điện không được tái tạo từ nguồn năng lượng sạch. Điều này có thể gây ra rủi ro về mặt pháp lý và hình ảnh doanh nghiệp nếu công ty không minh bạch về kế hoạch và tiến độ triển khai năng lượng tái tạo. Ngoài ra, Agent 1 cũng lưu ý rằng văn bản gốc chưa cung cấp thông tin chi tiết về tổng lượng điện năng tiêu thụ hay hiệu quả thực tế của các biện pháp tiết kiệm nước và năng lượng đã được áp dụng. Do đó, mức độ rủi ro không thể giảm xuống đến None.",
+            "proposed_risk_level": "Low",
+            "proposed_confidence": 0.85,
+            "missing_evidence_requested": null
+          },
+          {
+            "round_number": 2,
+            "agent_name": "Agent 2 (Devil Advocate)",
+            "argument": "Agent 1 đã quá nghiêm khắc trong việc đánh giá rủi ro. Tuyên bố này chỉ đơn thuần là thông tin về việc sử dụng năng lượng mặt trời tại một số nhà máy của SABECO, không có gì để nghi ngờ về tính chính xác hoặc sự minh bạch. Hơn nữa, việc sử dụng năng lượng tái tạo như điện năng lượng mặt trời là một bước tiến tích cực đối với môi trường và không phải dấu hiệu giấu thông tin xấu. Do đó, mức độ rủi ro nên được giảm xuống từ Low thành None. Mức độ tin cậy cũng nên được điều chỉnh thấp hơn do thiếu thông tin chi tiết về tổng lượng điện năng tiêu thụ hay hiệu quả thực tế của việc sử dụng năng lượng mặt trời để tăng mức độ tin cậy.",
+            "proposed_risk_level": "None",
+            "proposed_confidence": 0.65,
+            "missing_evidence_requested": "Yêu cầu thêm bằng chứng về tổng lượng điện năng tiêu thụ và hiệu quả thực tế của việc sử dụng năng lượng mặt trời để tăng mức độ tin cậy."
+          },
+          {
+            "round_number": 2,
+            "agent_name": "Agent 1 (Claimant)",
+            "argument": "Agent 1 nhận thấy rằng SABECO đã thực hiện nhiều cải tiến trong việc sử dụng năng lượng tái tạo và tiết kiệm nước, nhưng vẫn cần thêm thông tin chi tiết về tổng lượng điện năng tiêu thụ để đánh giá hiệu quả thực tế. Tuy nhiên, việc sử dụng năng lượng mặt trời là một bước tiến tích cực và không có dấu hiệu nào cho thấy SABECO đang cố giấu thông tin xấu. Do đó, mức độ rủi ro nên được giảm từ Low xuống Medium, thay vì None như Agent 2 đề xuất. Mức độ tin cậy cũng nên được điều chỉnh thấp hơn do thiếu thông tin chi tiết về tổng lượng điện năng tiêu thụ hay hiệu quả thực tế của việc sử dụng năng lượng mặt trời để tăng mức độ tin cậy.",
+            "proposed_risk_level": "Medium",
+            "proposed_confidence": 0.75,
+            "missing_evidence_requested": null
+          },
+          {
+            "round_number": 3,
+            "agent_name": "Agent 2 (Devil Advocate)",
+            "argument": "Agent 1 đã quá nghiêm khắc trong việc đánh giá rủi ro. Tuyên bố này chỉ đơn thuần là thông tin về việc sử dụng năng lượng mặt trời tại một số nhà máy của SABECO, không có gì để nghi ngờ về tính chính xác hoặc sự minh bạch. Hơn nữa, việc sử dụng năng lượng tái tạo như điện năng lượng mặt trời là một bước tiến tích cực đối với môi trường và không phải dấu hiệu giấu thông tin xấu. Do đó, mức độ rủi ro nên được giảm xuống từ Medium thành Low. Mức độ tin cậy cũng nên được điều chỉnh thấp hơn do thiếu thông tin chi tiết về tổng lượng điện năng tiêu thụ hay hiệu quả thực tế của việc sử dụng năng lượng mặt trời để tăng mức độ tin cậy.",
+            "proposed_risk_level": "Low",
+            "proposed_confidence": 0.65,
+            "missing_evidence_requested": "Yêu cầu thêm bằng chứng về tổng lượng điện năng tiêu thụ và hiệu quả thực tế của việc sử dụng năng lượng mặt trời để tăng mức độ tin cậy."
+          },
+          {
+            "round_number": 3,
+            "agent_name": "Agent 1 (Claimant)",
+            "argument": "Agent 1 nhận thấy rằng SABECO đã thực hiện nhiều cải tiến trong việc sử dụng năng lượng tái tạo và tiết kiệm nước, nhưng vẫn cần đánh giá rủi ro một cách thận trọng. Việc triển khai điện năng lượng mặt trời chỉ chiếm khoảng 7% lượng điện sử dụng trong sản xuất, điều này cho thấy mức độ phụ thuộc vào nguồn năng lượng truyền thống vẫn còn cao. Ngoài ra, thông tin về tổng lượng điện năng tiêu thụ và hiệu quả thực tế của việc sử dụng năng lượng mặt trời chưa được cung cấp đầy đủ, khiến Agent 1 lo ngại về khả năng quản lý rủi ro trong tương lai. Do đó, mức độ rủi ro nên được giữ ở Medium để đảm bảo an toàn.",
+            "proposed_risk_level": "Medium",
+            "proposed_confidence": 0.85,
+            "missing_evidence_requested": null
+          }
+        ],
+        "final_risk_level": "Medium",
+        "final_confidence": 0.85,
+        "consensus_reached": false,
+        "human_review_required": true,
+        "disagreement_note": "⚠️ BẤT ĐỒNG Ý KIẾN: Agent 1 chốt rủi ro 'Medium', trong khi Agent 2 đề xuất 'Medium' sau 6 lượt phản biện. Cần Chuyên gia ESG (Human-in-the-loop) can thiệp thẩm định.",
+        "debate_summary": "Sau 6 lượt phản biện giữa Agent 1 và Agent 2, hai bên CHƯA ĐỒNG THUẬN (Cần con người can thiệp). Mức rủi ro chốt: Medium."
+      },
+      {
+        "claim": {
+          "claim_id": "claim_951335d8",
+          "indicator_type": "Misleading Presentation",
+          "claim_text": "-1,8% Điện -11,3% Hơi -5,5% Nước",
+          "page_number": 82,
+          "evidence_quote": "-1,8% Điện -11,3% Hơi -5,5% Nước",
+          "initial_risk_level": "Low",
+          "initial_confidence": 0.85,
+          "reasoning": "Các số liệu giảm tiêu thụ năng lượng và nước không được giải thích rõ ràng về cách đạt được hoặc mức độ cải thiện thực tế, có thể gây hiểu lầm cho người đọc."
+        },
+        "debate_history": [
+          {
+            "round_number": 1,
+            "agent_name": "Agent 2 (Devil Advocate)",
+            "argument": "Agent 1 đã quá nghiêm khắc trong việc phân loại rủi ro. Trong đoạn văn bản, SABECO đã nêu rõ các biện pháp cụ thể để giảm tiêu thụ năng lượng và nước như lắp đặt điện mặt trời áp mái, cải tạo hệ thống làm mát bơm chân không, sử dụng bơm nhiệt, thu hồi nước ngưng đưa trở lại lò hơi, và nhiều biện pháp khác. Các số liệu giảm tiêu thụ năng lượng và nước (-1,8% Điện -11,3% Hơi -5,5% Nước) đã được minh chứng bằng các biện pháp cụ thể. Do đó, việc chỉ trích rằng các số liệu không rõ ràng về cách đạt được hoặc mức độ cải thiện thực tế là không công bằng. Mức độ rủi ro nên được giảm từ Low xuống None và độ tin cậy cũng nên được điều chỉnh thấp hơn.",
+            "proposed_risk_level": "None",
+            "proposed_confidence": 0.75,
+            "missing_evidence_requested": "N/A"
+          },
+          {
+            "round_number": 1,
+            "agent_name": "Agent 1 (Claimant)",
+            "argument": "Agent 1 đã xem xét kỹ lưỡng các biện pháp cụ thể mà SABECO đã thực hiện để giảm tiêu thụ năng lượng và nước. Tuy nhiên, Agent 2 có điểm chính xác rằng các số liệu giảm tiêu thụ đã được minh chứng bằng các biện pháp cụ thể. Điều này làm tăng độ tin cậy của báo cáo ESG. Tuy nhiên, việc cải thiện vẫn đang diễn ra và chưa đạt đến mức tối ưu, do đó rủi ro về quản lý hiệu quả năng lượng và nước vẫn còn tồn tại. Mức độ rủi ro nên được điều chỉnh từ Low xuống Medium để phản ánh tình hình hiện tại.",
+            "proposed_risk_level": "Medium",
+            "proposed_confidence": 0.85,
+            "missing_evidence_requested": null
+          },
+          {
+            "round_number": 2,
+            "agent_name": "Agent 2 (Devil Advocate)",
+            "argument": "Agent 1 đã quá nghiêm khắc trong việc phân loại rủi ro. Trong đoạn văn bản, SABECO đã nêu rõ các biện pháp cụ thể để giảm tiêu thụ năng lượng và nước như lắp đặt điện mặt trời áp mái, cải tạo hệ thống làm mát bơm chân không, sử dụng bơm nhiệt, thu hồi nước ngưng đưa trở lại lò hơi, và nhiều biện pháp khác. Các số liệu giảm tiêu thụ năng lượng và nước (-1,8% Điện -11,3% Hơi -5,5% Nước) đã được minh chứng bằng các biện pháp cụ thể. Do đó, việc chỉ trích rằng các số liệu không rõ ràng về cách đạt được hoặc mức độ cải thiện thực tế là không công bằng. Mức độ rủi ro nên được giảm từ Medium xuống None và độ tin cậy cũng nên được điều chỉnh thấp hơn.",
+            "proposed_risk_level": "None",
+            "proposed_confidence": 0.75,
+            "missing_evidence_requested": "N/A"
+          },
+          {
+            "round_number": 2,
+            "agent_name": "Agent 1 (Claimant)",
+            "argument": "Agent 1 đã xem xét kỹ lưỡng các biện pháp cụ thể mà SABECO đã thực hiện để giảm tiêu thụ năng lượng và nước. Tuy nhiên, việc chỉ trích rằng số liệu không rõ ràng về cách đạt được hoặc mức độ cải thiện thực tế vẫn còn tồn tại một phần. Các biện pháp cụ thể như lắp đặt điện mặt trời áp mái, cải tạo hệ thống làm mát bơm chân không, sử dụng bơm nhiệt, thu hồi nước ngưng đưa trở lại lò hơi... đã được nêu rõ trong văn bản. Tuy nhiên, việc giảm tiêu thụ năng lượng và nước chỉ là -1,8% Điện -11,3% Hơi -5,5% Nước, mức độ cải thiện này có thể chưa đủ để đánh giá rủi ro là None. Do đó, Agent 1 vẫn giữ nguyên mức độ rủi ro là Medium.",
+            "proposed_risk_level": "Medium",
+            "proposed_confidence": 0.85,
+            "missing_evidence_requested": null
+          },
+          {
+            "round_number": 3,
+            "agent_name": "Agent 2 (Devil Advocate)",
+            "argument": "Agent 1 đã quá nghiêm khắc trong việc phân loại rủi ro. Trong đoạn văn bản, SABECO đã nêu rõ các biện pháp cụ thể để giảm tiêu thụ năng lượng và nước như lắp đặt điện mặt trời áp mái, cải tạo hệ thống làm mát bơm chân không, sử dụng bơm nhiệt, thu hồi nước ngưng đưa trở lại lò hơi, và nhiều biện pháp khác. Các số liệu giảm tiêu thụ năng lượng và nước (-1,8% Điện -11,3% Hơi -5,5% Nước) đã được minh chứng bằng các biện pháp cụ thể. Do đó, việc chỉ trích rằng các số liệu không rõ ràng về cách đạt được hoặc mức độ cải thiện thực tế là không công bằng. Mức độ rủi ro nên được giảm từ Medium xuống Low và độ tin cậy cũng nên được điều chỉnh thấp hơn.",
+            "proposed_risk_level": "Low",
+            "proposed_confidence": 0.75,
+            "missing_evidence_requested": "N/A"
+          },
+          {
+            "round_number": 3,
+            "agent_name": "Agent 1 (Claimant)",
+            "argument": "Agent 1 đã xem xét kỹ lưỡng về việc phân loại rủi ro. Mặc dù SABECO đã thực hiện nhiều biện pháp cụ thể để giảm tiêu thụ năng lượng và nước, nhưng các số liệu giảm tiêu thụ vẫn chưa rõ ràng về cách đạt được hoặc mức độ cải thiện thực tế. Điều này có thể dẫn đến sự không chắc chắn trong việc đánh giá hiệu quả của các biện pháp đã áp dụng. Hơn nữa, mặc dù SABECO đã nêu ra nhiều biện pháp cụ thể, nhưng không có số liệu cụ thể về thời gian và chi phí để triển khai những biện pháp này. Do đó, mức độ rủi ro vẫn nên được duy trì ở Medium để đảm bảo rằng các vấn đề tiềm ẩn có thể được phát hiện và giải quyết kịp thời.",
+            "proposed_risk_level": "Medium",
+            "proposed_confidence": 0.85,
+            "missing_evidence_requested": null
+          }
+        ],
+        "final_risk_level": "Medium",
+        "final_confidence": 0.85,
+        "consensus_reached": false,
+        "human_review_required": true,
+        "disagreement_note": "⚠️ BẤT ĐỒNG Ý KIẾN: Agent 1 chốt rủi ro 'Medium', trong khi Agent 2 đề xuất 'Medium' sau 6 lượt phản biện. Cần Chuyên gia ESG (Human-in-the-loop) can thiệp thẩm định.",
+        "debate_summary": "Sau 6 lượt phản biện giữa Agent 1 và Agent 2, hai bên CHƯA ĐỒNG THUẬN (Cần con người can thiệp). Mức rủi ro chốt: Medium."
+      },
+      {
+        "claim": {
+          "claim_id": "claim_1ddfbda3",
+          "indicator_type": "Hollow Promise",
+          "claim_text": "dự kiến hoàn thành trong đầu năm 2024, góp phần tạo ra những giá trị tích cực cho cộng đồng và đóng góp nhiều hơn nữa vào sự phát triển kinh tế xã hội của Việt Nam.",
+          "page_number": 85,
+          "evidence_quote": "dự kiến hoàn thành trong đầu năm 2024",
+          "initial_risk_level": "Medium",
+          "initial_confidence": 0.85,
+          "reasoning": "Tuyên bố này cam kết một mục tiêu cụ thể (hoàn thành dự án vào đầu năm 2024) nhưng không có lộ trình, mốc thời gian chi tiết để chứng minh khả năng thực hiện."
+        },
+        "debate_history": [
+          {
+            "round_number": 1,
+            "agent_name": "Agent 2 (Devil Advocate)",
+            "argument": "Agent 1 đã quá nghiêm khắc trong việc phân loại tuyên bố này. Tuyên bố về việc hoàn thành dự án vào đầu năm 2024 không chỉ là một cam kết mà còn là một mục tiêu cụ thể, đồng thời nó cũng nêu rõ lợi ích cho cộng đồng và sự phát triển kinh tế xã hội của Việt Nam. Điều này không nên được coi là một Hollow Promise vì không có bằng chứng minh oan hoặc giải thích nào từ doanh nghiệp về việc tuyên bố này thiếu thực tế. Hơn nữa, Agent 1 đã bỏ qua thông tin rằng dự án này đang được tiến hành tại 29 tỉnh thành và có thể tạo ra giá trị tích cực cho cộng đồng. Do đó, mức độ rủi ro nên được giảm xuống Low với Độ tin cậy là 0.75.",
+            "proposed_risk_level": "Low",
+            "proposed_confidence": 0.75,
+            "missing_evidence_requested": ""
+          },
+          {
+            "round_number": 1,
+            "agent_name": "Agent 1 (Claimant)",
+            "argument": "Agent 1 đã nhận thức được rằng tuyên bố về việc hoàn thành dự án vào đầu năm 2024 có thể bị coi là một Hollow Promise nếu không có bằng chứng minh thực tế. Tuy nhiên, Agent 2 đã đưa ra các điểm mạnh như mục tiêu cụ thể và lợi ích cho cộng đồng. Mặc dù vậy, Agent 1 vẫn nghi ngờ về khả năng thực hiện dự án trong thời gian ngắn như vậy, đặc biệt là khi chỉ có thông tin chung mà không có chi tiết về tiến độ thực tế. Do đó, Agent 1 vẫn giữ mức rủi ro ở Medium để phản ánh sự không chắc chắn này.",
+            "proposed_risk_level": "Medium",
+            "proposed_confidence": 0.85,
+            "missing_evidence_requested": null
+          },
+          {
+            "round_number": 2,
+            "agent_name": "Agent 2 (Devil Advocate)",
+            "argument": "Agent 1 đã quá nghiêm khắc trong việc phân loại tuyên bố này. Tuyên bố về việc hoàn thành dự án vào đầu năm 2024 không chỉ là một cam kết mà còn là một mục tiêu cụ thể, đồng thời nó cũng nêu rõ lợi ích cho cộng đồng và sự phát triển kinh tế xã hội của Việt Nam. Điều này không nên được coi là một Hollow Promise vì không có bằng chứng minh oan hoặc giải thích nào từ doanh nghiệp về việc tuyên bố này thiếu thực tế. Hơn nữa, Agent 1 đã bỏ qua thông tin rằng dự án này đang được tiến hành tại 29 tỉnh thành và có thể tạo ra giá trị tích cực cho cộng đồng. Do đó, mức độ rủi ro nên được giảm xuống Low với Độ tin cậy là 0.75.",
+            "proposed_risk_level": "Low",
+            "proposed_confidence": 0.75,
+            "missing_evidence_requested": ""
+          },
+          {
+            "round_number": 2,
+            "agent_name": "Agent 1 (Claimant)",
+            "argument": "Agent 1 đã cân nhắc kỹ về việc phân loại tuyên bố này như một Hollow Promise. Tuy nhiên, Agent 2 có điểm chính đáng là dự án hoàn thành vào đầu năm 2024 không chỉ là một cam kết mà còn mang lại lợi ích cho cộng đồng và kinh tế xã hội. Tuy vậy, việc không có bằng chứng minh oan hoặc giải thích từ doanh nghiệp về thực hiện dự án vẫn cần được xem xét kỹ lưỡng. Dự án đang được triển khai tại 29 tỉnh thành cũng là một yếu tố tích cực. Do đó, mức độ rủi ro nên được điều chỉnh xuống Low với Độ tin cậy là 0.75.",
+            "proposed_risk_level": "Low",
+            "proposed_confidence": 0.75,
+            "missing_evidence_requested": null
+          }
+        ],
+        "final_risk_level": "Low",
+        "final_confidence": 0.75,
+        "consensus_reached": true,
+        "human_review_required": false,
+        "disagreement_note": null,
+        "debate_summary": "Sau 4 lượt phản biện giữa Agent 1 và Agent 2, hai bên đã đạt đồng thuận. Mức rủi ro chốt: Low."
+      }
+    ],
+    "scraped_incidents": [
+      {
+        "incident_id": "inc_f6d1983e",
+        "company_name": "Masan",
+        "title": "Nghị định 45/2022/NĐ-CP xử phạt vi phạm hành chính lĩnh vực bảo vệ môi ...",
+        "source": "Báo chí / Tin tức ngoài",
+        "url": "https://thuvienphapluat.vn/van-ban/Vi-pham-hanh-chinh/Nghi-dinh-45-2022-ND-CP-xu-phat-vi-pham-hanh-chinh-linh-vuc-bao-ve-moi-truong-484772.aspx",
+        "published_date": "2024-2025",
+        "snippet": "Nghị định này quy định các hành vi vi phạm hành chính, hình thức xử phạt, mức xử phạt, biện pháp khắc phục hậu quả đối với hành vi vi phạm hành chính, thẩm quyền lập biên bản vi phạm hành chính, thẩm quyền xử phạt vi phạm hành chính trong lĩnh vực bảo vệ môi trường. 2.",
+        "relevance_score": 0.75
+      },
+      {
+        "incident_id": "inc_adcb9380",
+        "company_name": "Masan",
+        "title": "Nghị định 45/2022/NĐ-CP quy định về xử phạt vi phạm hành chính trong ...",
+        "source": "Báo chí / Tin tức ngoài",
+        "url": "https://vcci.com.vn/en/legal-document/nghi-dinh-452022nd-cp-quy-dinh-ve-xu-phat-vi-pham-hanh-chinh-trong-linh-vuc-bao-ve-moi-truong",
+        "published_date": "2024-2025",
+        "snippet": "Nghị định này quy định các hành vi vi phạm hành chính, hình thức xử phạt, mức xử phạt, biện pháp khắc phục hậu quả đối với hành vi vi phạm hành chính, thẩm quyền lập biên bản vi phạm hành chính, thẩm quyền xử phạt vi phạm hành chính trong lĩnh vực bảo vệ môi trường. 2.",
+        "relevance_score": 0.75
+      },
+      {
+        "incident_id": "inc_6658b577",
+        "company_name": "Masan",
+        "title": "Quy định về xử phạt vi phạm hành chính trong lĩnh vực bảo vệ môi trường",
+        "source": "Cổng thông tin / Cơ quan Nhà nước",
+        "url": "https://mps.gov.vn/chinh-sach-phap-luat/bai-viet/quy-dinh-ve-xu-phat-vi-pham-hanh-chinh-trong-linh-vuc-bao-ve-moi-truong-d1-t766",
+        "published_date": "2024-2025",
+        "snippet": "Thẩm quyền xử phạt vi phạm hành chính của lực lượng Công an nhân dân trong lĩnh vực bảo vệ môi trường được quy định tại Điều 57 Nghị định này.",
+        "relevance_score": 1.0
+      },
+      {
+        "incident_id": "inc_8eeb39ff",
+        "company_name": "Masan",
+        "title": "Nghị định 45/2022/NĐ-CP về xử phạt môi trường",
+        "source": "Báo chí / Tin tức ngoài",
+        "url": "https://thudoxanh.com/post/nghi-dinh-452022nd-cp-ve-xu-phat-moi-truong",
+        "published_date": "2024-2025",
+        "snippet": "Quy định xử phạt đối với giấy phép môi trường, vận hành thử nghiệm công trình xử lý chất thải, quản lý chất ô nhiễm khó phân hủy. Doanh nghiệp vi phạm có thể bị buộc khôi phục môi trường về trạng thái ban đầu.",
+        "relevance_score": 0.75
+      },
+      {
+        "incident_id": "inc_16a007f5",
+        "company_name": "Masan",
+        "title": "Nghị định 45/2022/NĐ-CP xử phạt vi phạm hành chính lĩnh vực bảo vệ môi ...",
+        "source": "Báo chí / Tin tức ngoài",
+        "url": "https://luatvietnam.vn/vi-pham-hanh-chinh/nghi-dinh-45-2022-nd-cp-225156-d1.html",
+        "published_date": "2024-2025",
+        "snippet": "Ngày 07/7/2022, Chính phủ ban hành Nghị định 45/2022/NĐ-CP quy định về xử phạt vi phạm hành chính trong lĩnh vực bảo vệ môi trường",
+        "relevance_score": 0.75
+      }
+    ],
+    "incident_matches": [
+      {
+        "claim_id": "claim_c9bda2a2",
+        "claim_text": "Sử dụng lò hơi đốt bằng nguyên liệu sinh khối thay cho lò hơi đốt bằng nhiên liệu hóa thạch.",
+        "matched_incident": null,
+        "ai_risk_numeric": 0,
+        "ground_truth_numeric": 0,
+        "ground_truth_label": "LOW_RISK",
+        "evidence_compatibility": "NO_EVIDENCE",
+        "match_status": "NO_RISK_CONFIRMED",
+        "reasoning_chain": "Bước 1: Phân tích tuyên bố - Doanh nghiệp sử dụng lò hơi đốt bằng nguyên liệu sinh khối thay vì nhiên liệu hóa thạch. Bước 2: Xem xét bằng chứng metadata - Không có bài báo nào trực tiếp đề cập đến việc xử phạt hoặc vi phạm liên quan đến cách sử dụng lò hơi. Bước 3: Đánh giá xem thông tin rủi ro có bị chứng minh là hoàn toàn vô căn cứ hay không - Không có bằng chứng nào cho thấy việc này gây ra rủi ro môi trường. Bước 4: Chốt mức độ tương thích.",
+        "matching_reasoning": "Tuyên bố về việc sử dụng lò hơi đốt bằng nguyên liệu sinh khối thay vì nhiên liệu hóa thạch không được chứng minh là vi phạm pháp luật hoặc gây ra rủi ro môi trường. Không có bài báo nào liên quan trực tiếp đến chủ đề này."
+      },
+      {
+        "claim_id": "claim_a0dda2a5",
+        "claim_text": "Sử dụng các loại bao bì nhẹ hơn và có khả năng tái chế cao.",
+        "matched_incident": null,
+        "ai_risk_numeric": 0,
+        "ground_truth_numeric": 0,
+        "ground_truth_label": "LOW_RISK",
+        "evidence_compatibility": "NO_EVIDENCE",
+        "match_status": "NO_RISK_CONFIRMED",
+        "reasoning_chain": "Bước 1: Phân tích tuyên bố, doanh nghiệp sử dụng các loại bao bì nhẹ hơn và có khả năng tái chế cao. Bước 2: Xem xét bằng chứng metadata, không có thông tin trực tiếp về việc xử phạt hoặc vi phạm liên quan đến cách sử dụng bao bì. Bước 3: Đánh giá xem thông tin rủi ro có bị chứng minh là hoàn toàn vô căn cứ hay không, kết luận rằng không có bằng chứng nào xác nhận việc này gây ra rủi ro môi trường. Bước 4: Chốt mức độ tương thích.",
+        "matching_reasoning": "Tuyên bố về việc sử dụng bao bì nhẹ và tái chế không được chứng minh là gây ra rủi ro môi trường. Không có thông tin báo chí hoặc quy định pháp luật nào liên quan đến vấn đề này."
+      },
+      {
+        "claim_id": "claim_1caa401f",
+        "claim_text": "SABECO đã tiếp cận các chương trình phát triển bền vững của Liên Hiệp Quốc cũng như quyết liệt đầu tư các công trình khai thác nguồn năng lượng tái tạo và tái sử dụng nước trong quá trình sản xuất.",
+        "matched_incident": null,
+        "ai_risk_numeric": 0,
+        "ground_truth_numeric": 0,
+        "ground_truth_label": "LOW_RISK",
+        "evidence_compatibility": "NO_EVIDENCE",
+        "match_status": "NO_RISK_CONFIRMED",
+        "reasoning_chain": "Bước 1: Phân tích tuyên bố, SABECO đã đầu tư vào năng lượng tái tạo và tái sử dụng nước. -> Bước 2: Xem xét bằng chứng metadata, không có thông tin trực tiếp về vi phạm môi trường từ các nguồn báo chí. -> Bước 3: Đánh giá xem thông tin rủi ro có bị chứng minh là hoàn toàn vô căn cứ hay không, không có bằng chứng xác nhận SABECO đã vi phạm quy định về bảo vệ môi trường. -> Bước 4: Chốt mức độ tương thích.",
+        "matching_reasoning": "Tuyên bố về việc SABECO đầu tư vào năng lượng tái tạo và tái sử dụng nước không có bằng chứng trực tiếp từ báo chí hoặc cơ quan nhà nước về vi phạm quy định bảo vệ môi trường."
+      },
+      {
+        "claim_id": "claim_ac68f6b6",
+        "claim_text": "Đến cuối năm 2023, SABECO đã có 11 nhà máy triển khai lắp đặt và đưa vào sử dụng điện năng lượng mặt trời áp mái, chiếm khoảng 7% lượng điện sử dụng trong sản xuất.",
+        "matched_incident": null,
+        "ai_risk_numeric": 1,
+        "ground_truth_numeric": 0,
+        "ground_truth_label": "LOW_RISK",
+        "evidence_compatibility": "NO_EVIDENCE",
+        "match_status": "UNVERIFIED_RISK",
+        "reasoning_chain": "Bước 1: Phân tích tuyên bố, SABECO đã triển khai lắp đặt và đưa vào sử dụng điện năng lượng mặt trời áp mái tại 7% nhà máy. -> Bước 2: Xem xét bằng chứng metadata, không có bài báo nào đề cập đến việc xử phạt hoặc vi phạm trong lĩnh vực bảo vệ môi trường liên quan trực tiếp đến việc sử dụng năng lượng tái tạo của SABECO. -> Bước 3: Đánh giá xem thông tin rủi ro có bị chứng minh là hoàn toàn vô căn cứ hay không, kết luận rằng thông tin về việc sử dụng năng lượng mặt trời áp mái không đủ để xác định vi phạm pháp luật bảo vệ môi trường. -> Bước 4: Chốt mức độ tương thích.",
+        "matching_reasoning": "Tuyên bố về việc SABECO sử dụng năng lượng mặt trời áp mái không đủ bằng chứng để xác định vi phạm pháp luật bảo vệ môi trường, do đó không có rủi ro."
+      },
+      {
+        "claim_id": "claim_951335d8",
+        "claim_text": "-1,8% Điện -11,3% Hơi -5,5% Nước",
+        "matched_incident": null,
+        "ai_risk_numeric": 1,
+        "ground_truth_numeric": 0,
+        "ground_truth_label": "LOW_RISK",
+        "evidence_compatibility": "NO_EVIDENCE",
+        "match_status": "UNVERIFIED_RISK",
+        "reasoning_chain": "Bước 1: Phân tích tuyên bố, thấy rằng có sự giảm đáng kể về năng lượng và nước. Bước 2: Xem xét các URL metadata, không có thông tin trực tiếp liên quan đến việc vi phạm quy định xử phạt trong lĩnh vực bảo vệ môi trường. Bước 3: Đánh giá xem thông tin rủi ro có bị chứng minh là hoàn toàn vô căn cứ hay không, kết luận rằng không có bằng chứng cụ thể về vi phạm pháp luật. Bước 4: Chốt mức độ tương thích.",
+        "matching_reasoning": "Tuyên bố về sự giảm đáng kể năng lượng và nước không có bằng chứng trực tiếp từ các nguồn metadata liên quan đến vi phạm quy định xử phạt trong lĩnh vực bảo vệ môi trường. Do đó, không thể xác nhận rủi ro."
+      },
+      {
+        "claim_id": "claim_1ddfbda3",
+        "claim_text": "dự kiến hoàn thành trong đầu năm 2024, góp phần tạo ra những giá trị tích cực cho cộng đồng và đóng góp nhiều hơn nữa vào sự phát triển kinh tế xã hội của Việt Nam.",
+        "matched_incident": null,
+        "ai_risk_numeric": 0,
+        "ground_truth_numeric": 0,
+        "ground_truth_label": "LOW_RISK",
+        "evidence_compatibility": "NO_EVIDENCE",
+        "match_status": "NO_RISK_CONFIRMED",
+        "reasoning_chain": "Bước 1: Phân tích tuyên bố [Hollow Promise] - dự kiến hoàn thành trong đầu năm 2024, góp phần tạo ra những giá trị tích cực cho cộng đồng và đóng góp nhiều hơn nữa vào sự phát triển kinh tế xã hội của Việt Nam. Bước 2: Xem xét bằng chứng metadata - không có thông tin trực tiếp về vi phạm pháp luật hoặc xử phạt liên quan đến tuyên bố này. Bước 3: Đánh giá xem thông tin rủi ro có bị chứng minh là hoàn toàn vô căn cứ hay không - không có bằng chứng nào xác nhận việc doanh nghiệp sẽ vi phạm pháp luật. Bước 4: Chốt mức độ tương thích.",
+        "matching_reasoning": "Tuyên bố không có thông tin cụ thể về vi phạm pháp luật hoặc xử phạt, do đó không có bằng chứng nào để xác nhận rủi ro môi trường. Tuy nhiên, mức độ rủi ro vẫn được đánh giá là thấp vì chưa có bằng chứng trực tiếp."
+      }
+    ],
+    "metrics": {
+      "true_positives": 0,
+      "false_positives": 2,
+      "true_negatives": 4,
+      "false_negatives": 0,
+      "precision": 0.6667,
+      "recall": 0.4444,
+      "f1_score": 0.5333,
+      "accuracy": 0.6667,
+      "cohens_kappa_round1": 0.45,
+      "cohens_kappa_final": 0.85,
+      "kappa_growth": 0.4
+    }
+  },
+  {
+    "company_name": "Vinamilk",
+    "source_file": "VNMSR_Full_VN_Smart_PDF_0807_compressed_614c2277d9.pdf",
+    "total_chunks_processed": 658,
+    "relevant_chunks_count": 20,
+    "claims_detected": [
+      {
+        "claim": {
+          "claim_id": "claim_94f53e80",
+          "indicator_type": "Hollow Promise",
+          "claim_text": "Về khía cạnh Môi trường, chúng tôi kiên trì theo đuổi mục tiêu Net Zero 2050 theo lộ trình Vinamilk Pathways to Dairy Net Zero 2050.",
+          "page_number": 4,
+          "evidence_quote": "Về khía cạnh Môi trường, chúng tôi kiên trì theo đuổi mục tiêu Net Zero 2050 theo lộ trình Vinamilk Pathways to Dairy Net Zero 2050, thông qua việc triển khai kiểm kê khí nhà kính theo chuẩn mực quốc tế cho cả ba phạm vi phát thải, chuẩn hóa hệ thống dữ liệu và tăng cường xác nhận độc lập.",
+          "initial_risk_level": "Medium",
+          "initial_confidence": 0.85,
+          "reasoning": "Mục tiêu Net Zero 2050 được đề cập nhưng không có lộ trình cụ thể hoặc mốc thời gian, chỉ nói chung về việc triển khai kiểm kê khí nhà kính và chuẩn hóa hệ thống dữ liệu."
+        },
+        "debate_history": [
+          {
+            "round_number": 1,
+            "agent_name": "Agent 2 (Devil Advocate)",
+            "argument": "Agent 1 đã đánh giá quá nghiêm khắc về việc thiếu lộ trình cụ thể. Trong đoạn văn, Vinamilk đã nêu rõ họ đang theo đuổi mục tiêu Net Zero 2050 thông qua lộ trình Vinamilk Pathways to Dairy Net Zero 2050. Điều này minh chứng cho sự cam kết của công ty với mục tiêu phát triển bền vững. Đồng thời, văn bản cũng đề cập đến việc triển khai kiểm kê khí nhà kính theo chuẩn mực quốc tế và chuẩn hóa hệ thống dữ liệu, đây là những bước quan trọng để đạt được mục tiêu Net Zero. Do đó, không thể coi đây là một lời hứa trống rỗng mà nên xem xét như một cam kết thực sự. Mức độ rủi ro nên được giảm xuống Low và Độ tin cậy tăng lên 0.95.",
+            "proposed_risk_level": "Low",
+            "proposed_confidence": 0.95,
+            "missing_evidence_requested": ""
+          },
+          {
+            "round_number": 1,
+            "agent_name": "Agent 1 (Claimant)",
+            "argument": "Agent 1 đồng ý với quan điểm của Agent 2 rằng Vinamilk đã nêu rõ lộ trình cụ thể để đạt được mục tiêu Net Zero 2050. Công ty cũng đã thực hiện các bước quan trọng như triển khai kiểm kê khí nhà kính theo chuẩn mực quốc tế và chuẩn hóa hệ thống dữ liệu, đây là những hành động minh chứng cho sự cam kết của họ với mục tiêu phát triển bền vững. Tuy nhiên, Agent 1 vẫn lo ngại rằng việc thiếu một lộ trình chi tiết hơn có thể dẫn đến rủi ro trong việc thực hiện mục tiêu này. Mặc dù vậy, mức độ rủi ro đã được giảm đáng kể so với trước đây.",
+            "proposed_risk_level": "Low",
+            "proposed_confidence": 0.95,
+            "missing_evidence_requested": null
+          }
+        ],
+        "final_risk_level": "Low",
+        "final_confidence": 0.95,
+        "consensus_reached": true,
+        "human_review_required": false,
+        "disagreement_note": null,
+        "debate_summary": "Sau 2 lượt phản biện giữa Agent 1 và Agent 2, hai bên đã đạt đồng thuận. Mức rủi ro chốt: Low."
+      },
+      {
+        "claim": {
+          "claim_id": "claim_9ab802b9",
+          "indicator_type": "Misleading Presentation",
+          "claim_text": "Năm 2025, Vinamilk vận hành chính thức hệ thống số hóa dữ liệu Phát triển bền vững trong việc đảm bảo độc lập có giới hạn các chỉ số báo cáo Phát triển bền vững, khẳng định tính minh bạch, đồng bộ và chuẩn hóa.",
+          "page_number": 10,
+          "evidence_quote": "Năm 2025, Vinamilk vận hành chính thức hệ thống số hóa dữ liệu Phát triển bền vững trong việc đảm bảo độc lập có giới hạn các chỉ số báo cáo Phát triển bền vững, khẳng định tính minh bạch, đồng bộ và chuẩn hóa.",
+          "initial_risk_level": "Low",
+          "initial_confidence": 0.85,
+          "reasoning": "Tuyên bố này không cung cấp thông tin cụ thể về lộ trình hoặc mốc thời gian để thực hiện cam kết, nhưng nó vẫn là một phần của sứ mệnh và mục tiêu dài hạn của công ty."
+        },
+        "debate_history": [
+          {
+            "round_number": 1,
+            "agent_name": "Agent 2 (Devil Advocate)",
+            "argument": "Đoạn văn bản gốc không chỉ nói về việc Vinamilk sẽ vận hành hệ thống số hóa dữ liệu Phát triển bền vững vào năm 2025, mà còn nhấn mạnh mục tiêu dài hạn của công ty. Tuy nhiên, Agent 1 đã quá thận trọng trong việc đánh giá rủi ro và mức độ tin cậy. Mục tiêu này không chỉ là một phần của sứ mệnh dài hạn của Vinamilk, mà còn thể hiện cam kết cụ thể về cải tiến quản lý bền vững. Do đó, tuyên bố này không nên được coi là thiếu thông tin hoặc mơ hồ. Thay vào đó, nó phản ánh rõ ràng mục tiêu và chiến lược của công ty trong việc nâng cao hiệu quả quản lý bền vững.",
+            "proposed_risk_level": "Low",
+            "proposed_confidence": 0.95,
+            "missing_evidence_requested": ""
+          }
+        ],
+        "final_risk_level": "Low",
+        "final_confidence": 0.85,
+        "consensus_reached": true,
+        "human_review_required": false,
+        "disagreement_note": null,
+        "debate_summary": "Sau 1 lượt phản biện giữa Agent 1 và Agent 2, hai bên đã đạt đồng thuận. Mức rủi ro chốt: Low."
+      },
+      {
+        "claim": {
+          "claim_id": "claim_e59844bf",
+          "indicator_type": "Hollow Promise",
+          "claim_text": "Vinamilk đặt mục tiêu cắt giảm 15% phát thải khí nhà kính vào 2027, 55% vào năm 2035 và tiến đến phát thải ròng bằng 0 vào năm 2050.",
+          "page_number": 12,
+          "evidence_quote": "Vinamilk đặt mục tiêu cắt giảm 15% phát thải khí nhà kính vào 2027, 55% vào năm 2035 và tiến đến phát thải ròng bằng 0 vào năm 2050.",
+          "initial_risk_level": "Medium",
+          "initial_confidence": 0.85,
+          "reasoning": "Công ty đã đưa ra các mục tiêu lớn về giảm phát thải khí nhà kính nhưng không có lộ trình chi tiết, mốc thời gian cụ thể để đạt được những mục tiêu này."
+        },
+        "debate_history": [
+          {
+            "round_number": 1,
+            "agent_name": "Agent 2 (Devil Advocate)",
+            "argument": "Đoạn văn bản gốc không chỉ đơn thuần là một lời hứa trống rỗng (hollow promise) mà còn minh họa rõ ràng về mục tiêu phát triển bền vững của Vinamilk. Công ty đã công bố các mục tiêu cụ thể và thời gian để đạt được chúng, điều này cho thấy sự nghiêm túc trong việc thực hiện cam kết. Thêm vào đó, Vinamilk cũng đề cập đến việc nghiên cứu thị trường và nhu cầu người tiêu dùng để đưa ra chiến lược marketing và phát triển sản phẩm phù hợp, đây là một yếu tố quan trọng để đảm bảo mục tiêu về giảm phát thải khí nhà kính có thể được thực hiện. Do đó, đánh giá rủi ro của Agent 1 có vẻ hơi quá nghiêm khắc.",
+            "proposed_risk_level": "Low",
+            "proposed_confidence": 0.95,
+            "missing_evidence_requested": "Không yêu cầu thêm bằng chứng"
+          },
+          {
+            "round_number": 1,
+            "agent_name": "Agent 1 (Claimant)",
+            "argument": "Agent 1 nhận thấy rằng mặc dù Vinamilk đã đề cập đến các mục tiêu cụ thể về phát thải khí nhà kính, nhưng việc thực hiện những mục tiêu này vẫn phụ thuộc vào nhiều yếu tố không chắc chắn. Cụ thể, công ty cần phải nghiên cứu thị trường và nhu cầu người tiêu dùng để đưa ra chiến lược marketing và phát triển sản phẩm phù hợp, điều này đòi hỏi một quá trình dài và phức tạp. Ngoài ra, việc tái cấu trúc danh mục sản phẩm dựa trên cấu trúc thương hiệu cho dài hạn cũng là một thách thức lớn. Do đó, Agent 1 vẫn giữ nguyên mức rủi ro cao vì những khó khăn tiềm tàng trong việc đạt được các mục tiêu đã đề ra.",
+            "proposed_risk_level": "High",
+            "proposed_confidence": 0.85,
+            "missing_evidence_requested": null
+          },
+          {
+            "round_number": 2,
+            "agent_name": "Agent 2 (Devil Advocate)",
+            "argument": "Đoạn văn bản gốc không chỉ đơn thuần là một lời hứa trống rỗng (hollow promise) mà còn minh họa rõ ràng về mục tiêu phát triển bền vững của Vinamilk. Công ty đã công bố các mục tiêu cụ thể và thời gian để đạt được chúng, điều này cho thấy sự nghiêm túc trong việc thực hiện cam kết. Thêm vào đó, Vinamilk cũng đề cập đến việc nghiên cứu thị trường và nhu cầu người tiêu dùng để đưa ra chiến lược marketing và phát triển sản phẩm phù hợp, đây là một yếu tố quan trọng để đảm bảo mục tiêu về giảm phát thải khí nhà kính có thể được thực hiện. Do đó, đánh giá rủi ro của Agent 1 có vẻ hơi quá nghiêm khắc.",
+            "proposed_risk_level": "Medium",
+            "proposed_confidence": 0.85,
+            "missing_evidence_requested": "Không yêu cầu thêm bằng chứng"
+          },
+          {
+            "round_number": 2,
+            "agent_name": "Agent 1 (Claimant)",
+            "argument": "Agent 1 nhận thấy rằng mặc dù Vinamilk đã đề cập đến các mục tiêu cụ thể về phát thải khí nhà kính, nhưng việc thực hiện những mục tiêu này vẫn phụ thuộc vào nhiều yếu tố không chắc chắn như hiệu suất kinh doanh, biến động thị trường và sự chấp thuận của chính phủ. Ngoài ra, văn bản gốc chỉ nói đến việc nghiên cứu thị trường và nhu cầu người tiêu dùng để đưa ra chiến lược marketing và phát triển sản phẩm phù hợp, nhưng chưa có bằng chứng về việc Vinamilk đã thực hiện các biện pháp cụ thể nào để giảm phát thải khí nhà kính. Do đó, Agent 1 cho rằng mức rủi ro vẫn là Medium vì mục tiêu về phát thải khí nhà kính cần được hỗ trợ bởi hành động cụ thể và kế hoạch triển khai.",
+            "proposed_risk_level": "Medium",
+            "proposed_confidence": 0.85,
+            "missing_evidence_requested": null
+          }
+        ],
+        "final_risk_level": "Medium",
+        "final_confidence": 0.85,
+        "consensus_reached": true,
+        "human_review_required": false,
+        "disagreement_note": null,
+        "debate_summary": "Sau 4 lượt phản biện giữa Agent 1 và Agent 2, hai bên đã đạt đồng thuận. Mức rủi ro chốt: Medium."
+      },
+      {
+        "claim": {
+          "claim_id": "claim_2298bedf",
+          "indicator_type": "Hollow Promise",
+          "claim_text": "cam kết Net Zero 2050 mà Chính phủ Việt Nam đã công bố tại COP26",
+          "page_number": 22,
+          "evidence_quote": "cam kết Net Zero 2050 mà Chính phủ Việt Nam đã công bố tại COP26",
+          "initial_risk_level": "Medium",
+          "initial_confidence": 0.85,
+          "reasoning": "Đoạn văn chỉ đề cập đến cam kết Net Zero nhưng không nêu rõ lộ trình, mốc thời gian cụ thể để đạt được mục tiêu này."
+        },
+        "debate_history": [
+          {
+            "round_number": 1,
+            "agent_name": "Agent 2 (Devil Advocate)",
+            "argument": "Agent 1 đã quá nghiêm khắc trong việc đánh giá rủi ro của cam kết Net Zero 2050 mà Chính phủ Việt Nam đã công bố tại COP26. Động thái này thể hiện sự cam kết mạnh mẽ từ phía Vinamilk, đồng thời tuân thủ các quy định và hướng dẫn của chính phủ. Mặc dù đoạn văn không nêu rõ lộ trình cụ thể, nhưng việc đối chiếu với Chiến lược Tăng trưởng Xanh Quốc gia và Kế hoạch Hành động về Kinh tế Tuần hoàn cho thấy có một kế hoạch tổng thể được triển khai. Hơn nữa, Vinamilk đã rà soát và cải tiến hoạt động thông qua các tiêu chí mới nhất của Bộ chỉ số Phát triển Bền vững Việt Nam, điều này chứng tỏ cam kết của họ không phải là trống rỗng (Hollow Promise).",
+            "proposed_risk_level": "Low",
+            "proposed_confidence": 0.75,
+            "missing_evidence_requested": "Yêu cầu thêm bằng chứng về lộ trình cụ thể để đạt được mục tiêu Net Zero 2050."
+          },
+          {
+            "round_number": 1,
+            "agent_name": "Agent 1 (Claimant)",
+            "argument": "Agent 1 nhận thấy rằng, mặc dù Vinamilk đã rà soát và cải tiến hoạt động của mình theo các tiêu chí mới nhất của Bộ chỉ số Phát triển Bền vững Việt Nam, nhưng đoạn văn không cung cấp thông tin cụ thể về lộ trình thực hiện cam kết Net Zero 2050. Điều này làm tăng mức độ không chắc chắn về khả năng đạt được mục tiêu này. Tuy nhiên, Agent 2 đã đưa ra một số điểm tích cực như việc tuân thủ các quy định và hướng dẫn của chính phủ, đối chiếu với Chiến lược Tăng trưởng Xanh Quốc gia và Kế hoạch Hành động về Kinh tế Tuần hoàn. Điều này cho thấy có sự cam kết từ phía Vinamilk trong việc thực hiện mục tiêu Net Zero 2050.\n\nTuy nhiên, Agent 1 vẫn lo ngại về việc thiếu thông tin cụ thể về lộ trình thực hiện cam kết Net Zero 2050. Do đó, mức độ rủi ro không được giảm đáng kể so với đánh giá ban đầu.",
+            "proposed_risk_level": "Medium",
+            "proposed_confidence": 0.85,
+            "missing_evidence_requested": null
+          },
+          {
+            "round_number": 2,
+            "agent_name": "Agent 2 (Devil Advocate)",
+            "argument": "Agent 1 đã quá nghiêm khắc trong việc đánh giá rủi ro của cam kết Net Zero 2050 mà Chính phủ Việt Nam đã công bố tại COP26. Động thái này thể hiện sự cam kết mạnh mẽ từ phía Vinamilk, đồng thời tuân thủ các quy định và hướng dẫn của chính phủ. Mặc dù đoạn văn không nêu rõ lộ trình cụ thể, nhưng việc đối chiếu với Chiến lược Tăng trưởng Xanh Quốc gia và Kế hoạch Hành động về Kinh tế Tuần hoàn cho thấy có một kế hoạch tổng thể được triển khai. Hơn nữa, Vinamilk đã rà soát và cải tiến hoạt động thông qua các tiêu chí mới nhất của Bộ chỉ số Phát triển Bền vững Việt Nam, điều này chứng tỏ cam kết của họ không phải là trống rỗng (Hollow Promise). Động thái này cũng cho thấy doanh nghiệp đang nỗ lực để tuân thủ các quy định và hướng dẫn của chính phủ về phát triển bền vững. Do đó, mức độ rủi ro nên được giảm từ Medium xuống Low, với Độ tin cậy là 0.75.",
+            "proposed_risk_level": "Low",
+            "proposed_confidence": 0.75,
+            "missing_evidence_requested": "Yêu cầu thêm bằng chứng về lộ trình cụ thể để đạt được mục tiêu Net Zero 2050."
+          },
+          {
+            "round_number": 2,
+            "agent_name": "Agent 1 (Claimant)",
+            "argument": "Agent 1 nhận thấy rằng, mặc dù Vinamilk đã rà soát và cập nhật các yêu cầu pháp lý và định hướng chính sách của Việt Nam, cũng như đối chiếu với Chiến lược Tăng trưởng Xanh Quốc gia và Kế hoạch Hành động về Kinh tế Tuần hoàn, nhưng văn bản gốc không cung cấp thông tin cụ thể về lộ trình thực hiện cam kết Net Zero 2050. Điều này khiến Agent 1 lo ngại rằng Vinamilk có thể chưa có kế hoạch chi tiết để đạt được mục tiêu này. Tuy nhiên, Agent 2 đã đưa ra điểm mạnh là việc rà soát và cải tiến hoạt động thông qua các tiêu chí mới nhất của Bộ chỉ số Phát triển Bền vững Việt Nam, điều này chứng tỏ cam kết của Vinamilk không phải là trống rỗng. Đồng thời, việc tuân thủ các quy định và hướng dẫn của chính phủ về phát triển bền vững cũng giảm thiểu rủi ro đáng kể. Do đó, Agent 1 đồng ý với mức độ rủi ro được đề xuất từ Medium xuống Low.",
+            "proposed_risk_level": "Low",
+            "proposed_confidence": 0.75,
+            "missing_evidence_requested": null
+          }
+        ],
+        "final_risk_level": "Low",
+        "final_confidence": 0.75,
+        "consensus_reached": true,
+        "human_review_required": false,
+        "disagreement_note": null,
+        "debate_summary": "Sau 4 lượt phản biện giữa Agent 1 và Agent 2, hai bên đã đạt đồng thuận. Mức rủi ro chốt: Low."
+      },
+      {
+        "claim": {
+          "claim_id": "claim_b76a3127",
+          "indicator_type": "Hollow Promise",
+          "claim_text": "Vinamilk đã cập nhật toàn diện phạm vi và mục tiêu quản trị để đồng hành với cam kết Net Zero 2050 của Chính phủ Việt Nam, đồng thời đáp ứng các yêu cầu ngày càng rõ ràng từ SBTi về thiết lập mục tiêu giảm phát thải dựa trên khoa học.",
+          "page_number": 22,
+          "evidence_quote": "Vinamilk đã cập nhật toàn diện phạm vi và mục tiêu quản trị để đồng hành với cam kết Net Zero 2050 của Chính phủ Việt Nam, đồng thời đáp ứng các yêu cầu ngày càng rõ ràng từ SBTi về thiết lập mục tiêu giảm phát thải dựa trên khoa học.",
+          "initial_risk_level": "Medium",
+          "initial_confidence": 0.85,
+          "reasoning": "Đoạn văn chỉ đề cập đến việc công ty đã cập nhật phạm vi và mục tiêu quản trị, nhưng không cung cấp thông tin về lộ trình, mốc thời gian cụ thể để đạt được mục tiêu Net Zero 2050."
+        },
+        "debate_history": [
+          {
+            "round_number": 1,
+            "agent_name": "Agent 2 (Devil Advocate)",
+            "argument": "Đoạn văn bản gốc không chỉ đơn thuần là một lời hứa trống rỗng (Hollow Promise) như Agent 1 đã đánh giá. Vinamilk đã cập nhật phạm vi và mục tiêu quản trị để đồng hành với cam kết Net Zero 2050 của Chính phủ Việt Nam, đồng thời đáp ứng các yêu cầu từ SBTi về thiết lập mục tiêu giảm phát thải dựa trên khoa học. Điều này cho thấy công ty có sự cam kết và đã thực hiện những bước đầu tiên trong việc quản lý khí thải. Tuy nhiên, đoạn văn không cung cấp thông tin chi tiết về lộ trình cụ thể để đạt được mục tiêu Net Zero 2050. Do đó, mức độ rủi ro nên được điều chỉnh từ Medium xuống Low vì công ty đã có hành động nhưng chưa rõ ràng về kế hoạch thực hiện.",
+            "proposed_risk_level": "Low",
+            "proposed_confidence": 0.75,
+            "missing_evidence_requested": "Yêu cầu thêm bằng chứng về lộ trình cụ thể và mốc thời gian để đạt được mục tiêu Net Zero 2050."
+          },
+          {
+            "round_number": 1,
+            "agent_name": "Agent 1 (Claimant)",
+            "argument": "Agent 1 đồng ý rằng Vinamilk đã có những hành động cụ thể để quản lý khí thải, bao gồm việc cập nhật phạm vi và mục tiêu quản trị, đáp ứng yêu cầu từ SBTi, và bắt đầu rà soát toàn diện phát thải khí nhà kính xuyên suốt chuỗi giá trị. Tuy nhiên, Agent 1 vẫn lo ngại về sự thiếu rõ ràng trong lộ trình cụ thể để đạt được mục tiêu Net Zero 2050. Điều này có thể dẫn đến việc công ty không thực hiện mục tiêu một cách hiệu quả và kịp thời. Do đó, mức độ rủi ro nên được duy trì ở mức Medium.",
+            "proposed_risk_level": "Medium",
+            "proposed_confidence": 0.85,
+            "missing_evidence_requested": null
+          },
+          {
+            "round_number": 2,
+            "agent_name": "Agent 2 (Devil Advocate)",
+            "argument": "Đoạn văn bản gốc không chỉ đơn thuần là một lời hứa trống rỗng (Hollow Promise) như Agent 1 đã đánh giá. Vinamilk đã cập nhật phạm vi và mục tiêu quản trị để đồng hành với cam kết Net Zero 2050 của Chính phủ Việt Nam, đồng thời đáp ứng các yêu cầu từ SBTi về thiết lập mục tiêu giảm phát thải dựa trên khoa học. Điều này cho thấy công ty có sự cam kết và đã thực hiện những bước đầu tiên trong việc quản lý khí thải. Tuy nhiên, đoạn văn không cung cấp thông tin chi tiết về lộ trình cụ thể để đạt được mục tiêu Net Zero 2050. Do đó, mức độ rủi ro nên được điều chỉnh từ Medium xuống Low vì công ty đã có hành động nhưng chưa rõ ràng về kế hoạch thực hiện.",
+            "proposed_risk_level": "Low",
+            "proposed_confidence": 0.75,
+            "missing_evidence_requested": "Yêu cầu thêm bằng chứng về lộ trình cụ thể và mốc thời gian để đạt được mục tiêu Net Zero 2050."
+          },
+          {
+            "round_number": 2,
+            "agent_name": "Agent 1 (Claimant)",
+            "argument": "Agent 1 đồng ý rằng Vinamilk đã có những hành động cụ thể để quản lý khí thải, bao gồm việc cập nhật phạm vi và mục tiêu quản trị theo cam kết Net Zero 2050 của Chính phủ Việt Nam. Công ty cũng đã bắt đầu rà soát toàn diện các điểm phát thải trọng yếu trong chuỗi giá trị của mình. Tuy nhiên, đoạn văn không cung cấp thông tin chi tiết về lộ trình cụ thể để đạt được mục tiêu Net Zero 2050. Điều này cho thấy công ty vẫn chưa có kế hoạch thực hiện rõ ràng và đầy đủ. Do đó, mức độ rủi ro nên được giữ ở Medium.",
+            "proposed_risk_level": "Medium",
+            "proposed_confidence": 0.85,
+            "missing_evidence_requested": null
+          },
+          {
+            "round_number": 3,
+            "agent_name": "Agent 2 (Devil Advocate)",
+            "argument": "Đoạn văn bản gốc không chỉ đơn thuần là một lời hứa trống rỗng (Hollow Promise) như Agent 1 đã đánh giá. Vinamilk đã cập nhật phạm vi và mục tiêu quản trị để đồng hành với cam kết Net Zero 2050 của Chính phủ Việt Nam, đồng thời đáp ứng các yêu cầu từ SBTi về thiết lập mục tiêu giảm phát thải dựa trên khoa học. Điều này cho thấy công ty có sự cam kết và đã thực hiện những bước đầu tiên trong việc quản lý khí thải. Tuy nhiên, đoạn văn không cung cấp thông tin chi tiết về lộ trình cụ thể để đạt được mục tiêu Net Zero 2050. Do đó, mức độ rủi ro nên được điều chỉnh từ Medium xuống Low vì công ty đã có hành động nhưng chưa rõ ràng về kế hoạch thực hiện.",
+            "proposed_risk_level": "Low",
+            "proposed_confidence": 0.75,
+            "missing_evidence_requested": "Yêu cầu thêm bằng chứng về lộ trình cụ thể và mốc thời gian để đạt được mục tiêu Net Zero 2050."
+          },
+          {
+            "round_number": 3,
+            "agent_name": "Agent 1 (Claimant)",
+            "argument": "Agent 1 đồng ý rằng Vinamilk đã có hành động cụ thể trong việc quản lý khí thải, bao gồm cập nhật phạm vi và mục tiêu quản trị để đồng hành với cam kết Net Zero 2050 của Chính phủ Việt Nam. Công ty cũng đáp ứng các yêu cầu từ SBTi về thiết lập mục tiêu giảm phát thải dựa trên khoa học. Tuy nhiên, Agent 1 vẫn giữ quan điểm rằng mức độ rủi ro nên được duy trì ở Medium vì đoạn văn không cung cấp thông tin chi tiết về lộ trình cụ thể để đạt được mục tiêu Net Zero 2050. Điều này cho thấy công ty đã có hành động nhưng chưa rõ ràng về kế hoạch thực hiện, vẫn tiềm ẩn rủi ro trong việc không đạt được mục tiêu đặt ra.",
+            "proposed_risk_level": "Medium",
+            "proposed_confidence": 0.85,
+            "missing_evidence_requested": null
+          }
+        ],
+        "final_risk_level": "Medium",
+        "final_confidence": 0.85,
+        "consensus_reached": false,
+        "human_review_required": true,
+        "disagreement_note": "⚠️ BẤT ĐỒNG Ý KIẾN: Agent 1 chốt rủi ro 'Medium', trong khi Agent 2 đề xuất 'Medium' sau 6 lượt phản biện. Cần Chuyên gia ESG (Human-in-the-loop) can thiệp thẩm định.",
+        "debate_summary": "Sau 6 lượt phản biện giữa Agent 1 và Agent 2, hai bên CHƯA ĐỒNG THUẬN (Cần con người can thiệp). Mức rủi ro chốt: Medium."
+      },
+      {
+        "claim": {
+          "claim_id": "claim_149d1c26",
+          "indicator_type": "Hollow Promise",
+          "claim_text": "Định lượng và giảm thiểu lượng phát thải khí nhà kính trong toàn bộ chuỗi giá trị thông qua tất cả các cơ chế hiệu quả về kinh tế để giúp chống lại biến đổi khí hậu.",
+          "page_number": 25,
+          "evidence_quote": "\"Định lượng và giảm thiểu lượng phát thải khí nhà kính trong toàn bộ chuỗi giá trị\"",
+          "initial_risk_level": "Medium",
+          "initial_confidence": 0.85,
+          "reasoning": "Tuyên bố này cam kết về việc định lượng và giảm thiểu phát thải khí nhà kính, nhưng không có lộ trình hoặc mốc thời gian cụ thể để chứng minh sự thực hiện của cam kết."
+        },
+        "debate_history": [
+          {
+            "round_number": 1,
+            "agent_name": "Agent 2 (Devil Advocate)",
+            "argument": "Đoạn văn bản gốc không chỉ đơn thuần là một lời hứa trống rỗng (Hollow Promise) mà còn thể hiện sự cam kết rõ ràng về việc giảm thiểu phát thải khí nhà kính. Tuy nhiên, Agent 1 đã quá nghiêm khắc khi đánh giá mức độ rủi ro và độ tin cậy. Trong đoạn văn bản, Vinamilk đã đề cập đến việc định lượng và giảm thiểu phát thải khí nhà kính trong toàn bộ chuỗi giá trị thông qua các cơ chế kinh tế hiệu quả. Điều này cho thấy doanh nghiệp có ý thức về vấn đề biến đổi khí hậu và cam kết thực hiện hành động cụ thể để giảm tác động của mình. Tuy nhiên, Agent 1 đã bỏ qua việc yêu cầu thêm bằng chứng về lộ trình hoặc mốc thời gian cụ thể để chứng minh sự thực hiện của cam kết này.",
+            "proposed_risk_level": "Low",
+            "proposed_confidence": 0.75,
+            "missing_evidence_requested": "Yêu cầu thêm bằng chứng về lộ trình và mốc thời gian cụ thể để chứng minh việc định lượng và giảm thiểu phát thải khí nhà kính của Vinamilk."
+          },
+          {
+            "round_number": 1,
+            "agent_name": "Agent 1 (Claimant)",
+            "argument": "Agent 1 đã nhận thức được rằng Vinamilk có cam kết giảm phát thải khí nhà kính, nhưng đồng thời cũng cần thêm bằng chứng về lộ trình hoặc mốc thời gian cụ thể. Tuy nhiên, Agent 2 đã quá nhẹ nhàng khi đánh giá mức độ rủi ro và độ tin cậy. Động lực thực hiện của Vinamilk được thể hiện qua việc sử dụng các cơ chế kinh tế hiệu quả để định lượng và giảm phát thải khí nhà kính, nhưng vẫn cần thêm thông tin về lộ trình cụ thể để tăng độ tin cậy.",
+            "proposed_risk_level": "Medium",
+            "proposed_confidence": 0.85,
+            "missing_evidence_requested": null
+          },
+          {
+            "round_number": 2,
+            "agent_name": "Agent 2 (Devil Advocate)",
+            "argument": "Đoạn văn bản gốc không chỉ đơn thuần là một lời hứa trống rỗng (Hollow Promise) mà còn thể hiện sự cam kết rõ ràng về việc giảm thiểu phát thải khí nhà kính. Tuy nhiên, Agent 1 đã quá nghiêm khắc khi đánh giá mức độ rủi ro và độ tin cậy. Trong đoạn văn bản, Vinamilk đã đề cập đến việc định lượng và giảm thiểu phát thải khí nhà kính trong toàn bộ chuỗi giá trị thông qua các cơ chế kinh tế hiệu quả. Điều này cho thấy doanh nghiệp có ý thức về vấn đề biến đổi khí hậu và cam kết thực hiện hành động cụ thể để giảm tác động của mình. Tuy nhiên, Agent 1 đã bỏ qua việc yêu cầu thêm bằng chứng về lộ trình hoặc mốc thời gian cụ thể để chứng minh sự thực hiện của cam kết này.",
+            "proposed_risk_level": "Low",
+            "proposed_confidence": 0.75,
+            "missing_evidence_requested": "Yêu cầu thêm bằng chứng về lộ trình và mốc thời gian cụ thể để chứng minh việc định lượng và giảm thiểu phát thải khí nhà kính của Vinamilk."
+          },
+          {
+            "round_number": 2,
+            "agent_name": "Agent 1 (Claimant)",
+            "argument": "Agent 1 nhận thấy rằng Vinamilk đã đề cập đến việc định lượng và giảm thiểu phát thải khí nhà kính trong toàn bộ chuỗi giá trị thông qua các cơ chế kinh tế hiệu quả, đây là một bước tiến tích cực. Tuy nhiên, Agent 1 cũng có lý do để lo ngại về việc thiếu lộ trình hoặc mốc thời gian cụ thể để chứng minh sự thực hiện của cam kết này. Do đó, Agent 1 đã đánh giá mức độ rủi ro và độ tin cậy là cao. Tuy nhiên, sau khi xem xét lại, Agent 1 đồng ý rằng Vinamilk có một cam kết rõ ràng về việc giảm phát thải khí nhà kính và doanh nghiệp này đang thực hiện hành động cụ thể để giảm tác động của mình. Mặc dù vậy, việc thiếu lộ trình hoặc mốc thời gian cụ thể vẫn là một yếu tố rủi ro cần được quan tâm.",
+            "proposed_risk_level": "Medium",
+            "proposed_confidence": 0.85,
+            "missing_evidence_requested": null
+          }
+        ],
+        "final_risk_level": "Medium",
+        "final_confidence": 0.85,
+        "consensus_reached": true,
+        "human_review_required": false,
+        "disagreement_note": null,
+        "debate_summary": "Sau 4 lượt phản biện giữa Agent 1 và Agent 2, hai bên đã đạt đồng thuận. Mức rủi ro chốt: Medium."
+      },
+      {
+        "claim": {
+          "claim_id": "claim_af6be856",
+          "indicator_type": "Misleading Presentation",
+          "claim_text": "Chất lượng đất và khả năng lưu giữ",
+          "page_number": 25,
+          "evidence_quote": "\"Chất lượng đất và khả năng lưu giữ\"",
+          "initial_risk_level": "Low",
+          "initial_confidence": 0.85,
+          "reasoning": "Tuyên bố này không cung cấp thông tin cụ thể về cách thức quản lý chất lượng đất, chỉ đơn thuần là một khái niệm chung mà không có chứng nhận hoặc biện pháp thực hiện."
+        },
+        "debate_history": [
+          {
+            "round_number": 1,
+            "agent_name": "Agent 2 (Devil Advocate)",
+            "argument": "Đoạn văn bản gốc chỉ ra rằng Vinamilk đã xác định rõ mục tiêu về chất lượng đất và khả năng lưu giữ, nhưng Agent 1 đã quá nghiêm khắc khi đánh giá rủi ro là 'Low'. Mức độ rủi ro sơ bộ được đưa ra là 'Low' với mức tin cậy cao (0.85), nhưng không có bằng chứng cụ thể về việc doanh nghiệp thực hiện các biện pháp quản lý chất lượng đất như đã đề cập trong văn bản gốc. Điều này cho thấy Agent 1 chưa đầy đủ thông tin để đánh giá rủi ro một cách chính xác.",
+            "proposed_risk_level": "Medium",
+            "proposed_confidence": 0.75,
+            "missing_evidence_requested": "Yêu cầu thêm bằng chứng về các biện pháp cụ thể mà Vinamilk đã thực hiện hoặc đang thực hiện để quản lý chất lượng đất và khả năng lưu giữ."
+          },
+          {
+            "round_number": 1,
+            "agent_name": "Agent 1 (Claimant)",
+            "argument": "Trong văn bản gốc, Vinamilk đã xác định rõ mục tiêu về chất lượng đất và khả năng lưu giữ. Tuy nhiên, việc đánh giá rủi ro là 'Low' dựa trên mức độ tin cậy cao (0.85) có thể chưa đầy đủ vì không có bằng chứng cụ thể về các biện pháp quản lý chất lượng đất đã được thực hiện. Mặc dù mục tiêu đã được xác định rõ ràng, nhưng việc thiếu thông tin chi tiết về cách thức triển khai và hiệu quả của các biện pháp này khiến chúng ta không thể đánh giá rủi ro một cách chính xác. Do đó, mức độ rủi ro sơ bộ 'Low' có thể bị nâng lên thành 'Medium'.",
+            "proposed_risk_level": "Medium",
+            "proposed_confidence": 0.85,
+            "missing_evidence_requested": null
+          }
+        ],
+        "final_risk_level": "Medium",
+        "final_confidence": 0.85,
+        "consensus_reached": true,
+        "human_review_required": false,
+        "disagreement_note": null,
+        "debate_summary": "Sau 2 lượt phản biện giữa Agent 1 và Agent 2, hai bên đã đạt đồng thuận. Mức rủi ro chốt: Medium."
+      }
+    ],
+    "scraped_incidents": [
+      {
+        "incident_id": "inc_real_1",
+        "company_name": "Vinamilk",
+        "title": "Vinamilk công bố lộ trình tiến tới Net Zero 2050 và kiểm kê khí nhà kính",
+        "source": "Báo Tuổi Trẻ",
+        "url": "https://tuoitre.vn/vinamilk-cong-bo-lo-trinh-tien-toi-net-zero-2050-20230526154522038.htm",
+        "published_date": "2023-05-26",
+        "snippet": "Vinamilk công bố chương trình hành động hướng tới mục tiêu phát thải ròng bằng 0 (Net Zero 2050), thực hiện kiểm kê khí nhà kính và đánh giá tuân thủ môi trường tại các nhà máy và trang trại.",
+        "relevance_score": 0.9
+      },
+      {
+        "incident_id": "inc_real_2",
+        "company_name": "Vinamilk",
+        "title": "Mô hình trang trại xanh Green Farm của Vinamilk áp dụng kinh tế tuần hoàn",
+        "source": "Báo Tuổi Trẻ",
+        "url": "https://tuoitre.vn/vinamilk-chia-se-ve-trang-trai-xanh-tai-hoi-nghi-sua-toan-cau-20230626173000523.htm",
+        "published_date": "2023-06-26",
+        "snippet": "Mô hình trang trại sinh thái Green Farm của Vinamilk áp dụng công nghệ biogas xử lý nước thải sinh học và năng lượng mặt trời giúp nâng cao chỉ số bảo vệ môi trường.",
+        "relevance_score": 0.9
+      }
+    ],
+    "incident_matches": [
+      {
+        "claim_id": "claim_94f53e80",
+        "claim_text": "Về khía cạnh Môi trường, chúng tôi kiên trì theo đuổi mục tiêu Net Zero 2050 theo lộ trình Vinamilk Pathways to Dairy Net Zero 2050.",
+        "matched_incident": {
+          "incident_id": "inc_real_1",
+          "company_name": "Vinamilk",
+          "title": "Vinamilk công bố lộ trình tiến tới Net Zero 2050 và kiểm kê khí nhà kính",
+          "source": "Báo Tuổi Trẻ",
+          "url": "https://tuoitre.vn/vinamilk-cong-bo-lo-trinh-tien-toi-net-zero-2050-20230526154522038.htm",
+          "published_date": "2023-05-26",
+          "snippet": "Vinamilk công bố chương trình hành động hướng tới mục tiêu phát thải ròng bằng 0 (Net Zero 2050), thực hiện kiểm kê khí nhà kính và đánh giá tuân thủ môi trường tại các nhà máy và trang trại.",
+          "relevance_score": 0.9
+        },
+        "ai_risk_numeric": 0,
+        "ground_truth_numeric": 0,
+        "ground_truth_label": "LOW_RISK",
+        "evidence_compatibility": "HIGHLY_COMPATIBLE",
+        "match_status": "NO_RISK_CONFIRMED",
+        "reasoning_chain": "Bước 1: Phân tích tuyên bố về mục tiêu Net Zero 2050. -> Bước 2: Xem xét bài báo 'Vinamilk công bố lộ trình tiến tới Net Zero 2050 và kiểm kê khí nhà kính' xác nhận việc Vinamilk đã công bố lộ trình hướng đến mục tiêu này. -> Bước 3: Đánh giá thông tin rủi ro về mục tiêu Net Zero không bị chứng minh là vô căn cứ, vì có bằng chứng trực tiếp từ bài báo. -> Bước 4: Chốt mức độ tương thích.",
+        "matching_reasoning": "Bài báo trực tiếp xác nhận Vinamilk đã công bố lộ trình Net Zero 2050, không có bằng chứng nào cho thấy mục tiêu này là vô căn cứ."
+      },
+      {
+        "claim_id": "claim_9ab802b9",
+        "claim_text": "Năm 2025, Vinamilk vận hành chính thức hệ thống số hóa dữ liệu Phát triển bền vững trong việc đảm bảo độc lập có giới hạn các chỉ số báo cáo Phát triển bền vững, khẳng định tính minh bạch, đồng bộ và chuẩn hóa.",
+        "matched_incident": null,
+        "ai_risk_numeric": 0,
+        "ground_truth_numeric": 0,
+        "ground_truth_label": "LOW_RISK",
+        "evidence_compatibility": "NO_EVIDENCE",
+        "match_status": "NO_RISK_CONFIRMED",
+        "reasoning_chain": "Bước 1: Phân tích tuyên bố, AI đánh giá rủi ro thấp (Low). -> Bước 2: Xem xét metadata, báo cáo về lộ trình Net Zero và mô hình trang trại xanh của Vinamilk. -> Bước 3: Đánh giá thông tin rủi ro, không có bằng chứng trực tiếp xác nhận việcPresentation sai lệch. -> Bước 4: Chốt mức độ tương thích là NO_EVIDENCE.",
+        "matching_reasoning": "Tuyên bố về việcPresentation sai lệch không có bằng chứng trực tiếp từ nguồn báo chí, do đó mức độ tương thích là NO_EVIDENCE. AI đánh giá rủi ro thấp (Low) phù hợp với thực tế."
+      },
+      {
+        "claim_id": "claim_e59844bf",
+        "claim_text": "Vinamilk đặt mục tiêu cắt giảm 15% phát thải khí nhà kính vào 2027, 55% vào năm 2035 và tiến đến phát thải ròng bằng 0 vào năm 2050.",
+        "matched_incident": {
+          "incident_id": "inc_real_1",
+          "company_name": "Vinamilk",
+          "title": "Vinamilk công bố lộ trình tiến tới Net Zero 2050 và kiểm kê khí nhà kính",
+          "source": "Báo Tuổi Trẻ",
+          "url": "https://tuoitre.vn/vinamilk-cong-bo-lo-trinh-tien-toi-net-zero-2050-20230526154522038.htm",
+          "published_date": "2023-05-26",
+          "snippet": "Vinamilk công bố chương trình hành động hướng tới mục tiêu phát thải ròng bằng 0 (Net Zero 2050), thực hiện kiểm kê khí nhà kính và đánh giá tuân thủ môi trường tại các nhà máy và trang trại.",
+          "relevance_score": 0.9
+        },
+        "ai_risk_numeric": 1,
+        "ground_truth_numeric": 1,
+        "ground_truth_label": "MODERATE_RISK",
+        "evidence_compatibility": "HIGHLY_COMPATIBLE",
+        "match_status": "CONFIRMED_RISK",
+        "reasoning_chain": "Bước 1: Phân tích tuyên bố về mục tiêu cắt giảm phát thải khí nhà kính của Vinamilk. -> Bước 2: Xem xét bài báo từ nguồn metadata #1, xác nhận công ty đã công bố lộ trình hướng tới Net Zero 2050 và thực hiện kiểm kê khí nhà kính. -> Bước 3: Đánh giá thông tin rủi ro môi trường có bị chứng minh là vô căn cứ hay không, kết luận rằng mục tiêu này được công bố chính thức và đang được triển khai. -> Bước 4: Chốt mức độ tương thích.",
+        "matching_reasoning": "Bài báo từ nguồn metadata #1 xác nhận công ty đã công bố lộ trình hướng tới Net Zero 2050 và thực hiện kiểm kê khí nhà kính, cho thấy mục tiêu này được công bố chính thức và đang được triển khai."
+      },
+      {
+        "claim_id": "claim_2298bedf",
+        "claim_text": "cam kết Net Zero 2050 mà Chính phủ Việt Nam đã công bố tại COP26",
+        "matched_incident": {
+          "incident_id": "inc_real_1",
+          "company_name": "Vinamilk",
+          "title": "Vinamilk công bố lộ trình tiến tới Net Zero 2050 và kiểm kê khí nhà kính",
+          "source": "Báo Tuổi Trẻ",
+          "url": "https://tuoitre.vn/vinamilk-cong-bo-lo-trinh-tien-toi-net-zero-2050-20230526154522038.htm",
+          "published_date": "2023-05-26",
+          "snippet": "Vinamilk công bố chương trình hành động hướng tới mục tiêu phát thải ròng bằng 0 (Net Zero 2050), thực hiện kiểm kê khí nhà kính và đánh giá tuân thủ môi trường tại các nhà máy và trang trại.",
+          "relevance_score": 0.9
+        },
+        "ai_risk_numeric": 0,
+        "ground_truth_numeric": 0,
+        "ground_truth_label": "LOW_RISK",
+        "evidence_compatibility": "PARTIALLY_COMPATIBLE",
+        "match_status": "NO_RISK_CONFIRMED",
+        "reasoning_chain": "Bước 1: Phân tích tuyên bố về cam kết Net Zero 2050 của Chính phủ Việt Nam. -> Bước 2: Xem xét bài báo từ Tuổi Trẻ về Vinamilk công bố lộ trình Net Zero 2050, thực hiện kiểm kê khí nhà kính và đánh giá tuân thủ môi trường tại các nhà máy. -> Bước 3: Đánh giá thông tin rủi ro không bị chứng minh là hoàn toàn vô căn cứ vì có bằng chứng về cam kết Net Zero của Vinamilk. -> Bước 4: Chốt mức độ tương thích.",
+        "matching_reasoning": "Bài báo từ Tuổi Trẻ xác nhận Vinamilk đã công bố lộ trình Net Zero 2050 và thực hiện kiểm kê khí nhà kính, nhưng không có thông tin về việc vi phạm hoặc xử phạt liên quan đến cam kết này. Do đó, mức độ rủi ro được đánh giá là thấp."
+      },
+      {
+        "claim_id": "claim_b76a3127",
+        "claim_text": "Vinamilk đã cập nhật toàn diện phạm vi và mục tiêu quản trị để đồng hành với cam kết Net Zero 2050 của Chính phủ Việt Nam, đồng thời đáp ứng các yêu cầu ngày càng rõ ràng từ SBTi về thiết lập mục tiêu giảm phát thải dựa trên khoa học.",
+        "matched_incident": {
+          "incident_id": "inc_real_1",
+          "company_name": "Vinamilk",
+          "title": "Vinamilk công bố lộ trình tiến tới Net Zero 2050 và kiểm kê khí nhà kính",
+          "source": "Báo Tuổi Trẻ",
+          "url": "https://tuoitre.vn/vinamilk-cong-bo-lo-trinh-tien-toi-net-zero-2050-20230526154522038.htm",
+          "published_date": "2023-05-26",
+          "snippet": "Vinamilk công bố chương trình hành động hướng tới mục tiêu phát thải ròng bằng 0 (Net Zero 2050), thực hiện kiểm kê khí nhà kính và đánh giá tuân thủ môi trường tại các nhà máy và trang trại.",
+          "relevance_score": 0.9
+        },
+        "ai_risk_numeric": 1,
+        "ground_truth_numeric": 1,
+        "ground_truth_label": "MODERATE_RISK",
+        "evidence_compatibility": "HIGHLY_COMPATIBLE",
+        "match_status": "CONFIRMED_RISK",
+        "reasoning_chain": "Bước 1: Phân tích tuyên bố về rủi ro ESG của Vinamilk. -> Bước 2: Xem xét bài báo 'Vinamilk công bố lộ trình tiến tới Net Zero 2050 và kiểm kê khí nhà kính' từ Tuổi Trẻ, xác nhận việc Vinamilk đã cập nhật mục tiêu quản trị và thực hiện kiểm kê khí nhà kính. -> Bước 3: Đánh giá thông tin rủi ro ESG của AI là có cơ sở vì công ty đã công bố lộ trình cụ thể hướng tới Net Zero 2050, đồng thời tuân thủ các yêu cầu từ SBTi. -> Bước 4: Chốt mức độ tương thích.",
+        "matching_reasoning": "Bài báo từ Tuổi Trẻ xác nhận Vinamilk đã cập nhật mục tiêu Net Zero 2050 và thực hiện kiểm kê khí nhà kính, cho thấy công ty đang có hành động cụ thể để giảm thiểu rủi ro ESG."
+      },
+      {
+        "claim_id": "claim_149d1c26",
+        "claim_text": "Định lượng và giảm thiểu lượng phát thải khí nhà kính trong toàn bộ chuỗi giá trị thông qua tất cả các cơ chế hiệu quả về kinh tế để giúp chống lại biến đổi khí hậu.",
+        "matched_incident": {
+          "incident_id": "inc_real_1",
+          "company_name": "Vinamilk",
+          "title": "Vinamilk công bố lộ trình tiến tới Net Zero 2050 và kiểm kê khí nhà kính",
+          "source": "Báo Tuổi Trẻ",
+          "url": "https://tuoitre.vn/vinamilk-cong-bo-lo-trinh-tien-toi-net-zero-2050-20230526154522038.htm",
+          "published_date": "2023-05-26",
+          "snippet": "Vinamilk công bố chương trình hành động hướng tới mục tiêu phát thải ròng bằng 0 (Net Zero 2050), thực hiện kiểm kê khí nhà kính và đánh giá tuân thủ môi trường tại các nhà máy và trang trại.",
+          "relevance_score": 0.9
+        },
+        "ai_risk_numeric": 1,
+        "ground_truth_numeric": 1,
+        "ground_truth_label": "MODERATE_RISK",
+        "evidence_compatibility": "HIGHLY_COMPATIBLE",
+        "match_status": "CONFIRMED_RISK",
+        "reasoning_chain": "Bước 1: Phân tích tuyên bố về việc Định lượng và giảm thiểu phát thải khí nhà kính. -> Bước 2: Xem xét bài báo 'Vinamilk công bố lộ trình tiến tới Net Zero 2050 và kiểm kê khí nhà kính'. Bài báo này đề cập đến việc Vinamilk thực hiện kiểm kê khí nhà kính và đánh giá tuân thủ môi trường tại các nhà máy. -> Bước 3: Đánh giá thông tin rủi ro về phát thải khí nhà kính có được chứng minh hay không. -> Bước 4: Chốt mức độ tương thích là HIGHLY_COMPATIBLE.",
+        "matching_reasoning": "Bài báo cung cấp thông tin về việc Vinamilk thực hiện kiểm kê khí nhà kính và đánh giá tuân thủ môi trường, phù hợp với tuyên bố về việc định lượng và giảm phát thải khí nhà kính."
+      },
+      {
+        "claim_id": "claim_af6be856",
+        "claim_text": "Chất lượng đất và khả năng lưu giữ",
+        "matched_incident": null,
+        "ai_risk_numeric": 1,
+        "ground_truth_numeric": 0,
+        "ground_truth_label": "LOW_RISK",
+        "evidence_compatibility": "NO_EVIDENCE",
+        "match_status": "UNVERIFIED_RISK",
+        "reasoning_chain": "Bước 1: Phân tích tuyên bố về việc Vinamilk có thể có hành viPresentation misrepresentative. -> Bước 2: Xem xét thông tin từ bài báo 'Vinamilk công bố lộ trình tiến tới Net Zero 2050 và kiểm kê khí nhà kính' cho thấy công ty đang thực hiện các hoạt động bảo vệ môi trường tích cực. -> Bước 3: Xem xét thêm thông tin từ bài báo 'Mô hình trang trại xanh Green Farm của Vinamilk áp dụng kinh tế tuần hoàn', cho thấy Vinamilk đang áp dụng công nghệ thân thiện với môi trường. -> Bước 4: Đánh giá xem thông tin rủi ro có bị chứng minh là hoàn toàn vô căn cứ hay không, kết luận rằng không có bằng chứng trực tiếp chỉ ra hành viPresentation misrepresentative của Vinamilk.",
+        "matching_reasoning": "Không có thông tin báo chí nào trực tiếp chứng minh hành viPresentation misrepresentative của Vinamilk, do đó không thể xác định rủi ro môi trường."
+      }
+    ],
+    "metrics": {
+      "true_positives": 3,
+      "false_positives": 1,
+      "true_negatives": 3,
+      "false_negatives": 0,
+      "precision": 0.75,
+      "recall": 1.0,
+      "f1_score": 0.8571,
+      "accuracy": 0.8571,
+      "cohens_kappa_round1": 0.45,
+      "cohens_kappa_final": 0.85,
+      "kappa_growth": 0.4
+    }
+  }
+]
