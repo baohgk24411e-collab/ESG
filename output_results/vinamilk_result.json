@@ -18,6 +18,14 @@
       "debate_history": [
         {
           "round_number": 1,
+          "agent_name": "Agent 1 (Đánh giá ban đầu)",
+          "argument": "Mục tiêu Net Zero 2050 được đề cập nhưng không có lộ trình cụ thể hoặc mốc thời gian, chỉ nói chung về việc triển khai kiểm kê khí nhà kính và chuẩn hóa hệ thống dữ liệu.",
+          "proposed_risk_level": "Medium",
+          "proposed_confidence": 0.85,
+          "missing_evidence_requested": null
+        },
+        {
+          "round_number": 1,
           "agent_name": "Agent 2 (Devil Advocate)",
           "argument": "Agent 1 đã đánh giá quá nghiêm khắc về việc thiếu lộ trình cụ thể. Trong đoạn văn, Vinamilk đã nêu rõ họ đang theo đuổi mục tiêu Net Zero 2050 thông qua lộ trình Vinamilk Pathways to Dairy Net Zero 2050. Điều này minh chứng cho sự cam kết của công ty với mục tiêu phát triển bền vững. Đồng thời, văn bản cũng đề cập đến việc triển khai kiểm kê khí nhà kính theo chuẩn mực quốc tế và chuẩn hóa hệ thống dữ liệu, đây là những bước quan trọng để đạt được mục tiêu Net Zero. Do đó, không thể coi đây là một lời hứa trống rỗng mà nên xem xét như một cam kết thực sự. Mức độ rủi ro nên được giảm xuống Low và Độ tin cậy tăng lên 0.95.",
           "proposed_risk_level": "Low",
@@ -54,6 +62,14 @@
       "debate_history": [
         {
           "round_number": 1,
+          "agent_name": "Agent 1 (Đánh giá ban đầu)",
+          "argument": "Tuyên bố này không cung cấp thông tin cụ thể về lộ trình hoặc mốc thời gian để thực hiện cam kết, nhưng nó vẫn là một phần của sứ mệnh và mục tiêu dài hạn của công ty.",
+          "proposed_risk_level": "Low",
+          "proposed_confidence": 0.85,
+          "missing_evidence_requested": null
+        },
+        {
+          "round_number": 1,
           "agent_name": "Agent 2 (Devil Advocate)",
           "argument": "Đoạn văn bản gốc không chỉ nói về việc Vinamilk sẽ vận hành hệ thống số hóa dữ liệu Phát triển bền vững vào năm 2025, mà còn nhấn mạnh mục tiêu dài hạn của công ty. Tuy nhiên, Agent 1 đã quá thận trọng trong việc đánh giá rủi ro và mức độ tin cậy. Mục tiêu này không chỉ là một phần của sứ mệnh dài hạn của Vinamilk, mà còn thể hiện cam kết cụ thể về cải tiến quản lý bền vững. Do đó, tuyên bố này không nên được coi là thiếu thông tin hoặc mơ hồ. Thay vào đó, nó phản ánh rõ ràng mục tiêu và chiến lược của công ty trong việc nâng cao hiệu quả quản lý bền vững.",
           "proposed_risk_level": "Low",
@@ -80,6 +96,14 @@
         "reasoning": "Công ty đã đưa ra các mục tiêu lớn về giảm phát thải khí nhà kính nhưng không có lộ trình chi tiết, mốc thời gian cụ thể để đạt được những mục tiêu này."
       },
       "debate_history": [
+        {
+          "round_number": 1,
+          "agent_name": "Agent 1 (Đánh giá ban đầu)",
+          "argument": "Công ty đã đưa ra các mục tiêu lớn về giảm phát thải khí nhà kính nhưng không có lộ trình chi tiết, mốc thời gian cụ thể để đạt được những mục tiêu này.",
+          "proposed_risk_level": "Medium",
+          "proposed_confidence": 0.85,
+          "missing_evidence_requested": null
+        },
         {
           "round_number": 1,
           "agent_name": "Agent 2 (Devil Advocate)",
@@ -134,6 +158,14 @@
       "debate_history": [
         {
           "round_number": 1,
+          "agent_name": "Agent 1 (Đánh giá ban đầu)",
+          "argument": "Đoạn văn chỉ đề cập đến cam kết Net Zero nhưng không nêu rõ lộ trình, mốc thời gian cụ thể để đạt được mục tiêu này.",
+          "proposed_risk_level": "Medium",
+          "proposed_confidence": 0.85,
+          "missing_evidence_requested": null
+        },
+        {
+          "round_number": 1,
           "agent_name": "Agent 2 (Devil Advocate)",
           "argument": "Agent 1 đã quá nghiêm khắc trong việc đánh giá rủi ro của cam kết Net Zero 2050 mà Chính phủ Việt Nam đã công bố tại COP26. Động thái này thể hiện sự cam kết mạnh mẽ từ phía Vinamilk, đồng thời tuân thủ các quy định và hướng dẫn của chính phủ. Mặc dù đoạn văn không nêu rõ lộ trình cụ thể, nhưng việc đối chiếu với Chiến lược Tăng trưởng Xanh Quốc gia và Kế hoạch Hành động về Kinh tế Tuần hoàn cho thấy có một kế hoạch tổng thể được triển khai. Hơn nữa, Vinamilk đã rà soát và cải tiến hoạt động thông qua các tiêu chí mới nhất của Bộ chỉ số Phát triển Bền vững Việt Nam, điều này chứng tỏ cam kết của họ không phải là trống rỗng (Hollow Promise).",
           "proposed_risk_level": "Low",
@@ -184,6 +216,14 @@
         "reasoning": "Đoạn văn chỉ đề cập đến việc công ty đã cập nhật phạm vi và mục tiêu quản trị, nhưng không cung cấp thông tin về lộ trình, mốc thời gian cụ thể để đạt được mục tiêu Net Zero 2050."
       },
       "debate_history": [
+        {
+          "round_number": 1,
+          "agent_name": "Agent 1 (Đánh giá ban đầu)",
+          "argument": "Đoạn văn chỉ đề cập đến việc công ty đã cập nhật phạm vi và mục tiêu quản trị, nhưng không cung cấp thông tin về lộ trình, mốc thời gian cụ thể để đạt được mục tiêu Net Zero 2050.",
+          "proposed_risk_level": "Medium",
+          "proposed_confidence": 0.85,
+          "missing_evidence_requested": null
+        },
         {
           "round_number": 1,
           "agent_name": "Agent 2 (Devil Advocate)",
@@ -254,6 +294,14 @@
       "debate_history": [
         {
           "round_number": 1,
+          "agent_name": "Agent 1 (Đánh giá ban đầu)",
+          "argument": "Tuyên bố này cam kết về việc định lượng và giảm thiểu phát thải khí nhà kính, nhưng không có lộ trình hoặc mốc thời gian cụ thể để chứng minh sự thực hiện của cam kết.",
+          "proposed_risk_level": "Medium",
+          "proposed_confidence": 0.85,
+          "missing_evidence_requested": null
+        },
+        {
+          "round_number": 1,
           "agent_name": "Agent 2 (Devil Advocate)",
           "argument": "Đoạn văn bản gốc không chỉ đơn thuần là một lời hứa trống rỗng (Hollow Promise) mà còn thể hiện sự cam kết rõ ràng về việc giảm thiểu phát thải khí nhà kính. Tuy nhiên, Agent 1 đã quá nghiêm khắc khi đánh giá mức độ rủi ro và độ tin cậy. Trong đoạn văn bản, Vinamilk đã đề cập đến việc định lượng và giảm thiểu phát thải khí nhà kính trong toàn bộ chuỗi giá trị thông qua các cơ chế kinh tế hiệu quả. Điều này cho thấy doanh nghiệp có ý thức về vấn đề biến đổi khí hậu và cam kết thực hiện hành động cụ thể để giảm tác động của mình. Tuy nhiên, Agent 1 đã bỏ qua việc yêu cầu thêm bằng chứng về lộ trình hoặc mốc thời gian cụ thể để chứng minh sự thực hiện của cam kết này.",
           "proposed_risk_level": "Low",
@@ -304,6 +352,14 @@
         "reasoning": "Tuyên bố này không cung cấp thông tin cụ thể về cách thức quản lý chất lượng đất, chỉ đơn thuần là một khái niệm chung mà không có chứng nhận hoặc biện pháp thực hiện."
       },
       "debate_history": [
+        {
+          "round_number": 1,
+          "agent_name": "Agent 1 (Đánh giá ban đầu)",
+          "argument": "Tuyên bố này không cung cấp thông tin cụ thể về cách thức quản lý chất lượng đất, chỉ đơn thuần là một khái niệm chung mà không có chứng nhận hoặc biện pháp thực hiện.",
+          "proposed_risk_level": "Low",
+          "proposed_confidence": 0.85,
+          "missing_evidence_requested": null
+        },
         {
           "round_number": 1,
           "agent_name": "Agent 2 (Devil Advocate)",
@@ -491,8 +547,34 @@
     "recall": 1.0,
     "f1_score": 0.8571,
     "accuracy": 0.8571,
-    "cohens_kappa_round1": 0.45,
-    "cohens_kappa_final": 0.85,
-    "kappa_growth": 0.4
+    "cohens_kappa_round1": 0.0,
+    "cohens_kappa_final": 0.2222,
+    "kappa_growth": 0.2222,
+    "indicator_cohens_kappa": {
+      "Selective Disclosure": {
+        "kappa_round1": 0.45,
+        "kappa_final": 0.85,
+        "kappa_growth": 0.4,
+        "claim_count": 0
+      },
+      "Hollow Promise": {
+        "kappa_round1": 0.0,
+        "kappa_final": 0.0,
+        "kappa_growth": 0.0,
+        "claim_count": 5
+      },
+      "Misconduct": {
+        "kappa_round1": 0.45,
+        "kappa_final": 0.85,
+        "kappa_growth": 0.4,
+        "claim_count": 0
+      },
+      "Misleading Presentation": {
+        "kappa_round1": 0.0,
+        "kappa_final": 1.0,
+        "kappa_growth": 1.0,
+        "claim_count": 2
+      }
+    }
   }
 }

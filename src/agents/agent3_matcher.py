@@ -92,8 +92,17 @@ Hãy thực hiện chuỗi suy luận từng bước (reasoning_chain) để xá
             gt_label = "LOW_RISK"
         gt_numeric = int(res.get("ground_truth_numeric", map_risk_str_to_numeric(gt_label)))
         cited_url = res.get("cited_url")
-        compatibility = res.get("evidence_compatibility", "NO_EVIDENCE")
+        compatibility = res.get("evidence_compatibility", "NO_EVIDENCE").upper()
         reasoning_chain = res.get("reasoning_chain", res.get("matching_reasoning", ""))
+
+        # Strict Mapping Rule: REFUTED or NO_EVIDENCE -> Ground Truth = 0 (No Real Incident Risk)
+        if compatibility in ["REFUTED", "NO_EVIDENCE"]:
+            gt_numeric = 0
+            gt_label = "LOW_RISK"
+        elif compatibility in ["HIGHLY_COMPATIBLE", "PARTIALLY_COMPATIBLE"]:
+            if gt_numeric == 0:
+                gt_numeric = 1
+                gt_label = "MODERATE_RISK"
 
         # Enforce exact pairwise comparison logic
         if ai_numeric == gt_numeric:
@@ -103,7 +112,8 @@ Hãy thực hiện chuỗi suy luận từng bước (reasoning_chain) để xá
         else:
             status = "MISSED_RISK"      # FN
 
-        reasoning = res.get("matching_reasoning", f"So sánh cặp đôi AI ({ai_numeric}) vs Ground Truth ({gt_numeric}).")
+        reasoning = res.get("matching_reasoning", f"So sánh cặp đôi AI ({ai_numeric}) vs Ground Truth ({gt_numeric}) | Bằng chứng: {compatibility}.")
+
 
         # Post-validation: Strict URL citation grounding
         matched_inc = None

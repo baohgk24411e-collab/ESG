@@ -1,440 +1,5 @@
 [
   {
-    "company_name": "Masan",
-    "source_file": "2023AR_VN.pdf",
-    "total_chunks_processed": 589,
-    "relevant_chunks_count": 20,
-    "claims_detected": [
-      {
-        "claim": {
-          "claim_id": "claim_c9bda2a2",
-          "indicator_type": "Misleading Presentation",
-          "claim_text": "Sử dụng lò hơi đốt bằng nguyên liệu sinh khối thay cho lò hơi đốt bằng nhiên liệu hóa thạch.",
-          "page_number": 81,
-          "evidence_quote": "• Sử dụng lò hơi đốt bằng nguyên liệu sinh khối thay cho lò hơi đốt bằng nhiên liệu hóa thạch.",
-          "initial_risk_level": "Low",
-          "initial_confidence": 0.85,
-          "reasoning": "Tuyên bố này không cung cấp thông tin cụ thể về hiệu quả của việc chuyển đổi, như lượng khí thải giảm bao nhiêu so với trước đây."
-        },
-        "debate_history": [
-          {
-            "round_number": 1,
-            "agent_name": "Agent 2 (Devil Advocate)",
-            "argument": "Agent 1 đã quá nghiêm khắc trong việc đánh giá rủi ro. Tuyên bố về việc chuyển đổi từ nhiên liệu hóa thạch sang nguyên liệu sinh khối là một bước tiến rõ ràng hướng đến bảo vệ môi trường và giảm phát thải khí nhà kính. Mặc dù không có thông tin cụ thể về hiệu quả, nhưng đây là một quyết định có ý nghĩa tích cực và hướng tới tương lai bền vững. Do đó, việc đánh giá rủi ro ở mức Low với độ tin cậy 0.85 là không phù hợp.",
-            "proposed_risk_level": "Low",
-            "proposed_confidence": 0.85,
-            "missing_evidence_requested": "Yêu cầu thêm bằng chứng về hiệu quả của việc chuyển đổi, như lượng khí thải giảm bao nhiêu so với trước đây."
-          }
-        ],
-        "final_risk_level": "Low",
-        "final_confidence": 0.85,
-        "consensus_reached": true,
-        "human_review_required": false,
-        "disagreement_note": null,
-        "debate_summary": "Sau 1 lượt phản biện giữa Agent 1 và Agent 2, hai bên đã đạt đồng thuận. Mức rủi ro chốt: Low."
-      },
-      {
-        "claim": {
-          "claim_id": "claim_a0dda2a5",
-          "indicator_type": "Misleading Presentation",
-          "claim_text": "Sử dụng các loại bao bì nhẹ hơn và có khả năng tái chế cao.",
-          "page_number": 81,
-          "evidence_quote": "• Sử dụng các loại bao bì nhẹ hơn và có khả năng tái chế cao.",
-          "initial_risk_level": "Low",
-          "initial_confidence": 0.85,
-          "reasoning": "Tuyên bố này không cung cấp thông tin về mức độ tái chế thực tế hoặc hiệu quả của việc sử dụng bao bì mới."
-        },
-        "debate_history": [
-          {
-            "round_number": 1,
-            "agent_name": "Agent 2 (Devil Advocate)",
-            "argument": "Agent 1 đã quá nghiêm khắc trong đánh giá rủi ro. Tuyên bố 'Sử dụng các loại bao bì nhẹ hơn và có khả năng tái chế cao' không chỉ đơn thuần là một thông tin về việc sử dụng bao bì mới, mà còn liên quan đến nỗ lực cải thiện môi trường của doanh nghiệp. Điều này không phải là một vấn đề nhỏ vì nó thể hiện cam kết của SABECO trong việc giảm thiểu tác động tiêu cực đối với môi trường và tăng cường tái chế. Hơn nữa, tuyên bố này không được đánh giá thấp như Agent 1 đã làm, bởi vì nó chỉ ra rằng doanh nghiệp đang thực hiện các sáng kiến cụ thể để cải thiện tình hình. Do đó, mức độ rủi ro nên được giảm từ Low xuống None. Mức độ tin cậy cũng nên được điều chỉnh từ 0.85 xuống 0.75, vì Agent 1 đã quá thận trọng trong việc đánh giá hiệu quả của các sáng kiến này.",
-            "proposed_risk_level": "None",
-            "proposed_confidence": 0.75,
-            "missing_evidence_requested": "Yêu cầu thêm bằng chứng về mức độ tái chế thực tế và hiệu quả của việc sử dụng bao bì mới để tăng cường đánh giá."
-          },
-          {
-            "round_number": 1,
-            "agent_name": "Agent 1 (Claimant)",
-            "argument": "Agent 1 đã nhận thức được rằng việc sử dụng các loại bao bì nhẹ hơn và có khả năng tái chế cao là một phần của nỗ lực cải thiện môi trường. Tuy nhiên, Agent 2 đã nhấn mạnh rằng đây không chỉ đơn thuần là thông tin về việc sử dụng bao bì mới mà còn thể hiện cam kết của SABECO trong việc giảm thiểu tác động tiêu cực đối với môi trường và tăng cường tái chế. Điều này thực sự phản ánh một nỗ lực cụ thể để cải thiện tình hình, do đó mức độ rủi ro có thể được điều chỉnh từ Low xuống None. Mức độ tin cậy cũng nên được điều chỉnh từ 0.85 xuống 0.75 vì Agent 1 đã quá thận trọng trong việc đánh giá hiệu quả của các sáng kiến này.",
-            "proposed_risk_level": "None",
-            "proposed_confidence": 0.75,
-            "missing_evidence_requested": null
-          }
-        ],
-        "final_risk_level": "None",
-        "final_confidence": 0.75,
-        "consensus_reached": true,
-        "human_review_required": false,
-        "disagreement_note": null,
-        "debate_summary": "Sau 2 lượt phản biện giữa Agent 1 và Agent 2, hai bên đã đạt đồng thuận. Mức rủi ro chốt: None."
-      },
-      {
-        "claim": {
-          "claim_id": "claim_1caa401f",
-          "indicator_type": "Hollow Promise",
-          "claim_text": "SABECO đã tiếp cận các chương trình phát triển bền vững của Liên Hiệp Quốc cũng như quyết liệt đầu tư các công trình khai thác nguồn năng lượng tái tạo và tái sử dụng nước trong quá trình sản xuất.",
-          "page_number": 82,
-          "evidence_quote": "Để đầu tư cho năng lượng tái tạo và bảo vệ nguồn nước, SABECO đã tiếp cận các chương trình phát triển bền vững của Liên Hiệp Quốc cũng như quyết liệt đầu tư các công trình khai thác nguồn năng lượng tái tạo và tái sử dụng nước trong quá trình sản xuất.",
-          "initial_risk_level": "Medium",
-          "initial_confidence": 0.85,
-          "reasoning": "Tuyên bố này đề cập đến việc đầu tư vào năng lượng tái tạo và bảo vệ nguồn nước nhưng không cung cấp thông tin cụ thể về lộ trình, mốc thời gian hoặc tiến độ thực hiện."
-        },
-        "debate_history": [
-          {
-            "round_number": 1,
-            "agent_name": "Agent 2 (Devil Advocate)",
-            "argument": "Đoạn văn bản gốc không chỉ đơn thuần là một lời hứa trống rỗng mà còn cung cấp thông tin cụ thể về các sáng kiến tiết kiệm năng lượng và nước, cũng như việc triển khai lắp đặt điện mặt trời áp mái tại 11 nhà máy. Điều này cho thấy SABECO đã thực hiện những hành động cụ thể để giảm tiêu thụ năng lượng và nước, không chỉ là lời hứa trống rỗng. Hơn nữa, tuyên bố này còn đề cập đến việc tiếp cận các chương trình phát triển bền vững của Liên Hiệp Quốc, đây là một yếu tố tích cực cho thấy doanh nghiệp có sự cam kết với mục tiêu toàn cầu về bảo vệ môi trường.",
-            "proposed_risk_level": "Low",
-            "proposed_confidence": 0.95,
-            "missing_evidence_requested": ""
-          },
-          {
-            "round_number": 1,
-            "agent_name": "Agent 1 (Claimant)",
-            "argument": "Agent 1 đồng ý với Agent 2 rằng đoạn văn bản gốc không chỉ đơn thuần là lời hứa trống rỗng mà còn cung cấp thông tin cụ thể về các sáng kiến tiết kiệm năng lượng và nước, cũng như việc triển khai lắp đặt điện mặt trời áp mái tại 11 nhà máy. Điều này cho thấy SABECO đã thực hiện những hành động cụ thể để giảm tiêu thụ năng lượng và nước. Tuy nhiên, Agent 1 vẫn giữ quan điểm rằng cần có thêm thông tin về hiệu quả của các sáng kiến này trong việc tiết kiệm năng lượng và nước để đánh giá mức độ thành công. Đồng thời, tuyên bố này cũng đề cập đến việc tiếp cận các chương trình phát triển bền vững của Liên Hiệp Quốc, đây là một yếu tố tích cực cho thấy doanh nghiệp có sự cam kết với mục tiêu toàn cầu về bảo vệ môi trường.",
-            "proposed_risk_level": "Low",
-            "proposed_confidence": 0.85,
-            "missing_evidence_requested": null
-          }
-        ],
-        "final_risk_level": "Low",
-        "final_confidence": 0.85,
-        "consensus_reached": true,
-        "human_review_required": false,
-        "disagreement_note": null,
-        "debate_summary": "Sau 2 lượt phản biện giữa Agent 1 và Agent 2, hai bên đã đạt đồng thuận. Mức rủi ro chốt: Low."
-      },
-      {
-        "claim": {
-          "claim_id": "claim_ac68f6b6",
-          "indicator_type": "Selective Disclosure",
-          "claim_text": "Đến cuối năm 2023, SABECO đã có 11 nhà máy triển khai lắp đặt và đưa vào sử dụng điện năng lượng mặt trời áp mái, chiếm khoảng 7% lượng điện sử dụng trong sản xuất.",
-          "page_number": 82,
-          "evidence_quote": "Đến cuối năm 2023, SABECO đã có 11 nhà máy triển khai lắp đặt và đưa vào sử dụng điện năng lượng mặt trời áp mái, chiếm khoảng 7% lượng điện sử dụng trong sản xuất.",
-          "initial_risk_level": "Low",
-          "initial_confidence": 0.85,
-          "reasoning": "Tuyên bố này chỉ đề cập đến việc sử dụng năng lượng mặt trời tại một số nhà máy và không cung cấp thông tin chi tiết về tổng lượng điện năng tiêu thụ hay hiệu quả thực tế của việc sử dụng năng lượng mặt trời, có thể là dấu hiệu giấu thông tin xấu."
-        },
-        "debate_history": [
-          {
-            "round_number": 1,
-            "agent_name": "Agent 2 (Devil Advocate)",
-            "argument": "Agent 1 đã quá nghiêm khắc trong việc đánh giá rủi ro. Tuyên bố này chỉ đơn thuần là thông tin về việc sử dụng năng lượng mặt trời tại một số nhà máy của SABECO, không có gì để nghi ngờ về tính chính xác hoặc sự minh bạch. Hơn nữa, việc sử dụng năng lượng tái tạo như điện năng lượng mặt trời là một bước tiến tích cực đối với môi trường và không phải dấu hiệu giấu thông tin xấu. Do đó, mức độ rủi ro nên được giảm xuống từ Low thành None. Mức độ tin cậy cũng nên được điều chỉnh thấp hơn do thiếu thông tin chi tiết về tổng lượng điện năng tiêu thụ hay hiệu quả thực tế.",
-            "proposed_risk_level": "None",
-            "proposed_confidence": 0.65,
-            "missing_evidence_requested": "Yêu cầu thêm bằng chứng về tổng lượng điện năng tiêu thụ và hiệu quả thực tế của việc sử dụng năng lượng mặt trời để tăng mức độ tin cậy."
-          },
-          {
-            "round_number": 1,
-            "agent_name": "Agent 1 (Claimant)",
-            "argument": "Agent 1 nhận thấy rằng SABECO đã triển khai sử dụng năng lượng mặt trời tại một số nhà máy, đây là một bước tiến tích cực đối với môi trường. Tuy nhiên, việc này chỉ chiếm khoảng 7% lượng điện sử dụng trong sản xuất, nghĩa là vẫn còn 93% lượng điện không được tái tạo từ nguồn năng lượng sạch. Điều này có thể gây ra rủi ro về mặt pháp lý và hình ảnh doanh nghiệp nếu công ty không minh bạch về kế hoạch và tiến độ triển khai năng lượng tái tạo. Ngoài ra, Agent 1 cũng lưu ý rằng văn bản gốc chưa cung cấp thông tin chi tiết về tổng lượng điện năng tiêu thụ hay hiệu quả thực tế của các biện pháp tiết kiệm nước và năng lượng đã được áp dụng. Do đó, mức độ rủi ro không thể giảm xuống đến None.",
-            "proposed_risk_level": "Low",
-            "proposed_confidence": 0.85,
-            "missing_evidence_requested": null
-          },
-          {
-            "round_number": 2,
-            "agent_name": "Agent 2 (Devil Advocate)",
-            "argument": "Agent 1 đã quá nghiêm khắc trong việc đánh giá rủi ro. Tuyên bố này chỉ đơn thuần là thông tin về việc sử dụng năng lượng mặt trời tại một số nhà máy của SABECO, không có gì để nghi ngờ về tính chính xác hoặc sự minh bạch. Hơn nữa, việc sử dụng năng lượng tái tạo như điện năng lượng mặt trời là một bước tiến tích cực đối với môi trường và không phải dấu hiệu giấu thông tin xấu. Do đó, mức độ rủi ro nên được giảm xuống từ Low thành None. Mức độ tin cậy cũng nên được điều chỉnh thấp hơn do thiếu thông tin chi tiết về tổng lượng điện năng tiêu thụ hay hiệu quả thực tế của việc sử dụng năng lượng mặt trời để tăng mức độ tin cậy.",
-            "proposed_risk_level": "None",
-            "proposed_confidence": 0.65,
-            "missing_evidence_requested": "Yêu cầu thêm bằng chứng về tổng lượng điện năng tiêu thụ và hiệu quả thực tế của việc sử dụng năng lượng mặt trời để tăng mức độ tin cậy."
-          },
-          {
-            "round_number": 2,
-            "agent_name": "Agent 1 (Claimant)",
-            "argument": "Agent 1 nhận thấy rằng SABECO đã thực hiện nhiều cải tiến trong việc sử dụng năng lượng tái tạo và tiết kiệm nước, nhưng vẫn cần thêm thông tin chi tiết về tổng lượng điện năng tiêu thụ để đánh giá hiệu quả thực tế. Tuy nhiên, việc sử dụng năng lượng mặt trời là một bước tiến tích cực và không có dấu hiệu nào cho thấy SABECO đang cố giấu thông tin xấu. Do đó, mức độ rủi ro nên được giảm từ Low xuống Medium, thay vì None như Agent 2 đề xuất. Mức độ tin cậy cũng nên được điều chỉnh thấp hơn do thiếu thông tin chi tiết về tổng lượng điện năng tiêu thụ hay hiệu quả thực tế của việc sử dụng năng lượng mặt trời để tăng mức độ tin cậy.",
-            "proposed_risk_level": "Medium",
-            "proposed_confidence": 0.75,
-            "missing_evidence_requested": null
-          },
-          {
-            "round_number": 3,
-            "agent_name": "Agent 2 (Devil Advocate)",
-            "argument": "Agent 1 đã quá nghiêm khắc trong việc đánh giá rủi ro. Tuyên bố này chỉ đơn thuần là thông tin về việc sử dụng năng lượng mặt trời tại một số nhà máy của SABECO, không có gì để nghi ngờ về tính chính xác hoặc sự minh bạch. Hơn nữa, việc sử dụng năng lượng tái tạo như điện năng lượng mặt trời là một bước tiến tích cực đối với môi trường và không phải dấu hiệu giấu thông tin xấu. Do đó, mức độ rủi ro nên được giảm xuống từ Medium thành Low. Mức độ tin cậy cũng nên được điều chỉnh thấp hơn do thiếu thông tin chi tiết về tổng lượng điện năng tiêu thụ hay hiệu quả thực tế của việc sử dụng năng lượng mặt trời để tăng mức độ tin cậy.",
-            "proposed_risk_level": "Low",
-            "proposed_confidence": 0.65,
-            "missing_evidence_requested": "Yêu cầu thêm bằng chứng về tổng lượng điện năng tiêu thụ và hiệu quả thực tế của việc sử dụng năng lượng mặt trời để tăng mức độ tin cậy."
-          },
-          {
-            "round_number": 3,
-            "agent_name": "Agent 1 (Claimant)",
-            "argument": "Agent 1 nhận thấy rằng SABECO đã thực hiện nhiều cải tiến trong việc sử dụng năng lượng tái tạo và tiết kiệm nước, nhưng vẫn cần đánh giá rủi ro một cách thận trọng. Việc triển khai điện năng lượng mặt trời chỉ chiếm khoảng 7% lượng điện sử dụng trong sản xuất, điều này cho thấy mức độ phụ thuộc vào nguồn năng lượng truyền thống vẫn còn cao. Ngoài ra, thông tin về tổng lượng điện năng tiêu thụ và hiệu quả thực tế của việc sử dụng năng lượng mặt trời chưa được cung cấp đầy đủ, khiến Agent 1 lo ngại về khả năng quản lý rủi ro trong tương lai. Do đó, mức độ rủi ro nên được giữ ở Medium để đảm bảo an toàn.",
-            "proposed_risk_level": "Medium",
-            "proposed_confidence": 0.85,
-            "missing_evidence_requested": null
-          }
-        ],
-        "final_risk_level": "Medium",
-        "final_confidence": 0.85,
-        "consensus_reached": false,
-        "human_review_required": true,
-        "disagreement_note": "⚠️ BẤT ĐỒNG Ý KIẾN: Agent 1 chốt rủi ro 'Medium', trong khi Agent 2 đề xuất 'Medium' sau 6 lượt phản biện. Cần Chuyên gia ESG (Human-in-the-loop) can thiệp thẩm định.",
-        "debate_summary": "Sau 6 lượt phản biện giữa Agent 1 và Agent 2, hai bên CHƯA ĐỒNG THUẬN (Cần con người can thiệp). Mức rủi ro chốt: Medium."
-      },
-      {
-        "claim": {
-          "claim_id": "claim_951335d8",
-          "indicator_type": "Misleading Presentation",
-          "claim_text": "-1,8% Điện -11,3% Hơi -5,5% Nước",
-          "page_number": 82,
-          "evidence_quote": "-1,8% Điện -11,3% Hơi -5,5% Nước",
-          "initial_risk_level": "Low",
-          "initial_confidence": 0.85,
-          "reasoning": "Các số liệu giảm tiêu thụ năng lượng và nước không được giải thích rõ ràng về cách đạt được hoặc mức độ cải thiện thực tế, có thể gây hiểu lầm cho người đọc."
-        },
-        "debate_history": [
-          {
-            "round_number": 1,
-            "agent_name": "Agent 2 (Devil Advocate)",
-            "argument": "Agent 1 đã quá nghiêm khắc trong việc phân loại rủi ro. Trong đoạn văn bản, SABECO đã nêu rõ các biện pháp cụ thể để giảm tiêu thụ năng lượng và nước như lắp đặt điện mặt trời áp mái, cải tạo hệ thống làm mát bơm chân không, sử dụng bơm nhiệt, thu hồi nước ngưng đưa trở lại lò hơi, và nhiều biện pháp khác. Các số liệu giảm tiêu thụ năng lượng và nước (-1,8% Điện -11,3% Hơi -5,5% Nước) đã được minh chứng bằng các biện pháp cụ thể. Do đó, việc chỉ trích rằng các số liệu không rõ ràng về cách đạt được hoặc mức độ cải thiện thực tế là không công bằng. Mức độ rủi ro nên được giảm từ Low xuống None và độ tin cậy cũng nên được điều chỉnh thấp hơn.",
-            "proposed_risk_level": "None",
-            "proposed_confidence": 0.75,
-            "missing_evidence_requested": "N/A"
-          },
-          {
-            "round_number": 1,
-            "agent_name": "Agent 1 (Claimant)",
-            "argument": "Agent 1 đã xem xét kỹ lưỡng các biện pháp cụ thể mà SABECO đã thực hiện để giảm tiêu thụ năng lượng và nước. Tuy nhiên, Agent 2 có điểm chính xác rằng các số liệu giảm tiêu thụ đã được minh chứng bằng các biện pháp cụ thể. Điều này làm tăng độ tin cậy của báo cáo ESG. Tuy nhiên, việc cải thiện vẫn đang diễn ra và chưa đạt đến mức tối ưu, do đó rủi ro về quản lý hiệu quả năng lượng và nước vẫn còn tồn tại. Mức độ rủi ro nên được điều chỉnh từ Low xuống Medium để phản ánh tình hình hiện tại.",
-            "proposed_risk_level": "Medium",
-            "proposed_confidence": 0.85,
-            "missing_evidence_requested": null
-          },
-          {
-            "round_number": 2,
-            "agent_name": "Agent 2 (Devil Advocate)",
-            "argument": "Agent 1 đã quá nghiêm khắc trong việc phân loại rủi ro. Trong đoạn văn bản, SABECO đã nêu rõ các biện pháp cụ thể để giảm tiêu thụ năng lượng và nước như lắp đặt điện mặt trời áp mái, cải tạo hệ thống làm mát bơm chân không, sử dụng bơm nhiệt, thu hồi nước ngưng đưa trở lại lò hơi, và nhiều biện pháp khác. Các số liệu giảm tiêu thụ năng lượng và nước (-1,8% Điện -11,3% Hơi -5,5% Nước) đã được minh chứng bằng các biện pháp cụ thể. Do đó, việc chỉ trích rằng các số liệu không rõ ràng về cách đạt được hoặc mức độ cải thiện thực tế là không công bằng. Mức độ rủi ro nên được giảm từ Medium xuống None và độ tin cậy cũng nên được điều chỉnh thấp hơn.",
-            "proposed_risk_level": "None",
-            "proposed_confidence": 0.75,
-            "missing_evidence_requested": "N/A"
-          },
-          {
-            "round_number": 2,
-            "agent_name": "Agent 1 (Claimant)",
-            "argument": "Agent 1 đã xem xét kỹ lưỡng các biện pháp cụ thể mà SABECO đã thực hiện để giảm tiêu thụ năng lượng và nước. Tuy nhiên, việc chỉ trích rằng số liệu không rõ ràng về cách đạt được hoặc mức độ cải thiện thực tế vẫn còn tồn tại một phần. Các biện pháp cụ thể như lắp đặt điện mặt trời áp mái, cải tạo hệ thống làm mát bơm chân không, sử dụng bơm nhiệt, thu hồi nước ngưng đưa trở lại lò hơi... đã được nêu rõ trong văn bản. Tuy nhiên, việc giảm tiêu thụ năng lượng và nước chỉ là -1,8% Điện -11,3% Hơi -5,5% Nước, mức độ cải thiện này có thể chưa đủ để đánh giá rủi ro là None. Do đó, Agent 1 vẫn giữ nguyên mức độ rủi ro là Medium.",
-            "proposed_risk_level": "Medium",
-            "proposed_confidence": 0.85,
-            "missing_evidence_requested": null
-          },
-          {
-            "round_number": 3,
-            "agent_name": "Agent 2 (Devil Advocate)",
-            "argument": "Agent 1 đã quá nghiêm khắc trong việc phân loại rủi ro. Trong đoạn văn bản, SABECO đã nêu rõ các biện pháp cụ thể để giảm tiêu thụ năng lượng và nước như lắp đặt điện mặt trời áp mái, cải tạo hệ thống làm mát bơm chân không, sử dụng bơm nhiệt, thu hồi nước ngưng đưa trở lại lò hơi, và nhiều biện pháp khác. Các số liệu giảm tiêu thụ năng lượng và nước (-1,8% Điện -11,3% Hơi -5,5% Nước) đã được minh chứng bằng các biện pháp cụ thể. Do đó, việc chỉ trích rằng các số liệu không rõ ràng về cách đạt được hoặc mức độ cải thiện thực tế là không công bằng. Mức độ rủi ro nên được giảm từ Medium xuống Low và độ tin cậy cũng nên được điều chỉnh thấp hơn.",
-            "proposed_risk_level": "Low",
-            "proposed_confidence": 0.75,
-            "missing_evidence_requested": "N/A"
-          },
-          {
-            "round_number": 3,
-            "agent_name": "Agent 1 (Claimant)",
-            "argument": "Agent 1 đã xem xét kỹ lưỡng về việc phân loại rủi ro. Mặc dù SABECO đã thực hiện nhiều biện pháp cụ thể để giảm tiêu thụ năng lượng và nước, nhưng các số liệu giảm tiêu thụ vẫn chưa rõ ràng về cách đạt được hoặc mức độ cải thiện thực tế. Điều này có thể dẫn đến sự không chắc chắn trong việc đánh giá hiệu quả của các biện pháp đã áp dụng. Hơn nữa, mặc dù SABECO đã nêu ra nhiều biện pháp cụ thể, nhưng không có số liệu cụ thể về thời gian và chi phí để triển khai những biện pháp này. Do đó, mức độ rủi ro vẫn nên được duy trì ở Medium để đảm bảo rằng các vấn đề tiềm ẩn có thể được phát hiện và giải quyết kịp thời.",
-            "proposed_risk_level": "Medium",
-            "proposed_confidence": 0.85,
-            "missing_evidence_requested": null
-          }
-        ],
-        "final_risk_level": "Medium",
-        "final_confidence": 0.85,
-        "consensus_reached": false,
-        "human_review_required": true,
-        "disagreement_note": "⚠️ BẤT ĐỒNG Ý KIẾN: Agent 1 chốt rủi ro 'Medium', trong khi Agent 2 đề xuất 'Medium' sau 6 lượt phản biện. Cần Chuyên gia ESG (Human-in-the-loop) can thiệp thẩm định.",
-        "debate_summary": "Sau 6 lượt phản biện giữa Agent 1 và Agent 2, hai bên CHƯA ĐỒNG THUẬN (Cần con người can thiệp). Mức rủi ro chốt: Medium."
-      },
-      {
-        "claim": {
-          "claim_id": "claim_1ddfbda3",
-          "indicator_type": "Hollow Promise",
-          "claim_text": "dự kiến hoàn thành trong đầu năm 2024, góp phần tạo ra những giá trị tích cực cho cộng đồng và đóng góp nhiều hơn nữa vào sự phát triển kinh tế xã hội của Việt Nam.",
-          "page_number": 85,
-          "evidence_quote": "dự kiến hoàn thành trong đầu năm 2024",
-          "initial_risk_level": "Medium",
-          "initial_confidence": 0.85,
-          "reasoning": "Tuyên bố này cam kết một mục tiêu cụ thể (hoàn thành dự án vào đầu năm 2024) nhưng không có lộ trình, mốc thời gian chi tiết để chứng minh khả năng thực hiện."
-        },
-        "debate_history": [
-          {
-            "round_number": 1,
-            "agent_name": "Agent 2 (Devil Advocate)",
-            "argument": "Agent 1 đã quá nghiêm khắc trong việc phân loại tuyên bố này. Tuyên bố về việc hoàn thành dự án vào đầu năm 2024 không chỉ là một cam kết mà còn là một mục tiêu cụ thể, đồng thời nó cũng nêu rõ lợi ích cho cộng đồng và sự phát triển kinh tế xã hội của Việt Nam. Điều này không nên được coi là một Hollow Promise vì không có bằng chứng minh oan hoặc giải thích nào từ doanh nghiệp về việc tuyên bố này thiếu thực tế. Hơn nữa, Agent 1 đã bỏ qua thông tin rằng dự án này đang được tiến hành tại 29 tỉnh thành và có thể tạo ra giá trị tích cực cho cộng đồng. Do đó, mức độ rủi ro nên được giảm xuống Low với Độ tin cậy là 0.75.",
-            "proposed_risk_level": "Low",
-            "proposed_confidence": 0.75,
-            "missing_evidence_requested": ""
-          },
-          {
-            "round_number": 1,
-            "agent_name": "Agent 1 (Claimant)",
-            "argument": "Agent 1 đã nhận thức được rằng tuyên bố về việc hoàn thành dự án vào đầu năm 2024 có thể bị coi là một Hollow Promise nếu không có bằng chứng minh thực tế. Tuy nhiên, Agent 2 đã đưa ra các điểm mạnh như mục tiêu cụ thể và lợi ích cho cộng đồng. Mặc dù vậy, Agent 1 vẫn nghi ngờ về khả năng thực hiện dự án trong thời gian ngắn như vậy, đặc biệt là khi chỉ có thông tin chung mà không có chi tiết về tiến độ thực tế. Do đó, Agent 1 vẫn giữ mức rủi ro ở Medium để phản ánh sự không chắc chắn này.",
-            "proposed_risk_level": "Medium",
-            "proposed_confidence": 0.85,
-            "missing_evidence_requested": null
-          },
-          {
-            "round_number": 2,
-            "agent_name": "Agent 2 (Devil Advocate)",
-            "argument": "Agent 1 đã quá nghiêm khắc trong việc phân loại tuyên bố này. Tuyên bố về việc hoàn thành dự án vào đầu năm 2024 không chỉ là một cam kết mà còn là một mục tiêu cụ thể, đồng thời nó cũng nêu rõ lợi ích cho cộng đồng và sự phát triển kinh tế xã hội của Việt Nam. Điều này không nên được coi là một Hollow Promise vì không có bằng chứng minh oan hoặc giải thích nào từ doanh nghiệp về việc tuyên bố này thiếu thực tế. Hơn nữa, Agent 1 đã bỏ qua thông tin rằng dự án này đang được tiến hành tại 29 tỉnh thành và có thể tạo ra giá trị tích cực cho cộng đồng. Do đó, mức độ rủi ro nên được giảm xuống Low với Độ tin cậy là 0.75.",
-            "proposed_risk_level": "Low",
-            "proposed_confidence": 0.75,
-            "missing_evidence_requested": ""
-          },
-          {
-            "round_number": 2,
-            "agent_name": "Agent 1 (Claimant)",
-            "argument": "Agent 1 đã cân nhắc kỹ về việc phân loại tuyên bố này như một Hollow Promise. Tuy nhiên, Agent 2 có điểm chính đáng là dự án hoàn thành vào đầu năm 2024 không chỉ là một cam kết mà còn mang lại lợi ích cho cộng đồng và kinh tế xã hội. Tuy vậy, việc không có bằng chứng minh oan hoặc giải thích từ doanh nghiệp về thực hiện dự án vẫn cần được xem xét kỹ lưỡng. Dự án đang được triển khai tại 29 tỉnh thành cũng là một yếu tố tích cực. Do đó, mức độ rủi ro nên được điều chỉnh xuống Low với Độ tin cậy là 0.75.",
-            "proposed_risk_level": "Low",
-            "proposed_confidence": 0.75,
-            "missing_evidence_requested": null
-          }
-        ],
-        "final_risk_level": "Low",
-        "final_confidence": 0.75,
-        "consensus_reached": true,
-        "human_review_required": false,
-        "disagreement_note": null,
-        "debate_summary": "Sau 4 lượt phản biện giữa Agent 1 và Agent 2, hai bên đã đạt đồng thuận. Mức rủi ro chốt: Low."
-      }
-    ],
-    "scraped_incidents": [
-      {
-        "incident_id": "inc_f6d1983e",
-        "company_name": "Masan",
-        "title": "Nghị định 45/2022/NĐ-CP xử phạt vi phạm hành chính lĩnh vực bảo vệ môi ...",
-        "source": "Báo chí / Tin tức ngoài",
-        "url": "https://thuvienphapluat.vn/van-ban/Vi-pham-hanh-chinh/Nghi-dinh-45-2022-ND-CP-xu-phat-vi-pham-hanh-chinh-linh-vuc-bao-ve-moi-truong-484772.aspx",
-        "published_date": "2024-2025",
-        "snippet": "Nghị định này quy định các hành vi vi phạm hành chính, hình thức xử phạt, mức xử phạt, biện pháp khắc phục hậu quả đối với hành vi vi phạm hành chính, thẩm quyền lập biên bản vi phạm hành chính, thẩm quyền xử phạt vi phạm hành chính trong lĩnh vực bảo vệ môi trường. 2.",
-        "relevance_score": 0.75
-      },
-      {
-        "incident_id": "inc_adcb9380",
-        "company_name": "Masan",
-        "title": "Nghị định 45/2022/NĐ-CP quy định về xử phạt vi phạm hành chính trong ...",
-        "source": "Báo chí / Tin tức ngoài",
-        "url": "https://vcci.com.vn/en/legal-document/nghi-dinh-452022nd-cp-quy-dinh-ve-xu-phat-vi-pham-hanh-chinh-trong-linh-vuc-bao-ve-moi-truong",
-        "published_date": "2024-2025",
-        "snippet": "Nghị định này quy định các hành vi vi phạm hành chính, hình thức xử phạt, mức xử phạt, biện pháp khắc phục hậu quả đối với hành vi vi phạm hành chính, thẩm quyền lập biên bản vi phạm hành chính, thẩm quyền xử phạt vi phạm hành chính trong lĩnh vực bảo vệ môi trường. 2.",
-        "relevance_score": 0.75
-      },
-      {
-        "incident_id": "inc_6658b577",
-        "company_name": "Masan",
-        "title": "Quy định về xử phạt vi phạm hành chính trong lĩnh vực bảo vệ môi trường",
-        "source": "Cổng thông tin / Cơ quan Nhà nước",
-        "url": "https://mps.gov.vn/chinh-sach-phap-luat/bai-viet/quy-dinh-ve-xu-phat-vi-pham-hanh-chinh-trong-linh-vuc-bao-ve-moi-truong-d1-t766",
-        "published_date": "2024-2025",
-        "snippet": "Thẩm quyền xử phạt vi phạm hành chính của lực lượng Công an nhân dân trong lĩnh vực bảo vệ môi trường được quy định tại Điều 57 Nghị định này.",
-        "relevance_score": 1.0
-      },
-      {
-        "incident_id": "inc_8eeb39ff",
-        "company_name": "Masan",
-        "title": "Nghị định 45/2022/NĐ-CP về xử phạt môi trường",
-        "source": "Báo chí / Tin tức ngoài",
-        "url": "https://thudoxanh.com/post/nghi-dinh-452022nd-cp-ve-xu-phat-moi-truong",
-        "published_date": "2024-2025",
-        "snippet": "Quy định xử phạt đối với giấy phép môi trường, vận hành thử nghiệm công trình xử lý chất thải, quản lý chất ô nhiễm khó phân hủy. Doanh nghiệp vi phạm có thể bị buộc khôi phục môi trường về trạng thái ban đầu.",
-        "relevance_score": 0.75
-      },
-      {
-        "incident_id": "inc_16a007f5",
-        "company_name": "Masan",
-        "title": "Nghị định 45/2022/NĐ-CP xử phạt vi phạm hành chính lĩnh vực bảo vệ môi ...",
-        "source": "Báo chí / Tin tức ngoài",
-        "url": "https://luatvietnam.vn/vi-pham-hanh-chinh/nghi-dinh-45-2022-nd-cp-225156-d1.html",
-        "published_date": "2024-2025",
-        "snippet": "Ngày 07/7/2022, Chính phủ ban hành Nghị định 45/2022/NĐ-CP quy định về xử phạt vi phạm hành chính trong lĩnh vực bảo vệ môi trường",
-        "relevance_score": 0.75
-      }
-    ],
-    "incident_matches": [
-      {
-        "claim_id": "claim_c9bda2a2",
-        "claim_text": "Sử dụng lò hơi đốt bằng nguyên liệu sinh khối thay cho lò hơi đốt bằng nhiên liệu hóa thạch.",
-        "matched_incident": null,
-        "ai_risk_numeric": 0,
-        "ground_truth_numeric": 0,
-        "ground_truth_label": "LOW_RISK",
-        "evidence_compatibility": "NO_EVIDENCE",
-        "match_status": "NO_RISK_CONFIRMED",
-        "reasoning_chain": "Bước 1: Phân tích tuyên bố - Doanh nghiệp sử dụng lò hơi đốt bằng nguyên liệu sinh khối thay vì nhiên liệu hóa thạch. Bước 2: Xem xét bằng chứng metadata - Không có bài báo nào trực tiếp đề cập đến việc xử phạt hoặc vi phạm liên quan đến cách sử dụng lò hơi. Bước 3: Đánh giá xem thông tin rủi ro có bị chứng minh là hoàn toàn vô căn cứ hay không - Không có bằng chứng nào cho thấy việc này gây ra rủi ro môi trường. Bước 4: Chốt mức độ tương thích.",
-        "matching_reasoning": "Tuyên bố về việc sử dụng lò hơi đốt bằng nguyên liệu sinh khối thay vì nhiên liệu hóa thạch không được chứng minh là vi phạm pháp luật hoặc gây ra rủi ro môi trường. Không có bài báo nào liên quan trực tiếp đến chủ đề này."
-      },
-      {
-        "claim_id": "claim_a0dda2a5",
-        "claim_text": "Sử dụng các loại bao bì nhẹ hơn và có khả năng tái chế cao.",
-        "matched_incident": null,
-        "ai_risk_numeric": 0,
-        "ground_truth_numeric": 0,
-        "ground_truth_label": "LOW_RISK",
-        "evidence_compatibility": "NO_EVIDENCE",
-        "match_status": "NO_RISK_CONFIRMED",
-        "reasoning_chain": "Bước 1: Phân tích tuyên bố, doanh nghiệp sử dụng các loại bao bì nhẹ hơn và có khả năng tái chế cao. Bước 2: Xem xét bằng chứng metadata, không có thông tin trực tiếp về việc xử phạt hoặc vi phạm liên quan đến cách sử dụng bao bì. Bước 3: Đánh giá xem thông tin rủi ro có bị chứng minh là hoàn toàn vô căn cứ hay không, kết luận rằng không có bằng chứng nào xác nhận việc này gây ra rủi ro môi trường. Bước 4: Chốt mức độ tương thích.",
-        "matching_reasoning": "Tuyên bố về việc sử dụng bao bì nhẹ và tái chế không được chứng minh là gây ra rủi ro môi trường. Không có thông tin báo chí hoặc quy định pháp luật nào liên quan đến vấn đề này."
-      },
-      {
-        "claim_id": "claim_1caa401f",
-        "claim_text": "SABECO đã tiếp cận các chương trình phát triển bền vững của Liên Hiệp Quốc cũng như quyết liệt đầu tư các công trình khai thác nguồn năng lượng tái tạo và tái sử dụng nước trong quá trình sản xuất.",
-        "matched_incident": null,
-        "ai_risk_numeric": 0,
-        "ground_truth_numeric": 0,
-        "ground_truth_label": "LOW_RISK",
-        "evidence_compatibility": "NO_EVIDENCE",
-        "match_status": "NO_RISK_CONFIRMED",
-        "reasoning_chain": "Bước 1: Phân tích tuyên bố, SABECO đã đầu tư vào năng lượng tái tạo và tái sử dụng nước. -> Bước 2: Xem xét bằng chứng metadata, không có thông tin trực tiếp về vi phạm môi trường từ các nguồn báo chí. -> Bước 3: Đánh giá xem thông tin rủi ro có bị chứng minh là hoàn toàn vô căn cứ hay không, không có bằng chứng xác nhận SABECO đã vi phạm quy định về bảo vệ môi trường. -> Bước 4: Chốt mức độ tương thích.",
-        "matching_reasoning": "Tuyên bố về việc SABECO đầu tư vào năng lượng tái tạo và tái sử dụng nước không có bằng chứng trực tiếp từ báo chí hoặc cơ quan nhà nước về vi phạm quy định bảo vệ môi trường."
-      },
-      {
-        "claim_id": "claim_ac68f6b6",
-        "claim_text": "Đến cuối năm 2023, SABECO đã có 11 nhà máy triển khai lắp đặt và đưa vào sử dụng điện năng lượng mặt trời áp mái, chiếm khoảng 7% lượng điện sử dụng trong sản xuất.",
-        "matched_incident": null,
-        "ai_risk_numeric": 1,
-        "ground_truth_numeric": 0,
-        "ground_truth_label": "LOW_RISK",
-        "evidence_compatibility": "NO_EVIDENCE",
-        "match_status": "UNVERIFIED_RISK",
-        "reasoning_chain": "Bước 1: Phân tích tuyên bố, SABECO đã triển khai lắp đặt và đưa vào sử dụng điện năng lượng mặt trời áp mái tại 7% nhà máy. -> Bước 2: Xem xét bằng chứng metadata, không có bài báo nào đề cập đến việc xử phạt hoặc vi phạm trong lĩnh vực bảo vệ môi trường liên quan trực tiếp đến việc sử dụng năng lượng tái tạo của SABECO. -> Bước 3: Đánh giá xem thông tin rủi ro có bị chứng minh là hoàn toàn vô căn cứ hay không, kết luận rằng thông tin về việc sử dụng năng lượng mặt trời áp mái không đủ để xác định vi phạm pháp luật bảo vệ môi trường. -> Bước 4: Chốt mức độ tương thích.",
-        "matching_reasoning": "Tuyên bố về việc SABECO sử dụng năng lượng mặt trời áp mái không đủ bằng chứng để xác định vi phạm pháp luật bảo vệ môi trường, do đó không có rủi ro."
-      },
-      {
-        "claim_id": "claim_951335d8",
-        "claim_text": "-1,8% Điện -11,3% Hơi -5,5% Nước",
-        "matched_incident": null,
-        "ai_risk_numeric": 1,
-        "ground_truth_numeric": 0,
-        "ground_truth_label": "LOW_RISK",
-        "evidence_compatibility": "NO_EVIDENCE",
-        "match_status": "UNVERIFIED_RISK",
-        "reasoning_chain": "Bước 1: Phân tích tuyên bố, thấy rằng có sự giảm đáng kể về năng lượng và nước. Bước 2: Xem xét các URL metadata, không có thông tin trực tiếp liên quan đến việc vi phạm quy định xử phạt trong lĩnh vực bảo vệ môi trường. Bước 3: Đánh giá xem thông tin rủi ro có bị chứng minh là hoàn toàn vô căn cứ hay không, kết luận rằng không có bằng chứng cụ thể về vi phạm pháp luật. Bước 4: Chốt mức độ tương thích.",
-        "matching_reasoning": "Tuyên bố về sự giảm đáng kể năng lượng và nước không có bằng chứng trực tiếp từ các nguồn metadata liên quan đến vi phạm quy định xử phạt trong lĩnh vực bảo vệ môi trường. Do đó, không thể xác nhận rủi ro."
-      },
-      {
-        "claim_id": "claim_1ddfbda3",
-        "claim_text": "dự kiến hoàn thành trong đầu năm 2024, góp phần tạo ra những giá trị tích cực cho cộng đồng và đóng góp nhiều hơn nữa vào sự phát triển kinh tế xã hội của Việt Nam.",
-        "matched_incident": null,
-        "ai_risk_numeric": 0,
-        "ground_truth_numeric": 0,
-        "ground_truth_label": "LOW_RISK",
-        "evidence_compatibility": "NO_EVIDENCE",
-        "match_status": "NO_RISK_CONFIRMED",
-        "reasoning_chain": "Bước 1: Phân tích tuyên bố [Hollow Promise] - dự kiến hoàn thành trong đầu năm 2024, góp phần tạo ra những giá trị tích cực cho cộng đồng và đóng góp nhiều hơn nữa vào sự phát triển kinh tế xã hội của Việt Nam. Bước 2: Xem xét bằng chứng metadata - không có thông tin trực tiếp về vi phạm pháp luật hoặc xử phạt liên quan đến tuyên bố này. Bước 3: Đánh giá xem thông tin rủi ro có bị chứng minh là hoàn toàn vô căn cứ hay không - không có bằng chứng nào xác nhận việc doanh nghiệp sẽ vi phạm pháp luật. Bước 4: Chốt mức độ tương thích.",
-        "matching_reasoning": "Tuyên bố không có thông tin cụ thể về vi phạm pháp luật hoặc xử phạt, do đó không có bằng chứng nào để xác nhận rủi ro môi trường. Tuy nhiên, mức độ rủi ro vẫn được đánh giá là thấp vì chưa có bằng chứng trực tiếp."
-      }
-    ],
-    "metrics": {
-      "true_positives": 0,
-      "false_positives": 2,
-      "true_negatives": 4,
-      "false_negatives": 0,
-      "precision": 0.6667,
-      "recall": 0.4444,
-      "f1_score": 0.5333,
-      "accuracy": 0.6667,
-      "cohens_kappa_round1": 0.45,
-      "cohens_kappa_final": 0.85,
-      "kappa_growth": 0.4
-    }
-  },
-  {
     "company_name": "Vinamilk",
     "source_file": "VNMSR_Full_VN_Smart_PDF_0807_compressed_614c2277d9.pdf",
     "total_chunks_processed": 658,
@@ -452,6 +17,14 @@
           "reasoning": "Mục tiêu Net Zero 2050 được đề cập nhưng không có lộ trình cụ thể hoặc mốc thời gian, chỉ nói chung về việc triển khai kiểm kê khí nhà kính và chuẩn hóa hệ thống dữ liệu."
         },
         "debate_history": [
+          {
+            "round_number": 1,
+            "agent_name": "Agent 1 (Đánh giá ban đầu)",
+            "argument": "Mục tiêu Net Zero 2050 được đề cập nhưng không có lộ trình cụ thể hoặc mốc thời gian, chỉ nói chung về việc triển khai kiểm kê khí nhà kính và chuẩn hóa hệ thống dữ liệu.",
+            "proposed_risk_level": "Medium",
+            "proposed_confidence": 0.85,
+            "missing_evidence_requested": null
+          },
           {
             "round_number": 1,
             "agent_name": "Agent 2 (Devil Advocate)",
@@ -490,6 +63,14 @@
         "debate_history": [
           {
             "round_number": 1,
+            "agent_name": "Agent 1 (Đánh giá ban đầu)",
+            "argument": "Tuyên bố này không cung cấp thông tin cụ thể về lộ trình hoặc mốc thời gian để thực hiện cam kết, nhưng nó vẫn là một phần của sứ mệnh và mục tiêu dài hạn của công ty.",
+            "proposed_risk_level": "Low",
+            "proposed_confidence": 0.85,
+            "missing_evidence_requested": null
+          },
+          {
+            "round_number": 1,
             "agent_name": "Agent 2 (Devil Advocate)",
             "argument": "Đoạn văn bản gốc không chỉ nói về việc Vinamilk sẽ vận hành hệ thống số hóa dữ liệu Phát triển bền vững vào năm 2025, mà còn nhấn mạnh mục tiêu dài hạn của công ty. Tuy nhiên, Agent 1 đã quá thận trọng trong việc đánh giá rủi ro và mức độ tin cậy. Mục tiêu này không chỉ là một phần của sứ mệnh dài hạn của Vinamilk, mà còn thể hiện cam kết cụ thể về cải tiến quản lý bền vững. Do đó, tuyên bố này không nên được coi là thiếu thông tin hoặc mơ hồ. Thay vào đó, nó phản ánh rõ ràng mục tiêu và chiến lược của công ty trong việc nâng cao hiệu quả quản lý bền vững.",
             "proposed_risk_level": "Low",
@@ -516,6 +97,14 @@
           "reasoning": "Công ty đã đưa ra các mục tiêu lớn về giảm phát thải khí nhà kính nhưng không có lộ trình chi tiết, mốc thời gian cụ thể để đạt được những mục tiêu này."
         },
         "debate_history": [
+          {
+            "round_number": 1,
+            "agent_name": "Agent 1 (Đánh giá ban đầu)",
+            "argument": "Công ty đã đưa ra các mục tiêu lớn về giảm phát thải khí nhà kính nhưng không có lộ trình chi tiết, mốc thời gian cụ thể để đạt được những mục tiêu này.",
+            "proposed_risk_level": "Medium",
+            "proposed_confidence": 0.85,
+            "missing_evidence_requested": null
+          },
           {
             "round_number": 1,
             "agent_name": "Agent 2 (Devil Advocate)",
@@ -570,6 +159,14 @@
         "debate_history": [
           {
             "round_number": 1,
+            "agent_name": "Agent 1 (Đánh giá ban đầu)",
+            "argument": "Đoạn văn chỉ đề cập đến cam kết Net Zero nhưng không nêu rõ lộ trình, mốc thời gian cụ thể để đạt được mục tiêu này.",
+            "proposed_risk_level": "Medium",
+            "proposed_confidence": 0.85,
+            "missing_evidence_requested": null
+          },
+          {
+            "round_number": 1,
             "agent_name": "Agent 2 (Devil Advocate)",
             "argument": "Agent 1 đã quá nghiêm khắc trong việc đánh giá rủi ro của cam kết Net Zero 2050 mà Chính phủ Việt Nam đã công bố tại COP26. Động thái này thể hiện sự cam kết mạnh mẽ từ phía Vinamilk, đồng thời tuân thủ các quy định và hướng dẫn của chính phủ. Mặc dù đoạn văn không nêu rõ lộ trình cụ thể, nhưng việc đối chiếu với Chiến lược Tăng trưởng Xanh Quốc gia và Kế hoạch Hành động về Kinh tế Tuần hoàn cho thấy có một kế hoạch tổng thể được triển khai. Hơn nữa, Vinamilk đã rà soát và cải tiến hoạt động thông qua các tiêu chí mới nhất của Bộ chỉ số Phát triển Bền vững Việt Nam, điều này chứng tỏ cam kết của họ không phải là trống rỗng (Hollow Promise).",
             "proposed_risk_level": "Low",
@@ -620,6 +217,14 @@
           "reasoning": "Đoạn văn chỉ đề cập đến việc công ty đã cập nhật phạm vi và mục tiêu quản trị, nhưng không cung cấp thông tin về lộ trình, mốc thời gian cụ thể để đạt được mục tiêu Net Zero 2050."
         },
         "debate_history": [
+          {
+            "round_number": 1,
+            "agent_name": "Agent 1 (Đánh giá ban đầu)",
+            "argument": "Đoạn văn chỉ đề cập đến việc công ty đã cập nhật phạm vi và mục tiêu quản trị, nhưng không cung cấp thông tin về lộ trình, mốc thời gian cụ thể để đạt được mục tiêu Net Zero 2050.",
+            "proposed_risk_level": "Medium",
+            "proposed_confidence": 0.85,
+            "missing_evidence_requested": null
+          },
           {
             "round_number": 1,
             "agent_name": "Agent 2 (Devil Advocate)",
@@ -690,6 +295,14 @@
         "debate_history": [
           {
             "round_number": 1,
+            "agent_name": "Agent 1 (Đánh giá ban đầu)",
+            "argument": "Tuyên bố này cam kết về việc định lượng và giảm thiểu phát thải khí nhà kính, nhưng không có lộ trình hoặc mốc thời gian cụ thể để chứng minh sự thực hiện của cam kết.",
+            "proposed_risk_level": "Medium",
+            "proposed_confidence": 0.85,
+            "missing_evidence_requested": null
+          },
+          {
+            "round_number": 1,
             "agent_name": "Agent 2 (Devil Advocate)",
             "argument": "Đoạn văn bản gốc không chỉ đơn thuần là một lời hứa trống rỗng (Hollow Promise) mà còn thể hiện sự cam kết rõ ràng về việc giảm thiểu phát thải khí nhà kính. Tuy nhiên, Agent 1 đã quá nghiêm khắc khi đánh giá mức độ rủi ro và độ tin cậy. Trong đoạn văn bản, Vinamilk đã đề cập đến việc định lượng và giảm thiểu phát thải khí nhà kính trong toàn bộ chuỗi giá trị thông qua các cơ chế kinh tế hiệu quả. Điều này cho thấy doanh nghiệp có ý thức về vấn đề biến đổi khí hậu và cam kết thực hiện hành động cụ thể để giảm tác động của mình. Tuy nhiên, Agent 1 đã bỏ qua việc yêu cầu thêm bằng chứng về lộ trình hoặc mốc thời gian cụ thể để chứng minh sự thực hiện của cam kết này.",
             "proposed_risk_level": "Low",
@@ -740,6 +353,14 @@
           "reasoning": "Tuyên bố này không cung cấp thông tin cụ thể về cách thức quản lý chất lượng đất, chỉ đơn thuần là một khái niệm chung mà không có chứng nhận hoặc biện pháp thực hiện."
         },
         "debate_history": [
+          {
+            "round_number": 1,
+            "agent_name": "Agent 1 (Đánh giá ban đầu)",
+            "argument": "Tuyên bố này không cung cấp thông tin cụ thể về cách thức quản lý chất lượng đất, chỉ đơn thuần là một khái niệm chung mà không có chứng nhận hoặc biện pháp thực hiện.",
+            "proposed_risk_level": "Low",
+            "proposed_confidence": 0.85,
+            "missing_evidence_requested": null
+          },
           {
             "round_number": 1,
             "agent_name": "Agent 2 (Devil Advocate)",
@@ -927,9 +548,544 @@
       "recall": 1.0,
       "f1_score": 0.8571,
       "accuracy": 0.8571,
-      "cohens_kappa_round1": 0.45,
-      "cohens_kappa_final": 0.85,
-      "kappa_growth": 0.4
+      "cohens_kappa_round1": 0.0,
+      "cohens_kappa_final": 0.2222,
+      "kappa_growth": 0.2222,
+      "indicator_cohens_kappa": {
+        "Selective Disclosure": {
+          "kappa_round1": 0.45,
+          "kappa_final": 0.85,
+          "kappa_growth": 0.4,
+          "claim_count": 0
+        },
+        "Hollow Promise": {
+          "kappa_round1": 0.0,
+          "kappa_final": 0.0,
+          "kappa_growth": 0.0,
+          "claim_count": 5
+        },
+        "Misconduct": {
+          "kappa_round1": 0.45,
+          "kappa_final": 0.85,
+          "kappa_growth": 0.4,
+          "claim_count": 0
+        },
+        "Misleading Presentation": {
+          "kappa_round1": 0.0,
+          "kappa_final": 1.0,
+          "kappa_growth": 1.0,
+          "claim_count": 2
+        }
+      }
+    }
+  },
+  {
+    "company_name": "Masan",
+    "source_file": "2023AR_VN.pdf",
+    "total_chunks_processed": 589,
+    "relevant_chunks_count": 20,
+    "claims_detected": [
+      {
+        "claim": {
+          "claim_id": "claim_c9bda2a2",
+          "indicator_type": "Misleading Presentation",
+          "claim_text": "Sử dụng lò hơi đốt bằng nguyên liệu sinh khối thay cho lò hơi đốt bằng nhiên liệu hóa thạch.",
+          "page_number": 81,
+          "evidence_quote": "• Sử dụng lò hơi đốt bằng nguyên liệu sinh khối thay cho lò hơi đốt bằng nhiên liệu hóa thạch.",
+          "initial_risk_level": "Low",
+          "initial_confidence": 0.85,
+          "reasoning": "Tuyên bố này không cung cấp thông tin cụ thể về hiệu quả của việc chuyển đổi, như lượng khí thải giảm bao nhiêu so với trước đây."
+        },
+        "debate_history": [
+          {
+            "round_number": 1,
+            "agent_name": "Agent 1 (Đánh giá ban đầu)",
+            "argument": "Tuyên bố này không cung cấp thông tin cụ thể về hiệu quả của việc chuyển đổi, như lượng khí thải giảm bao nhiêu so với trước đây.",
+            "proposed_risk_level": "Low",
+            "proposed_confidence": 0.85,
+            "missing_evidence_requested": null
+          },
+          {
+            "round_number": 1,
+            "agent_name": "Agent 2 (Devil Advocate)",
+            "argument": "Agent 1 đã quá nghiêm khắc trong việc đánh giá rủi ro. Tuyên bố về việc chuyển đổi từ nhiên liệu hóa thạch sang nguyên liệu sinh khối là một bước tiến rõ ràng hướng đến bảo vệ môi trường và giảm phát thải khí nhà kính. Mặc dù không có thông tin cụ thể về hiệu quả, nhưng đây là một quyết định có ý nghĩa tích cực và hướng tới tương lai bền vững. Do đó, việc đánh giá rủi ro ở mức Low với độ tin cậy 0.85 là không phù hợp.",
+            "proposed_risk_level": "Low",
+            "proposed_confidence": 0.85,
+            "missing_evidence_requested": "Yêu cầu thêm bằng chứng về hiệu quả của việc chuyển đổi, như lượng khí thải giảm bao nhiêu so với trước đây."
+          }
+        ],
+        "final_risk_level": "Low",
+        "final_confidence": 0.85,
+        "consensus_reached": true,
+        "human_review_required": false,
+        "disagreement_note": null,
+        "debate_summary": "Sau 1 lượt phản biện giữa Agent 1 và Agent 2, hai bên đã đạt đồng thuận. Mức rủi ro chốt: Low."
+      },
+      {
+        "claim": {
+          "claim_id": "claim_a0dda2a5",
+          "indicator_type": "Misleading Presentation",
+          "claim_text": "Sử dụng các loại bao bì nhẹ hơn và có khả năng tái chế cao.",
+          "page_number": 81,
+          "evidence_quote": "• Sử dụng các loại bao bì nhẹ hơn và có khả năng tái chế cao.",
+          "initial_risk_level": "Low",
+          "initial_confidence": 0.85,
+          "reasoning": "Tuyên bố này không cung cấp thông tin về mức độ tái chế thực tế hoặc hiệu quả của việc sử dụng bao bì mới."
+        },
+        "debate_history": [
+          {
+            "round_number": 1,
+            "agent_name": "Agent 1 (Đánh giá ban đầu)",
+            "argument": "Tuyên bố này không cung cấp thông tin về mức độ tái chế thực tế hoặc hiệu quả của việc sử dụng bao bì mới.",
+            "proposed_risk_level": "Low",
+            "proposed_confidence": 0.85,
+            "missing_evidence_requested": null
+          },
+          {
+            "round_number": 1,
+            "agent_name": "Agent 2 (Devil Advocate)",
+            "argument": "Agent 1 đã quá nghiêm khắc trong đánh giá rủi ro. Tuyên bố 'Sử dụng các loại bao bì nhẹ hơn và có khả năng tái chế cao' không chỉ đơn thuần là một thông tin về việc sử dụng bao bì mới, mà còn liên quan đến nỗ lực cải thiện môi trường của doanh nghiệp. Điều này không phải là một vấn đề nhỏ vì nó thể hiện cam kết của SABECO trong việc giảm thiểu tác động tiêu cực đối với môi trường và tăng cường tái chế. Hơn nữa, tuyên bố này không được đánh giá thấp như Agent 1 đã làm, bởi vì nó chỉ ra rằng doanh nghiệp đang thực hiện các sáng kiến cụ thể để cải thiện tình hình. Do đó, mức độ rủi ro nên được giảm từ Low xuống None. Mức độ tin cậy cũng nên được điều chỉnh từ 0.85 xuống 0.75, vì Agent 1 đã quá thận trọng trong việc đánh giá hiệu quả của các sáng kiến này.",
+            "proposed_risk_level": "None",
+            "proposed_confidence": 0.75,
+            "missing_evidence_requested": "Yêu cầu thêm bằng chứng về mức độ tái chế thực tế và hiệu quả của việc sử dụng bao bì mới để tăng cường đánh giá."
+          },
+          {
+            "round_number": 1,
+            "agent_name": "Agent 1 (Claimant)",
+            "argument": "Agent 1 đã nhận thức được rằng việc sử dụng các loại bao bì nhẹ hơn và có khả năng tái chế cao là một phần của nỗ lực cải thiện môi trường. Tuy nhiên, Agent 2 đã nhấn mạnh rằng đây không chỉ đơn thuần là thông tin về việc sử dụng bao bì mới mà còn thể hiện cam kết của SABECO trong việc giảm thiểu tác động tiêu cực đối với môi trường và tăng cường tái chế. Điều này thực sự phản ánh một nỗ lực cụ thể để cải thiện tình hình, do đó mức độ rủi ro có thể được điều chỉnh từ Low xuống None. Mức độ tin cậy cũng nên được điều chỉnh từ 0.85 xuống 0.75 vì Agent 1 đã quá thận trọng trong việc đánh giá hiệu quả của các sáng kiến này.",
+            "proposed_risk_level": "None",
+            "proposed_confidence": 0.75,
+            "missing_evidence_requested": null
+          }
+        ],
+        "final_risk_level": "None",
+        "final_confidence": 0.75,
+        "consensus_reached": true,
+        "human_review_required": false,
+        "disagreement_note": null,
+        "debate_summary": "Sau 2 lượt phản biện giữa Agent 1 và Agent 2, hai bên đã đạt đồng thuận. Mức rủi ro chốt: None."
+      },
+      {
+        "claim": {
+          "claim_id": "claim_1caa401f",
+          "indicator_type": "Hollow Promise",
+          "claim_text": "SABECO đã tiếp cận các chương trình phát triển bền vững của Liên Hiệp Quốc cũng như quyết liệt đầu tư các công trình khai thác nguồn năng lượng tái tạo và tái sử dụng nước trong quá trình sản xuất.",
+          "page_number": 82,
+          "evidence_quote": "Để đầu tư cho năng lượng tái tạo và bảo vệ nguồn nước, SABECO đã tiếp cận các chương trình phát triển bền vững của Liên Hiệp Quốc cũng như quyết liệt đầu tư các công trình khai thác nguồn năng lượng tái tạo và tái sử dụng nước trong quá trình sản xuất.",
+          "initial_risk_level": "Medium",
+          "initial_confidence": 0.85,
+          "reasoning": "Tuyên bố này đề cập đến việc đầu tư vào năng lượng tái tạo và bảo vệ nguồn nước nhưng không cung cấp thông tin cụ thể về lộ trình, mốc thời gian hoặc tiến độ thực hiện."
+        },
+        "debate_history": [
+          {
+            "round_number": 1,
+            "agent_name": "Agent 1 (Đánh giá ban đầu)",
+            "argument": "Tuyên bố này đề cập đến việc đầu tư vào năng lượng tái tạo và bảo vệ nguồn nước nhưng không cung cấp thông tin cụ thể về lộ trình, mốc thời gian hoặc tiến độ thực hiện.",
+            "proposed_risk_level": "Medium",
+            "proposed_confidence": 0.85,
+            "missing_evidence_requested": null
+          },
+          {
+            "round_number": 1,
+            "agent_name": "Agent 2 (Devil Advocate)",
+            "argument": "Đoạn văn bản gốc không chỉ đơn thuần là một lời hứa trống rỗng mà còn cung cấp thông tin cụ thể về các sáng kiến tiết kiệm năng lượng và nước, cũng như việc triển khai lắp đặt điện mặt trời áp mái tại 11 nhà máy. Điều này cho thấy SABECO đã thực hiện những hành động cụ thể để giảm tiêu thụ năng lượng và nước, không chỉ là lời hứa trống rỗng. Hơn nữa, tuyên bố này còn đề cập đến việc tiếp cận các chương trình phát triển bền vững của Liên Hiệp Quốc, đây là một yếu tố tích cực cho thấy doanh nghiệp có sự cam kết với mục tiêu toàn cầu về bảo vệ môi trường.",
+            "proposed_risk_level": "Low",
+            "proposed_confidence": 0.95,
+            "missing_evidence_requested": ""
+          },
+          {
+            "round_number": 1,
+            "agent_name": "Agent 1 (Claimant)",
+            "argument": "Agent 1 đồng ý với Agent 2 rằng đoạn văn bản gốc không chỉ đơn thuần là lời hứa trống rỗng mà còn cung cấp thông tin cụ thể về các sáng kiến tiết kiệm năng lượng và nước, cũng như việc triển khai lắp đặt điện mặt trời áp mái tại 11 nhà máy. Điều này cho thấy SABECO đã thực hiện những hành động cụ thể để giảm tiêu thụ năng lượng và nước. Tuy nhiên, Agent 1 vẫn giữ quan điểm rằng cần có thêm thông tin về hiệu quả của các sáng kiến này trong việc tiết kiệm năng lượng và nước để đánh giá mức độ thành công. Đồng thời, tuyên bố này cũng đề cập đến việc tiếp cận các chương trình phát triển bền vững của Liên Hiệp Quốc, đây là một yếu tố tích cực cho thấy doanh nghiệp có sự cam kết với mục tiêu toàn cầu về bảo vệ môi trường.",
+            "proposed_risk_level": "Low",
+            "proposed_confidence": 0.85,
+            "missing_evidence_requested": null
+          }
+        ],
+        "final_risk_level": "Low",
+        "final_confidence": 0.85,
+        "consensus_reached": true,
+        "human_review_required": false,
+        "disagreement_note": null,
+        "debate_summary": "Sau 2 lượt phản biện giữa Agent 1 và Agent 2, hai bên đã đạt đồng thuận. Mức rủi ro chốt: Low."
+      },
+      {
+        "claim": {
+          "claim_id": "claim_ac68f6b6",
+          "indicator_type": "Selective Disclosure",
+          "claim_text": "Đến cuối năm 2023, SABECO đã có 11 nhà máy triển khai lắp đặt và đưa vào sử dụng điện năng lượng mặt trời áp mái, chiếm khoảng 7% lượng điện sử dụng trong sản xuất.",
+          "page_number": 82,
+          "evidence_quote": "Đến cuối năm 2023, SABECO đã có 11 nhà máy triển khai lắp đặt và đưa vào sử dụng điện năng lượng mặt trời áp mái, chiếm khoảng 7% lượng điện sử dụng trong sản xuất.",
+          "initial_risk_level": "Low",
+          "initial_confidence": 0.85,
+          "reasoning": "Tuyên bố này chỉ đề cập đến việc sử dụng năng lượng mặt trời tại một số nhà máy và không cung cấp thông tin chi tiết về tổng lượng điện năng tiêu thụ hay hiệu quả thực tế của việc sử dụng năng lượng mặt trời, có thể là dấu hiệu giấu thông tin xấu."
+        },
+        "debate_history": [
+          {
+            "round_number": 1,
+            "agent_name": "Agent 1 (Đánh giá ban đầu)",
+            "argument": "Tuyên bố này chỉ đề cập đến việc sử dụng năng lượng mặt trời tại một số nhà máy và không cung cấp thông tin chi tiết về tổng lượng điện năng tiêu thụ hay hiệu quả thực tế của việc sử dụng năng lượng mặt trời, có thể là dấu hiệu giấu thông tin xấu.",
+            "proposed_risk_level": "Low",
+            "proposed_confidence": 0.85,
+            "missing_evidence_requested": null
+          },
+          {
+            "round_number": 1,
+            "agent_name": "Agent 2 (Devil Advocate)",
+            "argument": "Agent 1 đã quá nghiêm khắc trong việc đánh giá rủi ro. Tuyên bố này chỉ đơn thuần là thông tin về việc sử dụng năng lượng mặt trời tại một số nhà máy của SABECO, không có gì để nghi ngờ về tính chính xác hoặc sự minh bạch. Hơn nữa, việc sử dụng năng lượng tái tạo như điện năng lượng mặt trời là một bước tiến tích cực đối với môi trường và không phải dấu hiệu giấu thông tin xấu. Do đó, mức độ rủi ro nên được giảm xuống từ Low thành None. Mức độ tin cậy cũng nên được điều chỉnh thấp hơn do thiếu thông tin chi tiết về tổng lượng điện năng tiêu thụ hay hiệu quả thực tế.",
+            "proposed_risk_level": "None",
+            "proposed_confidence": 0.65,
+            "missing_evidence_requested": "Yêu cầu thêm bằng chứng về tổng lượng điện năng tiêu thụ và hiệu quả thực tế của việc sử dụng năng lượng mặt trời để tăng mức độ tin cậy."
+          },
+          {
+            "round_number": 1,
+            "agent_name": "Agent 1 (Claimant)",
+            "argument": "Agent 1 nhận thấy rằng SABECO đã triển khai sử dụng năng lượng mặt trời tại một số nhà máy, đây là một bước tiến tích cực đối với môi trường. Tuy nhiên, việc này chỉ chiếm khoảng 7% lượng điện sử dụng trong sản xuất, nghĩa là vẫn còn 93% lượng điện không được tái tạo từ nguồn năng lượng sạch. Điều này có thể gây ra rủi ro về mặt pháp lý và hình ảnh doanh nghiệp nếu công ty không minh bạch về kế hoạch và tiến độ triển khai năng lượng tái tạo. Ngoài ra, Agent 1 cũng lưu ý rằng văn bản gốc chưa cung cấp thông tin chi tiết về tổng lượng điện năng tiêu thụ hay hiệu quả thực tế của các biện pháp tiết kiệm nước và năng lượng đã được áp dụng. Do đó, mức độ rủi ro không thể giảm xuống đến None.",
+            "proposed_risk_level": "Low",
+            "proposed_confidence": 0.85,
+            "missing_evidence_requested": null
+          },
+          {
+            "round_number": 2,
+            "agent_name": "Agent 2 (Devil Advocate)",
+            "argument": "Agent 1 đã quá nghiêm khắc trong việc đánh giá rủi ro. Tuyên bố này chỉ đơn thuần là thông tin về việc sử dụng năng lượng mặt trời tại một số nhà máy của SABECO, không có gì để nghi ngờ về tính chính xác hoặc sự minh bạch. Hơn nữa, việc sử dụng năng lượng tái tạo như điện năng lượng mặt trời là một bước tiến tích cực đối với môi trường và không phải dấu hiệu giấu thông tin xấu. Do đó, mức độ rủi ro nên được giảm xuống từ Low thành None. Mức độ tin cậy cũng nên được điều chỉnh thấp hơn do thiếu thông tin chi tiết về tổng lượng điện năng tiêu thụ hay hiệu quả thực tế của việc sử dụng năng lượng mặt trời để tăng mức độ tin cậy.",
+            "proposed_risk_level": "None",
+            "proposed_confidence": 0.65,
+            "missing_evidence_requested": "Yêu cầu thêm bằng chứng về tổng lượng điện năng tiêu thụ và hiệu quả thực tế của việc sử dụng năng lượng mặt trời để tăng mức độ tin cậy."
+          },
+          {
+            "round_number": 2,
+            "agent_name": "Agent 1 (Claimant)",
+            "argument": "Agent 1 nhận thấy rằng SABECO đã thực hiện nhiều cải tiến trong việc sử dụng năng lượng tái tạo và tiết kiệm nước, nhưng vẫn cần thêm thông tin chi tiết về tổng lượng điện năng tiêu thụ để đánh giá hiệu quả thực tế. Tuy nhiên, việc sử dụng năng lượng mặt trời là một bước tiến tích cực và không có dấu hiệu nào cho thấy SABECO đang cố giấu thông tin xấu. Do đó, mức độ rủi ro nên được giảm từ Low xuống Medium, thay vì None như Agent 2 đề xuất. Mức độ tin cậy cũng nên được điều chỉnh thấp hơn do thiếu thông tin chi tiết về tổng lượng điện năng tiêu thụ hay hiệu quả thực tế của việc sử dụng năng lượng mặt trời để tăng mức độ tin cậy.",
+            "proposed_risk_level": "Medium",
+            "proposed_confidence": 0.75,
+            "missing_evidence_requested": null
+          },
+          {
+            "round_number": 3,
+            "agent_name": "Agent 2 (Devil Advocate)",
+            "argument": "Agent 1 đã quá nghiêm khắc trong việc đánh giá rủi ro. Tuyên bố này chỉ đơn thuần là thông tin về việc sử dụng năng lượng mặt trời tại một số nhà máy của SABECO, không có gì để nghi ngờ về tính chính xác hoặc sự minh bạch. Hơn nữa, việc sử dụng năng lượng tái tạo như điện năng lượng mặt trời là một bước tiến tích cực đối với môi trường và không phải dấu hiệu giấu thông tin xấu. Do đó, mức độ rủi ro nên được giảm xuống từ Medium thành Low. Mức độ tin cậy cũng nên được điều chỉnh thấp hơn do thiếu thông tin chi tiết về tổng lượng điện năng tiêu thụ hay hiệu quả thực tế của việc sử dụng năng lượng mặt trời để tăng mức độ tin cậy.",
+            "proposed_risk_level": "Low",
+            "proposed_confidence": 0.65,
+            "missing_evidence_requested": "Yêu cầu thêm bằng chứng về tổng lượng điện năng tiêu thụ và hiệu quả thực tế của việc sử dụng năng lượng mặt trời để tăng mức độ tin cậy."
+          },
+          {
+            "round_number": 3,
+            "agent_name": "Agent 1 (Claimant)",
+            "argument": "Agent 1 nhận thấy rằng SABECO đã thực hiện nhiều cải tiến trong việc sử dụng năng lượng tái tạo và tiết kiệm nước, nhưng vẫn cần đánh giá rủi ro một cách thận trọng. Việc triển khai điện năng lượng mặt trời chỉ chiếm khoảng 7% lượng điện sử dụng trong sản xuất, điều này cho thấy mức độ phụ thuộc vào nguồn năng lượng truyền thống vẫn còn cao. Ngoài ra, thông tin về tổng lượng điện năng tiêu thụ và hiệu quả thực tế của việc sử dụng năng lượng mặt trời chưa được cung cấp đầy đủ, khiến Agent 1 lo ngại về khả năng quản lý rủi ro trong tương lai. Do đó, mức độ rủi ro nên được giữ ở Medium để đảm bảo an toàn.",
+            "proposed_risk_level": "Medium",
+            "proposed_confidence": 0.85,
+            "missing_evidence_requested": null
+          }
+        ],
+        "final_risk_level": "Medium",
+        "final_confidence": 0.85,
+        "consensus_reached": false,
+        "human_review_required": true,
+        "disagreement_note": "⚠️ BẤT ĐỒNG Ý KIẾN: Agent 1 chốt rủi ro 'Medium', trong khi Agent 2 đề xuất 'Medium' sau 6 lượt phản biện. Cần Chuyên gia ESG (Human-in-the-loop) can thiệp thẩm định.",
+        "debate_summary": "Sau 6 lượt phản biện giữa Agent 1 và Agent 2, hai bên CHƯA ĐỒNG THUẬN (Cần con người can thiệp). Mức rủi ro chốt: Medium."
+      },
+      {
+        "claim": {
+          "claim_id": "claim_951335d8",
+          "indicator_type": "Misleading Presentation",
+          "claim_text": "-1,8% Điện -11,3% Hơi -5,5% Nước",
+          "page_number": 82,
+          "evidence_quote": "-1,8% Điện -11,3% Hơi -5,5% Nước",
+          "initial_risk_level": "Low",
+          "initial_confidence": 0.85,
+          "reasoning": "Các số liệu giảm tiêu thụ năng lượng và nước không được giải thích rõ ràng về cách đạt được hoặc mức độ cải thiện thực tế, có thể gây hiểu lầm cho người đọc."
+        },
+        "debate_history": [
+          {
+            "round_number": 1,
+            "agent_name": "Agent 1 (Đánh giá ban đầu)",
+            "argument": "Các số liệu giảm tiêu thụ năng lượng và nước không được giải thích rõ ràng về cách đạt được hoặc mức độ cải thiện thực tế, có thể gây hiểu lầm cho người đọc.",
+            "proposed_risk_level": "Low",
+            "proposed_confidence": 0.85,
+            "missing_evidence_requested": null
+          },
+          {
+            "round_number": 1,
+            "agent_name": "Agent 2 (Devil Advocate)",
+            "argument": "Agent 1 đã quá nghiêm khắc trong việc phân loại rủi ro. Trong đoạn văn bản, SABECO đã nêu rõ các biện pháp cụ thể để giảm tiêu thụ năng lượng và nước như lắp đặt điện mặt trời áp mái, cải tạo hệ thống làm mát bơm chân không, sử dụng bơm nhiệt, thu hồi nước ngưng đưa trở lại lò hơi, và nhiều biện pháp khác. Các số liệu giảm tiêu thụ năng lượng và nước (-1,8% Điện -11,3% Hơi -5,5% Nước) đã được minh chứng bằng các biện pháp cụ thể. Do đó, việc chỉ trích rằng các số liệu không rõ ràng về cách đạt được hoặc mức độ cải thiện thực tế là không công bằng. Mức độ rủi ro nên được giảm từ Low xuống None và độ tin cậy cũng nên được điều chỉnh thấp hơn.",
+            "proposed_risk_level": "None",
+            "proposed_confidence": 0.75,
+            "missing_evidence_requested": "N/A"
+          },
+          {
+            "round_number": 1,
+            "agent_name": "Agent 1 (Claimant)",
+            "argument": "Agent 1 đã xem xét kỹ lưỡng các biện pháp cụ thể mà SABECO đã thực hiện để giảm tiêu thụ năng lượng và nước. Tuy nhiên, Agent 2 có điểm chính xác rằng các số liệu giảm tiêu thụ đã được minh chứng bằng các biện pháp cụ thể. Điều này làm tăng độ tin cậy của báo cáo ESG. Tuy nhiên, việc cải thiện vẫn đang diễn ra và chưa đạt đến mức tối ưu, do đó rủi ro về quản lý hiệu quả năng lượng và nước vẫn còn tồn tại. Mức độ rủi ro nên được điều chỉnh từ Low xuống Medium để phản ánh tình hình hiện tại.",
+            "proposed_risk_level": "Medium",
+            "proposed_confidence": 0.85,
+            "missing_evidence_requested": null
+          },
+          {
+            "round_number": 2,
+            "agent_name": "Agent 2 (Devil Advocate)",
+            "argument": "Agent 1 đã quá nghiêm khắc trong việc phân loại rủi ro. Trong đoạn văn bản, SABECO đã nêu rõ các biện pháp cụ thể để giảm tiêu thụ năng lượng và nước như lắp đặt điện mặt trời áp mái, cải tạo hệ thống làm mát bơm chân không, sử dụng bơm nhiệt, thu hồi nước ngưng đưa trở lại lò hơi, và nhiều biện pháp khác. Các số liệu giảm tiêu thụ năng lượng và nước (-1,8% Điện -11,3% Hơi -5,5% Nước) đã được minh chứng bằng các biện pháp cụ thể. Do đó, việc chỉ trích rằng các số liệu không rõ ràng về cách đạt được hoặc mức độ cải thiện thực tế là không công bằng. Mức độ rủi ro nên được giảm từ Medium xuống None và độ tin cậy cũng nên được điều chỉnh thấp hơn.",
+            "proposed_risk_level": "None",
+            "proposed_confidence": 0.75,
+            "missing_evidence_requested": "N/A"
+          },
+          {
+            "round_number": 2,
+            "agent_name": "Agent 1 (Claimant)",
+            "argument": "Agent 1 đã xem xét kỹ lưỡng các biện pháp cụ thể mà SABECO đã thực hiện để giảm tiêu thụ năng lượng và nước. Tuy nhiên, việc chỉ trích rằng số liệu không rõ ràng về cách đạt được hoặc mức độ cải thiện thực tế vẫn còn tồn tại một phần. Các biện pháp cụ thể như lắp đặt điện mặt trời áp mái, cải tạo hệ thống làm mát bơm chân không, sử dụng bơm nhiệt, thu hồi nước ngưng đưa trở lại lò hơi... đã được nêu rõ trong văn bản. Tuy nhiên, việc giảm tiêu thụ năng lượng và nước chỉ là -1,8% Điện -11,3% Hơi -5,5% Nước, mức độ cải thiện này có thể chưa đủ để đánh giá rủi ro là None. Do đó, Agent 1 vẫn giữ nguyên mức độ rủi ro là Medium.",
+            "proposed_risk_level": "Medium",
+            "proposed_confidence": 0.85,
+            "missing_evidence_requested": null
+          },
+          {
+            "round_number": 3,
+            "agent_name": "Agent 2 (Devil Advocate)",
+            "argument": "Agent 1 đã quá nghiêm khắc trong việc phân loại rủi ro. Trong đoạn văn bản, SABECO đã nêu rõ các biện pháp cụ thể để giảm tiêu thụ năng lượng và nước như lắp đặt điện mặt trời áp mái, cải tạo hệ thống làm mát bơm chân không, sử dụng bơm nhiệt, thu hồi nước ngưng đưa trở lại lò hơi, và nhiều biện pháp khác. Các số liệu giảm tiêu thụ năng lượng và nước (-1,8% Điện -11,3% Hơi -5,5% Nước) đã được minh chứng bằng các biện pháp cụ thể. Do đó, việc chỉ trích rằng các số liệu không rõ ràng về cách đạt được hoặc mức độ cải thiện thực tế là không công bằng. Mức độ rủi ro nên được giảm từ Medium xuống Low và độ tin cậy cũng nên được điều chỉnh thấp hơn.",
+            "proposed_risk_level": "Low",
+            "proposed_confidence": 0.75,
+            "missing_evidence_requested": "N/A"
+          },
+          {
+            "round_number": 3,
+            "agent_name": "Agent 1 (Claimant)",
+            "argument": "Agent 1 đã xem xét kỹ lưỡng về việc phân loại rủi ro. Mặc dù SABECO đã thực hiện nhiều biện pháp cụ thể để giảm tiêu thụ năng lượng và nước, nhưng các số liệu giảm tiêu thụ vẫn chưa rõ ràng về cách đạt được hoặc mức độ cải thiện thực tế. Điều này có thể dẫn đến sự không chắc chắn trong việc đánh giá hiệu quả của các biện pháp đã áp dụng. Hơn nữa, mặc dù SABECO đã nêu ra nhiều biện pháp cụ thể, nhưng không có số liệu cụ thể về thời gian và chi phí để triển khai những biện pháp này. Do đó, mức độ rủi ro vẫn nên được duy trì ở Medium để đảm bảo rằng các vấn đề tiềm ẩn có thể được phát hiện và giải quyết kịp thời.",
+            "proposed_risk_level": "Medium",
+            "proposed_confidence": 0.85,
+            "missing_evidence_requested": null
+          }
+        ],
+        "final_risk_level": "Medium",
+        "final_confidence": 0.85,
+        "consensus_reached": false,
+        "human_review_required": true,
+        "disagreement_note": "⚠️ BẤT ĐỒNG Ý KIẾN: Agent 1 chốt rủi ro 'Medium', trong khi Agent 2 đề xuất 'Medium' sau 6 lượt phản biện. Cần Chuyên gia ESG (Human-in-the-loop) can thiệp thẩm định.",
+        "debate_summary": "Sau 6 lượt phản biện giữa Agent 1 và Agent 2, hai bên CHƯA ĐỒNG THUẬN (Cần con người can thiệp). Mức rủi ro chốt: Medium."
+      },
+      {
+        "claim": {
+          "claim_id": "claim_1ddfbda3",
+          "indicator_type": "Hollow Promise",
+          "claim_text": "dự kiến hoàn thành trong đầu năm 2024, góp phần tạo ra những giá trị tích cực cho cộng đồng và đóng góp nhiều hơn nữa vào sự phát triển kinh tế xã hội của Việt Nam.",
+          "page_number": 85,
+          "evidence_quote": "dự kiến hoàn thành trong đầu năm 2024",
+          "initial_risk_level": "Medium",
+          "initial_confidence": 0.85,
+          "reasoning": "Tuyên bố này cam kết một mục tiêu cụ thể (hoàn thành dự án vào đầu năm 2024) nhưng không có lộ trình, mốc thời gian chi tiết để chứng minh khả năng thực hiện."
+        },
+        "debate_history": [
+          {
+            "round_number": 1,
+            "agent_name": "Agent 1 (Đánh giá ban đầu)",
+            "argument": "Tuyên bố này cam kết một mục tiêu cụ thể (hoàn thành dự án vào đầu năm 2024) nhưng không có lộ trình, mốc thời gian chi tiết để chứng minh khả năng thực hiện.",
+            "proposed_risk_level": "Medium",
+            "proposed_confidence": 0.85,
+            "missing_evidence_requested": null
+          },
+          {
+            "round_number": 1,
+            "agent_name": "Agent 2 (Devil Advocate)",
+            "argument": "Agent 1 đã quá nghiêm khắc trong việc phân loại tuyên bố này. Tuyên bố về việc hoàn thành dự án vào đầu năm 2024 không chỉ là một cam kết mà còn là một mục tiêu cụ thể, đồng thời nó cũng nêu rõ lợi ích cho cộng đồng và sự phát triển kinh tế xã hội của Việt Nam. Điều này không nên được coi là một Hollow Promise vì không có bằng chứng minh oan hoặc giải thích nào từ doanh nghiệp về việc tuyên bố này thiếu thực tế. Hơn nữa, Agent 1 đã bỏ qua thông tin rằng dự án này đang được tiến hành tại 29 tỉnh thành và có thể tạo ra giá trị tích cực cho cộng đồng. Do đó, mức độ rủi ro nên được giảm xuống Low với Độ tin cậy là 0.75.",
+            "proposed_risk_level": "Low",
+            "proposed_confidence": 0.75,
+            "missing_evidence_requested": ""
+          },
+          {
+            "round_number": 1,
+            "agent_name": "Agent 1 (Claimant)",
+            "argument": "Agent 1 đã nhận thức được rằng tuyên bố về việc hoàn thành dự án vào đầu năm 2024 có thể bị coi là một Hollow Promise nếu không có bằng chứng minh thực tế. Tuy nhiên, Agent 2 đã đưa ra các điểm mạnh như mục tiêu cụ thể và lợi ích cho cộng đồng. Mặc dù vậy, Agent 1 vẫn nghi ngờ về khả năng thực hiện dự án trong thời gian ngắn như vậy, đặc biệt là khi chỉ có thông tin chung mà không có chi tiết về tiến độ thực tế. Do đó, Agent 1 vẫn giữ mức rủi ro ở Medium để phản ánh sự không chắc chắn này.",
+            "proposed_risk_level": "Medium",
+            "proposed_confidence": 0.85,
+            "missing_evidence_requested": null
+          },
+          {
+            "round_number": 2,
+            "agent_name": "Agent 2 (Devil Advocate)",
+            "argument": "Agent 1 đã quá nghiêm khắc trong việc phân loại tuyên bố này. Tuyên bố về việc hoàn thành dự án vào đầu năm 2024 không chỉ là một cam kết mà còn là một mục tiêu cụ thể, đồng thời nó cũng nêu rõ lợi ích cho cộng đồng và sự phát triển kinh tế xã hội của Việt Nam. Điều này không nên được coi là một Hollow Promise vì không có bằng chứng minh oan hoặc giải thích nào từ doanh nghiệp về việc tuyên bố này thiếu thực tế. Hơn nữa, Agent 1 đã bỏ qua thông tin rằng dự án này đang được tiến hành tại 29 tỉnh thành và có thể tạo ra giá trị tích cực cho cộng đồng. Do đó, mức độ rủi ro nên được giảm xuống Low với Độ tin cậy là 0.75.",
+            "proposed_risk_level": "Low",
+            "proposed_confidence": 0.75,
+            "missing_evidence_requested": ""
+          },
+          {
+            "round_number": 2,
+            "agent_name": "Agent 1 (Claimant)",
+            "argument": "Agent 1 đã cân nhắc kỹ về việc phân loại tuyên bố này như một Hollow Promise. Tuy nhiên, Agent 2 có điểm chính đáng là dự án hoàn thành vào đầu năm 2024 không chỉ là một cam kết mà còn mang lại lợi ích cho cộng đồng và kinh tế xã hội. Tuy vậy, việc không có bằng chứng minh oan hoặc giải thích từ doanh nghiệp về thực hiện dự án vẫn cần được xem xét kỹ lưỡng. Dự án đang được triển khai tại 29 tỉnh thành cũng là một yếu tố tích cực. Do đó, mức độ rủi ro nên được điều chỉnh xuống Low với Độ tin cậy là 0.75.",
+            "proposed_risk_level": "Low",
+            "proposed_confidence": 0.75,
+            "missing_evidence_requested": null
+          }
+        ],
+        "final_risk_level": "Low",
+        "final_confidence": 0.75,
+        "consensus_reached": true,
+        "human_review_required": false,
+        "disagreement_note": null,
+        "debate_summary": "Sau 4 lượt phản biện giữa Agent 1 và Agent 2, hai bên đã đạt đồng thuận. Mức rủi ro chốt: Low."
+      }
+    ],
+    "scraped_incidents": [
+      {
+        "incident_id": "inc_f6d1983e",
+        "company_name": "Masan",
+        "title": "Nghị định 45/2022/NĐ-CP xử phạt vi phạm hành chính lĩnh vực bảo vệ môi ...",
+        "source": "Báo chí / Tin tức ngoài",
+        "url": "https://thuvienphapluat.vn/van-ban/Vi-pham-hanh-chinh/Nghi-dinh-45-2022-ND-CP-xu-phat-vi-pham-hanh-chinh-linh-vuc-bao-ve-moi-truong-484772.aspx",
+        "published_date": "2024-2025",
+        "snippet": "Nghị định này quy định các hành vi vi phạm hành chính, hình thức xử phạt, mức xử phạt, biện pháp khắc phục hậu quả đối với hành vi vi phạm hành chính, thẩm quyền lập biên bản vi phạm hành chính, thẩm quyền xử phạt vi phạm hành chính trong lĩnh vực bảo vệ môi trường. 2.",
+        "relevance_score": 0.75
+      },
+      {
+        "incident_id": "inc_adcb9380",
+        "company_name": "Masan",
+        "title": "Nghị định 45/2022/NĐ-CP quy định về xử phạt vi phạm hành chính trong ...",
+        "source": "Báo chí / Tin tức ngoài",
+        "url": "https://vcci.com.vn/en/legal-document/nghi-dinh-452022nd-cp-quy-dinh-ve-xu-phat-vi-pham-hanh-chinh-trong-linh-vuc-bao-ve-moi-truong",
+        "published_date": "2024-2025",
+        "snippet": "Nghị định này quy định các hành vi vi phạm hành chính, hình thức xử phạt, mức xử phạt, biện pháp khắc phục hậu quả đối với hành vi vi phạm hành chính, thẩm quyền lập biên bản vi phạm hành chính, thẩm quyền xử phạt vi phạm hành chính trong lĩnh vực bảo vệ môi trường. 2.",
+        "relevance_score": 0.75
+      },
+      {
+        "incident_id": "inc_6658b577",
+        "company_name": "Masan",
+        "title": "Quy định về xử phạt vi phạm hành chính trong lĩnh vực bảo vệ môi trường",
+        "source": "Cổng thông tin / Cơ quan Nhà nước",
+        "url": "https://mps.gov.vn/chinh-sach-phap-luat/bai-viet/quy-dinh-ve-xu-phat-vi-pham-hanh-chinh-trong-linh-vuc-bao-ve-moi-truong-d1-t766",
+        "published_date": "2024-2025",
+        "snippet": "Thẩm quyền xử phạt vi phạm hành chính của lực lượng Công an nhân dân trong lĩnh vực bảo vệ môi trường được quy định tại Điều 57 Nghị định này.",
+        "relevance_score": 1.0
+      },
+      {
+        "incident_id": "inc_8eeb39ff",
+        "company_name": "Masan",
+        "title": "Nghị định 45/2022/NĐ-CP về xử phạt môi trường",
+        "source": "Báo chí / Tin tức ngoài",
+        "url": "https://thudoxanh.com/post/nghi-dinh-452022nd-cp-ve-xu-phat-moi-truong",
+        "published_date": "2024-2025",
+        "snippet": "Quy định xử phạt đối với giấy phép môi trường, vận hành thử nghiệm công trình xử lý chất thải, quản lý chất ô nhiễm khó phân hủy. Doanh nghiệp vi phạm có thể bị buộc khôi phục môi trường về trạng thái ban đầu.",
+        "relevance_score": 0.75
+      },
+      {
+        "incident_id": "inc_16a007f5",
+        "company_name": "Masan",
+        "title": "Nghị định 45/2022/NĐ-CP xử phạt vi phạm hành chính lĩnh vực bảo vệ môi ...",
+        "source": "Báo chí / Tin tức ngoài",
+        "url": "https://luatvietnam.vn/vi-pham-hanh-chinh/nghi-dinh-45-2022-nd-cp-225156-d1.html",
+        "published_date": "2024-2025",
+        "snippet": "Ngày 07/7/2022, Chính phủ ban hành Nghị định 45/2022/NĐ-CP quy định về xử phạt vi phạm hành chính trong lĩnh vực bảo vệ môi trường",
+        "relevance_score": 0.75
+      }
+    ],
+    "incident_matches": [
+      {
+        "claim_id": "claim_c9bda2a2",
+        "claim_text": "Sử dụng lò hơi đốt bằng nguyên liệu sinh khối thay cho lò hơi đốt bằng nhiên liệu hóa thạch.",
+        "matched_incident": null,
+        "ai_risk_numeric": 0,
+        "ground_truth_numeric": 0,
+        "ground_truth_label": "LOW_RISK",
+        "evidence_compatibility": "NO_EVIDENCE",
+        "match_status": "NO_RISK_CONFIRMED",
+        "reasoning_chain": "Bước 1: Phân tích tuyên bố - Doanh nghiệp sử dụng lò hơi đốt bằng nguyên liệu sinh khối thay vì nhiên liệu hóa thạch. Bước 2: Xem xét bằng chứng metadata - Không có bài báo nào trực tiếp đề cập đến việc xử phạt hoặc vi phạm liên quan đến cách sử dụng lò hơi. Bước 3: Đánh giá xem thông tin rủi ro có bị chứng minh là hoàn toàn vô căn cứ hay không - Không có bằng chứng nào cho thấy việc này gây ra rủi ro môi trường. Bước 4: Chốt mức độ tương thích.",
+        "matching_reasoning": "Tuyên bố về việc sử dụng lò hơi đốt bằng nguyên liệu sinh khối thay vì nhiên liệu hóa thạch không được chứng minh là vi phạm pháp luật hoặc gây ra rủi ro môi trường. Không có bài báo nào liên quan trực tiếp đến chủ đề này."
+      },
+      {
+        "claim_id": "claim_a0dda2a5",
+        "claim_text": "Sử dụng các loại bao bì nhẹ hơn và có khả năng tái chế cao.",
+        "matched_incident": null,
+        "ai_risk_numeric": 0,
+        "ground_truth_numeric": 0,
+        "ground_truth_label": "LOW_RISK",
+        "evidence_compatibility": "NO_EVIDENCE",
+        "match_status": "NO_RISK_CONFIRMED",
+        "reasoning_chain": "Bước 1: Phân tích tuyên bố, doanh nghiệp sử dụng các loại bao bì nhẹ hơn và có khả năng tái chế cao. Bước 2: Xem xét bằng chứng metadata, không có thông tin trực tiếp về việc xử phạt hoặc vi phạm liên quan đến cách sử dụng bao bì. Bước 3: Đánh giá xem thông tin rủi ro có bị chứng minh là hoàn toàn vô căn cứ hay không, kết luận rằng không có bằng chứng nào xác nhận việc này gây ra rủi ro môi trường. Bước 4: Chốt mức độ tương thích.",
+        "matching_reasoning": "Tuyên bố về việc sử dụng bao bì nhẹ và tái chế không được chứng minh là gây ra rủi ro môi trường. Không có thông tin báo chí hoặc quy định pháp luật nào liên quan đến vấn đề này."
+      },
+      {
+        "claim_id": "claim_1caa401f",
+        "claim_text": "SABECO đã tiếp cận các chương trình phát triển bền vững của Liên Hiệp Quốc cũng như quyết liệt đầu tư các công trình khai thác nguồn năng lượng tái tạo và tái sử dụng nước trong quá trình sản xuất.",
+        "matched_incident": null,
+        "ai_risk_numeric": 0,
+        "ground_truth_numeric": 0,
+        "ground_truth_label": "LOW_RISK",
+        "evidence_compatibility": "NO_EVIDENCE",
+        "match_status": "NO_RISK_CONFIRMED",
+        "reasoning_chain": "Bước 1: Phân tích tuyên bố, SABECO đã đầu tư vào năng lượng tái tạo và tái sử dụng nước. -> Bước 2: Xem xét bằng chứng metadata, không có thông tin trực tiếp về vi phạm môi trường từ các nguồn báo chí. -> Bước 3: Đánh giá xem thông tin rủi ro có bị chứng minh là hoàn toàn vô căn cứ hay không, không có bằng chứng xác nhận SABECO đã vi phạm quy định về bảo vệ môi trường. -> Bước 4: Chốt mức độ tương thích.",
+        "matching_reasoning": "Tuyên bố về việc SABECO đầu tư vào năng lượng tái tạo và tái sử dụng nước không có bằng chứng trực tiếp từ báo chí hoặc cơ quan nhà nước về vi phạm quy định bảo vệ môi trường."
+      },
+      {
+        "claim_id": "claim_ac68f6b6",
+        "claim_text": "Đến cuối năm 2023, SABECO đã có 11 nhà máy triển khai lắp đặt và đưa vào sử dụng điện năng lượng mặt trời áp mái, chiếm khoảng 7% lượng điện sử dụng trong sản xuất.",
+        "matched_incident": null,
+        "ai_risk_numeric": 1,
+        "ground_truth_numeric": 0,
+        "ground_truth_label": "LOW_RISK",
+        "evidence_compatibility": "NO_EVIDENCE",
+        "match_status": "UNVERIFIED_RISK",
+        "reasoning_chain": "Bước 1: Phân tích tuyên bố, SABECO đã triển khai lắp đặt và đưa vào sử dụng điện năng lượng mặt trời áp mái tại 7% nhà máy. -> Bước 2: Xem xét bằng chứng metadata, không có bài báo nào đề cập đến việc xử phạt hoặc vi phạm trong lĩnh vực bảo vệ môi trường liên quan trực tiếp đến việc sử dụng năng lượng tái tạo của SABECO. -> Bước 3: Đánh giá xem thông tin rủi ro có bị chứng minh là hoàn toàn vô căn cứ hay không, kết luận rằng thông tin về việc sử dụng năng lượng mặt trời áp mái không đủ để xác định vi phạm pháp luật bảo vệ môi trường. -> Bước 4: Chốt mức độ tương thích.",
+        "matching_reasoning": "Tuyên bố về việc SABECO sử dụng năng lượng mặt trời áp mái không đủ bằng chứng để xác định vi phạm pháp luật bảo vệ môi trường, do đó không có rủi ro."
+      },
+      {
+        "claim_id": "claim_951335d8",
+        "claim_text": "-1,8% Điện -11,3% Hơi -5,5% Nước",
+        "matched_incident": null,
+        "ai_risk_numeric": 1,
+        "ground_truth_numeric": 0,
+        "ground_truth_label": "LOW_RISK",
+        "evidence_compatibility": "NO_EVIDENCE",
+        "match_status": "UNVERIFIED_RISK",
+        "reasoning_chain": "Bước 1: Phân tích tuyên bố, thấy rằng có sự giảm đáng kể về năng lượng và nước. Bước 2: Xem xét các URL metadata, không có thông tin trực tiếp liên quan đến việc vi phạm quy định xử phạt trong lĩnh vực bảo vệ môi trường. Bước 3: Đánh giá xem thông tin rủi ro có bị chứng minh là hoàn toàn vô căn cứ hay không, kết luận rằng không có bằng chứng cụ thể về vi phạm pháp luật. Bước 4: Chốt mức độ tương thích.",
+        "matching_reasoning": "Tuyên bố về sự giảm đáng kể năng lượng và nước không có bằng chứng trực tiếp từ các nguồn metadata liên quan đến vi phạm quy định xử phạt trong lĩnh vực bảo vệ môi trường. Do đó, không thể xác nhận rủi ro."
+      },
+      {
+        "claim_id": "claim_1ddfbda3",
+        "claim_text": "dự kiến hoàn thành trong đầu năm 2024, góp phần tạo ra những giá trị tích cực cho cộng đồng và đóng góp nhiều hơn nữa vào sự phát triển kinh tế xã hội của Việt Nam.",
+        "matched_incident": null,
+        "ai_risk_numeric": 0,
+        "ground_truth_numeric": 0,
+        "ground_truth_label": "LOW_RISK",
+        "evidence_compatibility": "NO_EVIDENCE",
+        "match_status": "NO_RISK_CONFIRMED",
+        "reasoning_chain": "Bước 1: Phân tích tuyên bố [Hollow Promise] - dự kiến hoàn thành trong đầu năm 2024, góp phần tạo ra những giá trị tích cực cho cộng đồng và đóng góp nhiều hơn nữa vào sự phát triển kinh tế xã hội của Việt Nam. Bước 2: Xem xét bằng chứng metadata - không có thông tin trực tiếp về vi phạm pháp luật hoặc xử phạt liên quan đến tuyên bố này. Bước 3: Đánh giá xem thông tin rủi ro có bị chứng minh là hoàn toàn vô căn cứ hay không - không có bằng chứng nào xác nhận việc doanh nghiệp sẽ vi phạm pháp luật. Bước 4: Chốt mức độ tương thích.",
+        "matching_reasoning": "Tuyên bố không có thông tin cụ thể về vi phạm pháp luật hoặc xử phạt, do đó không có bằng chứng nào để xác nhận rủi ro môi trường. Tuy nhiên, mức độ rủi ro vẫn được đánh giá là thấp vì chưa có bằng chứng trực tiếp."
+      }
+    ],
+    "metrics": {
+      "true_positives": 0,
+      "false_positives": 2,
+      "true_negatives": 4,
+      "false_negatives": 0,
+      "precision": 0.6667,
+      "recall": 0.4444,
+      "f1_score": 0.5333,
+      "accuracy": 0.6667,
+      "cohens_kappa_round1": 0.0,
+      "cohens_kappa_final": 0.5,
+      "kappa_growth": 0.5,
+      "indicator_cohens_kappa": {
+        "Selective Disclosure": {
+          "kappa_round1": 0.0,
+          "kappa_final": 0.0,
+          "kappa_growth": 0.0,
+          "claim_count": 1
+        },
+        "Hollow Promise": {
+          "kappa_round1": 0.0,
+          "kappa_final": 1.0,
+          "kappa_growth": 1.0,
+          "claim_count": 2
+        },
+        "Misconduct": {
+          "kappa_round1": 0.45,
+          "kappa_final": 0.85,
+          "kappa_growth": 0.4,
+          "claim_count": 0
+        },
+        "Misleading Presentation": {
+          "kappa_round1": 0.0,
+          "kappa_final": 0.5,
+          "kappa_growth": 0.5,
+          "claim_count": 3
+        }
+      }
     }
   }
 ]

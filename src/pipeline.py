@@ -50,7 +50,10 @@ def run_greenwashing_pipeline(
     incident_matches = []
     for debate_res in claims_detected:
         match_res = match_claim_with_incidents(debate_res, scraped_incidents)
-        print(f"  -> Claim [{match_res.claim_id}] Match Status: {match_res.match_status}")
+        print(f"  -> Claim [{match_res.claim_id}] Match Status: {match_res.match_status} | Compatibility: {match_res.evidence_compatibility}")
+        if match_res.reasoning_chain:
+            print(f"     🧠 Agent 3 Reasoning Chain:\n{match_res.reasoning_chain}")
+        print(f"     📝 Summary: {match_res.matching_reasoning}\n")
         incident_matches.append(match_res)
 
     # Step 7: Calculate System Evaluation Metrics

@@ -78,6 +78,7 @@ class SystemEvaluationMetrics(BaseModel):
     cohens_kappa_round1: float = Field(0.0, description="Chỉ số đồng thuận Cohen's Kappa Vòng 1")
     cohens_kappa_final: float = Field(0.0, description="Chỉ số đồng thuận Cohen's Kappa Vòng cuối")
     kappa_growth: float = Field(0.0, description="Mức tăng trưởng đồng thuận giữa Agent 1 và Agent 2 qua các vòng")
+    indicator_cohens_kappa: Dict[str, Dict[str, Any]] = Field(default_factory=dict, description="Chỉ số Cohen's Kappa phân theo từng Indicator")
 
 
 class FullPipelineOutput(BaseModel):

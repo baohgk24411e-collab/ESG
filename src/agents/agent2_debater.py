@@ -36,6 +36,7 @@ Trả về kết quả chuẩn JSON:
 def run_debate_loop(claim: GreenwashingClaim, chunk: DocumentChunk) -> ClaimDebateResult:
     """
     Run up to MAX_DEBATE_ROUNDS debate turns between Agent 1 and Agent 2.
+    First records Agent 1's initial claim analysis as input to Agent 2.
     """
     debate_history: List[DebateTurn] = []
     
@@ -43,17 +44,37 @@ def run_debate_loop(claim: GreenwashingClaim, chunk: DocumentChunk) -> ClaimDeba
     current_confidence = claim.initial_confidence
     consensus = False
 
+    # Step 1 (Input to Agent 2): Agent 1 Initial Assessment
+    turn_initial = DebateTurn(
+        round_number=1,
+        agent_name="Agent 1 (Đánh giá ban đầu)",
+        argument=claim.reasoning,
+        proposed_risk_level=claim.initial_risk_level,
+        proposed_confidence=claim.initial_confidence,
+        missing_evidence_requested=None
+    )
+    debate_history.append(turn_initial)
+
+    print(f"\n   -------------------------------------------------------")
+    print(f"   🗣️ [REASONING CHAIN - DEBATE LOOP FOR CLAIM #{claim.claim_id}]")
+    print(f"   -------------------------------------------------------")
+    print(f"   🤖 [Step 1] Agent 1 (Đánh giá ban đầu - Input cho Agent 2):")
+    print(f"      ├─ Indicator: {claim.indicator_type}")
+    print(f"      ├─ Tuyên bố: \"{claim.claim_text}\"")
+    print(f"      ├─ Mức Risk ban đầu: {claim.initial_risk_level} (Confidence: {claim.initial_confidence})")
+    print(f"      └─ Lý do suy luận: {claim.reasoning}")
+
     for round_num in range(1, MAX_DEBATE_ROUNDS + 1):
         # --- Turn A: Agent 2 Critiques Agent 1 ---
         agent2_prompt = f"""
 Đoạn văn bản gốc (Trang {chunk.page_number}):
 "{chunk.text_content}"
 
-Tuyên bố được Agent 1 phát hiện:
+Tuyên bố và đánh giá ban đầu của Agent 1:
 - Phân loại: {claim.indicator_type}
 - Claim: "{claim.claim_text}"
 - Mức độ rủi ro sơ bộ Agent 1 đưa ra: {current_risk} (Confidence: {current_confidence})
-- Lý do của Agent 1: {claim.reasoning}
+- Lý do suy luận của Agent 1: {claim.reasoning}
 
 Lịch sử phản biện trước đó: {[turn.dict() for turn in debate_history]}
 
@@ -71,9 +92,14 @@ Hãy đưa ra phản biện gay gắt và đề xuất Risk Level / Confidence �
             )
             debate_history.append(turn2)
 
+            print(f"   😈 [Step 2 - Lượt {round_num}] Agent 2 (Devil Advocate - Phản biện):")
+            print(f"      ├─ Mức Risk đề xuất: {turn2.proposed_risk_level} (Confidence: {turn2.proposed_confidence})")
+            print(f"      └─ Phản biện: {turn2.argument}")
+
             # Check consensus (if Agent 2 agrees with current risk level)
             if turn2.proposed_risk_level == current_risk:
                 consensus = True
+                print(f"      ✅ Agent 2 đồng thuận với mức rủi ro '{current_risk}'. Dừng lặp phản biện.")
                 break
 
             # --- Turn B: Agent 1 Responds & Re-evaluates ---
@@ -89,7 +115,7 @@ Hãy phản hồi lại Agent 2 và đưa ra mức Risk Level sau khi xem xét p
             res_a1 = call_llm_json(agent1_prompt, AGENT1_DEFENSE_PROMPT, model_name=AGENT1_MODEL_NAME)
             turn1 = DebateTurn(
                 round_number=round_num,
-                agent_name="Agent 1 (Claimant)",
+                agent_name="Agent 1 (Claimant - Phản biện)",
                 argument=res_a1.get("argument", "Tiếp thu ý kiến phản biện."),
                 proposed_risk_level=res_a1.get("proposed_risk_level", turn2.proposed_risk_level),
                 proposed_confidence=float(res_a1.get("proposed_confidence", turn2.proposed_confidence)),
@@ -100,13 +126,20 @@ Hãy phản hồi lại Agent 2 và đưa ra mức Risk Level sau khi xem xét p
             current_risk = turn1.proposed_risk_level
             current_confidence = turn1.proposed_confidence
 
+            print(f"   🛡️ [Step 3 - Lượt {round_num}] Agent 1 (Claimant - Phản biện lại):")
+            print(f"      ├─ Mức Risk chốt sau phản biện: {turn1.proposed_risk_level} (Confidence: {turn1.proposed_confidence})")
+            print(f"      └─ Lập luận bảo vệ: {turn1.argument}")
+
             if res_a1.get("consensus_agreed") or (turn1.proposed_risk_level == turn2.proposed_risk_level):
                 consensus = True
+                print(f"      ✅ Agent 1 & Agent 2 đã thống nhất mức rủi ro '{current_risk}'.")
                 break
 
         except Exception as e:
             print(f"⚠️ Error in debate round {round_num}: {e}")
             break
+
+    print(f"   -------------------------------------------------------\n")
 
     # Summarize final result and check Human-in-the-Loop flag
     human_review = not consensus
@@ -127,3 +160,4 @@ Hãy phản hồi lại Agent 2 và đưa ra mức Risk Level sau khi xem xét p
         disagreement_note=disagreement_note,
         debate_summary=summary
     )
+

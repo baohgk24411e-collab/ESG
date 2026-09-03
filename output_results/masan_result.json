@@ -18,6 +18,14 @@
       "debate_history": [
         {
           "round_number": 1,
+          "agent_name": "Agent 1 (Đánh giá ban đầu)",
+          "argument": "Tuyên bố này không cung cấp thông tin cụ thể về hiệu quả của việc chuyển đổi, như lượng khí thải giảm bao nhiêu so với trước đây.",
+          "proposed_risk_level": "Low",
+          "proposed_confidence": 0.85,
+          "missing_evidence_requested": null
+        },
+        {
+          "round_number": 1,
           "agent_name": "Agent 2 (Devil Advocate)",
           "argument": "Agent 1 đã quá nghiêm khắc trong việc đánh giá rủi ro. Tuyên bố về việc chuyển đổi từ nhiên liệu hóa thạch sang nguyên liệu sinh khối là một bước tiến rõ ràng hướng đến bảo vệ môi trường và giảm phát thải khí nhà kính. Mặc dù không có thông tin cụ thể về hiệu quả, nhưng đây là một quyết định có ý nghĩa tích cực và hướng tới tương lai bền vững. Do đó, việc đánh giá rủi ro ở mức Low với độ tin cậy 0.85 là không phù hợp.",
           "proposed_risk_level": "Low",
@@ -44,6 +52,14 @@
         "reasoning": "Tuyên bố này không cung cấp thông tin về mức độ tái chế thực tế hoặc hiệu quả của việc sử dụng bao bì mới."
       },
       "debate_history": [
+        {
+          "round_number": 1,
+          "agent_name": "Agent 1 (Đánh giá ban đầu)",
+          "argument": "Tuyên bố này không cung cấp thông tin về mức độ tái chế thực tế hoặc hiệu quả của việc sử dụng bao bì mới.",
+          "proposed_risk_level": "Low",
+          "proposed_confidence": 0.85,
+          "missing_evidence_requested": null
+        },
         {
           "round_number": 1,
           "agent_name": "Agent 2 (Devil Advocate)",
@@ -82,6 +98,14 @@
       "debate_history": [
         {
           "round_number": 1,
+          "agent_name": "Agent 1 (Đánh giá ban đầu)",
+          "argument": "Tuyên bố này đề cập đến việc đầu tư vào năng lượng tái tạo và bảo vệ nguồn nước nhưng không cung cấp thông tin cụ thể về lộ trình, mốc thời gian hoặc tiến độ thực hiện.",
+          "proposed_risk_level": "Medium",
+          "proposed_confidence": 0.85,
+          "missing_evidence_requested": null
+        },
+        {
+          "round_number": 1,
           "agent_name": "Agent 2 (Devil Advocate)",
           "argument": "Đoạn văn bản gốc không chỉ đơn thuần là một lời hứa trống rỗng mà còn cung cấp thông tin cụ thể về các sáng kiến tiết kiệm năng lượng và nước, cũng như việc triển khai lắp đặt điện mặt trời áp mái tại 11 nhà máy. Điều này cho thấy SABECO đã thực hiện những hành động cụ thể để giảm tiêu thụ năng lượng và nước, không chỉ là lời hứa trống rỗng. Hơn nữa, tuyên bố này còn đề cập đến việc tiếp cận các chương trình phát triển bền vững của Liên Hiệp Quốc, đây là một yếu tố tích cực cho thấy doanh nghiệp có sự cam kết với mục tiêu toàn cầu về bảo vệ môi trường.",
           "proposed_risk_level": "Low",
@@ -116,6 +140,14 @@
         "reasoning": "Tuyên bố này chỉ đề cập đến việc sử dụng năng lượng mặt trời tại một số nhà máy và không cung cấp thông tin chi tiết về tổng lượng điện năng tiêu thụ hay hiệu quả thực tế của việc sử dụng năng lượng mặt trời, có thể là dấu hiệu giấu thông tin xấu."
       },
       "debate_history": [
+        {
+          "round_number": 1,
+          "agent_name": "Agent 1 (Đánh giá ban đầu)",
+          "argument": "Tuyên bố này chỉ đề cập đến việc sử dụng năng lượng mặt trời tại một số nhà máy và không cung cấp thông tin chi tiết về tổng lượng điện năng tiêu thụ hay hiệu quả thực tế của việc sử dụng năng lượng mặt trời, có thể là dấu hiệu giấu thông tin xấu.",
+          "proposed_risk_level": "Low",
+          "proposed_confidence": 0.85,
+          "missing_evidence_requested": null
+        },
         {
           "round_number": 1,
           "agent_name": "Agent 2 (Devil Advocate)",
@@ -186,6 +218,14 @@
       "debate_history": [
         {
           "round_number": 1,
+          "agent_name": "Agent 1 (Đánh giá ban đầu)",
+          "argument": "Các số liệu giảm tiêu thụ năng lượng và nước không được giải thích rõ ràng về cách đạt được hoặc mức độ cải thiện thực tế, có thể gây hiểu lầm cho người đọc.",
+          "proposed_risk_level": "Low",
+          "proposed_confidence": 0.85,
+          "missing_evidence_requested": null
+        },
+        {
+          "round_number": 1,
           "agent_name": "Agent 2 (Devil Advocate)",
           "argument": "Agent 1 đã quá nghiêm khắc trong việc phân loại rủi ro. Trong đoạn văn bản, SABECO đã nêu rõ các biện pháp cụ thể để giảm tiêu thụ năng lượng và nước như lắp đặt điện mặt trời áp mái, cải tạo hệ thống làm mát bơm chân không, sử dụng bơm nhiệt, thu hồi nước ngưng đưa trở lại lò hơi, và nhiều biện pháp khác. Các số liệu giảm tiêu thụ năng lượng và nước (-1,8% Điện -11,3% Hơi -5,5% Nước) đã được minh chứng bằng các biện pháp cụ thể. Do đó, việc chỉ trích rằng các số liệu không rõ ràng về cách đạt được hoặc mức độ cải thiện thực tế là không công bằng. Mức độ rủi ro nên được giảm từ Low xuống None và độ tin cậy cũng nên được điều chỉnh thấp hơn.",
           "proposed_risk_level": "None",
@@ -252,6 +292,14 @@
         "reasoning": "Tuyên bố này cam kết một mục tiêu cụ thể (hoàn thành dự án vào đầu năm 2024) nhưng không có lộ trình, mốc thời gian chi tiết để chứng minh khả năng thực hiện."
       },
       "debate_history": [
+        {
+          "round_number": 1,
+          "agent_name": "Agent 1 (Đánh giá ban đầu)",
+          "argument": "Tuyên bố này cam kết một mục tiêu cụ thể (hoàn thành dự án vào đầu năm 2024) nhưng không có lộ trình, mốc thời gian chi tiết để chứng minh khả năng thực hiện.",
+          "proposed_risk_level": "Medium",
+          "proposed_confidence": 0.85,
+          "missing_evidence_requested": null
+        },
         {
           "round_number": 1,
           "agent_name": "Agent 2 (Devil Advocate)",
@@ -428,8 +476,34 @@
     "recall": 0.4444,
     "f1_score": 0.5333,
     "accuracy": 0.6667,
-    "cohens_kappa_round1": 0.45,
-    "cohens_kappa_final": 0.85,
-    "kappa_growth": 0.4
+    "cohens_kappa_round1": 0.0,
+    "cohens_kappa_final": 0.5,
+    "kappa_growth": 0.5,
+    "indicator_cohens_kappa": {
+      "Selective Disclosure": {
+        "kappa_round1": 0.0,
+        "kappa_final": 0.0,
+        "kappa_growth": 0.0,
+        "claim_count": 1
+      },
+      "Hollow Promise": {
+        "kappa_round1": 0.0,
+        "kappa_final": 1.0,
+        "kappa_growth": 1.0,
+        "claim_count": 2
+      },
+      "Misconduct": {
+        "kappa_round1": 0.45,
+        "kappa_final": 0.85,
+        "kappa_growth": 0.4,
+        "claim_count": 0
+      },
+      "Misleading Presentation": {
+        "kappa_round1": 0.0,
+        "kappa_final": 0.5,
+        "kappa_growth": 0.5,
+        "claim_count": 3
+      }
+    }
   }
 }
