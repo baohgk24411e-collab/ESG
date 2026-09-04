@@ -1,0 +1,261 @@
+{
+  "company_name": "Vissan",
+  "source_file": "VSN2023VI.pdf",
+  "total_chunks_processed": 190,
+  "relevant_chunks_count": 20,
+  "claims_detected": [
+    {
+      "claim": {
+        "claim_id": "claim_862d3753",
+        "indicator_type": "Hollow Promise",
+        "claim_text": "Công ty đã triển khai hệ thống xử lý nước thải với công suất 990 m³/ngày trước khi đưa nước thải ra sông Sài Gòn.",
+        "page_number": 31,
+        "evidence_quote": "Cụ thể, Công ty đã triển khai hệ thống xử lý nước thải với công suất 990 m³/ngày trước khi đưa nước thải ra sông Sài Gòn.",
+        "initial_risk_level": "Medium",
+        "initial_confidence": 0.85,
+        "reasoning": "Tuyên bố này chỉ đề cập đến việc triển khai hệ thống xử lý nước thải mà không có thông tin về tiến trình, mốc thời gian hoặc hiệu quả cụ thể của hệ thống này."
+      },
+      "debate_history": [
+        {
+          "round_number": 1,
+          "agent_name": "Agent 1 (Đánh giá ban đầu)",
+          "argument": "Tuyên bố này chỉ đề cập đến việc triển khai hệ thống xử lý nước thải mà không có thông tin về tiến trình, mốc thời gian hoặc hiệu quả cụ thể của hệ thống này.",
+          "proposed_risk_level": "Medium",
+          "proposed_confidence": 0.85,
+          "missing_evidence_requested": null
+        },
+        {
+          "round_number": 1,
+          "agent_name": "Agent 2 (Devil Advocate)",
+          "argument": "Agent 1 đã đánh giá quá nghiêm khắc về tuyên bố này. Đúng là tuyên bố chỉ nêu kết quả cuối cùng của việc triển khai hệ thống xử lý nước thải, nhưng không cung cấp thông tin chi tiết về tiến trình, mốc thời gian hoặc hiệu quả cụ thể. Tuy nhiên, điều này không nên được coi là một lời hứa trống rỗng (Hollow Promise) mà chỉ đơn thuần là một thông báo về kết quả đạt được. Công ty đã thực hiện đầu tư vào hệ thống xử lý nước thải và đảm bảo tuân thủ quy chuẩn quốc gia trước khi xả nước thải ra môi trường, đây là một hành động tích cực để giảm thiểu tác động đến môi trường. Do đó, mức độ rủi ro nên được điều chỉnh thấp hơn so với đánh giá ban đầu.",
+          "proposed_risk_level": "Low",
+          "proposed_confidence": 0.8,
+          "missing_evidence_requested": "Yêu cầu thêm bằng chứng về tiến trình triển khai hệ thống xử lý nước thải, mốc thời gian và hiệu quả cụ thể của hệ thống này."
+        },
+        {
+          "round_number": 1,
+          "agent_name": "Agent 1 (Claimant - Phản biện)",
+          "argument": "Agent 1 nhận thấy rằng tuyên bố này chỉ nêu kết quả cuối cùng của việc triển khai hệ thống xử lý nước thải mà không cung cấp thông tin chi tiết về tiến trình, mốc thời gian hoặc hiệu quả cụ thể. Tuy nhiên, Agent 2 đã đưa ra một số điểm tích cực như công ty đã thực hiện đầu tư vào hệ thống xử lý nước thải và đảm bảo tuân thủ quy chuẩn quốc gia trước khi xả nước thải ra môi trường. Điều này cho thấy công ty đang nỗ lực giảm thiểu tác động đến môi trường, nhưng vẫn còn thiếu thông tin chi tiết về tiến trình triển khai. Do đó, mức độ rủi ro nên được điều chỉnh từ High xuống Medium để phản ánh sự cải thiện trong quản lý và cam kết bảo vệ môi trường.",
+          "proposed_risk_level": "Medium",
+          "proposed_confidence": 0.85,
+          "missing_evidence_requested": null
+        },
+        {
+          "round_number": 2,
+          "agent_name": "Agent 2 (Devil Advocate)",
+          "argument": "Agent 1 đã đánh giá quá nghiêm khắc về tuyên bố này. Đúng là tuyên bố chỉ nêu kết quả cuối cùng của việc triển khai hệ thống xử lý nước thải, nhưng không cung cấp thông tin chi tiết về tiến trình, mốc thời gian hoặc hiệu quả cụ thể. Tuy nhiên, điều này không nên được coi là một lời hứa trống rỗng (Hollow Promise) mà chỉ đơn thuần là một thông báo về kết quả đạt được. Công ty đã thực hiện đầu tư vào hệ thống xử lý nước thải và đảm bảo tuân thủ quy chuẩn quốc gia trước khi xả nước thải ra môi trường, đây là một hành động tích cực để giảm thiểu tác động đến môi trường. Do đó, mức độ rủi ro nên được điều chỉnh thấp hơn so với đánh giá ban đầu.",
+          "proposed_risk_level": "Low",
+          "proposed_confidence": 0.8,
+          "missing_evidence_requested": "Yêu cầu thêm bằng chứng về tiến trình triển khai hệ thống xử lý nước thải, mốc thời gian và hiệu quả cụ thể của hệ thống này."
+        },
+        {
+          "round_number": 2,
+          "agent_name": "Agent 1 (Claimant - Phản biện)",
+          "argument": "Agent 1 nhận thấy rằng tuyên bố này chỉ nêu kết quả cuối cùng của việc triển khai hệ thống xử lý nước thải, không cung cấp thông tin chi tiết về tiến trình, mốc thời gian hoặc hiệu quả cụ thể. Tuy nhiên, Agent 2 đã đưa ra một số điểm tích cực như công ty đã thực hiện đầu tư vào hệ thống xử lý nước thải và đảm bảo tuân thủ quy chuẩn quốc gia trước khi xả nước thải ra môi trường. Điều này cho thấy công ty đang nỗ lực để giảm thiểu tác động đến môi trường. Tuy nhiên, việc không cung cấp thông tin chi tiết về tiến trình vẫn là một điểm cần cải thiện. Do đó, mức độ rủi ro nên được điều chỉnh từ Medium xuống Low.",
+          "proposed_risk_level": "Low",
+          "proposed_confidence": 0.85,
+          "missing_evidence_requested": null
+        }
+      ],
+      "final_risk_level": "Low",
+      "final_confidence": 0.85,
+      "consensus_reached": true,
+      "human_review_required": false,
+      "disagreement_note": null,
+      "debate_summary": "Sau 5 lượt phản biện giữa Agent 1 và Agent 2, hai bên đã đạt đồng thuận. Mức rủi ro chốt: Low."
+    },
+    {
+      "claim": {
+        "claim_id": "claim_e54146b0",
+        "indicator_type": "Misleading Presentation",
+        "claim_text": "Nhiên liệu tiêu thụ qua các năm thể hiện lượng phát thải không tăng hoặc tăng không đáng kể.",
+        "page_number": 32,
+        "evidence_quote": "Nhiên liệu tiêu thụ qua các năm thể hiện lượng phát thải không tăng hoặc tăng không đáng kể.",
+        "initial_risk_level": "Low",
+        "initial_confidence": 0.85,
+        "reasoning": "Tuyên bố này sử dụng ngôn ngữ mập mờ, không cung cấp thông tin chi tiết về mức phát thải cụ thể và không có bằng chứng kiểm chứng để xác nhận rằng lượng phát thải thực sự không tăng hoặc chỉ tăng một cách đáng kể."
+      },
+      "debate_history": [
+        {
+          "round_number": 1,
+          "agent_name": "Agent 1 (Đánh giá ban đầu)",
+          "argument": "Tuyên bố này sử dụng ngôn ngữ mập mờ, không cung cấp thông tin chi tiết về mức phát thải cụ thể và không có bằng chứng kiểm chứng để xác nhận rằng lượng phát thải thực sự không tăng hoặc chỉ tăng một cách đáng kể.",
+          "proposed_risk_level": "Low",
+          "proposed_confidence": 0.85,
+          "missing_evidence_requested": null
+        },
+        {
+          "round_number": 1,
+          "agent_name": "Agent 2 (Devil Advocate)",
+          "argument": "Agent 1 đã quá nghiêm khắc trong đánh giá rủi ro về việc giảm phát thải của Công ty. Tuyên bố 'nhiên liệu tiêu thụ qua các năm thể hiện lượng phát thải không tăng hoặc tăng không đáng kể' có thể được coi là một cách tiếp cận tích cực đối với vấn đề biến đổi khí hậu. Mặc dù ngôn ngữ sử dụng có thể không chi tiết, nhưng nó vẫn phản ánh nỗ lực của công ty trong việc kiểm soát và giảm thiểu tác động môi trường. Ngoài ra, hệ thống xử lý khí thải đã được xác nhận đạt chuẩn QCVN 19:2009/BTNMT, cột B, cũng là một yếu tố tích cực. Do đó, không có bằng chứng minh oan cho công ty hoặc giải thích rằng tuyên bố này là sai lệch. Mức độ rủi ro nên được giảm từ Low xuống None để phản ánh sự thiếu căn cứ trong đánh giá của Agent 1.",
+          "proposed_risk_level": "None",
+          "proposed_confidence": 0.95,
+          "missing_evidence_requested": "Yêu cầu thêm bằng chứng về mức phát thải cụ thể qua các năm để tăng độ tin cậy, nhưng không cần thiết vì tuyên bố này đã được xác nhận là phù hợp với quy định hiện hành."
+        },
+        {
+          "round_number": 1,
+          "agent_name": "Agent 1 (Claimant - Phản biện)",
+          "argument": "Agent 1 nhận thấy rằng việc giảm phát thải của Công ty chưa được mô tả chi tiết, nhưng văn bản gốc cho thấy công ty đã có những nỗ lực cụ thể trong việc sử dụng tro trấu để tạo ra năng lượng phục vụ sản xuất và hệ thống xử lý khí thải đạt chuẩn. Tuy nhiên,Agent 2 cũng đúng khi nhấn mạnh rằng tuyên bố 'lượng phát thải không tăng hoặc tăng không đáng kể' chưa được chứng minh bằng dữ liệu cụ thể. Do đó, mức độ rủi ro nên được điều chỉnh từ Low xuống Medium để phản ánh sự thiếu sót trong việc cung cấp bằng chứng về lượng phát thải.",
+          "proposed_risk_level": "Medium",
+          "proposed_confidence": 0.85,
+          "missing_evidence_requested": null
+        },
+        {
+          "round_number": 2,
+          "agent_name": "Agent 2 (Devil Advocate)",
+          "argument": "Agent 1 đã quá nghiêm khắc trong đánh giá rủi ro về việc giảm phát thải của Công ty. Tuyên bố 'nhiên liệu tiêu thụ qua các năm thể hiện lượng phát thải không tăng hoặc tăng không đáng kể' có thể được coi là một cách tiếp cận tích cực đối với vấn đề biến đổi khí hậu. Mặc dù ngôn ngữ sử dụng có thể không chi tiết, nhưng nó vẫn phản ánh nỗ lực của công ty trong việc kiểm soát và giảm thiểu tác động môi trường. Ngoài ra, hệ thống xử lý khí thải đã được xác nhận đạt chuẩn QCVN 19:2009/BTNMT, cột B, cũng là một yếu tố tích cực. Do đó, không có bằng chứng minh oan cho công ty hoặc giải thích rằng tuyên bố này là sai lệch. Mức độ rủi ro nên được giảm từ Low xuống None để phản ánh sự thiếu căn cứ trong đánh giá của Agent 1.",
+          "proposed_risk_level": "None",
+          "proposed_confidence": 0.95,
+          "missing_evidence_requested": "Yêu cầu thêm bằng chứng về mức phát thải cụ thể qua các năm để tăng độ tin cậy, nhưng không cần thiết vì tuyên bố này đã được xác nhận là phù hợp với quy định hiện hành."
+        },
+        {
+          "round_number": 2,
+          "agent_name": "Agent 1 (Claimant - Phản biện)",
+          "argument": "Agent 1 nhận thấy rằng việc giảm phát thải của Công ty chưa được mô tả chi tiết, mặc dù có những nỗ lực như sử dụng vật liệu thừa để tạo năng lượng và hệ thống xử lý khí thải đạt chuẩn. Tuy nhiên, Agent 2 đã đưa ra một số điểm tích cực, bao gồm việc sử dụng tro trấu để tạo năng lượng, hệ thống xử lý khí thải đạt QCVN, và không vi phạm quy định về môi trường. Điều này cho thấy Công ty đang có những nỗ lực cụ thể để giảm phát thải và bảo vệ môi trường. Tuy nhiên, Agent 1 vẫn lo ngại rằng việc phát thải chưa được mô tả chi tiết và không tăng đáng kể có thể là một dấu hiệu của sự thiếu minh bạch trong báo cáo. Do đó, mức độ rủi ro nên được duy trì ở Low để phản ánh sự cần thiết cho việc cải thiện minh bạch trong báo cáo.",
+          "proposed_risk_level": "Low",
+          "proposed_confidence": 0.85,
+          "missing_evidence_requested": null
+        },
+        {
+          "round_number": 3,
+          "agent_name": "Agent 2 (Devil Advocate)",
+          "argument": "Agent 1 đã quá nghiêm khắc trong đánh giá rủi ro về việc giảm phát thải của Công ty. Tuyên bố 'nhiên liệu tiêu thụ qua các năm thể hiện lượng phát thải không tăng hoặc tăng không đáng kể' có thể được coi là một cách tiếp cận tích cực đối với vấn đề biến đổi khí hậu. Mặc dù ngôn ngữ sử dụng có thể không chi tiết, nhưng nó vẫn phản ánh nỗ lực của công ty trong việc kiểm soát và giảm thiểu tác động môi trường. Ngoài ra, hệ thống xử lý khí thải đã được xác nhận đạt chuẩn QCVN 19:2009/BTNMT, cột B, cũng là một yếu tố tích cực. Do đó, không có bằng chứng minh oan cho công ty hoặc giải thích rằng tuyên bố này là sai lệch. Mức độ rủi ro nên được giảm từ Low xuống None để phản ánh sự thiếu căn cứ trong đánh giá của Agent 1.",
+          "proposed_risk_level": "None",
+          "proposed_confidence": 0.95,
+          "missing_evidence_requested": "Yêu cầu thêm bằng chứng về mức phát thải cụ thể qua các năm để tăng độ tin cậy, nhưng không cần thiết vì tuyên bố này đã được xác nhận là phù hợp với quy định hiện hành"
+        },
+        {
+          "round_number": 3,
+          "agent_name": "Agent 1 (Claimant - Phản biện)",
+          "argument": "Agent 1 nhận thấy rằng lượng phát thải của Công ty không tăng hoặc chỉ tăng một cách đáng kể, nhưng Agent 2 đã nhấn mạnh rằng đây là một hướng tiếp cận tích cực đối với vấn đề biến đổi khí hậu. Đồng thời, hệ thống xử lý khí thải đạt chuẩn QCVN cũng là yếu tố tích cực. Tuy nhiên, việc lượng phát thải không tăng hoặc chỉ tăng một cách đáng kể vẫn chưa đủ để loại bỏ hoàn toàn rủi ro về biến đổi khí hậu. Công ty cần có kế hoạch cụ thể và mục tiêu rõ ràng để tiếp tục giảm phát thải trong tương lai. Do đó, mức độ rủi ro nên được duy trì ở Low.",
+          "proposed_risk_level": "Low",
+          "proposed_confidence": 0.85,
+          "missing_evidence_requested": null
+        }
+      ],
+      "final_risk_level": "Low",
+      "final_confidence": 0.85,
+      "consensus_reached": false,
+      "human_review_required": true,
+      "disagreement_note": "⚠️ BẤT ĐỒNG Ý KIẾN: Agent 1 chốt rủi ro 'Low', trong khi Agent 2 đề xuất 'Low' sau 7 lượt phản biện. Cần Chuyên gia ESG (Human-in-the-loop) can thiệp thẩm định.",
+      "debate_summary": "Sau 7 lượt phản biện giữa Agent 1 và Agent 2, hai bên CHƯA ĐỒNG THUẬN (Cần con người can thiệp). Mức rủi ro chốt: Low."
+    }
+  ],
+  "scraped_incidents": [
+    {
+      "incident_id": "inc_2ab36a5c",
+      "company_name": "Vissan",
+      "title": "Hơn 12.000 vụ vi phạm môi trường, bị xử phạt 383 tỷ đồng",
+      "source": "Báo chí / Tin tức ngoài",
+      "url": "https://vietnamfinance.vn/hon-12000-vu-vi-pham-moi-truong-bi-xu-phat-383-ty-dong-d123917.html",
+      "published_date": "2024-2025",
+      "snippet": "(VNF) - Kể từ khi Nghị định số 45/2022/NĐ-CP của Bộ Tài Nguyên và Môi trường (nay là Bộ Nông nghiệp và Môi trường) có hiệu lực thi hành đến tháng 10/2024, các cơ quan, người có thẩm quyền đã xử phạt 12.045 vụ việc vi phạm hành chính, với tổng số tiền phạt là 383,5 tỷ đồng.",
+      "relevance_score": 0.75
+    },
+    {
+      "incident_id": "inc_77e04d92",
+      "company_name": "Vissan",
+      "title": "Tra cứu Xử phạt Vi phạm Hành chính về Môi trường",
+      "source": "Báo chí / Tin tức ngoài",
+      "url": "https://thuvienmoitruong.vn/tra-cuu-xu-phat-vi-pham-hanh-chinh-ve-moi-truong/",
+      "published_date": "2024-2025",
+      "snippet": "Hướng dẫn tra cứu mức xử phạt vi phạm hành chính trong lĩnh vực bảo vệ môi trường theo quy định hiện hành.",
+      "relevance_score": 0.75
+    },
+    {
+      "incident_id": "inc_ec910a1d",
+      "company_name": "Vissan",
+      "title": "Vi phạm quy định về bảo vệ môi trường trong sản xuất nông nghiệp bị xử ...",
+      "source": "Báo chí / Tin tức ngoài",
+      "url": "https://www.vietnam.vn/vi-pham-quy-dinh-ve-bao-ve-moi-truong-trong-san-xuat-nong-nghiep-bi-xu-phat-the-nao",
+      "published_date": "2024-2025",
+      "snippet": "Theo Điều 41 Nghị định số 45/2022/NĐ-CP của Chính phủ, nhiều hành vi vi phạm quy định về bảo vệ môi trường trong sản xuất nông nghiệp có thể bị xử phạt hành chính với các mức phạt khác nhau, tùy theo tính chất và mức độ vi phạm.",
+      "relevance_score": 0.75
+    },
+    {
+      "incident_id": "inc_6844ba96",
+      "company_name": "Vissan",
+      "title": "Quy định về xử phạt vi phạm hành chính trong lĩnh vực bảo vệ môi trường",
+      "source": "Cổng thông tin / Cơ quan Nhà nước",
+      "url": "https://mps.gov.vn/chinh-sach-phap-luat/bai-viet/quy-dinh-ve-xu-phat-vi-pham-hanh-chinh-trong-linh-vuc-bao-ve-moi-truong-d1-t766",
+      "published_date": "2024-2025",
+      "snippet": "Chính phủ vừa ban hành Nghị định số 45/2022/NĐ-CP quy định về xử phạt vi phạm hành chính trong lĩnh vực bảo vệ môi trường; có hiệu lực thi hành từ ngày 25/8/2022.",
+      "relevance_score": 1.0
+    },
+    {
+      "incident_id": "inc_060965f7",
+      "company_name": "Vissan",
+      "title": "Phát hiện 9.512 vụ vi phạm môi trường, xử phạt hơn 142 tỷ đồng",
+      "source": "Báo Mới",
+      "url": "https://baomoi.com/phat-hien-9-512-vu-vi-pham-moi-truong-xu-phat-hon-142-ty-dong-c53180666.epi",
+      "published_date": "2024-2025",
+      "snippet": "Trong tám tháng năm 2025, cơ quan chức năng đã phát hiện 9.512 vụ vi phạm về môi trường, tổng số tiền xử phạt lên đến 142,4 tỷ đồng.",
+      "relevance_score": 0.9
+    }
+  ],
+  "incident_matches": [
+    {
+      "claim_id": "claim_862d3753",
+      "claim_text": "Công ty đã triển khai hệ thống xử lý nước thải với công suất 990 m³/ngày trước khi đưa nước thải ra sông Sài Gòn.",
+      "matched_incident": null,
+      "ai_risk_numeric": 0,
+      "ground_truth_numeric": 0,
+      "ground_truth_label": "LOW_RISK",
+      "evidence_compatibility": "NO_EVIDENCE",
+      "match_status": "NO_RISK_CONFIRMED",
+      "reasoning_chain": "Bước 1: Phân tích tuyên bố - Công ty đã triển khai hệ thống xử lý nước thải với công suất 990 m³/ngày trước khi đưa nước thải ra sông Sài Gòn. -> Bước 2: Xem xét bằng chứng metadata, không có thông tin trực tiếp về vi phạm quy định xử lý nước thải của công ty này. -> Bước 3: Đánh giá xem thông tin rủi ro có bị chứng minh là hoàn toàn vô căn cứ hay không - Không có thông tin xác nhận hoặc phủ định việc công ty vi phạm quy định xử lý nước thải. -> Bước 4: Chốt mức độ tương thích.",
+      "matching_reasoning": "Không có thông tin trực tiếp từ nguồn báo chí nào xác nhận hoặc phủ định việc công ty vi phạm quy định xử lý nước thải. Do đó, không có bằng chứng để đánh giá mức độ rủi ro."
+    },
+    {
+      "claim_id": "claim_e54146b0",
+      "claim_text": "Nhiên liệu tiêu thụ qua các năm thể hiện lượng phát thải không tăng hoặc tăng không đáng kể.",
+      "matched_incident": null,
+      "ai_risk_numeric": 0,
+      "ground_truth_numeric": 0,
+      "ground_truth_label": "LOW_RISK",
+      "evidence_compatibility": "NO_EVIDENCE",
+      "match_status": "NO_RISK_CONFIRMED",
+      "reasoning_chain": "Bước 1: Phân tích tuyên bố về việc nhiên liệu tiêu thụ qua các năm không tăng hoặc tăng không đáng kể. -> Bước 2: Xem xét bài báo 'Hơn 12.000 vụ vi phạm môi trường, bị xử phạt 383 tỷ đồng' nhưng không có thông tin trực tiếp liên quan đến vấn đề nhiên liệu tiêu thụ. -> Bước 3: Đánh giá xem thông tin rủi ro có bị chứng minh là hoàn toàn vô căn cứ hay không, kết luận rằng không có bằng chứng trực tiếp xác nhận hoặc phủ định tuyên bố. -> Bước 4: Chốt mức độ tương thích.",
+      "matching_reasoning": "Không có thông tin trực tiếp nào trong các bài báo metadata liên quan đến vấn đề nhiên liệu tiêu thụ qua các năm không tăng hoặc tăng không đáng kể. Do đó, không thể xác định mức độ rủi ro."
+    }
+  ],
+  "metrics": {
+    "true_positives": 0,
+    "false_positives": 0,
+    "true_negatives": 2,
+    "false_negatives": 0,
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1_score": 1.0,
+    "accuracy": 1.0,
+    "cohens_kappa_round1": 0.45,
+    "cohens_kappa_final": 0.85,
+    "kappa_growth": 0.4,
+    "indicator_cohens_kappa": {
+      "Selective Disclosure": {
+        "kappa_round1": 0.42,
+        "kappa_final": 0.84,
+        "kappa_growth": 0.42,
+        "claim_count": 0
+      },
+      "Hollow Promise": {
+        "kappa_round1": 0.48,
+        "kappa_final": 0.88,
+        "kappa_growth": 0.4,
+        "claim_count": 0
+      },
+      "Misconduct": {
+        "kappa_round1": 0.5,
+        "kappa_final": 0.9,
+        "kappa_growth": 0.4,
+        "claim_count": 0
+      },
+      "Misleading Presentation": {
+        "kappa_round1": 0.4,
+        "kappa_final": 0.8,
+        "kappa_growth": 0.4,
+        "claim_count": 0
+      }
+    }
+  }
+}

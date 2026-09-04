@@ -1,0 +1,735 @@
+{
+  "company_name": "Sabeco",
+  "source_file": "2025AR_VN_v1.pdf",
+  "total_chunks_processed": 493,
+  "relevant_chunks_count": 20,
+  "claims_detected": [
+    {
+      "claim": {
+        "claim_id": "claim_b28c5df6",
+        "indicator_type": "Misconduct",
+        "claim_text": "NĂNG LƯỢNG TÁI TẠO SỬ DỤNG 46,4%",
+        "page_number": 61,
+        "evidence_quote": "NĂNG LƯỢNG TÁI TẠO SỬ DỤNG 46,4%",
+        "initial_risk_level": "Medium",
+        "initial_confidence": 0.85,
+        "reasoning": "Số liệu về năng lượng tái tạo sử dụng chỉ chiếm 46.4%, nhưng công ty đã không cung cấp thông tin chi tiết về lộ trình hoặc kế hoạch để đạt được mục tiêu này, có thể gây hiểu lầm cho người đọc."
+      },
+      "debate_history": [
+        {
+          "round_number": 1,
+          "agent_name": "Agent 1 (Đánh giá ban đầu)",
+          "argument": "Số liệu về năng lượng tái tạo sử dụng chỉ chiếm 46.4%, nhưng công ty đã không cung cấp thông tin chi tiết về lộ trình hoặc kế hoạch để đạt được mục tiêu này, có thể gây hiểu lầm cho người đọc.",
+          "proposed_risk_level": "Medium",
+          "proposed_confidence": 0.85,
+          "missing_evidence_requested": null
+        },
+        {
+          "round_number": 1,
+          "agent_name": "Agent 2 (Devil Advocate)",
+          "argument": "Đoạn văn bản gốc không chỉ rõ rằng công ty đã không cung cấp thông tin chi tiết về lộ trình hoặc kế hoạch để đạt được mục tiêu năng lượng tái tạo sử dụng 46,4%. Thay vào đó, nó nêu rõ các thành tựu và kế hoạch trong tương lai. Công ty đã đạt được tỷ lệ tái chế và tái sử dụng chất thải cao, và có kế hoạch tiếp tục cải thiện. Điều này không chứng minh rằng công ty đang thực hiện greenwashing mà chỉ là một phần của nỗ lực phát triển bền vững. Do đó, đánh giá rủi ro ban đầu của Agent 1 quá nghiêm khắc.",
+          "proposed_risk_level": "Low",
+          "proposed_confidence": 0.85,
+          "missing_evidence_requested": "Yêu cầu thêm bằng chứng về việc công ty đã không cung cấp thông tin chi tiết về lộ trình hoặc kế hoạch để đạt được mục tiêu năng lượng tái tạo sử dụng 46,4%."
+        },
+        {
+          "round_number": 1,
+          "agent_name": "Agent 1 (Claimant - Phản biện)",
+          "argument": "Agent 1 nhận thấy rằng văn bản gốc không chỉ rõ về lộ trình hoặc kế hoạch cụ thể để đạt được mục tiêu năng lượng tái tạo sử dụng 46,4%. Tuy nhiên, nó nêu rõ các thành tựu và kế hoạch trong tương lai. Mặc dù vậy, việc công ty đã đạt được tỷ lệ tái chế và tái sử dụng chất thải cao, và có kế hoạch tiếp tục cải thiện vẫn là một điểm tích cực. Tuy nhiên, Agent 1 vẫn lo ngại rằng công ty có thể đang thực hiện greenwashing nếu không cung cấp thông tin chi tiết về lộ trình hoặc kế hoạch cụ thể để đạt được mục tiêu năng lượng tái tạo. Do đó, đánh giá rủi ro ban đầu của Agent 1 là hợp lý.",
+          "proposed_risk_level": "Medium",
+          "proposed_confidence": 0.85,
+          "missing_evidence_requested": null
+        },
+        {
+          "round_number": 2,
+          "agent_name": "Agent 2 (Devil Advocate)",
+          "argument": "Đoạn văn bản gốc không chỉ rõ rằng công ty đã không cung cấp thông tin chi tiết về lộ trình hoặc kế hoạch để đạt được mục tiêu năng lượng tái tạo sử dụng 46,4%. Thay vào đó, nó nêu rõ các thành tựu và kế hoạch trong tương lai. Công ty đã đạt được tỷ lệ tái chế và tái sử dụng chất thải cao, và có kế hoạch tiếp tục cải thiện. Điều này không chứng minh rằng công ty đang thực hiện greenwashing mà chỉ là một phần của nỗ lực phát triển bền vững. Do đó, đánh giá rủi ro ban đầu của Agent 1 quá nghiêm khắc.",
+          "proposed_risk_level": "Low",
+          "proposed_confidence": 0.85,
+          "missing_evidence_requested": "Yêu cầu thêm bằng chứng về việc công ty đã không cung cấp thông tin chi tiết về lộ trình hoặc kế hoạch để đạt được mục tiêu năng lượng tái tạo sử dụng 46,4%."
+        },
+        {
+          "round_number": 2,
+          "agent_name": "Agent 1 (Claimant - Phản biện)",
+          "argument": "Công ty đã đạt được một số thành tựu trong việc tái chế chất thải và năng lượng tái tạo sử dụng. Tuy nhiên, văn bản gốc không cung cấp thông tin chi tiết về lộ trình hoặc kế hoạch cụ thể để đạt được mục tiêu năng lượng tái tạo sử dụng 46,4%. Điều này có thể gây hiểu lầm rằng công ty đang thực hiện greenwashing nếu không có thêm thông tin về kế hoạch hành động. Do đó, mức rủi ro vẫn nên ở mức Medium để đảm bảo minh bạch và trách nhiệm trong việc thực hiện các mục tiêu bền vững.",
+          "proposed_risk_level": "Medium",
+          "proposed_confidence": 0.85,
+          "missing_evidence_requested": null
+        },
+        {
+          "round_number": 3,
+          "agent_name": "Agent 2 (Devil Advocate)",
+          "argument": "Đoạn văn bản gốc không chỉ rõ rằng công ty đã không cung cấp thông tin chi tiết về lộ trình hoặc kế hoạch để đạt được mục tiêu năng lượng tái tạo sử dụng 46,4%. Thay vào đó, nó nêu rõ các thành tựu và kế hoạch trong tương lai. Công ty đã đạt được tỷ lệ tái chế và tái sử dụng chất thải cao, và có kế hoạch tiếp tục cải thiện. Điều này không chứng minh rằng công ty đang thực hiện greenwashing mà chỉ là một phần của nỗ lực phát triển bền vững. Do đó, đánh giá rủi ro ban đầu của Agent 1 quá nghiêm khắc.",
+          "proposed_risk_level": "Low",
+          "proposed_confidence": 0.85,
+          "missing_evidence_requested": "Yêu cầu thêm bằng chứng về việc công ty đã không cung cấp thông tin chi tiết về lộ trình hoặc kế hoạch để đạt được mục tiêu năng lượng tái tạo sử dụng 46,4%."
+        },
+        {
+          "round_number": 3,
+          "agent_name": "Agent 1 (Claimant - Phản biện)",
+          "argument": "Trong đoạn văn bản gốc, mặc dù có đề cập đến các thành tựu và kế hoạch trong tương lai, nhưng không có thông tin chi tiết về lộ trình hoặc kế hoạch cụ thể để đạt được mục tiêu năng lượng tái tạo sử dụng 46,4%. Điều này vẫn cho thấy sự thiếu minh bạch trong việc thực hiện mục tiêu. Tuy nhiên, Agent 2 cũng đúng khi chỉ ra rằng văn bản gốc không chứng minh công ty đang thực hiện greenwashing mà chỉ là một phần của nỗ lực phát triển bền vững. Do đó, mức rủi ro không nên quá cao.",
+          "proposed_risk_level": "Low",
+          "proposed_confidence": 0.85,
+          "missing_evidence_requested": null
+        }
+      ],
+      "final_risk_level": "Low",
+      "final_confidence": 0.85,
+      "consensus_reached": true,
+      "human_review_required": false,
+      "disagreement_note": null,
+      "debate_summary": "Sau 7 lượt phản biện giữa Agent 1 và Agent 2, hai bên đã đạt đồng thuận. Mức rủi ro chốt: Low."
+    },
+    {
+      "claim": {
+        "claim_id": "claim_4df019d2",
+        "indicator_type": "Misconduct",
+        "claim_text": "KẾ HOẠCH TÁI CHẾ THEO EPR 100%",
+        "page_number": 61,
+        "evidence_quote": "KẾ HOẠCH TÁI CHẾ THEO EPR 100%",
+        "initial_risk_level": "Medium",
+        "initial_confidence": 0.85,
+        "reasoning": "Công ty tuyên bố đã thực hiện kế hoạch tái chế theo EPR 100%, nhưng không cung cấp thông tin về tiến trình hoặc kết quả cụ thể, có thể gây hiểu lầm cho người đọc."
+      },
+      "debate_history": [
+        {
+          "round_number": 1,
+          "agent_name": "Agent 1 (Đánh giá ban đầu)",
+          "argument": "Công ty tuyên bố đã thực hiện kế hoạch tái chế theo EPR 100%, nhưng không cung cấp thông tin về tiến trình hoặc kết quả cụ thể, có thể gây hiểu lầm cho người đọc.",
+          "proposed_risk_level": "Medium",
+          "proposed_confidence": 0.85,
+          "missing_evidence_requested": null
+        },
+        {
+          "round_number": 1,
+          "agent_name": "Agent 2 (Devil Advocate)",
+          "argument": "Agent 1 đã quá nghiêm khắc trong việc đánh giá rủi ro Greenwashing của công ty. Trong đoạn văn bản, công ty đã minh họa rõ ràng về kế hoạch tái chế theo EPR với tỷ lệ 100%. Đồng thời, công ty cũng cung cấp nhiều thông tin chi tiết khác như việc đạt chuẩn ISO 22000:2018 và các chứng nhận liên quan đến ATVSTP. Điều này cho thấy công ty không có ý định gây hiểu lầm cho người đọc mà đang thực hiện một kế hoạch tái chế đầy đủ và minh bạch.",
+          "proposed_risk_level": "Low",
+          "proposed_confidence": 0.95,
+          "missing_evidence_requested": "Yêu cầu thêm bằng chứng nếu cần"
+        },
+        {
+          "round_number": 1,
+          "agent_name": "Agent 1 (Claimant - Phản biện)",
+          "argument": "Agent 1 nhận thấy rằng công ty đã minh họa rõ ràng về kế hoạch tái chế theo EPR với tỷ lệ 100%, đồng thời cung cấp nhiều thông tin chi tiết khác như đạt chuẩn ISO 22000:2018 và các chứng nhận liên quan đến ATVSTP. Tuy nhiên, Agent 1 vẫn lo ngại về việc công ty có thể gây hiểu lầm cho người đọc về mức độ tái chế thực tế nếu không cung cấp đầy đủ thông tin về tỷ lệ chất thải được tái sử dụng. Mặc dù vậy, với những bằng chứng đã đưa ra, rủi ro Greenwashing của công ty có thể được kiểm soát tốt hơn.",
+          "proposed_risk_level": "Medium",
+          "proposed_confidence": 0.85,
+          "missing_evidence_requested": null
+        },
+        {
+          "round_number": 2,
+          "agent_name": "Agent 2 (Devil Advocate)",
+          "argument": "Agent 1 đã quá nghiêm khắc trong việc đánh giá rủi ro Greenwashing của công ty. Trong đoạn văn bản, công ty đã minh họa rõ ràng về kế hoạch tái chế theo EPR với tỷ lệ 100%. Đồng thời, công ty cũng cung cấp nhiều thông tin chi tiết khác như việc đạt chuẩn ISO 22000:2018 và các chứng nhận liên quan đến ATVSTP. Điều này cho thấy công ty không có ý định gây hiểu lầm cho người đọc mà đang thực hiện một kế hoạch tái chế đầy đủ và minh bạch.",
+          "proposed_risk_level": "Low",
+          "proposed_confidence": 0.95,
+          "missing_evidence_requested": "Yêu cầu thêm bằng chứng nếu cần"
+        },
+        {
+          "round_number": 2,
+          "agent_name": "Agent 1 (Claimant - Phản biện)",
+          "argument": "Agent 1 nhận thấy rằng công ty đã minh họa rõ ràng về kế hoạch tái chế theo EPR với tỷ lệ 100%, đồng thời cung cấp nhiều thông tin chi tiết khác như đạt chuẩn ISO 22000:2018 và các chứng nhận liên quan đến ATVSTP. Tuy nhiên, Agent 1 cũng lưu ý rằng chỉ số chất thải được tái sử dụng chỉ là 81,4%, chưa phải 100% như kế hoạch đề ra. Điều này có thể gây hiểu lầm cho người đọc về cam kết của công ty trong việc thực hiện tái chế theo EPR. Do đó, Agent 1 vẫn giữ mức rủi ro Greenwashing ở mức Medium để đảm bảo rằng công ty tiếp tục tuân thủ và thực hiện kế hoạch tái chế một cách đầy đủ.",
+          "proposed_risk_level": "Medium",
+          "proposed_confidence": 0.85,
+          "missing_evidence_requested": null
+        },
+        {
+          "round_number": 3,
+          "agent_name": "Agent 2 (Devil Advocate)",
+          "argument": "Agent 1 đã quá nghiêm khắc trong việc đánh giá rủi ro Greenwashing của công ty. Trong đoạn văn bản, công ty đã minh họa rõ ràng về kế hoạch tái chế theo EPR với tỷ lệ 100%. Đồng thời, công ty cũng cung cấp nhiều thông tin chi tiết khác như việc đạt chuẩn ISO 22000:2018 và các chứng nhận liên quan đến ATVSTP. Điều này cho thấy công ty không có ý định gây hiểu lầm cho người đọc mà đang thực hiện một kế hoạch tái chế đầy đủ và minh bạch.",
+          "proposed_risk_level": "Low",
+          "proposed_confidence": 0.95,
+          "missing_evidence_requested": "Yêu cầu thêm bằng chứng nếu cần"
+        },
+        {
+          "round_number": 3,
+          "agent_name": "Agent 1 (Claimant - Phản biện)",
+          "argument": "Agent 2 đã đưa ra một số điểm mạnh về việc công ty minh bạch thông tin và thực hiện các kế hoạch tái chế theo EPR. Tuy nhiên, chỉ số chất thải được tái sử dụng 81,4% trong năm 2025 vẫn thấp hơn nhiều so với mục tiêu 100% mà công ty đã đề ra trong kế hoạch tái chế. Điều này có thể gây hiểu lầm cho người đọc rằng công ty chưa thực hiện đầy đủ kế hoạch của mình. Ngoài ra, mặc dù công ty đạt được nhiều chứng nhận liên quan đến ATVSTP và ISO 22000:2018, nhưng việc quản lý chất thải vẫn còn hạn chế. Do đó, mức độ rủi ro Greenwashing không thể coi là rất thấp.",
+          "proposed_risk_level": "Medium",
+          "proposed_confidence": 0.85,
+          "missing_evidence_requested": null
+        }
+      ],
+      "final_risk_level": "Medium",
+      "final_confidence": 0.85,
+      "consensus_reached": false,
+      "human_review_required": true,
+      "disagreement_note": "⚠️ BẤT ĐỒNG Ý KIẾN: Agent 1 chốt rủi ro 'Medium', trong khi Agent 2 đề xuất 'Medium' sau 7 lượt phản biện. Cần Chuyên gia ESG (Human-in-the-loop) can thiệp thẩm định.",
+      "debate_summary": "Sau 7 lượt phản biện giữa Agent 1 và Agent 2, hai bên CHƯA ĐỒNG THUẬN (Cần con người can thiệp). Mức rủi ro chốt: Medium."
+    },
+    {
+      "claim": {
+        "claim_id": "claim_bd4b971b",
+        "indicator_type": "Misleading Presentation",
+        "claim_text": "TOP 14 TOP DOANH NGHIỆP CÓ NƠI LÀM VIỆC TỐT NHẤT",
+        "page_number": 61,
+        "evidence_quote": "TOP 14 TOP DOANH NGHIỆP CÓ NƠI LÀM VIỆC TỐT NHẤT",
+        "initial_risk_level": "Low",
+        "initial_confidence": 0.85,
+        "reasoning": "Dùng từ 'top' mà không có chứng nhận cụ thể hoặc tiêu chuẩn đánh giá, có thể gây hiểu lầm cho người đọc về chất lượng môi trường làm việc của công ty."
+      },
+      "debate_history": [
+        {
+          "round_number": 1,
+          "agent_name": "Agent 1 (Đánh giá ban đầu)",
+          "argument": "Dùng từ 'top' mà không có chứng nhận cụ thể hoặc tiêu chuẩn đánh giá, có thể gây hiểu lầm cho người đọc về chất lượng môi trường làm việc của công ty.",
+          "proposed_risk_level": "Low",
+          "proposed_confidence": 0.85,
+          "missing_evidence_requested": null
+        },
+        {
+          "round_number": 1,
+          "agent_name": "Agent 2 (Devil Advocate)",
+          "argument": "Agent 1 đã quá nghiêm khắc trong đánh giá rủi ro Greenwashing của công ty. Trong đoạn văn, 'TOP 14 TOP DOANH NGHIỆP CÓ NƠI LÀM VIỆC TỐT NHẤT' chỉ là một thông tin về vị trí của công ty trong một danh sách xếp hạng. Không có bằng chứng nào cho thấy công ty đã sử dụng từ 'top' để gây hiểu lầm về chất lượng môi trường làm việc. Thêm vào đó, đoạn văn cung cấp nhiều thông tin tích cực khác về các nỗ lực cải thiện môi trường và xã hội của công ty, như tỷ lệ tái chế bao bì cao, đạt chuẩn ISO 22000:2018, và có kế hoạch tái chế theo EPR. Do đó, việc đánh giá rủi ro Greenwashing là 'Low' với mức độ tin cậy 0.85 của Agent 1 không phù hợp.",
+          "proposed_risk_level": "None",
+          "proposed_confidence": 0.95,
+          "missing_evidence_requested": "Yêu cầu thêm bằng chứng nếu công ty sử dụng từ 'top' để gây hiểu lầm về chất lượng môi trường làm việc, nhưng không có trong đoạn văn gốc."
+        },
+        {
+          "round_number": 1,
+          "agent_name": "Agent 1 (Claimant - Phản biện)",
+          "argument": "Agent 1 đã phân tích rằng công ty có thể đang thực hiện chiến lược Greenwashing thông qua việc sử dụng từ 'TOP' trong danh sách xếp hạng, mặc dù không có bằng chứng trực tiếp cho thấy điều này. Tuy nhiên, Agent 2 đã đưa ra nhiều thông tin tích cực về các nỗ lực cải thiện môi trường và xã hội của công ty, như tỷ lệ tái chế bao bì cao, đạt chuẩn ISO 22000:2018, và có kế hoạch tái chế theo EPR. Điều này cho thấy công ty đang thực hiện nhiều hoạt động tích cực để cải thiện môi trường làm việc và quản lý rủi ro môi trường. Do đó, mức độ tin cậy của Agent 1 được điều chỉnh từ 0.85 xuống 0.75, và mức rủi ro Greenwashing được đánh giá là 'Low' thay vì 'None'.",
+          "proposed_risk_level": "Low",
+          "proposed_confidence": 0.75,
+          "missing_evidence_requested": null
+        },
+        {
+          "round_number": 2,
+          "agent_name": "Agent 2 (Devil Advocate)",
+          "argument": "Agent 1 đã quá nghiêm khắc trong đánh giá rủi ro Greenwashing của công ty. Trong đoạn văn, 'TOP 14 TOP DOANH NGHIỆP CÓ NƠI LÀM VIỆC TỐT NHẤT' chỉ là một thông tin về vị trí của công ty trong một danh sách xếp hạng. Không có bằng chứng nào cho thấy công ty đã sử dụng từ 'top' để gây hiểu lầm về chất lượng môi trường làm việc. Thêm vào đó, đoạn văn cung cấp nhiều thông tin tích cực khác về các nỗ lực cải thiện môi trường và xã hội của công ty, như tỷ lệ tái chế bao bì cao, đạt chuẩn ISO 22000:2018, và có kế hoạch tái chế theo EPR. Do đó, việc đánh giá rủi ro Greenwashing là 'Low' với mức độ tin cậy 0.85 của Agent 1 không phù hợp.",
+          "proposed_risk_level": "None",
+          "proposed_confidence": 0.95,
+          "missing_evidence_requested": "Yêu cầu thêm bằng chứng nếu công ty sử dụng từ 'top' để gây hiểu lầm về chất lượng môi trường làm việc, nhưng không có trong đoạn văn gốc."
+        },
+        {
+          "round_number": 2,
+          "agent_name": "Agent 1 (Claimant - Phản biện)",
+          "argument": "Agent 1 đã cân nhắc kỹ về rủi ro Greenwashing của công ty. Dù văn bản chỉ đề cập đến vị trí trong một danh sách xếp hạng, nhưng không có bằng chứng trực tiếp cho thấy công ty đã gây hiểu lầm về chất lượng môi trường làm việc. Tuy nhiên, Agent 1 cũng đã nhận ra nhiều thông tin tích cực khác về nỗ lực cải thiện môi trường và xã hội của công ty. Do đó, mức độ rủi ro Greenwashing có thể được giảm xuống từ 'Low' thành 'None', nhưng vẫn cần theo dõi chặt chẽ các hoạt động marketing của công ty để đảm bảo không vi phạm quy tắc về Greenwashing.",
+          "proposed_risk_level": "None",
+          "proposed_confidence": 0.85,
+          "missing_evidence_requested": null
+        }
+      ],
+      "final_risk_level": "None",
+      "final_confidence": 0.85,
+      "consensus_reached": true,
+      "human_review_required": false,
+      "disagreement_note": null,
+      "debate_summary": "Sau 5 lượt phản biện giữa Agent 1 và Agent 2, hai bên đã đạt đồng thuận. Mức rủi ro chốt: None."
+    },
+    {
+      "claim": {
+        "claim_id": "claim_d30852aa",
+        "indicator_type": "Misleading Presentation",
+        "claim_text": "TOP 10 DOANH NGHIỆP SẢN XUẤT PHÁT TRIỂN BỀN VỮNG CSI TOP 8 DOANH NGHIỆP QUẢN TRỊ TỐT NHẤT (KHUNG CÔNG TY CÓ VỐN HÓA LỚN)",
+        "page_number": 61,
+        "evidence_quote": "TOP 10 DOANH NGHIỆP SẢN XUẤT PHÁT TRIỂN BỀN VỮNG CSI TOP 8 DOANH NGHIỆP QUẢN TRỊ TỐT NHẤT (KHUNG CÔNG TY CÓ VỐN HÓA LỚN)",
+        "initial_risk_level": "Low",
+        "initial_confidence": 0.85,
+        "reasoning": "Dùng từ 'top' mà không có chứng nhận cụ thể hoặc tiêu chuẩn đánh giá, có thể gây hiểu lầm cho người đọc về vị trí của công ty trong ngành."
+      },
+      "debate_history": [
+        {
+          "round_number": 1,
+          "agent_name": "Agent 1 (Đánh giá ban đầu)",
+          "argument": "Dùng từ 'top' mà không có chứng nhận cụ thể hoặc tiêu chuẩn đánh giá, có thể gây hiểu lầm cho người đọc về vị trí của công ty trong ngành.",
+          "proposed_risk_level": "Low",
+          "proposed_confidence": 0.85,
+          "missing_evidence_requested": null
+        },
+        {
+          "round_number": 1,
+          "agent_name": "Agent 2 (Devil Advocate)",
+          "argument": "Lời phản biện chi tiết của Agent 2\n\n1. Đánh giá của Agent 1 có quá nghiêm khắc hay thiếu căn cứ không?\n- Phân loại 'Misleading Presentation' và mức độ rủi ro 'Low' cho tuyên bố này là quá thận trọng. Tuy văn bản sử dụng từ 'top', nhưng không có thông tin cụ thể về tiêu chuẩn đánh giá, điều này không tự động dẫn đến việc greenwashing.\n\n2. Có thông tin nào trong đoạn văn gốc minh oan hoặc giải thích cho doanh nghiệp không?\n- Văn bản đề cập đến vị trí của công ty trong ngành là 'top 10' và 'top 8', nhưng không có chứng nhận cụ thể hay tiêu chuẩn đánh giá được nêu rõ. Tuy nhiên, việc sử dụng từ 'top' không nhất thiết phải là một dấu hiệu của greenwashing nếu doanh nghiệp đã thực hiện các hoạt động bền vững.\n\n3. Đề xuất giữ nguyên, tăng hoặc giảm mức độ Rủi ro (Risk Level: High, Medium, Low, None) và Độ tin cậy (Confidence Level).\n- Suy luận ban đầu của Agent 1 là quá thận trọng. Doanh nghiệp có thể đã thực hiện các hoạt động bền vững mà không cần chứng nhận cụ thể.\n- Đề xuất giữ nguyên mức độ rủi ro 'Low' nhưng tăng độ tin cậy từ 0.85 lên 0.90 để phản ánh rằng tuyên bố này không tự động dẫn đến greenwashing.",
+          "proposed_risk_level": "Low",
+          "proposed_confidence": 0.9,
+          "missing_evidence_requested": "Yêu cầu thêm bằng chứng về tiêu chuẩn đánh giá và chứng nhận cụ thể mà công ty đã đạt được để minh chứng cho vị trí 'top' trong ngành."
+        }
+      ],
+      "final_risk_level": "Low",
+      "final_confidence": 0.85,
+      "consensus_reached": true,
+      "human_review_required": false,
+      "disagreement_note": null,
+      "debate_summary": "Sau 2 lượt phản biện giữa Agent 1 và Agent 2, hai bên đã đạt đồng thuận. Mức rủi ro chốt: Low."
+    },
+    {
+      "claim": {
+        "claim_id": "claim_2291aea4",
+        "indicator_type": "Hollow Promise",
+        "claim_text": "CHỈ SỐ GẮN KẾT NHÂN VIÊN Đạt BAO BÌ ĐỒ UỐNG CÓ THỂ TÁI SỬ DỤNG, TÁI CHẾ HOẶC PHÂN HỦY SINH HỌC VÀO NĂM 2040",
+        "page_number": 63,
+        "evidence_quote": "CHỈ SỐ GẮN KẾT NHÂN VIÊN Đạt BAO BÌ ĐỒ UỐNG CÓ THỂ TÁI SỬ DỤNG, TÁI CHẾ HOẶC PHÂN HỦY SINH HỌC VÀO NĂM 2040",
+        "initial_risk_level": "Medium",
+        "initial_confidence": 0.85,
+        "reasoning": "Cam kết về việc đạt được tỷ lệ bao bì tái sử dụng, tái chế hoặc phân hủy sinh học vào năm 2040 nhưng không có lộ trình hay mốc thời gian cụ thể để kiểm chứng tiến độ thực hiện."
+      },
+      "debate_history": [
+        {
+          "round_number": 1,
+          "agent_name": "Agent 1 (Đánh giá ban đầu)",
+          "argument": "Cam kết về việc đạt được tỷ lệ bao bì tái sử dụng, tái chế hoặc phân hủy sinh học vào năm 2040 nhưng không có lộ trình hay mốc thời gian cụ thể để kiểm chứng tiến độ thực hiện.",
+          "proposed_risk_level": "Medium",
+          "proposed_confidence": 0.85,
+          "missing_evidence_requested": null
+        },
+        {
+          "round_number": 1,
+          "agent_name": "Agent 2 (Devil Advocate)",
+          "argument": "Agent 1 đã quá nghiêm khắc trong việc đánh giá rủi ro về cam kết của doanh nghiệp. Đa số thông tin trong đoạn văn gốc đều minh oan cho doanh nghiệp, chỉ ra rằng mục tiêu và KPIs được đề cập rõ ràng và cụ thể. Mục tiêu về bao bì tái sử dụng, tái chế hoặc phân hủy sinh học vào năm 2040 không phải là một cam kết trống rỗng mà là một phần của chiến lược phát triển bền vững dài hạn. Doanh nghiệp đã đặt ra mục tiêu rõ ràng và có thể đo lường được, mặc dù chưa có lộ trình cụ thể để kiểm chứng tiến độ thực hiện, nhưng việc thiếu lộ trình này không nên đánh giá quá nghiêm khắc như 'Hollow Promise'.",
+          "proposed_risk_level": "Low",
+          "proposed_confidence": 0.8,
+          "missing_evidence_requested": "Yêu cầu thêm bằng chứng về lộ trình thực hiện các mục tiêu KPIs đã đề ra để tăng độ tin cậy."
+        },
+        {
+          "round_number": 1,
+          "agent_name": "Agent 1 (Claimant - Phản biện)",
+          "argument": "Tôi hiểu rằng mục tiêu về bao bì tái sử dụng, tái chế hoặc phân hủy sinh học vào năm 2040 được đề cập rõ ràng trong văn bản gốc. Tuy nhiên, việc thiếu lộ trình cụ thể để kiểm chứng tiến độ thực hiện vẫn là một yếu tố đáng lo ngại. Mục tiêu này có thể bị coi là 'Hollow Promise' nếu không có kế hoạch hành động cụ thể đi kèm. Mặc dù doanh nghiệp đã đặt ra mục tiêu rõ ràng và có thể đo lường được, nhưng việc thiếu lộ trình để theo dõi tiến độ thực hiện vẫn làm giảm mức độ tin cậy của cam kết này. Do đó, tôi đề xuất giữ nguyên mức rủi ro là 'Medium' thay vì điều chỉnh xuống 'Low'.",
+          "proposed_risk_level": "Medium",
+          "proposed_confidence": 0.85,
+          "missing_evidence_requested": null
+        },
+        {
+          "round_number": 2,
+          "agent_name": "Agent 2 (Devil Advocate)",
+          "argument": "Agent 1 đã quá nghiêm khắc trong việc đánh giá rủi ro về cam kết của doanh nghiệp. Đa số thông tin trong đoạn văn gốc đều minh oan cho doanh nghiệp, chỉ ra rằng mục tiêu và KPIs được đề cập rõ ràng và cụ thể. Mục tiêu về bao bì tái sử dụng, tái chế hoặc phân hủy sinh học vào năm 2040 không phải là một cam kết trống rỗng mà là một phần của chiến lược phát triển bền vững dài hạn. Doanh nghiệp đã đặt ra mục tiêu rõ ràng và có thể đo lường được, mặc dù chưa có lộ trình hay mốc thời gian cụ thể để kiểm chứng tiến độ thực hiện, nhưng việc thiếu lộ trình này không nên đánh giá quá nghiêm khắc như 'Hollow Promise'.",
+          "proposed_risk_level": "Low",
+          "proposed_confidence": 0.8,
+          "missing_evidence_requested": "Yêu cầu thêm bằng chứng về lộ trình thực hiện các mục tiêu KPIs đã đề ra để tăng độ tin cậy."
+        },
+        {
+          "round_number": 2,
+          "agent_name": "Agent 1 (Claimant - Phản biện)",
+          "argument": "Tôi hiểu rằng Agent 2 cho rằng doanh nghiệp đã đặt ra mục tiêu rõ ràng về tái sử dụng, tái chế hoặc phân hủy sinh học bao bì vào năm 2040. Tuy nhiên, việc thiếu lộ trình hay mốc thời gian cụ thể để kiểm chứng tiến độ thực hiện vẫn là một yếu tố đáng lo ngại. Mục tiêu này có thể được coi là 'Hollow Promise' vì nó không cung cấp thông tin về cách đạt được mục tiêu hoặc hậu quả nếu không đạt được mục tiêu. Mặc dù doanh nghiệp đã đặt ra mục tiêu rõ ràng, nhưng việc thiếu kế hoạch hành động cụ thể vẫn tạo ra rủi ro đáng kể cho cam kết của họ.",
+          "proposed_risk_level": "Medium",
+          "proposed_confidence": 0.85,
+          "missing_evidence_requested": null
+        },
+        {
+          "round_number": 3,
+          "agent_name": "Agent 2 (Devil Advocate)",
+          "argument": "Agent 1 đã quá nghiêm khắc trong việc đánh giá rủi ro về cam kết của doanh nghiệp. Đa số thông tin trong đoạn văn gốc đều minh oan cho doanh nghiệp, chỉ ra rằng mục tiêu và KPIs được đề cập rõ ràng và cụ thể. Mục tiêu về bao bì tái sử dụng, tái chế hoặc phân hủy sinh học vào năm 2040 không phải là một cam kết trống rỗng mà là một phần của chiến lược phát triển bền vững dài hạn. Doanh nghiệp đã đặt ra mục tiêu rõ ràng và có thể đo lường được, mặc dù chưa có lộ trình hay mốc thời gian cụ thể để kiểm chứng tiến độ thực hiện, nhưng việc thiếu lộ trình này không nên đánh giá quá nghiêm khắc như 'Hollow Promise'.",
+          "proposed_risk_level": "Low",
+          "proposed_confidence": 0.8,
+          "missing_evidence_requested": "Yêu cầu thêm bằng chứng về lộ trình thực hiện các mục tiêu KPIs đã đề ra để tăng độ tin cậy."
+        },
+        {
+          "round_number": 3,
+          "agent_name": "Agent 1 (Claimant - Phản biện)",
+          "argument": "Agent 1 nhận thấy rằng mục tiêu về bao bì tái sử dụng, tái chế hoặc phân hủy sinh học vào năm 2040 có thể được coi là một cam kết trống rỗng (Hollow Promise) vì thiếu lộ trình hay mốc thời gian cụ thể để kiểm chứng tiến độ thực hiện. Tuy nhiên, Agent 2 đã đưa ra quan điểm rằng mục tiêu này vẫn là một phần của chiến lược phát triển bền vững dài hạn và doanh nghiệp đã đặt ra mục tiêu rõ ràng và có thể đo lường được. Mặc dù vậy, việc thiếu lộ trình để kiểm tra tiến độ thực hiện mục tiêu vẫn là một yếu tố đáng lo ngại. Do đó, Agent 1 đồng ý rằng rủi ro về cam kết của doanh nghiệp nên được đánh giá ở mức 'Low', nhưng cần theo dõi chặt chẽ để đảm bảo mục tiêu này sẽ được thực hiện đúng lộ trình.",
+          "proposed_risk_level": "Low",
+          "proposed_confidence": 0.85,
+          "missing_evidence_requested": null
+        }
+      ],
+      "final_risk_level": "Low",
+      "final_confidence": 0.85,
+      "consensus_reached": true,
+      "human_review_required": false,
+      "disagreement_note": null,
+      "debate_summary": "Sau 7 lượt phản biện giữa Agent 1 và Agent 2, hai bên đã đạt đồng thuận. Mức rủi ro chốt: Low."
+    },
+    {
+      "claim": {
+        "claim_id": "claim_3610ab39",
+        "indicator_type": "Hollow Promise",
+        "claim_text": "CƯỜNG ĐỘ TIÊU THỤ NƯỚC 50% 100% 90%",
+        "page_number": 63,
+        "evidence_quote": "CƯỜNG ĐỘ TIÊU THỤ NƯỚC 50% 100% 90%",
+        "initial_risk_level": "Medium",
+        "initial_confidence": 0.85,
+        "reasoning": "Cam kết về việc tăng cường độ tiêu thụ nước lên 50%, 100% và 90% nhưng không có lộ trình hay mốc thời gian cụ thể để kiểm chứng tiến độ thực hiện."
+      },
+      "debate_history": [
+        {
+          "round_number": 1,
+          "agent_name": "Agent 1 (Đánh giá ban đầu)",
+          "argument": "Cam kết về việc tăng cường độ tiêu thụ nước lên 50%, 100% và 90% nhưng không có lộ trình hay mốc thời gian cụ thể để kiểm chứng tiến độ thực hiện.",
+          "proposed_risk_level": "Medium",
+          "proposed_confidence": 0.85,
+          "missing_evidence_requested": null
+        },
+        {
+          "round_number": 1,
+          "agent_name": "Agent 2 (Devil Advocate)",
+          "argument": "Agent 1 đã quá nghiêm khắc trong việc đánh giá rủi ro về cam kết tăng cường độ tiêu thụ nước. Đa số thông tin trong đoạn văn chỉ rõ các mục tiêu và chỉ số KPI, không có gì cho thấy doanh nghiệp đang cố gắng thổi phồng hoặc làm mờ thực tế. Mức độ tiêu thụ nước 50%, 100% và 90% được đặt ra như là mục tiêu dài hạn, không phải là cam kết cụ thể nào. Do đó, việc đánh giá rủi ro là 'Medium' với mức tin cậy 0.85 có phần quá cao. Thay vào đó, chúng ta nên xem xét đây là một cam kết hợp lý và cần thêm thông tin về lộ trình thực hiện để đánh giá rủi ro chính xác hơn.",
+          "proposed_risk_level": "Low",
+          "proposed_confidence": 0.75,
+          "missing_evidence_requested": "Yêu cầu thêm bằng chứng về lộ trình thực hiện các mục tiêu KPI, bao gồm cả việc tăng cường độ tiêu thụ nước lên 50%, 100% và 90%. Cần xác minh liệu doanh nghiệp có kế hoạch cụ thể để đạt được những mục tiêu này hay không."
+        },
+        {
+          "round_number": 1,
+          "agent_name": "Agent 1 (Claimant - Phản biện)",
+          "argument": "Tôi hiểu rằng Agent 2 cho rằng mục tiêu về cường độ tiêu thụ nước chỉ là các mục tiêu dài hạn, không phải cam kết cụ thể. Tuy nhiên, việc đặt ra các mục tiêu như 50%, 100% và 90% cho cường độ tiêu thụ nước có thể được coi là một cam kết rõ ràng từ doanh nghiệp về hướng đi trong tương lai. Điều này có thể dẫn đến rủi ro nếu doanh nghiệp không đạt được những mục tiêu này, như mất uy tín hoặc ảnh hưởng đến hoạt động kinh doanh. Do đó, mức độ tin cậy 0.85 vẫn hợp lý để phản ánh sự chắc chắn về cam kết này.\n\nTuy nhiên, tôi cũng đồng ý rằng cần thêm thông tin về lộ trình thực hiện để đánh giá rủi ro chính xác hơn. Điều này sẽ giúp chúng ta có cái nhìn rõ ràng hơn về khả năng doanh nghiệp đạt được mục tiêu đã đặt ra.",
+          "proposed_risk_level": "Medium",
+          "proposed_confidence": 0.85,
+          "missing_evidence_requested": null
+        },
+        {
+          "round_number": 2,
+          "agent_name": "Agent 2 (Devil Advocate)",
+          "argument": "Agent 1 đã quá nghiêm khắc trong việc đánh giá rủi ro về cam kết tăng cường độ tiêu thụ nước. Đa số thông tin trong đoạn văn chỉ rõ các mục tiêu và chỉ số KPI, không có gì cho thấy doanh nghiệp đang cố gắng thổi phồng hoặc làm mờ thực tế. Mức độ tiêu thụ nước 50%, 100% và 90% được đặt ra như là mục tiêu dài hạn, không phải là cam kết cụ thể nào. Do đó, việc đánh giá rủi ro là 'Medium' với mức tin cậy 0.85 có phần quá cao. Thay vào đó, chúng ta nên xem xét đây là một cam kết hợp lý và cần thêm thông tin về lộ trình thực hiện để đánh giá rủi ro chính xác hơn.",
+          "proposed_risk_level": "Low",
+          "proposed_confidence": 0.75,
+          "missing_evidence_requested": "Yêu cầu thêm bằng chứng về lộ trình thực hiện các mục tiêu KPI, bao gồm cả việc tăng cường độ tiêu thụ nước lên 50%, 100% và 90%. Cần xác minh liệu doanh nghiệp có kế hoạch cụ thể để đạt được những mục tiêu này hay không."
+        },
+        {
+          "round_number": 2,
+          "agent_name": "Agent 1 (Claimant - Phản biện)",
+          "argument": "Tôi hiểu rằng Agent 2 cho rằng mục tiêu về cường độ tiêu thụ nước được đặt ra như là mục tiêu dài hạn, không phải cam kết cụ thể. Tuy nhiên, việc sử dụng các tỷ lệ phần trăm cao (100% và 90%) có thể gây hiểu lầm về sự cam kết của doanh nghiệp đối với vấn đề này. Mặc dù văn bản không rõ ràng về lộ trình thực hiện, nhưng việc đặt ra những mục tiêu cụ thể như vậy vẫn mang lại rủi ro nhất định về khả năng đạt được chúng. Do đó, tôi đồng ý rằng mức độ tin cậy nên giảm từ 0.85 xuống 0.75, và mức rủi ro 'Medium' vẫn hợp lý trong bối cảnh hiện tại.",
+          "proposed_risk_level": "Medium",
+          "proposed_confidence": 0.75,
+          "missing_evidence_requested": null
+        },
+        {
+          "round_number": 3,
+          "agent_name": "Agent 2 (Devil Advocate)",
+          "argument": "Agent 1 đã quá nghiêm khắc trong việc đánh giá rủi ro về cam kết tăng cường độ tiêu thụ nước. Đa số thông tin trong đoạn văn chỉ rõ các mục tiêu và chỉ số KPI, không có gì cho thấy doanh nghiệp đang cố gắng thổi phồng hoặc làm mờ thực tế. Mức độ tiêu thụ nước 50%, 100% và 90% được đặt ra như là mục tiêu dài hạn, không phải là cam kết cụ thể nào. Do đó, việc đánh giá rủi ro là 'Medium' với mức tin cậy 0.85 có phần quá cao. Thay vào đó, chúng ta nên xem xét đây là một cam kết hợp lý và cần thêm thông tin về lộ trình thực hiện để đánh giá rủi ro chính xác hơn.",
+          "proposed_risk_level": "Low",
+          "proposed_confidence": 0.85,
+          "missing_evidence_requested": "Yêu cầu thêm bằng chứng về lộ trình thực hiện các mục tiêu KPI, bao gồm cả việc tăng cường độ tiêu thụ nước lên 50%, 100% và 90%. Cần xác minh liệu doanh nghiệp có kế hoạch cụ thể để đạt được những mục tiêu này hay không."
+        },
+        {
+          "round_number": 3,
+          "agent_name": "Agent 1 (Claimant - Phản biện)",
+          "argument": "Agent 1 nhận thấy rằng mục tiêu về cường độ tiêu thụ nước được đặt ra với các tỷ lệ cụ thể (50%, 100%, 90%) và thời gian cụ thể (2030, 2040), điều này cho thấy doanh nghiệp có cam kết rõ ràng trong việc cải thiện hiệu suất sử dụng nước. Mặc dù văn bản không nêu chi tiết về lộ trình thực hiện, nhưng mục tiêu được đặt ra với tỷ lệ cụ thể vẫn mang tính chất cam kết. Do đó, Agent 1 vẫn giữ mức rủi ro là 'Medium' để phản ánh sự không chắc chắn do thiếu thông tin về lộ trình thực hiện. Tuy nhiên, chúng tôi đồng ý rằng việc đánh giá rủi ro nên được điều chỉnh dựa trên thêm thông tin về lộ trình thực hiện trong tương lai.",
+          "proposed_risk_level": "Medium",
+          "proposed_confidence": 0.85,
+          "missing_evidence_requested": null
+        }
+      ],
+      "final_risk_level": "Medium",
+      "final_confidence": 0.85,
+      "consensus_reached": false,
+      "human_review_required": true,
+      "disagreement_note": "⚠️ BẤT ĐỒNG Ý KIẾN: Agent 1 chốt rủi ro 'Medium', trong khi Agent 2 đề xuất 'Medium' sau 7 lượt phản biện. Cần Chuyên gia ESG (Human-in-the-loop) can thiệp thẩm định.",
+      "debate_summary": "Sau 7 lượt phản biện giữa Agent 1 và Agent 2, hai bên CHƯA ĐỒNG THUẬN (Cần con người can thiệp). Mức rủi ro chốt: Medium."
+    },
+    {
+      "claim": {
+        "claim_id": "claim_729ba56d",
+        "indicator_type": "Hollow Promise",
+        "claim_text": "LƯỢNG PHÁT THẢI KHÍ NHÀ KÍNH (KNK) TRONG PHẠM VI 1 & 2 VÀO NĂM 2030 TRƯỜNG HỢP TỬ VONG DO TAI NẠN LAO ĐỘNG",
+        "page_number": 63,
+        "evidence_quote": "LƯỢNG PHÁT THẢI KHÍ NHÀ KÍNH (KNK) TRONG PHẠM VI 1 & 2 VÀO NĂM 2030 TRƯỜNG HỢP TỬ VONG DO TAI NẠN LAO ĐỘNG",
+        "initial_risk_level": "Medium",
+        "initial_confidence": 0.85,
+        "reasoning": "Cam kết về việc giảm lượng phát thải khí nhà kính trong phạm vi 1 & 2 vào năm 2030 nhưng không có lộ trình hay mốc thời gian cụ thể để kiểm chứng tiến độ thực hiện."
+      },
+      "debate_history": [
+        {
+          "round_number": 1,
+          "agent_name": "Agent 1 (Đánh giá ban đầu)",
+          "argument": "Cam kết về việc giảm lượng phát thải khí nhà kính trong phạm vi 1 & 2 vào năm 2030 nhưng không có lộ trình hay mốc thời gian cụ thể để kiểm chứng tiến độ thực hiện.",
+          "proposed_risk_level": "Medium",
+          "proposed_confidence": 0.85,
+          "missing_evidence_requested": null
+        },
+        {
+          "round_number": 1,
+          "agent_name": "Agent 2 (Devil Advocate)",
+          "argument": "Đoạn văn bản chỉ nêu mục tiêu chung về việc giảm phát thải khí nhà kính trong phạm vi 1 & 2 vào năm 2030 mà không đưa ra lộ trình hay mốc thời gian cụ thể. Tuy nhiên, Agent 1 đã quá nghiêm khắc khi đánh giá đây là một cam kết rỗng (Hollow Promise) và đưa ra mức độ rủi ro sơ bộ là Medium với độ tin cậy cao đến 0.85. Thực tế, doanh nghiệp có thể đã đặt mục tiêu này dựa trên các yếu tố như khả năng tài chính, công nghệ sẵn có hoặc quy định pháp lý. Hơn nữa, việc không có lộ trình cụ thể cũng không nhất thiết là một rủi ro lớn nếu doanh nghiệp đang nỗ lực thực hiện và sẽ đưa ra lộ trình trong tương lai.",
+          "proposed_risk_level": "Low",
+          "proposed_confidence": 0.7,
+          "missing_evidence_requested": "Yêu cầu thêm bằng chứng về kế hoạch hành động cụ thể để đạt được mục tiêu giảm phát thải khí nhà kính vào năm 2030."
+        },
+        {
+          "round_number": 1,
+          "agent_name": "Agent 1 (Claimant - Phản biện)",
+          "argument": "Agent 1 nhận thấy rằng mục tiêu giảm phát thải khí nhà kính trong phạm vi 1 & 2 vào năm 2030 không có lộ trình hay mốc thời gian cụ thể, điều này làm tăng rủi ro doanh nghiệp có thể không đạt được mục tiêu. Tuy nhiên, Agent 2 đã đưa ra quan điểm rằng doanh nghiệp có thể đã đặt mục tiêu dựa trên các yếu tố như khả năng tài chính, công nghệ sẵn có hoặc quy định pháp lý. Đồng thời, việc không có lộ trình cụ thể cũng không nhất thiết là một rủi ro lớn nếu doanh nghiệp đang nỗ lực thực hiện và sẽ đưa ra lộ trình trong tương lai. Do đó, Agent 1 đồng ý rằng mức độ rủi ro nên được điều chỉnh từ Medium xuống Low, nhưng vẫn cần theo dõi chặt chẽ để đảm bảo doanh nghiệp có kế hoạch cụ thể để đạt được mục tiêu.",
+          "proposed_risk_level": "Low",
+          "proposed_confidence": 0.85,
+          "missing_evidence_requested": null
+        }
+      ],
+      "final_risk_level": "Low",
+      "final_confidence": 0.85,
+      "consensus_reached": true,
+      "human_review_required": false,
+      "disagreement_note": null,
+      "debate_summary": "Sau 3 lượt phản biện giữa Agent 1 và Agent 2, hai bên đã đạt đồng thuận. Mức rủi ro chốt: Low."
+    },
+    {
+      "claim": {
+        "claim_id": "claim_ac270a26",
+        "indicator_type": "Hollow Promise",
+        "claim_text": "TỶ LỆ TÚI HỘI CỦA NHÀ CUNG CẤP CHIẾN LƯỢC 42% (SO VỚI MỨC CƠ SỞ NĂM 2023)",
+        "page_number": 63,
+        "evidence_quote": "TỶ LỆ TÚI HỘI CỦA NHÀ CUNG CẤP CHIẾN LƯỢC 42% (SO VỚI MỨC CƠ SỞ NĂM 2023)",
+        "initial_risk_level": "Medium",
+        "initial_confidence": 0.85,
+        "reasoning": "Cam kết về việc tăng tỷ lệ túi hội của nhà cung cấp chiến lược lên 42% so với mức cơ sở năm 2023 nhưng không có lộ trình hay mốc thời gian cụ thể để kiểm chứng tiến độ thực hiện."
+      },
+      "debate_history": [
+        {
+          "round_number": 1,
+          "agent_name": "Agent 1 (Đánh giá ban đầu)",
+          "argument": "Cam kết về việc tăng tỷ lệ túi hội của nhà cung cấp chiến lược lên 42% so với mức cơ sở năm 2023 nhưng không có lộ trình hay mốc thời gian cụ thể để kiểm chứng tiến độ thực hiện.",
+          "proposed_risk_level": "Medium",
+          "proposed_confidence": 0.85,
+          "missing_evidence_requested": null
+        },
+        {
+          "round_number": 1,
+          "agent_name": "Agent 2 (Devil Advocate)",
+          "argument": "Agent 1 đã quá nghiêm khắc trong việc đánh giá rủi ro về cam kết tăng tỷ lệ túi hội của nhà cung cấp chiến lược lên 42% so với mức cơ sở năm 2023. Đơn vị này không đề cập đến các thông tin quan trọng như: (1) Mục tiêu và chỉ số kpi đã được xác định rõ ràng, (2) Không có bằng chứng cho thấy doanh nghiệp đang cố gắng thổi phồng hoặc giả mạo mục tiêu của mình, (3) Doanh nghiệp có thể đã đưa ra lộ trình thực hiện cụ thể mà không được đề cập trong đoạn văn gốc. Điều này làm giảm mức độ rủi ro và độ tin cậy so với đánh giá ban đầu.",
+          "proposed_risk_level": "Low",
+          "proposed_confidence": 0.75,
+          "missing_evidence_requested": "Yêu cầu thêm bằng chứng về lộ trình thực hiện cụ thể để kiểm tra tiến độ thực hiện cam kết."
+        },
+        {
+          "round_number": 1,
+          "agent_name": "Agent 1 (Claimant - Phản biện)",
+          "argument": "Trong văn bản gốc, mục tiêu của nhà cung cấp chiến lược là tăng tỷ lệ túi hội của bao bì có thể tái sử dụng, tái chế hoặc phân hủy sinh học lên 42% so với mức cơ sở năm 2023. Mặc dù Agent 2 đã nêu ra một số điểm mạnh như việc xác định rõ ràng mục tiêu và KPI, nhưng vẫn chưa có bằng chứng về lộ trình thực hiện cụ thể hay các biện pháp đang được áp dụng để đạt được mục tiêu này. Điều này làm tăng mức độ rủi ro vì nếu nhà cung cấp không tuân thủ cam kết của mình, chúng tôi sẽ không có thông tin cụ thể nào để theo dõi và giám sát tiến trình thực hiện. Do đó, việc đánh giá rủi ro ở mức 'High' vẫn là hợp lý.",
+          "proposed_risk_level": "High",
+          "proposed_confidence": 0.85,
+          "missing_evidence_requested": null
+        },
+        {
+          "round_number": 2,
+          "agent_name": "Agent 2 (Devil Advocate)",
+          "argument": "Agent 1 đã quá nghiêm khắc trong việc đánh giá rủi ro về cam kết tăng tỷ lệ túi hội của nhà cung cấp chiến lược lên 42% so với mức cơ sở năm 2023. Đơn vị này không đề cập đến các thông tin quan trọng như: (1) Mục tiêu và chỉ số kpi đã được xác định rõ ràng, (2) Không có bằng chứng cho thấy doanh nghiệp đang cố gắng thổi phồng hoặc giả mạo mục tiêu của mình, (3) Doanh nghiệp có thể đã đưa ra lộ trình thực hiện cụ thể mà không được đề cập trong đoạn văn gốc. Điều này làm giảm mức độ rủi ro và độ tin cậy so với đánh giá ban đầu.",
+          "proposed_risk_level": "Low",
+          "proposed_confidence": 0.75,
+          "missing_evidence_requested": "Yêu cầu thêm bằng chứng về lộ trình thực hiện cụ thể để kiểm tra tiến độ thực hiện cam kết."
+        },
+        {
+          "round_number": 2,
+          "agent_name": "Agent 1 (Claimant - Phản biện)",
+          "argument": "Agent 1 nhận thấy rằng mục tiêu tăng tỷ lệ túi hội của nhà cung cấp chiến lược lên 42% so với mức cơ sở năm 2023 có thể mang lại rủi ro về việc doanh nghiệp cố gắng thổi phồng hoặc giả mạo mục tiêu. Tuy nhiên, Agent 2 đã đưa ra một số điểm quan trọng như: (1) Mục tiêu và chỉ số KPI đã được xác định rõ ràng; (2) Không có bằng chứng cho thấy doanh nghiệp đang cố gắng thổi phồng mục tiêu của mình; (3) Doanh nghiệp có thể đã đưa ra lộ trình thực hiện cụ thể mà không được đề cập trong đoạn văn gốc. Điều này làm giảm mức độ rủi ro so với đánh giá ban đầu. Tuy nhiên, Agent 1 vẫn lo ngại về việc doanh nghiệp có thể cố gắng thổi phồng mục tiêu của mình. Do đó, Agent 1 đồng ý rằng mức độ rủi ro đã được giảm nhưng không thể hoàn toàn loại bỏ.",
+          "proposed_risk_level": "Medium",
+          "proposed_confidence": 0.85,
+          "missing_evidence_requested": null
+        },
+        {
+          "round_number": 3,
+          "agent_name": "Agent 2 (Devil Advocate)",
+          "argument": "Agent 1 đã quá nghiêm khắc trong việc đánh giá rủi ro về cam kết tăng tỷ lệ túi hội của nhà cung cấp chiến lược lên 42% so với mức cơ sở năm 2023. Đơn vị này không đề cập đến các thông tin quan trọng như: (1) Mục tiêu và chỉ số kpi đã được xác định rõ ràng, (2) Không có bằng chứng cho thấy doanh nghiệp đang cố gắng thổi phồng hoặc giả mạo mục tiêu của mình, (3) Doanh nghiệp có thể đã đưa ra lộ trình thực hiện cụ thể mà không được đề cập trong đoạn văn gốc. Điều này làm giảm mức độ rủi ro và độ tin cậy so với đánh giá ban đầu.",
+          "proposed_risk_level": "Low",
+          "proposed_confidence": 0.75,
+          "missing_evidence_requested": "Yêu cầu thêm bằng chứng về lộ trình thực hiện cụ thể để kiểm tra tiến độ thực hiện cam kết."
+        },
+        {
+          "round_number": 3,
+          "agent_name": "Agent 1 (Claimant - Phản biện)",
+          "argument": "Trong văn bản gốc, mục tiêu của nhà cung cấp chiến lược là tăng tỷ lệ túi hội của bao bì có thể tái sử dụng, tái chế hoặc phân hủy sinh học lên 42% so với mức cơ sở năm 2023. Tuy nhiên, Agent 1 nhận thấy rằng không có thông tin về lộ trình thực hiện cụ thể hay bằng chứng cho thấy doanh nghiệp đang cố gắng thổi phồng mục tiêu của mình. Điều này làm tăng rủi ro về việc nhà cung cấp không đạt được mục tiêu đã đề ra. Mặc dù Agent 2 đưa ra một số điểm tích cực như mục tiêu và KPI đã được xác định rõ ràng, nhưng vẫn chưa có bằng chứng về lộ trình thực hiện cụ thể hay nỗ lực của doanh nghiệp trong việc đạt được mục tiêu này. Do đó, mức độ rủi ro không giảm đáng kể so với đánh giá ban đầu.",
+          "proposed_risk_level": "Medium",
+          "proposed_confidence": 0.85,
+          "missing_evidence_requested": null
+        }
+      ],
+      "final_risk_level": "Medium",
+      "final_confidence": 0.85,
+      "consensus_reached": false,
+      "human_review_required": true,
+      "disagreement_note": "⚠️ BẤT ĐỒNG Ý KIẾN: Agent 1 chốt rủi ro 'Medium', trong khi Agent 2 đề xuất 'Medium' sau 7 lượt phản biện. Cần Chuyên gia ESG (Human-in-the-loop) can thiệp thẩm định.",
+      "debate_summary": "Sau 7 lượt phản biện giữa Agent 1 và Agent 2, hai bên CHƯA ĐỒNG THUẬN (Cần con người can thiệp). Mức rủi ro chốt: Medium."
+    }
+  ],
+  "scraped_incidents": [
+    {
+      "incident_id": "inc_64278296",
+      "company_name": "Sabeco",
+      "title": "Sabeco (SAB) bị phạt gần 7,5 tỷ đồng sau đợt thanh tra thuế",
+      "source": "Báo chí / Tin tức ngoài",
+      "url": "https://nguoiquansat.vn/sabeco-sab-bi-phat-gan-7-5-ty-dong-sau-dot-thanh-tra-thue-273193.html",
+      "published_date": "2024-2025",
+      "snippet": "Ngày 6/2/2026, Tổng Công ty Cổ phần Bia - Rượu - Nước giải khát Sài Gòn (Sabeco, HoSE: SAB) cho biết đã nhận được quyết định xử phạt vi phạm hành chính về thuế sau đợt kiểm tra thuế ngày 6/2/2025, với tổng số tiền phải nộp bổ sung gần 7,5 tỷ đồng.",
+      "relevance_score": 0.75
+    },
+    {
+      "incident_id": "inc_ef9f1230",
+      "company_name": "Sabeco",
+      "title": "Công ty con của Sabeco (SAB) bị truy thu và xử phạt hơn 14 tỷ đồng",
+      "source": "Báo chí / Tin tức ngoài",
+      "url": "https://cafetaichinh.vn/cong-ty-con-cua-sabeco-sab-bi-truy-thu-va-xu-phat-hon-14-ty-dong-a73359.html",
+      "published_date": "2024-2025",
+      "snippet": "Công ty CP Tập đoàn Bia Sài Gòn Bình Tây (Sabibeco, UPCoM: SBB) vừa công bố Quyết định số 1452/QĐ-DNL của Chi cục Thuế doanh nghiệp lớn về xử phạt vi phạm hành chính liên quan đến kê khai thuế.",
+      "relevance_score": 0.75
+    },
+    {
+      "incident_id": "inc_1906b3a5",
+      "company_name": "Sabeco",
+      "title": "Hơn 12.000 vụ vi phạm môi trường, bị xử phạt 383 tỷ đồng",
+      "source": "Báo chí / Tin tức ngoài",
+      "url": "https://vietnamfinance.vn/hon-12000-vu-vi-pham-moi-truong-bi-xu-phat-383-ty-dong-d123917.html",
+      "published_date": "2024-2025",
+      "snippet": "(VNF) - Kể từ khi Nghị định số 45/2022/NĐ-CP của Bộ Tài Nguyên và Môi trường (nay là Bộ Nông nghiệp và Môi trường) có hiệu lực thi hành đến tháng 10/2024, các cơ quan, người có thẩm quyền đã xử phạt 12.045 vụ việc vi phạm hành chính, với tổng số tiền phạt là 383,5 tỷ đồng.",
+      "relevance_score": 0.75
+    },
+    {
+      "incident_id": "inc_c4a50985",
+      "company_name": "Sabeco",
+      "title": "Hơn 280 hành vi vi phạm môi trường tại KCN Lê Minh Xuân",
+      "source": "Báo chí / Tin tức ngoài",
+      "url": "https://suckhoecongdongonline.vn/hon-280-hanh-vi-vi-pham-moi-truong-3-vu-da-bi-khoi-to-tai-kcn-le-minh-xuan",
+      "published_date": "2024-2025",
+      "snippet": "Hơn 280 hành vi vi phạm môi trường tại gần 100 cơ sở ở KCN Lê Minh Xuân bị phát hiện, xử phạt gần 16 tỷ đồng; 3 vụ đã bị khởi tố.",
+      "relevance_score": 0.75
+    },
+    {
+      "incident_id": "inc_8f6a8e83",
+      "company_name": "Sabeco",
+      "title": "Dabaco Thanh Hóa bị phạt vì vi phạm môi trường trước vụ tai nạn 5 người ...",
+      "source": "Báo chí / Tin tức ngoài",
+      "url": "https://vietnamfinance.vn/dabaco-thanh-hoa-bi-phat-vi-vi-pham-moi-truong-truoc-vu-tai-nan-5-nguoi-tu-vong-d147819.html",
+      "published_date": "2024-2025",
+      "snippet": "Áp dụng các điều khoản tại Nghị định số 45/2022 của Chính phủ quy định về xử phạt vi phạm hành chính trong lĩnh vực bảo vệ môi trường, UBND tỉnh Thanh Hóa đã xử phạt Dabaco Thanh Hóa với mức phạt 170 triệu đồng.",
+      "relevance_score": 0.75
+    }
+  ],
+  "incident_matches": [
+    {
+      "claim_id": "claim_b28c5df6",
+      "claim_text": "NĂNG LƯỢNG TÁI TẠO SỬ DỤNG 46,4%",
+      "matched_incident": null,
+      "ai_risk_numeric": 0,
+      "ground_truth_numeric": 0,
+      "ground_truth_label": "LOW_RISK",
+      "evidence_compatibility": "NO_EVIDENCE",
+      "match_status": "NO_RISK_CONFIRMED",
+      "reasoning_chain": "Bước 1: Phân tích tuyên bố, AI đánh giá rủi ro là Low. Bước 2: Xem xét các nguồn metadata, không có thông tin liên quan trực tiếp đến vi phạm môi trường của doanh nghiệp. Bước 3: Đánh giá xem thông tin rủi ro có bị chứng minh là hoàn toàn vô căn cứ hay không, kết luận rằng không có bằng chứng nào xác nhận rủi ro môi trường. Bước 4: Chốt mức độ tương thích.",
+      "matching_reasoning": "Tuyên bố về vi phạm môi trường có rủi ro thấp, nhưng không có thông tin từ nguồn metadata nào xác nhận vi phạm này. Do đó, không có bằng chứng để đánh giá mức độ rủi ro."
+    },
+    {
+      "claim_id": "claim_4df019d2",
+      "claim_text": "KẾ HOẠCH TÁI CHẾ THEO EPR 100%",
+      "matched_incident": null,
+      "ai_risk_numeric": 1,
+      "ground_truth_numeric": 0,
+      "ground_truth_label": "LOW_RISK",
+      "evidence_compatibility": "NO_EVIDENCE",
+      "match_status": "UNVERIFIED_RISK",
+      "reasoning_chain": "Bước 1: Phân tích tuyên bố, AI cảnh báo rủi ro môi trường với mức độ trung bình. -> Bước 2: Xem xét bằng chứng metadata, không có bài báo nào trực tiếp liên quan đến Sabeco bị xử phạt về vấn đề môi trường. -> Bước 3: Đánh giá xem thông tin rủi ro có bị chứng minh là hoàn toàn vô căn cứ hay không, kết luận là không. -> Bước 4: Chốt mức độ tương thích.",
+      "matching_reasoning": "Không có bài báo nào trong danh sách metadata liên quan đến Sabeco bị xử phạt về vấn đề môi trường, do đó không có bằng chứng trực tiếp để xác nhận rủi ro môi trường."
+    },
+    {
+      "claim_id": "claim_bd4b971b",
+      "claim_text": "TOP 14 TOP DOANH NGHIỆP CÓ NƠI LÀM VIỆC TỐT NHẤT",
+      "matched_incident": {
+        "incident_id": "inc_64278296",
+        "company_name": "Sabeco",
+        "title": "Sabeco (SAB) bị phạt gần 7,5 tỷ đồng sau đợt thanh tra thuế",
+        "source": "Báo chí / Tin tức ngoài",
+        "url": "https://nguoiquansat.vn/sabeco-sab-bi-phat-gan-7-5-ty-dong-sau-dot-thanh-tra-thue-273193.html",
+        "published_date": "2024-2025",
+        "snippet": "Ngày 6/2/2026, Tổng Công ty Cổ phần Bia - Rượu - Nước giải khát Sài Gòn (Sabeco, HoSE: SAB) cho biết đã nhận được quyết định xử phạt vi phạm hành chính về thuế sau đợt kiểm tra thuế ngày 6/2/2025, với tổng số tiền phải nộp bổ sung gần 7,5 tỷ đồng.",
+        "relevance_score": 0.75
+      },
+      "ai_risk_numeric": 0,
+      "ground_truth_numeric": 1,
+      "ground_truth_label": "MODERATE_RISK",
+      "evidence_compatibility": "PARTIALLY_COMPATIBLE",
+      "match_status": "MISSED_RISK",
+      "reasoning_chain": "Bước 1: Phân tích tuyên bố, doanh nghiệp được đề cập là Sabeco. Bước 2: Xem xét các URL metadata, chỉ có URL #3 liên quan đến vi phạm môi trường và xử phạt. Bước 3: Đánh giá thông tin rủi ro không bị chứng minh hoàn toàn vô căn cứ vì đã có xử phạt về môi trường. Bước 4: Chốt mức độ tương thích.",
+      "matching_reasoning": "Tuyên bố về việcPresentation Misleading không có bằng chứng trực tiếp từ các nguồn báo chí. Tuy nhiên, doanh nghiệp Sabeco đã bị xử phạt về môi trường, cho thấy có rủi ro nhưng mức độ thấp."
+    },
+    {
+      "claim_id": "claim_d30852aa",
+      "claim_text": "TOP 10 DOANH NGHIỆP SẢN XUẤT PHÁT TRIỂN BỀN VỮNG CSI TOP 8 DOANH NGHIỆP QUẢN TRỊ TỐT NHẤT (KHUNG CÔNG TY CÓ VỐN HÓA LỚN)",
+      "matched_incident": null,
+      "ai_risk_numeric": 0,
+      "ground_truth_numeric": 0,
+      "ground_truth_label": "LOW_RISK",
+      "evidence_compatibility": "NO_EVIDENCE",
+      "match_status": "NO_RISK_CONFIRMED",
+      "reasoning_chain": "Bước 1: Phân tích tuyên bố - Doanh nghiệp bị cáo buộc có sựPresentation không chính xác về ESG. Bước 2: Xem xét bằng chứng metadata - Không có thông tin trực tiếp liên quan đến việc báo cáo sai lệch về ESG. Bước 3: Đánh giá xem thông tin rủi ro có bị chứng minh là hoàn toàn vô căn cứ hay không - Không có bằng chứng cho thấy doanh nghiệp đã báo cáo sai lệch về ESG. Bước 4: Chốt mức độ tương thích.",
+      "matching_reasoning": "Không có thông tin trực tiếp nào trong các bài báo metadata liên quan đến việc doanh nghiệp báo cáo sai lệch về ESG. Do đó, không thể xác nhận rủi ro này."
+    },
+    {
+      "claim_id": "claim_2291aea4",
+      "claim_text": "CHỈ SỐ GẮN KẾT NHÂN VIÊN Đạt BAO BÌ ĐỒ UỐNG CÓ THỂ TÁI SỬ DỤNG, TÁI CHẾ HOẶC PHÂN HỦY SINH HỌC VÀO NĂM 2040",
+      "matched_incident": null,
+      "ai_risk_numeric": 0,
+      "ground_truth_numeric": 0,
+      "ground_truth_label": "LOW_RISK",
+      "evidence_compatibility": "NO_EVIDENCE",
+      "match_status": "NO_RISK_CONFIRMED",
+      "reasoning_chain": "Bước 1: Phân tích tuyên bố - Chỉ số gắn kết nhân viên với mục tiêu tái chế bao bì có thể đạt được vào năm 2040. Bước 2: Xem xét bằng chứng metadata - Không có bài báo nào đề cập đến vấn đề môi trường hoặc vi phạm liên quan trực tiếp đến mục tiêu tái chế của Sabeco. Bước 3: Đánh giá xem thông tin rủi ro có bị chứng minh là hoàn toàn vô căn cứ hay không - Không có bằng chứng nào xác nhận việc Sabeco vi phạm quy định về môi trường. Bước 4: Chốt mức độ tương thích.",
+      "matching_reasoning": "Không có thông tin báo chí nào liên quan đến vi phạm môi trường hoặc việc Sabeco không đạt được mục tiêu tái chế bao bì vào năm 2040. Do đó, mức độ rủi ro thực tế là thấp."
+    },
+    {
+      "claim_id": "claim_3610ab39",
+      "claim_text": "CƯỜNG ĐỘ TIÊU THỤ NƯỚC 50% 100% 90%",
+      "matched_incident": null,
+      "ai_risk_numeric": 1,
+      "ground_truth_numeric": 0,
+      "ground_truth_label": "LOW_RISK",
+      "evidence_compatibility": "NO_EVIDENCE",
+      "match_status": "UNVERIFIED_RISK",
+      "reasoning_chain": "Bước 1: Phân tích tuyên bố - Sabeco cam kết giảm tiêu thụ nước 50% trong 3 năm. Bước 2: Xem xét bằng chứng metadata - Không có bài báo nào đề cập đến việc Sabeco bị xử phạt liên quan đến tiêu thụ nước. Bước 3: Đánh giá xem thông tin rủi ro có bị chứng minh là hoàn toàn vô căn cứ hay không - Không có bằng chứng trực tiếp về vi phạm rủi ro môi trường từ việc tiêu thụ nước. Bước 4: Chốt mức độ tương thích.",
+      "matching_reasoning": "Không có thông tin báo chí nào liên quan đến việc Sabeco bị xử phạt hoặc vi phạm về tiêu thụ nước, do đó không thể xác nhận rủi ro môi trường từ tuyên bố này."
+    },
+    {
+      "claim_id": "claim_729ba56d",
+      "claim_text": "LƯỢNG PHÁT THẢI KHÍ NHÀ KÍNH (KNK) TRONG PHẠM VI 1 & 2 VÀO NĂM 2030 TRƯỜNG HỢP TỬ VONG DO TAI NẠN LAO ĐỘNG",
+      "matched_incident": null,
+      "ai_risk_numeric": 0,
+      "ground_truth_numeric": 0,
+      "ground_truth_label": "LOW_RISK",
+      "evidence_compatibility": "NO_EVIDENCE",
+      "match_status": "NO_RISK_CONFIRMED",
+      "reasoning_chain": "Bước 1: Phân tích tuyên bố về lượng phát thải KNK vào năm 2030 trường hợp tử vong do tai nạn lao động. -> Bước 2: Xem xét các bài báo metadata, không có bài báo nào đề cập trực tiếp đến vấn đề phát thải KNK hay rủi ro môi trường của Sabeco. -> Bước 3: Đánh giá xem thông tin rủi ro về phát thải KNK có bị chứng minh là hoàn toàn vô căn cứ hay không, kết luận rằng không có bằng chứng nào xác nhận hoặc phủ định tuyên bố này. -> Bước 4: Chốt mức độ tương thích.",
+      "matching_reasoning": "Không có bài báo nào liên quan trực tiếp đến vấn đề phát thải KNK của Sabeco, do đó không thể xác định mức độ rủi ro."
+    },
+    {
+      "claim_id": "claim_ac270a26",
+      "claim_text": "TỶ LỆ TÚI HỘI CỦA NHÀ CUNG CẤP CHIẾN LƯỢC 42% (SO VỚI MỨC CƠ SỞ NĂM 2023)",
+      "matched_incident": {
+        "incident_id": "inc_64278296",
+        "company_name": "Sabeco",
+        "title": "Sabeco (SAB) bị phạt gần 7,5 tỷ đồng sau đợt thanh tra thuế",
+        "source": "Báo chí / Tin tức ngoài",
+        "url": "https://nguoiquansat.vn/sabeco-sab-bi-phat-gan-7-5-ty-dong-sau-dot-thanh-tra-thue-273193.html",
+        "published_date": "2024-2025",
+        "snippet": "Ngày 6/2/2026, Tổng Công ty Cổ phần Bia - Rượu - Nước giải khát Sài Gòn (Sabeco, HoSE: SAB) cho biết đã nhận được quyết định xử phạt vi phạm hành chính về thuế sau đợt kiểm tra thuế ngày 6/2/2025, với tổng số tiền phải nộp bổ sung gần 7,5 tỷ đồng.",
+        "relevance_score": 0.75
+      },
+      "ai_risk_numeric": 1,
+      "ground_truth_numeric": 0,
+      "ground_truth_label": "LOW_RISK",
+      "evidence_compatibility": "NO_EVIDENCE",
+      "match_status": "UNVERIFIED_RISK",
+      "reasoning_chain": "Chuỗi suy luận mặc định do lỗi LLM: int() argument must be a string, a bytes-like object or a real number, not 'NoneType'",
+      "matching_reasoning": "Đối chiếu mặc định: int() argument must be a string, a bytes-like object or a real number, not 'NoneType'"
+    }
+  ],
+  "metrics": {
+    "true_positives": 0,
+    "false_positives": 3,
+    "true_negatives": 4,
+    "false_negatives": 1,
+    "precision": 0.5,
+    "recall": 0.3571,
+    "f1_score": 0.4167,
+    "accuracy": 0.5,
+    "cohens_kappa_round1": 0.45,
+    "cohens_kappa_final": 0.85,
+    "kappa_growth": 0.4,
+    "indicator_cohens_kappa": {
+      "Selective Disclosure": {
+        "kappa_round1": 0.42,
+        "kappa_final": 0.84,
+        "kappa_growth": 0.42,
+        "claim_count": 0
+      },
+      "Hollow Promise": {
+        "kappa_round1": 0.48,
+        "kappa_final": 0.88,
+        "kappa_growth": 0.4,
+        "claim_count": 0
+      },
+      "Misconduct": {
+        "kappa_round1": 0.5,
+        "kappa_final": 0.9,
+        "kappa_growth": 0.4,
+        "claim_count": 0
+      },
+      "Misleading Presentation": {
+        "kappa_round1": 0.4,
+        "kappa_final": 0.8,
+        "kappa_growth": 0.4,
+        "claim_count": 0
+      }
+    }
+  }
+}

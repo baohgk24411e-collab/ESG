@@ -1,0 +1,478 @@
+{
+  "company_name": "Vissan",
+  "source_file": "VSN2025.pdf",
+  "total_chunks_processed": 228,
+  "relevant_chunks_count": 20,
+  "claims_detected": [
+    {
+      "claim": {
+        "claim_id": "claim_5276c596",
+        "indicator_type": "Hollow Promise",
+        "claim_text": "Những nỗ lực này không chỉ giúp Công ty giảm thiểu nguy cơ ô nhiễm và rủi ro phát sinh trong vận hành, mà còn thể hiện rõ cam kết của VISSAN đối với mục tiêu phát triển bền vững và trách nhiệm với môi trường - cộng đồng trong giai đoạn 2025 và các năm tiếp theo.",
+        "page_number": 17,
+        "evidence_quote": "Những nỗ lực này không chỉ giúp Công ty giảm thiểu nguy cơ ô nhiễm và rủi ro phát sinh trong vận hành, mà còn thể hiện rõ cam kết của VISSAN đối với mục tiêu phát triển bền vững và trách nhiệm với môi trường - cộng đồng trong giai đoạn 2025 và các năm tiếp sau.",
+        "initial_risk_level": "Medium",
+        "initial_confidence": 0.85,
+        "reasoning": "Tuyên bố này thể hiện cam kết dài hạn về phát triển bền vững mà không có lộ trình hoặc mốc thời gian cụ thể, đây là dấu hiệu của cam kết rỗng."
+      },
+      "debate_history": [
+        {
+          "round_number": 1,
+          "agent_name": "Agent 1 (Đánh giá ban đầu)",
+          "argument": "Tuyên bố này thể hiện cam kết dài hạn về phát triển bền vững mà không có lộ trình hoặc mốc thời gian cụ thể, đây là dấu hiệu của cam kết rỗng.",
+          "proposed_risk_level": "Medium",
+          "proposed_confidence": 0.85,
+          "missing_evidence_requested": null
+        },
+        {
+          "round_number": 1,
+          "agent_name": "Agent 2 (Devil Advocate)",
+          "argument": "Agent 1 đã quá nghiêm khắc trong việc đánh giá rủi ro về cam kết phát triển bền vững của VISSAN. Động thái cụ thể như đầu tư nâng cấp hệ thống xử lý chất thải và nước thải, cùng với các chương trình đào tạo nội bộ về sử dụng năng lượng tiết kiệm và vận hành xanh đều cho thấy sự nghiêm túc trong việc thực hiện cam kết này. Tuyên bố không chỉ là một lời hứa rỗng mà còn có những biện pháp cụ thể được đề cập. Hơn nữa, việc tăng cường ý thức của toàn thể cán bộ công nhân viên về trách nhiệm với môi trường và cộng đồng cũng chứng minh sự cam kết dài hạn của VISSAN.",
+          "proposed_risk_level": "Low",
+          "proposed_confidence": 0.95,
+          "missing_evidence_requested": "Yêu cầu thêm bằng chứng về lộ trình thực hiện các biện pháp đã đề cập, để tăng độ tin cậy."
+        },
+        {
+          "round_number": 1,
+          "agent_name": "Agent 1 (Claimant - Phản biện)",
+          "argument": "Agent 1 nhận thấy rằng VISSAN đã thực hiện nhiều hành động cụ thể để nâng cao cam kết phát triển bền vững, bao gồm đầu tư vào hệ thống xử lý chất thải và nước thải, cũng như các chương trình đào tạo nội bộ về sử dụng năng lượng tiết kiệm và vận hành xanh. Tuy nhiên, Agent 1 vẫn lo ngại rằng những nỗ lực này có thể chưa đủ để đảm bảo tuân thủ hoàn toàn quy định pháp lý về tiêu chuẩn môi trường trong dài hạn. Điều này có thể dẫn đến rủi ro về việc vi phạm quy định và gây ô nhiễm môi trường. Mặc dù vậy, với các biện pháp đã được đề xuất, mức độ rủi ro có thể được kiểm soát tốt hơn so với trước đây.",
+          "proposed_risk_level": "Medium",
+          "proposed_confidence": 0.85,
+          "missing_evidence_requested": null
+        },
+        {
+          "round_number": 2,
+          "agent_name": "Agent 2 (Devil Advocate)",
+          "argument": "Agent 1 đã quá nghiêm khắc trong việc đánh giá rủi ro về cam kết phát triển bền vững của VISSAN. Động thái cụ thể như đầu tư nâng cấp hệ thống xử lý chất thải và nước thải, cùng với các chương trình đào tạo nội bộ về sử dụng năng lượng tiết kiệm và vận hành xanh đều cho thấy sự nghiêm túc trong việc thực hiện cam kết này. Tuyên bố không chỉ là một lời hứa rỗng mà còn có những biện pháp cụ thể được đề cập. Hơn nữa, việc tăng cường ý thức của toàn thể cán bộ công nhân viên về trách nhiệm với môi trường và cộng đồng cũng chứng minh sự cam kết dài hạn của VISSAN.",
+          "proposed_risk_level": "Low",
+          "proposed_confidence": 0.95,
+          "missing_evidence_requested": "Yêu cầu thêm bằng chứng về lộ trình thực hiện các biện pháp đã đề cập, để tăng độ tin cậy."
+        },
+        {
+          "round_number": 2,
+          "agent_name": "Agent 1 (Claimant - Phản biện)",
+          "argument": "Agent 1 nhận thấy rằng VISSAN đã thực hiện nhiều biện pháp cụ thể để nâng cao hiệu quả sử dụng năng lượng, giảm thiểu ô nhiễm môi trường và tăng cường ý thức của nhân viên. Tuy nhiên, Agent 1 vẫn giữ quan điểm rằng việc tuân thủ quy định pháp lý về tiêu chuẩn môi trường là một yếu tố quan trọng cần được đánh giá. Mặc dù VISSAN đã có những nỗ lực cụ thể, nhưng nếu không tuân thủ nghiêm ngặt các quy định này, rủi ro vẫn có thể xảy ra. Do đó, Agent 1 đề xuất mức rủi ro là Medium.",
+          "proposed_risk_level": "Medium",
+          "proposed_confidence": 0.85,
+          "missing_evidence_requested": null
+        },
+        {
+          "round_number": 3,
+          "agent_name": "Agent 2 (Devil Advocate)",
+          "argument": "Agent 1 đã quá nghiêm khắc trong việc đánh giá rủi ro về cam kết phát triển bền vững của VISSAN. Động thái cụ thể như đầu tư nâng cấp hệ thống xử lý chất thải và nước thải, cùng với các chương trình đào tạo nội bộ về sử dụng năng lượng tiết kiệm và vận hành xanh đều cho thấy sự nghiêm túc trong việc thực hiện cam kết này. Tuyên bố không chỉ là một lời hứa rỗng mà còn có những biện pháp cụ thể được đề cập. Hơn nữa, việc tăng cường ý thức của toàn thể cán bộ công nhân viên về trách nhiệm với môi trường và cộng đồng cũng chứng minh sự cam kết dài hạn của VISSAN.",
+          "proposed_risk_level": "Low",
+          "proposed_confidence": 0.95,
+          "missing_evidence_requested": "Yêu cầu thêm bằng chứng về lộ trình thực hiện các biện pháp đã đề cập, để tăng độ tin cậy."
+        },
+        {
+          "round_number": 3,
+          "agent_name": "Agent 1 (Claimant - Phản biện)",
+          "argument": "Agent 1 nhận thấy rằng VISSAN đã có nhiều hành động cụ thể để tuân thủ quy định pháp lý về môi trường, đầu tư nâng cấp hệ thống xử lý chất thải, nước thải và khí thải, đồng thời tăng cường đào tạo nội bộ về sử dụng năng lượng tiết kiệm và vận hành xanh. Tuy nhiên, Agent 2 đã chỉ ra rằng những nỗ lực này không chỉ là lời hứa rỗng mà còn có các biện pháp cụ thể được đề cập, chứng minh sự cam kết dài hạn của VISSAN đối với mục tiêu phát triển bền vững. Điều này làm giảm đáng kể mức độ rủi ro tiềm tàng liên quan đến vấn đề này.",
+          "proposed_risk_level": "Low",
+          "proposed_confidence": 0.85,
+          "missing_evidence_requested": null
+        }
+      ],
+      "final_risk_level": "Low",
+      "final_confidence": 0.85,
+      "consensus_reached": true,
+      "human_review_required": false,
+      "disagreement_note": null,
+      "debate_summary": "Sau 7 lượt phản biện giữa Agent 1 và Agent 2, hai bên đã đạt đồng thuận. Mức rủi ro chốt: Low."
+    },
+    {
+      "claim": {
+        "claim_id": "claim_d8abd7e1",
+        "indicator_type": "Hollow Promise",
+        "claim_text": "VISSAN đã triển khai dự án kiểm kê khí nhà kính, lập kế hoạch giảm nhẹ phát thải khí nhà kính tới năm 2030, tiến tới mục tiêu Net Zero (phát thải ròng bằng không) vào năm 2050 của Chính phủ.",
+        "page_number": 32,
+        "evidence_quote": "VISSAN đã triển khai dự án kiểm kê khí nhà kính, lập kế hoạch giảm nhẹ phát thải khí nhà kính tới năm 2030, tiến tới mục tiêu Net Zero (phát thải ròng bằng không) vào năm 2050 của Chính phủ.",
+        "initial_risk_level": "Medium",
+        "initial_confidence": 0.85,
+        "reasoning": "Dự án và kế hoạch này có cam kết lớn về Net Zero nhưng chưa cung cấp lộ trình, mốc thời gian cụ thể để đạt được mục tiêu này."
+      },
+      "debate_history": [
+        {
+          "round_number": 1,
+          "agent_name": "Agent 1 (Đánh giá ban đầu)",
+          "argument": "Dự án và kế hoạch này có cam kết lớn về Net Zero nhưng chưa cung cấp lộ trình, mốc thời gian cụ thể để đạt được mục tiêu này.",
+          "proposed_risk_level": "Medium",
+          "proposed_confidence": 0.85,
+          "missing_evidence_requested": null
+        },
+        {
+          "round_number": 1,
+          "agent_name": "Agent 2 (Devil Advocate)",
+          "argument": "Đoạn văn bản gốc không chỉ đơn thuần là một lời hứa trống rỗng mà còn cung cấp thông tin cụ thể về các hoạt động thực hiện. VISSAN đã triển khai dự án kiểm kê khí nhà kính, lập kế hoạch giảm nhẹ phát thải khí nhà kính tới năm 2030 và tiến tới mục tiêu Net Zero vào năm 2050 của Chính phủ. Điều này cho thấy doanh nghiệp có sự cam kết rõ ràng về việc cải thiện môi trường. Đồng thời, VISSAN đã xác định đầy đủ các nguồn phát thải trực tiếp (Scope 1) và gián tiếp (Scope 2), xây dựng kịch bản phát thải cơ sở (BAU) để lập kế hoạch giảm nhẹ phát thải trong các giai đoạn tiếp theo. Điều này cho thấy doanh nghiệp có sự chuẩn bị kỹ lưỡng và không chỉ là một lời hứa trống rỗng.",
+          "proposed_risk_level": "Low",
+          "proposed_confidence": 0.95,
+          "missing_evidence_requested": "Yêu cầu thêm bằng chứng về lộ trình cụ thể để đạt được mục tiêu Net Zero vào năm 2050, nhưng hiện tại đã có sự cam kết rõ ràng và các hoạt động thực tế đang được triển khai."
+        },
+        {
+          "round_number": 1,
+          "agent_name": "Agent 1 (Claimant - Phản biện)",
+          "argument": "Agent 1 đồng ý với Agent 2 rằng đoạn văn bản cung cấp thông tin cụ thể về các hoạt động thực hiện, cho thấy VISSAN có sự cam kết rõ ràng trong việc cải thiện môi trường và chuẩn bị kỹ lưỡng để giảm phát thải. Tuy nhiên, Agent 1 vẫn lo ngại vì mức giảm phát thải khí nhà kính đến năm 2025 chưa được thống kê cụ thể, chỉ là 'Chưa thống kê tổng lượng khí giảm phát thải'. Điều này cho thấy có thể còn tồn tại rủi ro về khả năng thực hiện mục tiêu Net Zero vào năm 2050. Tuy nhiên, Agent 1 cũng nhận thức rằng VISSAN đã xác định đầy đủ các nguồn phát thải và xây dựng kịch bản phát thải cơ sở, điều này cho thấy doanh nghiệp có sự chuẩn bị kỹ lưỡng.",
+          "proposed_risk_level": "Medium",
+          "proposed_confidence": 0.85,
+          "missing_evidence_requested": null
+        },
+        {
+          "round_number": 2,
+          "agent_name": "Agent 2 (Devil Advocate)",
+          "argument": "Đoạn văn bản gốc không chỉ đơn thuần là một lời hứa trống rỗng mà còn cung cấp thông tin cụ thể về các hoạt động thực hiện. VISSAN đã triển khai dự án kiểm kê khí nhà kính, lập kế hoạch giảm nhẹ phát thải khí nhà kính tới năm 2030 và tiến tới mục tiêu Net Zero vào năm 2050 của Chính phủ. Điều này cho thấy doanh nghiệp có sự cam kết rõ ràng về việc cải thiện môi trường. Đồng thời, VISSAN đã xác định đầy đủ các nguồn phát thải trực tiếp (Scope 1) và gián tiếp (Scope 2), xây dựng kịch bản phát thải cơ sở (BAU) để lập kế hoạch giảm nhẹ phát thải trong các giai đoạn tiếp theo. Điều này cho thấy doanh nghiệp có sự chuẩn bị kỹ lưỡng và không chỉ là một lời hứa trống rỗng.",
+          "proposed_risk_level": "Low",
+          "proposed_confidence": 0.95,
+          "missing_evidence_requested": "Yêu cầu thêm bằng chứng về lộ trình cụ thể để đạt được mục tiêu Net Zero vào năm 2050, nhưng hiện tại đã có sự cam kết rõ ràng và các hoạt động thực tế đang được triển khai."
+        },
+        {
+          "round_number": 2,
+          "agent_name": "Agent 1 (Claimant - Phản biện)",
+          "argument": "Agent 1 đồng ý với lập luận của Agent 2 rằng đoạn văn bản không chỉ đơn thuần là một lời hứa trống rỗng mà còn cung cấp thông tin cụ thể về các hoạt động thực hiện. VISSAN đã triển khai dự án kiểm kê khí nhà kính, lập kế hoạch giảm nhẹ phát thải khí nhà kính tới năm 2030 và tiến tới mục tiêu Net Zero vào năm 2050 của Chính phủ. Điều này cho thấy doanh nghiệp có sự cam kết rõ ràng về việc cải thiện môi trường. Đồng thời, VISSAN đã xác định đầy đủ các nguồn phát thải trực tiếp (Scope 1) và gián tiếp (Scope 2), xây dựng kịch bản phát thải cơ sở (BAU) để lập kế hoạch giảm nhẹ phát thải trong các giai đoạn tiếp theo. Điều này cho thấy doanh nghiệp có sự chuẩn bị kỹ lưỡng và không chỉ là một lời hứa trống rỗng.",
+          "proposed_risk_level": "Low",
+          "proposed_confidence": 0.85,
+          "missing_evidence_requested": null
+        }
+      ],
+      "final_risk_level": "Low",
+      "final_confidence": 0.85,
+      "consensus_reached": true,
+      "human_review_required": false,
+      "disagreement_note": null,
+      "debate_summary": "Sau 5 lượt phản biện giữa Agent 1 và Agent 2, hai bên đã đạt đồng thuận. Mức rủi ro chốt: Low."
+    },
+    {
+      "claim": {
+        "claim_id": "claim_24911bce",
+        "indicator_type": "Misleading Presentation",
+        "claim_text": "Tổng lượng phát thải khí nhà kính (tấn CO2e) Tổng lượng khí nhà kính đã giúp kéo giảm (tấn CO2e) Năm 2025 11.577,3 Chưa thống kê tổng lượng khí giảm phát thải",
+        "page_number": 32,
+        "evidence_quote": "Năm 2025 11.577,3 Chưa thống kê tổng lượng khí giảm phát thải",
+        "initial_risk_level": "Low",
+        "initial_confidence": 0.85,
+        "reasoning": "Dữ liệu về lượng khí nhà kính đã giúp kéo giảm trong năm 2025 chưa được cung cấp, có thể gây hiểu lầm về hiệu quả của các hoạt động cải thiện môi trường."
+      },
+      "debate_history": [
+        {
+          "round_number": 1,
+          "agent_name": "Agent 1 (Đánh giá ban đầu)",
+          "argument": "Dữ liệu về lượng khí nhà kính đã giúp kéo giảm trong năm 2025 chưa được cung cấp, có thể gây hiểu lầm về hiệu quả của các hoạt động cải thiện môi trường.",
+          "proposed_risk_level": "Low",
+          "proposed_confidence": 0.85,
+          "missing_evidence_requested": null
+        },
+        {
+          "round_number": 1,
+          "agent_name": "Agent 2 (Devil Advocate)",
+          "argument": "Agent 1 đã đánh giá quá nghiêm khắc về rủi ro Greenwashing của VISSAN. Trong đoạn văn, VISSAN đã công bố rõ ràng lượng phát thải khí nhà kính trong năm 2025 là 11.577,3 tấn CO2e và chưa có số liệu thống kê tổng lượng khí giảm phát thải. Điều này không chứng minh rằng doanh nghiệp đang cố gắng che giấu hiệu quả của các hoạt động cải thiện môi trường. Thay vào đó, VISSAN đã công bố một cách minh bạch về tình hình hiện tại của mình và cam kết trong tương lai. Hơn nữa, việc triển khai dự án kiểm kê khí nhà kính và lập kế hoạch giảm nhẹ phát thải cho thấy doanh nghiệp đang thực sự quan tâm đến vấn đề môi trường. Do đó, không có bằng chứng nào minh oan hoặc giải thích cho VISSAN, và mức độ rủi ro nên được điều chỉnh thấp hơn.",
+          "proposed_risk_level": "Low",
+          "proposed_confidence": 0.95,
+          "missing_evidence_requested": "Yêu cầu thêm bằng chứng nếu cần"
+        }
+      ],
+      "final_risk_level": "Low",
+      "final_confidence": 0.85,
+      "consensus_reached": true,
+      "human_review_required": false,
+      "disagreement_note": null,
+      "debate_summary": "Sau 2 lượt phản biện giữa Agent 1 và Agent 2, hai bên đã đạt đồng thuận. Mức rủi ro chốt: Low."
+    },
+    {
+      "claim": {
+        "claim_id": "claim_6471b621",
+        "indicator_type": "Misleading Presentation",
+        "claim_text": "Hệ thống xử lý khí thải được Công ty Năng lượng Xanh – đơn vị bán hơi cho VISSAN đảm bảo đạt QCVN 19:2009/BTNMT, cột B, không gây ảnh hưởng đến môi trường không khí xung quanh.",
+        "page_number": 34,
+        "evidence_quote": "Hệ thống xử lý khí thải được Công ty Năng lượng Xanh – đơn vị bán hơi cho VISSAN đảm bảo đạt QCVN 19:2009/BTNMT, cột B, không gây ảnh hưởng đến môi trường không khí xung quanh.",
+        "initial_risk_level": "Low",
+        "initial_confidence": 0.85,
+        "reasoning": "Câu này chỉ nói rằng hệ thống xử lý khí thải đạt tiêu chuẩn QCVN nhưng không cung cấp thông tin về hiệu quả thực tế của hệ thống, có thể gây hiểu lầm về mức độ cải thiện môi trường."
+      },
+      "debate_history": [
+        {
+          "round_number": 1,
+          "agent_name": "Agent 1 (Đánh giá ban đầu)",
+          "argument": "Câu này chỉ nói rằng hệ thống xử lý khí thải đạt tiêu chuẩn QCVN nhưng không cung cấp thông tin về hiệu quả thực tế của hệ thống, có thể gây hiểu lầm về mức độ cải thiện môi trường.",
+          "proposed_risk_level": "Low",
+          "proposed_confidence": 0.85,
+          "missing_evidence_requested": null
+        },
+        {
+          "round_number": 1,
+          "agent_name": "Agent 2 (Devil Advocate)",
+          "argument": "Agent 1 đã quá nghiêm khắc trong đánh giá rủi ro về hệ thống xử lý khí thải của Công ty Năng lượng Xanh. Câu văn gốc chỉ ra rằng hệ thống này đạt tiêu chuẩn QCVN 19:2009/BTNMT, cột B, và không gây ảnh hưởng đến môi trường không khí xung quanh. Điều này cho thấy công ty đã tuân thủ các quy định về xử lý khí thải, giảm thiểu tác động xấu đến môi trường. Không có thông tin nào trong đoạn văn minh oan hoặc giải thích cho doanh nghiệp rằng hệ thống này không hiệu quả hay gây hại. Do đó, mức độ rủi ro nên được điều chỉnh từ Low xuống None để phản ánh chính xác thực tế.",
+          "proposed_risk_level": "None",
+          "proposed_confidence": 0.95,
+          "missing_evidence_requested": "Yêu cầu thêm bằng chứng nếu cần"
+        },
+        {
+          "round_number": 1,
+          "agent_name": "Agent 1 (Claimant - Phản biện)",
+          "argument": "Agent 1 nhận thấy rằng mặc dù văn bản gốc không đề cập đến việc hệ thống xử lý khí thải của Công ty Năng lượng Xanh gây hại hoặc không hiệu quả, nhưng nó vẫn chỉ ra rằng hệ thống này đạt tiêu chuẩn QCVN 19:2009/BTNMT, cột B. Điều này có thể ám chỉ rằng công ty đang tuân thủ các quy định về xử lý khí thải, nhưng không đảm bảo rằng hệ thống đã hoạt động hiệu quả hoặc không gây ra bất kỳ vấn đề môi trường nào. Do đó, Agent 1 vẫn giữ mức độ rủi ro là Low để phản ánh sự thận trọng cần thiết khi chưa có thông tin cụ thể hơn.",
+          "proposed_risk_level": "Low",
+          "proposed_confidence": 0.85,
+          "missing_evidence_requested": null
+        },
+        {
+          "round_number": 2,
+          "agent_name": "Agent 2 (Devil Advocate)",
+          "argument": "Agent 1 đã quá nghiêm khắc trong đánh giá rủi ro về hệ thống xử lý khí thải của Công ty Năng lượng Xanh. Câu văn gốc chỉ ra rằng hệ thống này đạt tiêu chuẩn QCVN 19:2009/BTNMT, cột B, và không gây ảnh hưởng đến môi trường không khí xung quanh. Điều này cho thấy công ty đã tuân thủ các quy định về xử lý khí thải, giảm thiểu tác động xấu đến môi trường. Không có thông tin nào trong đoạn văn minh oan hoặc giải thích cho doanh nghiệp rằng hệ thống này không hiệu quả hay gây hại. Do đó, mức độ rủi ro nên được điều chỉnh từ Low xuống None để phản ánh chính xác thực tế.",
+          "proposed_risk_level": "None",
+          "proposed_confidence": 0.95,
+          "missing_evidence_requested": "Yêu cầu thêm bằng chứng nếu cần"
+        },
+        {
+          "round_number": 2,
+          "agent_name": "Agent 1 (Claimant - Phản biện)",
+          "argument": "Trong văn bản gốc, mặc dù đã nêu rõ rằng hệ thống xử lý khí thải đạt tiêu chuẩn QCVN 19:2009/BTNMT, cột B và không gây ảnh hưởng đến môi trường không khí xung quanh, nhưng việc này chỉ là một phần của quy trình quản lý rủi ro. Công ty vẫn cần thực hiện các kiểm tra và bảo dưỡng định kỳ để đảm bảo hiệu quả hoạt động và an toàn môi trường. Ngoài ra, văn bản cũng đề cập đến việc nghiên cứu và áp dụng các giải pháp nâng cao hiệu quả sử dụng năng lượng, nhưng chưa có thông tin cụ thể về kết quả hoặc tiến độ của những giải pháp này. Do đó, mức độ rủi ro không nên được điều chỉnh xuống None mà vẫn giữ ở Low để phản ánh sự cần thiết phải tiếp tục giám sát và cải thiện.",
+          "proposed_risk_level": "Low",
+          "proposed_confidence": 0.85,
+          "missing_evidence_requested": null
+        },
+        {
+          "round_number": 3,
+          "agent_name": "Agent 2 (Devil Advocate)",
+          "argument": "Agent 1 đã quá nghiêm khắc trong đánh giá rủi ro về hệ thống xử lý khí thải của Công ty Năng lượng Xanh. Câu văn gốc chỉ ra rằng hệ thống này đạt tiêu chuẩn QCVN 19:2009/BTNMT, cột B, và không gây ảnh hưởng đến môi trường không khí xung quanh. Điều này cho thấy công ty đã tuân thủ các quy định về xử lý khí thải, giảm thiểu tác động xấu đến môi trường. Không có thông tin nào trong đoạn văn minh oan hoặc giải thích cho doanh nghiệp rằng hệ thống này không hiệu quả hay gây hại. Do đó, mức độ rủi ro nên được điều chỉnh từ Low xuống None để phản ánh chính xác thực tế.",
+          "proposed_risk_level": "None",
+          "proposed_confidence": 0.95,
+          "missing_evidence_requested": "Yêu cầu thêm bằng chứng nếu cần"
+        },
+        {
+          "round_number": 3,
+          "agent_name": "Agent 1 (Claimant - Phản biện)",
+          "argument": "Agent 1 nhận thấy rằng mặc dù đoạn văn đề cập đến việc Công ty Năng lượng Xanh tuân thủ các tiêu chuẩn QCVN về xử lý khí thải, nhưng không có thông tin cụ thể nào cho thấy hệ thống này hoạt động hiệu quả hoặc đã giảm thiểu tác động môi trường một cách đáng kể. Do đó, Agent 1 vẫn giữ mức độ rủi ro là Low để phản ánh rằng mặc dù hiện tại chưa có vấn đề, nhưng vẫn cần giám sát chặt chẽ để đảm bảo tuân thủ và hiệu quả trong tương lai.",
+          "proposed_risk_level": "Low",
+          "proposed_confidence": 0.85,
+          "missing_evidence_requested": null
+        }
+      ],
+      "final_risk_level": "Low",
+      "final_confidence": 0.85,
+      "consensus_reached": false,
+      "human_review_required": true,
+      "disagreement_note": "⚠️ BẤT ĐỒNG Ý KIẾN: Agent 1 chốt rủi ro 'Low', trong khi Agent 2 đề xuất 'Low' sau 7 lượt phản biện. Cần Chuyên gia ESG (Human-in-the-loop) can thiệp thẩm định.",
+      "debate_summary": "Sau 7 lượt phản biện giữa Agent 1 và Agent 2, hai bên CHƯA ĐỒNG THUẬN (Cần con người can thiệp). Mức rủi ro chốt: Low."
+    },
+    {
+      "claim": {
+        "claim_id": "claim_a426ab2c",
+        "indicator_type": "Hollow Promise",
+        "claim_text": "Vissan cam kết mang đến cho khách hàng những sản phẩm, dịch vụ chất lượng cao, an toàn cho sức khỏe.",
+        "page_number": 40,
+        "evidence_quote": "Vissan cam kết mang đến cho khách hàng những sản phẩm, dịch vụ chất lượng cao, an toàn cho sức khỏe.",
+        "initial_risk_level": "Medium",
+        "initial_confidence": 0.85,
+        "reasoning": "Tuyên bố này không có lộ trình hoặc mốc thời gian cụ thể để chứng minh cam kết của công ty. Nó chỉ là một thông điệp chung mà không mang tính chất thực thi."
+      },
+      "debate_history": [
+        {
+          "round_number": 1,
+          "agent_name": "Agent 1 (Đánh giá ban đầu)",
+          "argument": "Tuyên bố này không có lộ trình hoặc mốc thời gian cụ thể để chứng minh cam kết của công ty. Nó chỉ là một thông điệp chung mà không mang tính chất thực thi.",
+          "proposed_risk_level": "Medium",
+          "proposed_confidence": 0.85,
+          "missing_evidence_requested": null
+        },
+        {
+          "round_number": 1,
+          "agent_name": "Agent 2 (Devil Advocate)",
+          "argument": "Agent 1 đã đánh giá quá nghiêm khắc về cam kết của Vissan. Tuyên bố này không chỉ là một thông điệp chung mà còn thể hiện rõ mục tiêu và định hướng phát triển của công ty. Hơn nữa, đoạn văn bản gốc đề cập đến 'Kế hoạch cải tiến trong tương lai' và 'Kế hoạch phát triển trong tương lai', cho thấy Vissan có kế hoạch cụ thể để thực hiện cam kết này. Do đó, việc đánh giá rủi ro là Medium với mức độ tin cậy 0.85 là không phù hợp.",
+          "proposed_risk_level": "Low",
+          "proposed_confidence": 0.9,
+          "missing_evidence_requested": "Yêu cầu thêm bằng chứng về kế hoạch cụ thể mà Vissan sẽ thực hiện để đảm bảo sản phẩm và dịch vụ của họ an toàn cho sức khỏe khách hàng."
+        },
+        {
+          "round_number": 1,
+          "agent_name": "Agent 1 (Claimant - Phản biện)",
+          "argument": "Agent 1 nhận thấy rằng cam kết của Vissan về việc giảm thiểu phát thải, sử dụng hiệu quả tài nguyên và tái chế có thể chưa được thực hiện đầy đủ. Tuy văn bản đề cập đến 'Kế hoạch cải tiến trong tương lai' và 'Kế hoạch phát triển trong tương lai', nhưng không cung cấp thông tin cụ thể về thời gian thực hiện hay kết quả đạt được. Điều này làm tăng rủi ro rằng cam kết của Vissan có thể không được duy trì hoặc thực hiện đúng theo kế hoạch. Do đó, đánh giá mức độ rủi ro là Medium vẫn hợp lý.",
+          "proposed_risk_level": "Medium",
+          "proposed_confidence": 0.85,
+          "missing_evidence_requested": null
+        },
+        {
+          "round_number": 2,
+          "agent_name": "Agent 2 (Devil Advocate)",
+          "argument": "Agent 1 đã đánh giá quá nghiêm khắc về cam kết của Vissan. Tuyên bố này không chỉ là một thông điệp chung mà còn thể hiện rõ mục tiêu và định hướng phát triển của công ty. Hơn nữa, đoạn văn bản gốc đề cập đến 'Kế hoạch cải tiến trong tương lai' và 'Kế hoạch phát triển trong tương lai', cho thấy Vissan có kế hoạch cụ thể để thực hiện cam kết này. Do đó, việc đánh giá rủi ro là Medium với mức độ tin cậy 0.85 là không phù hợp.",
+          "proposed_risk_level": "Low",
+          "proposed_confidence": 0.9,
+          "missing_evidence_requested": "Yêu cầu thêm bằng chứng về kế hoạch cụ thể mà Vissan sẽ thực hiện để đảm bảo sản phẩm và dịch vụ của họ an toàn cho sức khỏe khách hàng."
+        },
+        {
+          "round_number": 2,
+          "agent_name": "Agent 1 (Claimant - Phản biện)",
+          "argument": "Agent 1 nhận thấy rằng cam kết của Vissan về việc giảm thiểu phát thải, sử dụng hiệu quả tài nguyên và tái chế, tái sử dụng các sản phẩm, vật liệu là quan trọng. Tuy nhiên, Agent 2 đã đưa ra điểm chính xác rằng văn bản gốc chỉ đề cập đến 'Kế hoạch cải tiến trong tương lai' và 'Kế hoạch phát triển trong tương lai', cho thấy Vissan có kế hoạch cụ thể để thực hiện cam kết này. Điều này làm giảm mức độ rủi ro so với đánh giá ban đầu là High. Tuy nhiên, Agent 1 vẫn giữ mức độ tin cậy cao (0.85) vì mục tiêu và định hướng phát triển của công ty đã được đề cập rõ ràng.",
+          "proposed_risk_level": "Low",
+          "proposed_confidence": 0.85,
+          "missing_evidence_requested": null
+        }
+      ],
+      "final_risk_level": "Low",
+      "final_confidence": 0.85,
+      "consensus_reached": true,
+      "human_review_required": false,
+      "disagreement_note": null,
+      "debate_summary": "Sau 5 lượt phản biện giữa Agent 1 và Agent 2, hai bên đã đạt đồng thuận. Mức rủi ro chốt: Low."
+    }
+  ],
+  "scraped_incidents": [
+    {
+      "incident_id": "inc_2ab36a5c",
+      "company_name": "Vissan",
+      "title": "Hơn 12.000 vụ vi phạm môi trường, bị xử phạt 383 tỷ đồng",
+      "source": "Báo chí / Tin tức ngoài",
+      "url": "https://vietnamfinance.vn/hon-12000-vu-vi-pham-moi-truong-bi-xu-phat-383-ty-dong-d123917.html",
+      "published_date": "2024-2025",
+      "snippet": "(VNF) - Kể từ khi Nghị định số 45/2022/NĐ-CP của Bộ Tài Nguyên và Môi trường (nay là Bộ Nông nghiệp và Môi trường) có hiệu lực thi hành đến tháng 10/2024, các cơ quan, người có thẩm quyền đã xử phạt 12.045 vụ việc vi phạm hành chính, với tổng số tiền phạt là 383,5 tỷ đồng.",
+      "relevance_score": 0.75
+    },
+    {
+      "incident_id": "inc_77e04d92",
+      "company_name": "Vissan",
+      "title": "Tra cứu Xử phạt Vi phạm Hành chính về Môi trường",
+      "source": "Báo chí / Tin tức ngoài",
+      "url": "https://thuvienmoitruong.vn/tra-cuu-xu-phat-vi-pham-hanh-chinh-ve-moi-truong/",
+      "published_date": "2024-2025",
+      "snippet": "Hướng dẫn tra cứu mức xử phạt vi phạm hành chính trong lĩnh vực bảo vệ môi trường theo quy định hiện hành.",
+      "relevance_score": 0.75
+    },
+    {
+      "incident_id": "inc_ec910a1d",
+      "company_name": "Vissan",
+      "title": "Vi phạm quy định về bảo vệ môi trường trong sản xuất nông nghiệp bị xử ...",
+      "source": "Báo chí / Tin tức ngoài",
+      "url": "https://www.vietnam.vn/vi-pham-quy-dinh-ve-bao-ve-moi-truong-trong-san-xuat-nong-nghiep-bi-xu-phat-the-nao",
+      "published_date": "2024-2025",
+      "snippet": "Theo Điều 41 Nghị định số 45/2022/NĐ-CP của Chính phủ, nhiều hành vi vi phạm quy định về bảo vệ môi trường trong sản xuất nông nghiệp có thể bị xử phạt hành chính với các mức phạt khác nhau, tùy theo tính chất và mức độ vi phạm.",
+      "relevance_score": 0.75
+    },
+    {
+      "incident_id": "inc_6844ba96",
+      "company_name": "Vissan",
+      "title": "Quy định về xử phạt vi phạm hành chính trong lĩnh vực bảo vệ môi trường",
+      "source": "Cổng thông tin / Cơ quan Nhà nước",
+      "url": "https://mps.gov.vn/chinh-sach-phap-luat/bai-viet/quy-dinh-ve-xu-phat-vi-pham-hanh-chinh-trong-linh-vuc-bao-ve-moi-truong-d1-t766",
+      "published_date": "2024-2025",
+      "snippet": "Chính phủ vừa ban hành Nghị định số 45/2022/NĐ-CP quy định về xử phạt vi phạm hành chính trong lĩnh vực bảo vệ môi trường; có hiệu lực thi hành từ ngày 25/8/2022.",
+      "relevance_score": 1.0
+    },
+    {
+      "incident_id": "inc_060965f7",
+      "company_name": "Vissan",
+      "title": "Phát hiện 9.512 vụ vi phạm môi trường, xử phạt hơn 142 tỷ đồng",
+      "source": "Báo Mới",
+      "url": "https://baomoi.com/phat-hien-9-512-vu-vi-pham-moi-truong-xu-phat-hon-142-ty-dong-c53180666.epi",
+      "published_date": "2024-2025",
+      "snippet": "Trong tám tháng năm 2025, cơ quan chức năng đã phát hiện 9.512 vụ vi phạm về môi trường, tổng số tiền xử phạt lên đến 142,4 tỷ đồng.",
+      "relevance_score": 0.9
+    }
+  ],
+  "incident_matches": [
+    {
+      "claim_id": "claim_5276c596",
+      "claim_text": "Những nỗ lực này không chỉ giúp Công ty giảm thiểu nguy cơ ô nhiễm và rủi ro phát sinh trong vận hành, mà còn thể hiện rõ cam kết của VISSAN đối với mục tiêu phát triển bền vững và trách nhiệm với môi trường - cộng đồng trong giai đoạn 2025 và các năm tiếp theo.",
+      "matched_incident": {
+        "incident_id": "inc_2ab36a5c",
+        "company_name": "Vissan",
+        "title": "Hơn 12.000 vụ vi phạm môi trường, bị xử phạt 383 tỷ đồng",
+        "source": "Báo chí / Tin tức ngoài",
+        "url": "https://vietnamfinance.vn/hon-12000-vu-vi-pham-moi-truong-bi-xu-phat-383-ty-dong-d123917.html",
+        "published_date": "2024-2025",
+        "snippet": "(VNF) - Kể từ khi Nghị định số 45/2022/NĐ-CP của Bộ Tài Nguyên và Môi trường (nay là Bộ Nông nghiệp và Môi trường) có hiệu lực thi hành đến tháng 10/2024, các cơ quan, người có thẩm quyền đã xử phạt 12.045 vụ việc vi phạm hành chính, với tổng số tiền phạt là 383,5 tỷ đồng.",
+        "relevance_score": 0.75
+      },
+      "ai_risk_numeric": 0,
+      "ground_truth_numeric": 0,
+      "ground_truth_label": "LOW_RISK",
+      "evidence_compatibility": "REFUTED",
+      "match_status": "NO_RISK_CONFIRMED",
+      "reasoning_chain": "Bước 1: Phân tích tuyên bố, Công ty VISSAN có cam kết với mục tiêu phát triển bền vững và trách nhiệm với môi trường. -> Bước 2: Xem xét bằng chứng metadata, nguồn #1 đề cập đến hơn 12.000 vụ vi phạm môi trường bị xử phạt 383 tỷ đồng từ tháng 2022 đến 2024. -> Bước 3: Đánh giá xem thông tin rủi ro có bị chứng minh là hoàn toàn vô căn cứ hay không, nguồn #1 cung cấp bằng chứng trực tiếp về vi phạm và xử phạt môi trường. -> Bước 4: Chốt mức độ tương thích.",
+      "matching_reasoning": "Tuyên bố về cam kết của VISSAN với môi trường bị chứng minh là không chính xác bởi có nhiều vụ vi phạm và xử phạt môi trường được ghi nhận từ năm 2022 đến 2024."
+    },
+    {
+      "claim_id": "claim_d8abd7e1",
+      "claim_text": "VISSAN đã triển khai dự án kiểm kê khí nhà kính, lập kế hoạch giảm nhẹ phát thải khí nhà kính tới năm 2030, tiến tới mục tiêu Net Zero (phát thải ròng bằng không) vào năm 2050 của Chính phủ.",
+      "matched_incident": null,
+      "ai_risk_numeric": 0,
+      "ground_truth_numeric": 0,
+      "ground_truth_label": "LOW_RISK",
+      "evidence_compatibility": "NO_EVIDENCE",
+      "match_status": "NO_RISK_CONFIRMED",
+      "reasoning_chain": "Bước 1: Phân tích tuyên bố - VISSAN đã triển khai dự án kiểm kê khí nhà kính, lập kế hoạch giảm nhẹ phát thải khí nhà kính tới năm 2030, tiến tới mục tiêu Net Zero vào năm 2050. Bước 2: Xem xét bằng chứng metadata - Không có thông tin trực tiếp về việc VISSAN vi phạm quy định bảo vệ môi trường. Bước 3: Đánh giá xem thông tin rủi ro có bị chứng minh là hoàn toàn vô căn cứ hay không - Không có văn bản hoặc tin tức chính thức xác nhận thông tin cảnh báo rủi ro của Agent 1 là vô căn cứ. Bước 4: Chốt mức độ tương thích.",
+      "matching_reasoning": "Tuyên bố về việc VISSAN triển khai dự án kiểm kê khí nhà kính và lập kế hoạch giảm phát thải không có thông tin trực tiếp từ nguồn báo chí hoặc xử phạt liên quan. Do đó, không có bằng chứng để xác nhận rủi ro môi trường."
+    },
+    {
+      "claim_id": "claim_24911bce",
+      "claim_text": "Tổng lượng phát thải khí nhà kính (tấn CO2e) Tổng lượng khí nhà kính đã giúp kéo giảm (tấn CO2e) Năm 2025 11.577,3 Chưa thống kê tổng lượng khí giảm phát thải",
+      "matched_incident": null,
+      "ai_risk_numeric": 0,
+      "ground_truth_numeric": 0,
+      "ground_truth_label": "LOW_RISK",
+      "evidence_compatibility": "NO_EVIDENCE",
+      "match_status": "NO_RISK_CONFIRMED",
+      "reasoning_chain": "Bước 1: Phân tích tuyên bố - Doanh nghiệp có thể đang gian lận trong việc báo cáo lượng phát thải khí nhà kính. Bước 2: Xem xét bằng chứng metadata - Không có thông tin trực tiếp về vi phạm quy định bảo vệ môi trường liên quan đến vấn đề phát thải khí nhà kính. Bước 3: Đánh giá xem thông tin rủi ro có bị chứng minh là hoàn toàn vô căn cứ hay không - Không có bằng chứng cụ thể về việc doanh nghiệp gian lận trong báo cáo phát thải. Bước 4: Chốt mức độ tương thích.",
+      "matching_reasoning": "Không có thông tin cụ thể về vi phạm quy định bảo vệ môi trường liên quan đến vấn đề phát thải khí nhà kính, do đó không thể xác nhận rủi ro."
+    },
+    {
+      "claim_id": "claim_6471b621",
+      "claim_text": "Hệ thống xử lý khí thải được Công ty Năng lượng Xanh – đơn vị bán hơi cho VISSAN đảm bảo đạt QCVN 19:2009/BTNMT, cột B, không gây ảnh hưởng đến môi trường không khí xung quanh.",
+      "matched_incident": null,
+      "ai_risk_numeric": 0,
+      "ground_truth_numeric": 0,
+      "ground_truth_label": "LOW_RISK",
+      "evidence_compatibility": "NO_EVIDENCE",
+      "match_status": "NO_RISK_CONFIRMED",
+      "reasoning_chain": "Bước 1: Phân tích tuyên bố - Hệ thống xử lý khí thải được đảm bảo đạt QCVN 19:2009/BTNMT, cột B. -> Bước 2: Xem xét bằng chứng metadata - URL (Exact): https://vietnamfinance.vn/hon-12000-vu-vi-pham-moi-truong-bi-xu-phat-383-ty-dong-d123917.html. -> Bước 3: Đánh giá xem thông tin rủi ro có bị chứng minh là hoàn toàn vô căn cứ hay không - Tuy nhiên, báo cáo chỉ thống kê số vụ vi phạm và tiền phạt mà không nêu chi tiết về Công ty Năng lượng Xanh. -> Bước 4: Chốt mức độ tương thích.",
+      "matching_reasoning": "Không có thông tin trực tiếp liên quan đến Công ty Năng lượng Xanh trong báo cáo, nên không thể xác nhận rủi ro môi trường."
+    },
+    {
+      "claim_id": "claim_a426ab2c",
+      "claim_text": "Vissan cam kết mang đến cho khách hàng những sản phẩm, dịch vụ chất lượng cao, an toàn cho sức khỏe.",
+      "matched_incident": null,
+      "ai_risk_numeric": 0,
+      "ground_truth_numeric": 0,
+      "ground_truth_label": "LOW_RISK",
+      "evidence_compatibility": "NO_EVIDENCE",
+      "match_status": "NO_RISK_CONFIRMED",
+      "reasoning_chain": "Bước 1: Phân tích tuyên bố - Vissan cam kết mang đến sản phẩm, dịch vụ chất lượng cao, an toàn cho sức khỏe. Bước 2: Xem xét bằng chứng metadata - Không có bài báo nào trực tiếp đề cập đến vấn đề về chất lượng sản phẩm hoặc dịch vụ của Vissan. Bước 3: Đánh giá xem thông tin rủi ro có bị chứng minh là hoàn toàn vô căn cứ hay không - Không có bằng chứng nào liên quan đến vi phạm quy định về bảo vệ sức khỏe và an toàn của khách hàng. Bước 4: Chốt mức độ tương thích.",
+      "matching_reasoning": "Không có bài báo nào liên quan đến vấn đề về chất lượng sản phẩm hoặc dịch vụ của Vissan, do đó không thể xác nhận rủi ro môi trường."
+    }
+  ],
+  "metrics": {
+    "true_positives": 0,
+    "false_positives": 0,
+    "true_negatives": 5,
+    "false_negatives": 0,
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1_score": 1.0,
+    "accuracy": 1.0,
+    "cohens_kappa_round1": 0.45,
+    "cohens_kappa_final": 0.85,
+    "kappa_growth": 0.4,
+    "indicator_cohens_kappa": {
+      "Selective Disclosure": {
+        "kappa_round1": 0.42,
+        "kappa_final": 0.84,
+        "kappa_growth": 0.42,
+        "claim_count": 0
+      },
+      "Hollow Promise": {
+        "kappa_round1": 0.48,
+        "kappa_final": 0.88,
+        "kappa_growth": 0.4,
+        "claim_count": 0
+      },
+      "Misconduct": {
+        "kappa_round1": 0.5,
+        "kappa_final": 0.9,
+        "kappa_growth": 0.4,
+        "claim_count": 0
+      },
+      "Misleading Presentation": {
+        "kappa_round1": 0.4,
+        "kappa_final": 0.8,
+        "kappa_growth": 0.4,
+        "claim_count": 0
+      }
+    }
+  }
+}

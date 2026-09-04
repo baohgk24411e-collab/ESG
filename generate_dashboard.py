@@ -475,22 +475,34 @@ TEMPLATE_HTML = """<!DOCTYPE html>
             subBtnsEl.innerHTML = '';
             const allBtn = document.createElement('button');
             allBtn.className = 'tab-btn active';
-            allBtn.innerText = 'Tất cả';
+            allBtn.setAttribute('data-key', 'ALL');
+            allBtn.innerText = 'Tất cả báo cáo';
             allBtn.onclick = () => onCompanyFilterChange('ALL');
             subBtnsEl.appendChild(allBtn);
         }
 
+        function getReportLabel(comp) {
+            let file = comp.source_file || '';
+            let match = file.match(/(202[0-9])/);
+            let year = match ? match[1] : '';
+            return year ? `${comp.company_name} (${year})` : `${comp.company_name} (${file.split('_')[0]})`;
+        }
+
         dataset.forEach(comp => {
+            const key = comp.source_file || comp.company_name;
+            const label = getReportLabel(comp);
+
             const opt = document.createElement('option');
-            opt.value = comp.company_name;
-            opt.innerText = `🏢 ${comp.company_name} (${comp.source_file})`;
+            opt.value = key;
+            opt.innerText = `🏢 ${label} — ${comp.source_file}`;
             selectEl.appendChild(opt);
 
             if (subBtnsEl) {
                 const btn = document.createElement('button');
                 btn.className = 'tab-btn';
-                btn.innerText = comp.company_name;
-                btn.onclick = () => onCompanyFilterChange(comp.company_name);
+                btn.setAttribute('data-key', key);
+                btn.innerText = label;
+                btn.onclick = () => onCompanyFilterChange(key);
                 subBtnsEl.appendChild(btn);
             }
         });
@@ -541,15 +553,31 @@ TEMPLATE_HTML = """<!DOCTYPE html>
             document.getElementById('cm-fn').innerText = sumFN;
         }
 
-        function onCompanyFilterChange(selectedCompany) {
-            selectEl.value = selectedCompany;
+        function onCompanyFilterChange(selectedKey) {
+            selectEl.value = selectedKey;
 
-            let filteredData = dataset;
-            if (selectedCompany !== 'ALL') {
-                filteredData = dataset.filter(c => c.company_name === selectedCompany);
+            if (subBtnsEl) {
+                const btns = subBtnsEl.querySelectorAll('.tab-btn');
+                btns.forEach(btn => {
+                    if (btn.getAttribute('data-key') === selectedKey) {
+                        btn.classList.add('active');
+                    } else {
+                        btn.classList.remove('active');
+                    }
+                });
             }
 
-            renderDashboardView(filteredData, selectedCompany);
+            let filteredData = dataset;
+            let displayLabel = 'ALL';
+
+            if (selectedKey !== 'ALL') {
+                filteredData = dataset.filter(c => c.source_file === selectedKey || c.company_name === selectedKey);
+                if (filteredData.length > 0) {
+                    displayLabel = getReportLabel(filteredData[0]);
+                }
+            }
+
+            renderDashboardView(filteredData, displayLabel);
         }
 
         function renderDashboardView(filteredCompanies, selectedCompanyName) {
@@ -979,23 +1007,15 @@ def generate_html_dashboard(json_path: str = "output_results.json", output_html_
     Generate an interactive, standalone HTML Web Dashboard from JSON results.
     Automatically aggregates multi-company datasets if available.
     """
-    data = None
-    bundle_path = r"d:\ESG\output_results\multi_company_bundle.json"
+    data = []
     results_dir = r"d:\ESG\output_results"
     
-    if os.path.exists(bundle_path):
-        try:
-            with open(bundle_path, "r", encoding="utf-8") as f:
-                data = json.load(f)
-        except Exception:
-            pass
-
-    if not data and os.path.exists(results_dir):
+    if os.path.exists(results_dir):
         import glob
-        comp_files = glob.glob(os.path.join(results_dir, "*_result.json"))
+        comp_files = [f for f in glob.glob(os.path.join(results_dir, "*_result.json"))
+                      if not f.endswith("masan_result.json") and not f.endswith("vinamilk_result.json")]
         if comp_files:
-            data = []
-            for cf in comp_files:
+            for cf in sorted(comp_files):
                 try:
                     with open(cf, "r", encoding="utf-8") as f:
                         data.append(json.load(f))
@@ -1004,7 +1024,8 @@ def generate_html_dashboard(json_path: str = "output_results.json", output_html_
 
     if not data and os.path.exists(json_path):
         with open(json_path, "r", encoding="utf-8") as f:
-            data = json.load(f)
+            content = json.load(f)
+            data = content if isinstance(content, list) else [content]
 
     if not data:
         print(f"⚠️ JSON results file not found at: {json_path}")

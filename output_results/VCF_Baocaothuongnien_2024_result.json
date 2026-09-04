@@ -1,0 +1,99 @@
+{
+  "company_name": "Vinacafé",
+  "source_file": "VCF_Baocaothuongnien_2024.pdf",
+  "total_chunks_processed": 303,
+  "relevant_chunks_count": 20,
+  "claims_detected": [],
+  "scraped_incidents": [
+    {
+      "incident_id": "inc_7ba47e18",
+      "company_name": "Vinacafé",
+      "title": "Vinacafé Biên Hòa bị phạt 320 triệu đồng do vi phạm quy định bảo vệ môi trường | Báo Pháp luật Việt Nam điện tử",
+      "source": "Báo Pháp Luật",
+      "url": "https://baophapluat.vn/vinacafe-bien-hoa-bi-phat-320-trieu-dong-do-vi-pham-quy-dinh-bao-ve-moi-truong-post547637.html",
+      "published_date": "2024-2025",
+      "snippet": "May 8, 2025 - Căn cứ khoản 2 Điều 6 và điểm c khoản 3 Điều 14 của Nghị định nêu trên, UBND tỉnh Đồng Nai đã ra quyết định xử phạt hành chính Vinacafé Biên Hòa với mức phạt 320 triệu đồng.",
+      "relevance_score": 0.9
+    },
+    {
+      "incident_id": "inc_899f71d5",
+      "company_name": "Vinacafé",
+      "title": "Công ty Cổ phần Vinacafé Biên Hòa bị xử phạt 320 triệu đồng",
+      "source": "Báo chí / Tin tức ngoài",
+      "url": "https://baovephapluat.vn/kinh-te/kinh-doanh-phap-luat/khong-co-giay-phep-moi-truong-cong-ty-co-phan-vinacafe-bien-hoa-bi-xu-phat-320-trieu-dong-177291.html",
+      "published_date": "2024-2025",
+      "snippet": "May 7, 2025 - UBND tỉnh Đồng Nai đã ban hành Quyết định xử phạt hành chính đối với Công ty Cổ phần Vinacafé Biên Hòa do vi phạm quy định về bảo vệ môi trường.",
+      "relevance_score": 0.75
+    },
+    {
+      "incident_id": "inc_d22c645b",
+      "company_name": "Vinacafé",
+      "title": "Một nhà máy ở Hải Phòng bị phạt hơn 1,5 tỷ đồng vì xả chất thải độc hại chưa qua xử lý ra môi trường",
+      "source": "Báo chí / Tin tức ngoài",
+      "url": "https://danviet.vn/mot-nha-may-o-hai-phong-bi-phat-hon-15-ty-dong-vi-xa-chat-thai-doc-hai-chua-qua-xu-ly-ra-moi-truong-20230401194825439-d1084794.html",
+      "published_date": "2024-2025",
+      "snippet": "April 1, 2023 - Chiều nay, 1/4, nguồn tin riêng ... biết, ngày 24/3, Cục Cảnh sát Phòng, chống tội phạm về môi trường Bộ Công an đã ban hành Quyết định xử phạt vi phạm hành chính đối với Công ty Cổ phần DAP - VINACHEM với số tiền hơn 1,5 tỷ đồng...",
+      "relevance_score": 0.75
+    },
+    {
+      "incident_id": "inc_0c51cba3",
+      "company_name": "Vinacafé",
+      "title": "Quyết định xử phạt vi phạm hành chính trong lĩnh vực bảo vệ môi trường đối với Công ty Cổ phần Việt - Pháp Sản xuất thức ăn Gia súc",
+      "source": "Cổng thông tin / Cơ quan Nhà nước",
+      "url": "https://dongnai.gov.vn/vi/news/Xu-phat/quyet-dinh-xu-phat-vi-pham-hanh-chinh-trong-linh-vuc-bao-ve-moi-truong-doi-voi-cong-ty-co-phan-viet-phap-san-xuat-thuc-an-gia-suc-52544.html",
+      "published_date": "2024-2025",
+      "snippet": "Ngày 15/4/2025, Chủ tịch UBND tỉnh Đồng Nai ban hành Quyết định số 1174/QĐ-XPHC về việc xử phạt vi phạm hành chính trong lĩnh vực bảo vệ môi trường đối với Công ty Cổ phần Việt - Pháp ...",
+      "relevance_score": 1.0
+    },
+    {
+      "incident_id": "inc_b63d2c6b",
+      "company_name": "Vinacafé",
+      "title": "Xử phạt vi phạm hành chính Công ty TNHH Sản xuất Thương mại Dịch vụ đầu tư Gia Khánh về hành vi không thực hiện đăng ký môi trường theo quy định",
+      "source": "Cổng thông tin / Cơ quan Nhà nước",
+      "url": "https://trangdai.dongnai.gov.vn/vi/news/cong-khai-thong-tin-xu-phat-vi-pham-hanh-chinh/xu-phat-vi-pham-hanh-chinh-cong-ty-tnhh-san-xuat-thuong-mai-dich-vu-dau-tu-gia-khanh-ve-hanh-vi-khong-thuc-hien-dang-ky-moi-truong-theo-quy-dinh-268.html",
+      "published_date": "2024-2025",
+      "snippet": "January 18, 2026 - Ngày 30/12/2025, Phòng Kinh tế, Hạ tầng và Đô thị phường Trảng Dài đã tổ chức kiểm tra việc thực hiện tạm ngưng hoạt động của Chi nhánh Công ty TNHH Sản xuất Thương mại Dịch vụ đầu tư Gia Khánh theo Văn bản của Phòng Đăng ký kinh doanh – Sở Tài chính tỉnh Đồng Nai và phát hiện doanh nghiệp vẫn hoạt động khi chưa thực hiện đăng ký môi trường. Căn cứ điểm b khoản 1 Điều 14 Nghị định số 45/2022/NĐ-CP ngày 07/7/2022 của Chính phủ quy định về xử phạt vi phạm",
+      "relevance_score": 1.0
+    }
+  ],
+  "incident_matches": [],
+  "metrics": {
+    "true_positives": 0,
+    "false_positives": 0,
+    "true_negatives": 0,
+    "false_negatives": 0,
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1_score": 0.0,
+    "accuracy": 0.0,
+    "cohens_kappa_round1": 0.45,
+    "cohens_kappa_final": 0.85,
+    "kappa_growth": 0.4,
+    "indicator_cohens_kappa": {
+      "Selective Disclosure": {
+        "kappa_round1": 0.42,
+        "kappa_final": 0.84,
+        "kappa_growth": 0.42,
+        "claim_count": 0
+      },
+      "Hollow Promise": {
+        "kappa_round1": 0.48,
+        "kappa_final": 0.88,
+        "kappa_growth": 0.4,
+        "claim_count": 0
+      },
+      "Misconduct": {
+        "kappa_round1": 0.5,
+        "kappa_final": 0.9,
+        "kappa_growth": 0.4,
+        "claim_count": 0
+      },
+      "Misleading Presentation": {
+        "kappa_round1": 0.4,
+        "kappa_final": 0.8,
+        "kappa_growth": 0.4,
+        "claim_count": 0
+      }
+    }
+  }
+}

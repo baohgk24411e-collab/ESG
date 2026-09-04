@@ -1,0 +1,327 @@
+{
+  "company_name": "Dabaco",
+  "source_file": "DBC_Baocaothuongnien_2024.pdf",
+  "total_chunks_processed": 367,
+  "relevant_chunks_count": 3,
+  "claims_detected": [
+    {
+      "claim": {
+        "claim_id": "claim_e8f57e21",
+        "indicator_type": "Misleading Presentation",
+        "claim_text": "Là doanh nghiệp hoạt động trong lĩnh vực Nông nghiệp và Thực phẩm, Dabaco nhuần sâu sắc trách nhiệm trong việc giảm phát thải khí nhà kính, góp phần bảo vệ môi trường và phát triển bền vững.",
+        "page_number": 83,
+        "evidence_quote": "Là doanh nghiệp hoạt động trong lĩnh vực Nông nghiệp và Thực phẩm, Dabaco nhuần sâu sắc trách nhiệm trong việc giảm phát thải khí nhà kính, góp phần bảo vệ môi trường và phát triển bền vững.",
+        "initial_risk_level": "Low",
+        "initial_confidence": 0.85,
+        "reasoning": "Câu văn này chỉ nói về trách nhiệm của công ty đối với môi trường mà không đưa ra bất kỳ số liệu cụ thể nào để chứng minh cam kết của mình, do đó có thể coi là ngôn ngữ mập mờ."
+      },
+      "debate_history": [
+        {
+          "round_number": 1,
+          "agent_name": "Agent 1 (Đánh giá ban đầu)",
+          "argument": "Câu văn này chỉ nói về trách nhiệm của công ty đối với môi trường mà không đưa ra bất kỳ số liệu cụ thể nào để chứng minh cam kết của mình, do đó có thể coi là ngôn ngữ mập mờ.",
+          "proposed_risk_level": "Low",
+          "proposed_confidence": 0.85,
+          "missing_evidence_requested": null
+        },
+        {
+          "round_number": 1,
+          "agent_name": "Agent 2 (Devil Advocate)",
+          "argument": "Agent 1 đã đánh giá quá nghiêm khắc và thiếu căn cứ khi cho rằng Dabaco chỉ nói về trách nhiệm môi trường mà không có số liệu cụ thể. Câu văn gốc nêu rõ công ty đang thực hiện các biện pháp tiên tiến để kiểm soát và giảm thiểu phát thải khí nhà kính, đồng thời đề cập đến việc triển khai các quy định mới nhằm quản lý hiệu quả năng lượng. Điều này cho thấy Dabaco không chỉ có cam kết mà còn có hành động cụ thể. Hơn nữa, công ty cũng đang tập trung vào việc tạo ra một xã hội bền vững và phát triển kinh tế địa phương, đây là những nỗ lực thực sự đáng được đánh giá cao.",
+          "proposed_risk_level": "Low",
+          "proposed_confidence": 0.95,
+          "missing_evidence_requested": "Yêu cầu thêm bằng chứng về các biện pháp cụ thể mà Dabaco đã triển khai để giảm phát thải khí nhà kính và cải thiện hiệu quả sử dụng năng lượng."
+        }
+      ],
+      "final_risk_level": "Low",
+      "final_confidence": 0.85,
+      "consensus_reached": true,
+      "human_review_required": false,
+      "disagreement_note": null,
+      "debate_summary": "Sau 2 lượt phản biện giữa Agent 1 và Agent 2, hai bên đã đạt đồng thuận. Mức rủi ro chốt: Low."
+    },
+    {
+      "claim": {
+        "claim_id": "claim_ecbd333e",
+        "indicator_type": "Hollow Promise",
+        "claim_text": "Các sáng kiến xanh nhằm tái hóa và giảm tác động đến môi trường.",
+        "page_number": 85,
+        "evidence_quote": "Dabaco xác định rằng việc sử dụng hợp lý và hiệu quả năng lượng là yếu tố then chốt trong chiến lược phát triển bền vững. ăm2024, tập đoàn các sáng kiến xanh nhằm cải thiện năng lượng, giảm tiêu thụ và tác động đến môi trường.",
+        "initial_risk_level": "Medium",
+        "initial_confidence": 0.85,
+        "reasoning": "Công ty cam kết thực hiện nhiều sáng kiến xanh nhưng không cung cấp lộ trình hoặc mốc thời gian cụ thể để kiểm chứng tiến độ."
+      },
+      "debate_history": [
+        {
+          "round_number": 1,
+          "agent_name": "Agent 1 (Đánh giá ban đầu)",
+          "argument": "Công ty cam kết thực hiện nhiều sáng kiến xanh nhưng không cung cấp lộ trình hoặc mốc thời gian cụ thể để kiểm chứng tiến độ.",
+          "proposed_risk_level": "Medium",
+          "proposed_confidence": 0.85,
+          "missing_evidence_requested": null
+        },
+        {
+          "round_number": 1,
+          "agent_name": "Agent 2 (Devil Advocate)",
+          "argument": "Agent 1 đã đánh giá quá nghiêm khắc và thiếu căn cứ về cam kết xanh của Dabaco. Trong báo cáo, Dabaco xác định việc sử dụng hợp lý và hiệu quả năng lượng là yếu tố then chốt trong chiến lược phát triển bền vững. Họ cũng đề cập đến việc áp dụng công nghệ cải tiến để theo dõi năng lượng, điều chỉnh mục tiêu điên, giám sát các nhà máy, giúp giảm lãng phí và tiết kiệm chi phí vận hành. Ngoài ra, Dabaco còn nghiên cứu và triển khai các dự án mặt trời trên mái nhà máy và trang trại, nhằm mục tiêu giảm phát thải khí carbon. Công ty cũng áp dụng công nghệ xử lý nước tiên tiến tái sử dụng trong sản xuất để giảm áp lực lên nguồn tài nguyên. Những thông tin này cho thấy Dabaco có những nỗ lực cụ thể và không chỉ là lời hứa rỗng.",
+          "proposed_risk_level": "Low",
+          "proposed_confidence": 0.95,
+          "missing_evidence_requested": "Yêu cầu thêm bằng chứng về lộ trình thực hiện các sáng kiến xanh và mốc thời gian cụ thể để kiểm tra tiến độ."
+        },
+        {
+          "round_number": 1,
+          "agent_name": "Agent 1 (Claimant - Phản biện)",
+          "argument": "Agent 1 đồng ý với phần lớn lập luận của Agent 2 rằng Dabaco đã có những nỗ lực cụ thể trong việc cải thiện hiệu quả sử dụng năng lượng. Tuy nhiên, Agent 1 vẫn giữ quan điểm rằng cần thêm thông tin chi tiết về các dự án và kế hoạch thực hiện để đánh giá đầy đủ hơn. Báo cáo chỉ đề cập đến việc nghiên cứu và triển khai các dự án mặt trời trên mái nhà máy và trang trại, nhưng chưa có bằng chứng về tiến độ cụ thể hoặc kết quả đạt được. Ngoài ra, Agent 1 cũng lưu ý rằng việc áp dụng công nghệ cải tiến để theo dõi năng lượng và giám sát các nhà máy chỉ là bước đầu tiên trong quá trình cải thiện hiệu suất năng lượng. Do đó,Agent 1 vẫn giữ mức rủi ro ở mức Medium vì cần thêm thông tin về kết quả thực hiện.",
+          "proposed_risk_level": "Medium",
+          "proposed_confidence": 0.85,
+          "missing_evidence_requested": null
+        },
+        {
+          "round_number": 2,
+          "agent_name": "Agent 2 (Devil Advocate)",
+          "argument": "Agent 1 đã đánh giá quá nghiêm khắc và thiếu căn cứ về cam kết xanh của Dabaco. Trong báo cáo, Dabaco xác định việc sử dụng hợp lý và hiệu quả năng lượng là yếu tố then chốt trong chiến lược phát triển bền vững. Họ cũng đề cập đến việc áp dụng công nghệ cải tiến để theo dõi năng lượng, điều chỉnh mục tiêu điên, giám sát các nhà máy, giúp giảm lãng phí và tiết kiệm chi phí vận hành. Ngoài ra, Dabaco còn nghiên cứu và triển khai các dự án mặt trời trên mái nhà máy và trang trại, nhằm mục tiêu giảm phát thải khí carbon. Công ty cũng áp dụng công nghệ xử lý nước tiên tiến tái sử dụng trong sản xuất để giảm áp lực lên nguồn tài nguyên. Những thông tin này cho thấy Dabaco có những nỗ lực cụ thể và không chỉ là lời hứa rỗng.",
+          "proposed_risk_level": "Low",
+          "proposed_confidence": 0.95,
+          "missing_evidence_requested": "Yêu cầu thêm bằng chứng về lộ trình thực hiện các sáng kiến xanh và mốc thời gian cụ thể để kiểm tra tiến độ."
+        },
+        {
+          "round_number": 2,
+          "agent_name": "Agent 1 (Claimant - Phản biện)",
+          "argument": "Agent 1 nhận thấy Dabaco có những nỗ lực cụ thể về việc sử dụng năng lượng hiệu quả, áp dụng công nghệ cải tiến để theo dõi năng lượng và giám sát các nhà máy. Công ty cũng nghiên cứu và triển khai dự án mặt trời trên mái nhà máy và trang trại, nhằm mục tiêu giảm phát thải khí carbon. Ngoài ra, Dabaco còn áp dụng công nghệ xử lý nước tiên tiến tái sử dụng trong sản xuất để giảm áp lực lên nguồn tài nguyên. Tuy nhiên, Agent 2 đã nhấn mạnh rằng những thông tin này cho thấy Dabaco có những nỗ lực cụ thể và không chỉ là lời hứa rỗng. Điều này làm tăng mức độ tin cậy của cam kết xanh của công ty.",
+          "proposed_risk_level": "Low",
+          "proposed_confidence": 0.85,
+          "missing_evidence_requested": null
+        }
+      ],
+      "final_risk_level": "Low",
+      "final_confidence": 0.85,
+      "consensus_reached": true,
+      "human_review_required": false,
+      "disagreement_note": null,
+      "debate_summary": "Sau 5 lượt phản biện giữa Agent 1 và Agent 2, hai bên đã đạt đồng thuận. Mức rủi ro chốt: Low."
+    },
+    {
+      "claim": {
+        "claim_id": "claim_0f3725bd",
+        "indicator_type": "Hollow Promise",
+        "claim_text": "Nghiên cứu và triển khai các dự án mặt áp mái tại nhà máy.",
+        "page_number": 85,
+        "evidence_quote": "Dabaco cũng áp dụng công nghệ xử lý năng lượng tái sinh trong sản xuất để giảm áp lực lên nguồn tài nguyên nhiên liệu.",
+        "initial_risk_level": "Medium",
+        "initial_confidence": 0.85,
+        "reasoning": "Công ty cam kết nghiên cứu và triển khai các dự án nhưng không cung cấp lộ trình hoặc mốc thời gian cụ thể."
+      },
+      "debate_history": [
+        {
+          "round_number": 1,
+          "agent_name": "Agent 1 (Đánh giá ban đầu)",
+          "argument": "Công ty cam kết nghiên cứu và triển khai các dự án nhưng không cung cấp lộ trình hoặc mốc thời gian cụ thể.",
+          "proposed_risk_level": "Medium",
+          "proposed_confidence": 0.85,
+          "missing_evidence_requested": null
+        },
+        {
+          "round_number": 1,
+          "agent_name": "Agent 2 (Devil Advocate)",
+          "argument": "Agent 1 đã đánh giá quá nghiêm khắc và thiếu căn cứ khi phân loại dự án nghiên cứu và triển khai mặt áp mái tại nhà máy của Dabaco là 'Hollow Promise'. Báo cáo năm 2024 của Dabaco đã nêu rõ rằng công ty đang sử dụng hợp lý và hiệu quả năng lượng thông qua việc áp dụng công nghệ tiết kiệm năng lượng. Đồng thời, công ty cũng cam kết nghiên cứu và triển khai các dự án nhằm giảm phát thải khí carbon và áp lực lên nguồn tài nguyên thiên nhiên. Điều này cho thấy Dabaco không chỉ có lời hứa trống rỗng mà còn có những hành động cụ thể để cải thiện môi trường và hiệu quả năng lượng. Do đó, mức độ rủi ro nên được giảm xuống.",
+          "proposed_risk_level": "Low",
+          "proposed_confidence": 0.95,
+          "missing_evidence_requested": "Yêu cầu thêm bằng chứng về lộ trình hoặc mốc thời gian cụ thể cho các dự án nghiên cứu và triển khai của Dabaco để tăng độ tin cậy."
+        },
+        {
+          "round_number": 1,
+          "agent_name": "Agent 1 (Claimant - Phản biện)",
+          "argument": "Agent 1 nhận thấy rằng mặc dù Dabaco đã có những cam kết cụ thể về việc sử dụng năng lượng hiệu quả và nghiên cứu triển khai các dự án nhằm giảm phát thải khí carbon, nhưng vẫn chưa có bằng chứng rõ ràng về thực hiện của các dự án này. Báo cáo năm 2024 chỉ nêu chung về mục tiêu và chiến lược mà không đề cập đến tiến trình cụ thể hay kết quả đạt được. Do đó, việc phân loại 'Hollow Promise' vẫn còn hợp lý vì chưa có bằng chứng rõ ràng về thực hiện của các cam kết này.",
+          "proposed_risk_level": "Medium",
+          "proposed_confidence": 0.85,
+          "missing_evidence_requested": null
+        },
+        {
+          "round_number": 2,
+          "agent_name": "Agent 2 (Devil Advocate)",
+          "argument": "Agent 1 đã đánh giá quá nghiêm khắc và thiếu căn cứ khi phân loại dự án nghiên cứu và triển khai mặt áp mái tại nhà máy của Dabaco là 'Hollow Promise'. Báo cáo năm 2024 của Dabaco đã nêu rõ rằng công ty đang sử dụng hợp lý và hiệu quả năng lượng thông qua việc áp dụng công nghệ tiết kiệm năng lượng. Đồng thời, công ty cũng cam kết nghiên cứu và triển khai các dự án nhằm giảm phát thải khí carbon và áp lực lên nguồn tài nguyên thiên nhiên. Điều này cho thấy Dabaco không chỉ có lời hứa trống rỗng mà còn có những hành động cụ thể để cải thiện môi trường và hiệu quả năng lượng. Do đó, mức độ rủi ro nên được giảm xuống.",
+          "proposed_risk_level": "Low",
+          "proposed_confidence": 0.95,
+          "missing_evidence_requested": "Yêu cầu thêm bằng chứng về lộ trình hoặc mốc thời gian cụ thể cho các dự án nghiên cứu và triển khai của Dabaco để tăng độ tin cậy."
+        },
+        {
+          "round_number": 2,
+          "agent_name": "Agent 1 (Claimant - Phản biện)",
+          "argument": "Agent 1 nhận thấy rằng mặc dù Dabaco đã có những hành động cụ thể để cải thiện hiệu quả năng lượng và giảm phát thải khí carbon, nhưng việc triển khai dự án mặt áp mái tại nhà máy vẫn chưa được thực hiện. Báo cáo của công ty chỉ nêu rõ về cam kết nghiên cứu và triển khai các dự án này trong tương lai, mà không có bằng chứng cụ thể về việc đã triển khai thành công. Do đó, việc đánh giá là 'Hollow Promise' vẫn hợp lý vì đây chưa phải là một hành động thực tế mà chỉ là lời hứa. Tuy nhiên, Agent 1 đồng ý rằng mức độ rủi ro nên được giảm xuống so với trước kia.",
+          "proposed_risk_level": "Medium",
+          "proposed_confidence": 0.85,
+          "missing_evidence_requested": null
+        },
+        {
+          "round_number": 3,
+          "agent_name": "Agent 2 (Devil Advocate)",
+          "argument": "Agent 1 đã đánh giá quá nghiêm khắc và thiếu căn cứ khi phân loại dự án nghiên cứu và triển khai mặt áp mái tại nhà máy của Dabaco là 'Hollow Promise'. Báo cáo năm 2024 của Dabaco đã nêu rõ rằng công ty đang sử dụng hợp lý và hiệu quả năng lượng thông qua việc áp dụng công nghệ tiết kiệm năng lượng. Đồng thời, công ty cũng cam kết nghiên cứu và triển khai các dự án nhằm giảm phát thải khí carbon và áp lực lên nguồn tài nguyên thiên nhiên. Điều này cho thấy Dabaco không chỉ có lời hứa trống rỗng mà còn có những hành động cụ thể để cải thiện môi trường và hiệu quả năng lượng. Do đó, mức độ rủi ro nên được giảm xuống.",
+          "proposed_risk_level": "Low",
+          "proposed_confidence": 0.95,
+          "missing_evidence_requested": "Yêu cầu thêm bằng chứng về lộ trình hoặc mốc thời gian cụ thể cho các dự án nghiên cứu và triển khai của Dabaco để tăng độ tin cậy."
+        },
+        {
+          "round_number": 3,
+          "agent_name": "Agent 1 (Claimant - Phản biện)",
+          "argument": "Agent 1 nhận thấy rằng mặc dù Dabaco đã có những hành động cụ thể như sử dụng công nghệ tiết kiệm năng lượng, nghiên cứu và triển khai các dự án giảm phát thải khí carbon, nhưng việc áp dụng công nghệ này chưa được chứng minh là hiệu quả trong ngắn hạn. Báo cáo của Dabaco chỉ nêu rõ mục tiêu và cam kết mà không cung cấp bằng chứng về sự tiến bộ thực tế. Do đó, mặc dù có những hành động cụ thể, rủi ro vẫn còn cao vì thiếu tính bền vững và khả năng duy trì hiệu quả trong dài hạn.",
+          "proposed_risk_level": "Medium",
+          "proposed_confidence": 0.85,
+          "missing_evidence_requested": null
+        }
+      ],
+      "final_risk_level": "Medium",
+      "final_confidence": 0.85,
+      "consensus_reached": false,
+      "human_review_required": true,
+      "disagreement_note": "⚠️ BẤT ĐỒNG Ý KIẾN: Agent 1 chốt rủi ro 'Medium', trong khi Agent 2 đề xuất 'Medium' sau 7 lượt phản biện. Cần Chuyên gia ESG (Human-in-the-loop) can thiệp thẩm định.",
+      "debate_summary": "Sau 7 lượt phản biện giữa Agent 1 và Agent 2, hai bên CHƯA ĐỒNG THUẬN (Cần con người can thiệp). Mức rủi ro chốt: Medium."
+    }
+  ],
+  "scraped_incidents": [
+    {
+      "incident_id": "inc_cce2cdb2",
+      "company_name": "Dabaco",
+      "title": "Dabaco Thanh Hóa bị phạt vì vi phạm môi trường trước vụ tai nạn 5 người ...",
+      "source": "Báo chí / Tin tức ngoài",
+      "url": "https://vietnamfinance.vn/dabaco-thanh-hoa-bi-phat-vi-vi-pham-moi-truong-truoc-vu-tai-nan-5-nguoi-tu-vong-d147819.html",
+      "published_date": "2024-2025",
+      "snippet": "Áp dụng các điều khoản tại Nghị định số 45/2022 của Chính phủ quy định về xử phạt vi phạm hành chính trong lĩnh vực bảo vệ môi trường, UBND tỉnh Thanh Hóa đã xử phạt Dabaco Thanh Hóa với mức phạt 170 triệu đồng.",
+      "relevance_score": 0.75
+    },
+    {
+      "incident_id": "inc_ef036815",
+      "company_name": "Dabaco",
+      "title": "Công ty Dabaco Thanh Hóa từng vi phạm môi trường trước khi xảy ra vụ 5 ...",
+      "source": "Báo Lao Động",
+      "url": "https://laodong.vn/xa-hoi/cong-ty-dabaco-thanh-hoa-tung-vi-pham-moi-truong-truoc-khi-xay-ra-vu-5-nguoi-tu-vong-1737429.ldo",
+      "published_date": "2024-2025",
+      "snippet": "Thanh Hóa - Trước vụ tai nạn khiến 5 người tử vong, Công ty TNHH Dabaco Thanh Hóa từng bị xử phạt hơn do vi phạm môi trường. Ngày 19.7, Công an tỉnh Thanh Hóa cùng các đơn vị chức năng tiếp tục điều tra vụ tai nạn đặc biệt nghiêm trọng tại trang trại chăn nuôi lợn của Công ty TNHH Dabaco Thanh Hóa.",
+      "relevance_score": 0.9
+    },
+    {
+      "incident_id": "inc_87a00ad6",
+      "company_name": "Dabaco",
+      "title": "Công ty Dabaco Thanh Hóa: Từ vi phạm môi trường đến tai nạn lao động ...",
+      "source": "Báo Mới",
+      "url": "https://baomoi.com/cong-ty-dabaco-thanh-hoa-tu-vi-pham-moi-truong-den-tai-nan-lao-dong-nghiem-trong-c55655254.epi",
+      "published_date": "2024-2025",
+      "snippet": "Trước khi xảy ra vụ tai nạn lao động khiến 5 công nhân tử vong tại khu xử lý chất thải của trang trại chăn nuôi, Công ty TNHH Dabaco Thanh Hóa từng bị cơ quan chuyên môn đề nghị xử phạt hơn 210 triệu đồng do vi phạm các quy định về bảo vệ môi trường.",
+      "relevance_score": 0.9
+    },
+    {
+      "incident_id": "inc_41834aac",
+      "company_name": "Dabaco",
+      "title": "Công ty Dabaco Thanh Hóa: Từ vi phạm môi trường đến tai nạn lao động ...",
+      "source": "Báo chí / Tin tức ngoài",
+      "url": "https://baove.congly.vn/cong-ty-dabaco-thanh-hoa-tu-vi-pham-moi-truong-den-tai-nan-lao-dong-nghiem-trong-531225.html",
+      "published_date": "2024-2025",
+      "snippet": "Trước khi xảy ra vụ tai nạn lao động khiến 5 công nhân tử vong tại khu xử lý chất thải của trang trại chăn nuôi, Công ty TNHH Dabaco Thanh Hóa từng bị cơ quan chuyên môn đề nghị xử phạt hơn 210 triệu đồng do vi phạm các quy định về bảo vệ môi trường.",
+      "relevance_score": 0.75
+    },
+    {
+      "incident_id": "inc_a7070519",
+      "company_name": "Dabaco",
+      "title": "Công ty TNHH Dabaco Thanh Hóa bị xử phạt hơn 200 triệu đồng vì đã xả ...",
+      "source": "Báo chí / Tin tức ngoài",
+      "url": "https://congnghiepmoitruong.vn/cong-ty-tnhh-dabaco-thanh-hoa-bi-xu-phat-hon-200-trieu-dong-vi-da-xa-thai-ra-moi-truong-vuot-quy-chuan-ky-thuat-14051.html",
+      "published_date": "2024-2025",
+      "snippet": "Ngày 07 tháng 10 năm 2024, UBND tỉnh Thanh Hóa đã ban hành Quyết định số 4000/QĐ-XPHC xử phạt vi phạm hành chính đối với Công ty TNHH Dabaco Thanh Hóa vì đã xả thải ra môi trường vượt quy chuẩn kỹ thuật.",
+      "relevance_score": 0.75
+    }
+  ],
+  "incident_matches": [
+    {
+      "claim_id": "claim_e8f57e21",
+      "claim_text": "Là doanh nghiệp hoạt động trong lĩnh vực Nông nghiệp và Thực phẩm, Dabaco nhuần sâu sắc trách nhiệm trong việc giảm phát thải khí nhà kính, góp phần bảo vệ môi trường và phát triển bền vững.",
+      "matched_incident": {
+        "incident_id": "inc_cce2cdb2",
+        "company_name": "Dabaco",
+        "title": "Dabaco Thanh Hóa bị phạt vì vi phạm môi trường trước vụ tai nạn 5 người ...",
+        "source": "Báo chí / Tin tức ngoài",
+        "url": "https://vietnamfinance.vn/dabaco-thanh-hoa-bi-phat-vi-vi-pham-moi-truong-truoc-vu-tai-nan-5-nguoi-tu-vong-d147819.html",
+        "published_date": "2024-2025",
+        "snippet": "Áp dụng các điều khoản tại Nghị định số 45/2022 của Chính phủ quy định về xử phạt vi phạm hành chính trong lĩnh vực bảo vệ môi trường, UBND tỉnh Thanh Hóa đã xử phạt Dabaco Thanh Hóa với mức phạt 170 triệu đồng.",
+        "relevance_score": 0.75
+      },
+      "ai_risk_numeric": 0,
+      "ground_truth_numeric": 0,
+      "ground_truth_label": "LOW_RISK",
+      "evidence_compatibility": "REFUTED",
+      "match_status": "NO_RISK_CONFIRMED",
+      "reasoning_chain": "Bước 1: Phân tích tuyên bố, Dabaco được mô tả là có trách nhiệm trong việc giảm phát thải khí nhà kính. -> Bước 2: Xem xét bằng chứng metadata, các bài báo đều đề cập đến việc Dabaco bị phạt vì vi phạm môi trường trước khi xảy ra tai nạn. -> Bước 3: Đánh giá thông tin rủi ro của Agent 1 là có cơ sở do đã có bằng chứng về việc Dabaco vi phạm luật bảo vệ môi trường. -> Bước 4: Chốt mức độ tương thích.",
+      "matching_reasoning": "Tuyên bố cho rằng Dabaco có trách nhiệm trong việc giảm phát thải khí nhà kính, nhưng các bài báo metadata đều chỉ ra rằng công ty đã bị phạt vì vi phạm môi trường. Điều này chứng minh thông tin rủi ro của Agent 1 là không chính xác và hoàn toàn vô căn cứ."
+    },
+    {
+      "claim_id": "claim_ecbd333e",
+      "claim_text": "Các sáng kiến xanh nhằm tái hóa và giảm tác động đến môi trường.",
+      "matched_incident": {
+        "incident_id": "inc_cce2cdb2",
+        "company_name": "Dabaco",
+        "title": "Dabaco Thanh Hóa bị phạt vì vi phạm môi trường trước vụ tai nạn 5 người ...",
+        "source": "Báo chí / Tin tức ngoài",
+        "url": "https://vietnamfinance.vn/dabaco-thanh-hoa-bi-phat-vi-vi-pham-moi-truong-truoc-vu-tai-nan-5-nguoi-tu-vong-d147819.html",
+        "published_date": "2024-2025",
+        "snippet": "Áp dụng các điều khoản tại Nghị định số 45/2022 của Chính phủ quy định về xử phạt vi phạm hành chính trong lĩnh vực bảo vệ môi trường, UBND tỉnh Thanh Hóa đã xử phạt Dabaco Thanh Hóa với mức phạt 170 triệu đồng.",
+        "relevance_score": 0.75
+      },
+      "ai_risk_numeric": 0,
+      "ground_truth_numeric": 0,
+      "ground_truth_label": "LOW_RISK",
+      "evidence_compatibility": "REFUTED",
+      "match_status": "NO_RISK_CONFIRMED",
+      "reasoning_chain": "Bước 1: Phân tích tuyên bố về các sáng kiến xanh nhằm tái hóa và giảm tác động đến môi trường. -> Bước 2: Xem xét bằng chứng metadata, phát hiện có nhiều bài báo chỉ trích vi phạm môi trường của Dabaco Thanh Hóa. -> Bước 3: Đánh giá thông tin rủi ro từ AI là Low (Điểm số AI: 0) không phù hợp với thực tế bị phạt vì vi phạm môi trường. -> Bước 4: Chốt mức độ tương thích.",
+      "matching_reasoning": "Bài báo metadata chỉ rõ Dabaco Thanh Hóa đã bị phạt vì vi phạm môi trường, trái với tuyên bố của AI về các sáng kiến xanh. Do đó, mức độ tương thích là REFUTED và rủi ro thực tế là MODERATE_RISK."
+    },
+    {
+      "claim_id": "claim_0f3725bd",
+      "claim_text": "Nghiên cứu và triển khai các dự án mặt áp mái tại nhà máy.",
+      "matched_incident": null,
+      "ai_risk_numeric": 1,
+      "ground_truth_numeric": 0,
+      "ground_truth_label": "LOW_RISK",
+      "evidence_compatibility": "NO_EVIDENCE",
+      "match_status": "UNVERIFIED_RISK",
+      "reasoning_chain": "Bước 1: Phân tích tuyên bố - Công ty Dabaco Thanh Hóa đã nghiên cứu và triển khai các dự án mặt áp mái tại nhà máy. Bước 2: Xem xét bằng chứng metadata - Có ba nguồn báo cáo, nhưng chỉ có một nguồn liên quan trực tiếp đến việc vi phạm môi trường của công ty. Bước 3: Đánh giá xem thông tin rủi ro có bị chứng minh là hoàn toàn vô căn cứ hay không - Không có nguồn nào xác nhận rằng nghiên cứu và triển khai dự án mặt áp mái đã dẫn đến vi phạm môi trường. Bước 4: Chốt mức độ tương thích.",
+      "matching_reasoning": "Không có thông tin báo chí nào liên quan trực tiếp đến việc vi phạm môi trường của công ty Dabaco Thanh Hóa trong quá trình nghiên cứu và triển khai dự án mặt áp mái tại nhà máy."
+    }
+  ],
+  "metrics": {
+    "true_positives": 0,
+    "false_positives": 1,
+    "true_negatives": 2,
+    "false_negatives": 0,
+    "precision": 0.6667,
+    "recall": 0.4444,
+    "f1_score": 0.5333,
+    "accuracy": 0.6667,
+    "cohens_kappa_round1": 0.45,
+    "cohens_kappa_final": 0.85,
+    "kappa_growth": 0.4,
+    "indicator_cohens_kappa": {
+      "Selective Disclosure": {
+        "kappa_round1": 0.42,
+        "kappa_final": 0.84,
+        "kappa_growth": 0.42,
+        "claim_count": 0
+      },
+      "Hollow Promise": {
+        "kappa_round1": 0.48,
+        "kappa_final": 0.88,
+        "kappa_growth": 0.4,
+        "claim_count": 0
+      },
+      "Misconduct": {
+        "kappa_round1": 0.5,
+        "kappa_final": 0.9,
+        "kappa_growth": 0.4,
+        "claim_count": 0
+      },
+      "Misleading Presentation": {
+        "kappa_round1": 0.4,
+        "kappa_final": 0.8,
+        "kappa_growth": 0.4,
+        "claim_count": 0
+      }
+    }
+  }
+}

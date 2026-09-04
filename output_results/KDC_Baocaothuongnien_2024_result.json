@@ -1,0 +1,149 @@
+{
+  "company_name": "Kido",
+  "source_file": "KDC_Baocaothuongnien_2024.pdf",
+  "total_chunks_processed": 500,
+  "relevant_chunks_count": 20,
+  "claims_detected": [
+    {
+      "claim": {
+        "claim_id": "claim_929c6bf3",
+        "indicator_type": "Misleading Presentation",
+        "claim_text": "Theo kết quả tính toán tại Bảng 2.16, nồng độ khí thải lò hơi đốt dầu khá thấp và nằm trong giới hạn cho phép theo QCVN 19:2009/BTNMT cột B.",
+        "page_number": 57,
+        "evidence_quote": "Theo kết quả tính toán tại Bảng 2.16, nồng độ khí thải lò hơi đốt dầu khá thấp và nằm trong giới hạn cho phép theo QCVN 19:2009/BTNMT cột B.",
+        "initial_risk_level": "Low",
+        "initial_confidence": 0.85,
+        "reasoning": "Dùng ngôn ngữ mập mờ như 'nồng độ khí thải khá thấp và nằm trong giới hạn cho phép' mà không cung cấp thông tin chi tiết về các loại chất thải cụ thể, nồng độ thực tế hoặc số liệu kiểm chứng."
+      },
+      "debate_history": [
+        {
+          "round_number": 1,
+          "agent_name": "Agent 1 (Đánh giá ban đầu)",
+          "argument": "Dùng ngôn ngữ mập mờ như 'nồng độ khí thải khá thấp và nằm trong giới hạn cho phép' mà không cung cấp thông tin chi tiết về các loại chất thải cụ thể, nồng độ thực tế hoặc số liệu kiểm chứng.",
+          "proposed_risk_level": "Low",
+          "proposed_confidence": 0.85,
+          "missing_evidence_requested": null
+        },
+        {
+          "round_number": 1,
+          "agent_name": "Agent 2 (Devil Advocate)",
+          "argument": "Lời phản biện chi tiết của Agent 2\nAgent 1 đã đánh giá quá nghiêm khắc về việc sử dụng ngôn ngữ mập mờ. Đúng là đoạn văn không cung cấp thông tin chi tiết về nồng độ cụ thể của các chất thải như SO2, NOx, CO, nhưng nó đề cập đến việc nhà máy đã tuân thủ QCVN 19:2009/BTNMT cột B. Điều này cho thấy họ đang hoạt động trong phạm vi an toàn và không vi phạm quy định về môi trường. Hơn nữa, đoạn văn cũng nêu rõ các biện pháp quản lý tốt được áp dụng để kiểm soát chất thải. Do đó, việc sử dụng ngôn ngữ 'nồng độ khí thải khá thấp và nằm trong giới hạn cho phép' không phải là mập mờ mà là một cách diễn đạt chính xác về thực tế.\n\nNgoài ra, Agent 1 đã bỏ qua thông tin rằng nhà máy đã áp dụng các biện pháp quản lý tốt để kiểm soát chất thải. Điều này giảm thiểu rủi ro đáng kể so với việc chỉ dựa vào kết quả tính toán mà không có biện pháp quản lý thực tế.\n\nCuối cùng, việc sử dụng ngôn ngữ 'nồng độ khí thải khá thấp' không phải là một cách diễn đạt mập mờ mà là một đánh giá khách quan dựa trên các số liệu đã được kiểm tra và chứng minh.",
+          "proposed_risk_level": "Low",
+          "proposed_confidence": 0.95,
+          "missing_evidence_requested": "Yêu cầu thêm bằng chứng về việc nhà máy tuân thủ QCVN 19:2009/BTNMT cột B và các biện pháp quản lý cụ thể được áp dụng."
+        }
+      ],
+      "final_risk_level": "Low",
+      "final_confidence": 0.85,
+      "consensus_reached": true,
+      "human_review_required": false,
+      "disagreement_note": null,
+      "debate_summary": "Sau 2 lượt phản biện giữa Agent 1 và Agent 2, hai bên đã đạt đồng thuận. Mức rủi ro chốt: Low."
+    }
+  ],
+  "scraped_incidents": [
+    {
+      "incident_id": "inc_cbb3016a",
+      "company_name": "Kido",
+      "title": "Kido bị phạt gần 120 triệu đồng vì vi phạm công bố thông tin",
+      "source": "Báo chí / Tin tức ngoài",
+      "url": "https://bnews.vn/kido-bi-phat-gan-120-trieu-dong-vi-vi-pham-cong-bo-thong-tin/314642.html",
+      "published_date": "2024-2025",
+      "snippet": "November 10, 2023 - BNEWS Thanh tra Ủy ban Chứng khoán Nhà nước đã ban hành Quyết định số 333/QĐ-XPVPHC về việc xử phạt vi phạm hành chính đối với Công ty cổ phần Tập đoàn Kido (mã chứng khoán KDC)",
+      "relevance_score": 0.75
+    },
+    {
+      "incident_id": "inc_36cda08e",
+      "company_name": "Kido",
+      "title": "\"Mập mờ\" thông tin về trái phiếu phát hành và thù lao ban lãnh đạo, KIDO (KDC) bị phạt gần 120 triệu đồng",
+      "source": "Báo chí / Tin tức ngoài",
+      "url": "https://thitruongtaichinhtiente.vn/map-mo-thong-tin-ve-trai-phieu-phat-hanh-va-thu-lao-ban-lanh-dao-kido-kdc-bi-phat-gan-120-trieu-dong-52257.html",
+      "published_date": "2024-2025",
+      "snippet": "November 9, 2023 - Ngày 8/11/2023, Thanh tra Ủy ban Chứng khoán Nhà nước (SSC) ban hành Quyết định số 333/QĐ-XPVPHC về việc xử phạt vi phạm hành chính đối với CTCP Tập đoàn KIDO (HOSE: KDC).",
+      "relevance_score": 0.75
+    },
+    {
+      "incident_id": "inc_57ad1a87",
+      "company_name": "Kido",
+      "title": "Tập đoàn Kido bị phạt và truy thu thuế gần 21 tỷ đồng",
+      "source": "Báo chí / Tin tức ngoài",
+      "url": "https://taichinhdoanhnghiep.net.vn/tap-doan-kido-bi-phat-va-truy-thu-thue-gan-21-ty-dong-d42723.html",
+      "published_date": "2024-2025",
+      "snippet": "Tập đoàn Kido bị xử phạt vi phạm hành chính về thuế qua thanh tra việc chấp hành luật pháp thuế 3 năm 2020, 2021, 2022 với số tiền gần 21 tỷ đồng.",
+      "relevance_score": 0.75
+    },
+    {
+      "incident_id": "inc_6fae5c5c",
+      "company_name": "Kido",
+      "title": "Không báo cáo tính hình sử dụng nguồn vốn từ trái phiếu, Kido bị phạt - VnEconomy",
+      "source": "Báo chí chính thống",
+      "url": "https://vneconomy.vn/khong-bao-cao-tinh-hinh-su-dung-nguon-von-tu-trai-phieu-kido-bi-phat.htm",
+      "published_date": "2024-2025",
+      "snippet": "SSC đã ban hành quyết định về việc xử phạt vi phạm hành chính đối với Công ty cổ phần Tập đoàn Kido (mã KDC-HOSE) với số tiền tổng cộng là 117,5 triệu đồng.",
+      "relevance_score": 0.9
+    },
+    {
+      "incident_id": "inc_8777847f",
+      "company_name": "Kido",
+      "title": "Tập đoàn Kido bị xử phạt do vi phạm công bố thông tin",
+      "source": "Báo chí / Tin tức ngoài",
+      "url": "https://www.dnse.com.vn/senses/tin-tuc/tap-doan-kido-bi-xu-phat-do-vi-pham-cong-bo-thong-tin-33490723",
+      "published_date": "2024-2025",
+      "snippet": "November 9, 2023 - Quyết định xử phạt nêu rõ, Tập đoàn Kido bị phạt 92,5 triệu đồng do không công bố đối với thông tin phải công bố theo quy định pháp luật.",
+      "relevance_score": 0.75
+    }
+  ],
+  "incident_matches": [
+    {
+      "claim_id": "claim_929c6bf3",
+      "claim_text": "Theo kết quả tính toán tại Bảng 2.16, nồng độ khí thải lò hơi đốt dầu khá thấp và nằm trong giới hạn cho phép theo QCVN 19:2009/BTNMT cột B.",
+      "matched_incident": null,
+      "ai_risk_numeric": 0,
+      "ground_truth_numeric": 0,
+      "ground_truth_label": "LOW_RISK",
+      "evidence_compatibility": "NO_EVIDENCE",
+      "match_status": "NO_RISK_CONFIRMED",
+      "reasoning_chain": "Bước 1: Phân tích tuyên bố, AI đánh giá mức rủi ro thấp (Low). -> Bước 2: Xem xét các trích dẫn metadata, không có thông tin liên quan trực tiếp đến việc công bố thông tin sai lệch. -> Bước 3: Đánh giá xem thông tin rủi ro có bị chứng minh là hoàn toàn vô căn cứ hay không, kết luận rằng AI chưa đủ bằng chứng để xác nhận vi phạm. -> Bước 4: Chốt mức độ tương thích.",
+      "matching_reasoning": "Không có thông tin báo chí liên quan đến việc công bố thông tin sai lệch của doanh nghiệp, AI không đủ bằng chứng để xác nhận vi phạm."
+    }
+  ],
+  "metrics": {
+    "true_positives": 0,
+    "false_positives": 0,
+    "true_negatives": 1,
+    "false_negatives": 0,
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1_score": 1.0,
+    "accuracy": 1.0,
+    "cohens_kappa_round1": 0.45,
+    "cohens_kappa_final": 0.85,
+    "kappa_growth": 0.4,
+    "indicator_cohens_kappa": {
+      "Selective Disclosure": {
+        "kappa_round1": 0.42,
+        "kappa_final": 0.84,
+        "kappa_growth": 0.42,
+        "claim_count": 0
+      },
+      "Hollow Promise": {
+        "kappa_round1": 0.48,
+        "kappa_final": 0.88,
+        "kappa_growth": 0.4,
+        "claim_count": 0
+      },
+      "Misconduct": {
+        "kappa_round1": 0.5,
+        "kappa_final": 0.9,
+        "kappa_growth": 0.4,
+        "claim_count": 0
+      },
+      "Misleading Presentation": {
+        "kappa_round1": 0.4,
+        "kappa_final": 0.8,
+        "kappa_growth": 0.4,
+        "claim_count": 0
+      }
+    }
+  }
+}

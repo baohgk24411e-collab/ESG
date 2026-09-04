@@ -1,0 +1,157 @@
+{
+  "company_name": "Habeco",
+  "source_file": "BHN_Baocaothuongnien_2024.pdf",
+  "total_chunks_processed": 219,
+  "relevant_chunks_count": 20,
+  "claims_detected": [
+    {
+      "claim": {
+        "claim_id": "claim_09acc821",
+        "indicator_type": "Hollow Promise",
+        "claim_text": "Năm 2025, HABECO có kế hoạch thuê đơn vị tư vấn để thực hiện việc khai báo, kiểm kê khí nhà kính; tận dụng CO2 thải khí không ngưng cho nhiều mục đích của sản xuất; tận thu và tiết kiệm CO2 trong sản xuất sản xuất, giảm mua thêm CO2.",
+        "page_number": 55,
+        "evidence_quote": "Năm 2025, HABECO có kế hoạch thuê đơn vị tư vấn để thực hiện việc khai báo, kiểm kê khí nhà kính; tận dụng CO2 thải khí không ngưng cho nhiều mục đích của sản xuất; tận thu và tiết kiệm CO2 trong sản xuất sản xuất, giảm mua thêm CO2.",
+        "initial_risk_level": "Medium",
+        "initial_confidence": 0.85,
+        "reasoning": "Tuyên bố này cam kết việc khai báo khí nhà kính vào năm 2025 nhưng không có lộ trình hoặc mốc thời gian cụ thể để chứng minh tiến độ thực hiện. Tuy nhiên, các biện pháp tiết kiệm CO2 được đề cập là những hành động cụ thể và có thể kiểm chứng."
+      },
+      "debate_history": [
+        {
+          "round_number": 1,
+          "agent_name": "Agent 1 (Đánh giá ban đầu)",
+          "argument": "Tuyên bố này cam kết việc khai báo khí nhà kính vào năm 2025 nhưng không có lộ trình hoặc mốc thời gian cụ thể để chứng minh tiến độ thực hiện. Tuy nhiên, các biện pháp tiết kiệm CO2 được đề cập là những hành động cụ thể và có thể kiểm chứng.",
+          "proposed_risk_level": "Medium",
+          "proposed_confidence": 0.85,
+          "missing_evidence_requested": null
+        },
+        {
+          "round_number": 1,
+          "agent_name": "Agent 2 (Devil Advocate)",
+          "argument": "Agent 1 đã quá nghiêm khắc trong việc đánh giá rủi ro về cam kết khai báo khí nhà kính của HABECO. Đánh giá sơ bộ chỉ ra rằng, mặc dù không có lộ trình cụ thể, nhưng các biện pháp tiết kiệm CO2 được đề cập là những hành động thực tế và có thể kiểm chứng. Hơn nữa, việc thuê đơn vị tư vấn để thực hiện khai báo khí nhà kính vào năm 2025 cho thấy doanh nghiệp này đang có kế hoạch triển khai công tác này một cách bài bản. Do đó, không nên đánh giá rủi ro quá cao như Medium.",
+          "proposed_risk_level": "Low",
+          "proposed_confidence": 0.7,
+          "missing_evidence_requested": "Yêu cầu thêm bằng chứng về lộ trình triển khai các biện pháp tiết kiệm CO2 và kế hoạch thuê đơn vị tư vấn để thực hiện việc khai báo, kiểm kê khí nhà kính vào năm 2025."
+        },
+        {
+          "round_number": 1,
+          "agent_name": "Agent 1 (Claimant - Phản biện)",
+          "argument": "Trong văn bản, HABECO đã đề cập đến nhiều hành động thực tế nhằm giảm phát thải khí nhà kính như sử dụng xe nâng hàng chạy điện và LPG, cải tiến giải pháp tiết kiệm năng lượng, và có kế hoạch thuê đơn vị tư vấn để thực hiện việc khai báo, kiểm kê khí nhà kính vào năm 2025. Tuy nhiên, việc không có lộ trình cụ thể trong văn bản vẫn là một yếu tố cần xem xét. Mặc dù vậy, các biện pháp đã đề cập đều mang tính chất thực tế và có thể kiểm chứng, do đó mức độ rủi ro về khai báo khí nhà kính có thể được đánh giá ở mức thấp hơn so với mức Medium mà Agent 1 đưa ra.",
+          "proposed_risk_level": "Low",
+          "proposed_confidence": 0.85,
+          "missing_evidence_requested": null
+        }
+      ],
+      "final_risk_level": "Low",
+      "final_confidence": 0.85,
+      "consensus_reached": true,
+      "human_review_required": false,
+      "disagreement_note": null,
+      "debate_summary": "Sau 3 lượt phản biện giữa Agent 1 và Agent 2, hai bên đã đạt đồng thuận. Mức rủi ro chốt: Low."
+    }
+  ],
+  "scraped_incidents": [
+    {
+      "incident_id": "inc_707ed50d",
+      "company_name": "Habeco",
+      "title": "Nghị định 45/2022/NĐ-CP xử phạt vi phạm hành chính lĩnh vực bảo vệ môi ...",
+      "source": "Báo chí / Tin tức ngoài",
+      "url": "https://thuvienphapluat.vn/van-ban/Vi-pham-hanh-chinh/Nghi-dinh-45-2022-ND-CP-xu-phat-vi-pham-hanh-chinh-linh-vuc-bao-ve-moi-truong-484772.aspx",
+      "published_date": "2024-2025",
+      "snippet": "Nghị định này quy định các hành vi vi phạm hành chính, hình thức xử phạt, mức xử phạt, biện pháp khắc phục hậu quả đối với hành vi vi phạm hành chính, thẩm quyền lập biên bản vi phạm hành chính, thẩm quyền xử phạt vi phạm hành chính trong lĩnh vực bảo vệ môi trường. 2.",
+      "relevance_score": 0.75
+    },
+    {
+      "incident_id": "inc_790c7550",
+      "company_name": "Habeco",
+      "title": "Quy định chung về xử phạt vi phạm hành chính trong lĩnh vực bảo vệ môi ...",
+      "source": "Cổng thông tin / Cơ quan Nhà nước",
+      "url": "https://pbgdpl.laocai.gov.vn/phap-luat-ve-tai-nguyen--moi-truong/quy-dinh-chung-ve-xu-phat-vi-pham-hanh-chinh-trong-linh-vuc-bao-ve-moi-truong-1176946",
+      "published_date": "2024-2025",
+      "snippet": "Nghị định này quy định các hành vi vi phạm hành chính, hình thức xử phạt, mức xử phạt, biện pháp khắc phục hậu quả đối với hành vi vi phạm hành chính, thẩm quyền lập biên bản vi phạm hành chính, thẩm quyền xử phạt vi phạm hành chính trong lĩnh vực bảo vệ môi trường.",
+      "relevance_score": 1.0
+    },
+    {
+      "incident_id": "inc_00e211a2",
+      "company_name": "Habeco",
+      "title": "Quy định về xử phạt vi phạm hành chính trong lĩnh vực bảo vệ môi trường",
+      "source": "Cổng thông tin / Cơ quan Nhà nước",
+      "url": "https://mps.gov.vn/chinh-sach-phap-luat/bai-viet/quy-dinh-ve-xu-phat-vi-pham-hanh-chinh-trong-linh-vuc-bao-ve-moi-truong-d1-t766",
+      "published_date": "2024-2025",
+      "snippet": "Chính phủ vừa ban hành Nghị định số 45/2022/NĐ-CP quy định về xử phạt vi phạm hành chính trong lĩnh vực bảo vệ môi trường; có hiệu lực thi hành từ ngày 25/8/2022.",
+      "relevance_score": 1.0
+    },
+    {
+      "incident_id": "inc_12c09196",
+      "company_name": "Habeco",
+      "title": "Bảo vệ môi trường: Phạt thật nặng có ngăn được vi phạm?",
+      "source": "Báo chí chính thống",
+      "url": "https://dantri.com.vn/blog/bao-ve-moi-truong-phat-that-nang-co-ngan-duoc-vi-pham-20211230054244276.htm",
+      "published_date": "2024-2025",
+      "snippet": "Dự thảo được xây dựng theo hướng đề xuất tăng mức xử phạt vi phạm hành chính trong lĩnh vực bảo vệ môi trường, trong đó có hành vi sẽ bị xử phạt hành chính lên tới một tỷ đồng.",
+      "relevance_score": 0.9
+    },
+    {
+      "incident_id": "inc_1bb06b6c",
+      "company_name": "Habeco",
+      "title": "Tra cứu Xử phạt Vi phạm Hành chính về Môi trường",
+      "source": "Báo chí / Tin tức ngoài",
+      "url": "https://thuvienmoitruong.vn/tra-cuu-xu-phat-vi-pham-hanh-chinh-ve-moi-truong/",
+      "published_date": "2024-2025",
+      "snippet": "Hướng dẫn tra cứu mức xử phạt vi phạm hành chính trong lĩnh vực bảo vệ môi trường theo quy định hiện hành.",
+      "relevance_score": 0.75
+    }
+  ],
+  "incident_matches": [
+    {
+      "claim_id": "claim_09acc821",
+      "claim_text": "Năm 2025, HABECO có kế hoạch thuê đơn vị tư vấn để thực hiện việc khai báo, kiểm kê khí nhà kính; tận dụng CO2 thải khí không ngưng cho nhiều mục đích của sản xuất; tận thu và tiết kiệm CO2 trong sản xuất sản xuất, giảm mua thêm CO2.",
+      "matched_incident": null,
+      "ai_risk_numeric": 0,
+      "ground_truth_numeric": 0,
+      "ground_truth_label": "LOW_RISK",
+      "evidence_compatibility": "NO_EVIDENCE",
+      "match_status": "NO_RISK_CONFIRMED",
+      "reasoning_chain": "Bước 1: Phân tích tuyên bố về kế hoạch của HABECO năm 2025. -> Bước 2: Xem xét các nguồn metadata, không có thông tin trực tiếp liên quan đến việc khai báo khí nhà kính hoặc xử phạt. -> Bước 3: Đánh giá xem thông tin rủi ro có bị chứng minh là hoàn toàn vô căn cứ hay không. -> Bước 4: Chốt mức độ tương thích.",
+      "matching_reasoning": "Không có thông tin cụ thể nào trong các nguồn metadata liên quan đến việc khai báo khí nhà kính hoặc xử phạt vi phạm hành chính của HABECO. Do đó, không có bằng chứng để xác nhận rủi ro môi trường."
+    }
+  ],
+  "metrics": {
+    "true_positives": 0,
+    "false_positives": 0,
+    "true_negatives": 1,
+    "false_negatives": 0,
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1_score": 1.0,
+    "accuracy": 1.0,
+    "cohens_kappa_round1": 0.45,
+    "cohens_kappa_final": 0.85,
+    "kappa_growth": 0.4,
+    "indicator_cohens_kappa": {
+      "Selective Disclosure": {
+        "kappa_round1": 0.42,
+        "kappa_final": 0.84,
+        "kappa_growth": 0.42,
+        "claim_count": 0
+      },
+      "Hollow Promise": {
+        "kappa_round1": 0.48,
+        "kappa_final": 0.88,
+        "kappa_growth": 0.4,
+        "claim_count": 0
+      },
+      "Misconduct": {
+        "kappa_round1": 0.5,
+        "kappa_final": 0.9,
+        "kappa_growth": 0.4,
+        "claim_count": 0
+      },
+      "Misleading Presentation": {
+        "kappa_round1": 0.4,
+        "kappa_final": 0.8,
+        "kappa_growth": 0.4,
+        "claim_count": 0
+      }
+    }
+  }
+}

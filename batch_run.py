@@ -8,6 +8,28 @@ DATA_DIR = r"d:\ESG\data"
 OUTPUT_DIR = r"d:\ESG\output_results"
 
 
+def extract_company_name(filename: str) -> str:
+    fn_upper = filename.upper()
+    if "VNM" in fn_upper or "VINAMILK" in fn_upper:
+        return "Vinamilk"
+    elif "MASAN" in fn_upper or "MSN" in fn_upper:
+        return "Masan"
+    elif "2023AR" in fn_upper or "2025AR" in fn_upper or "SABECO" in fn_upper or "SAB" in fn_upper:
+        return "Sabeco"
+    elif "BHN" in fn_upper or "HABECO" in fn_upper:
+        return "Habeco"
+    elif "DBC" in fn_upper or "DABACO" in fn_upper:
+        return "Dabaco"
+    elif "KDC" in fn_upper or "KIDO" in fn_upper:
+        return "Kido"
+    elif "VCF" in fn_upper or "VINACAFE" in fn_upper:
+        return "Vinacafé"
+    elif "VSN" in fn_upper or "VISSAN" in fn_upper:
+        return "Vissan"
+    else:
+        return filename.split("_")[0].replace(".pdf", "").title()
+
+
 def run_batch_processing(top_chunks: int = 20):
     """
     Automatically discover all PDF files in data/ directory and process each company report.
@@ -27,16 +49,12 @@ def run_batch_processing(top_chunks: int = 20):
 
     for idx, pdf_path in enumerate(pdf_files, 1):
         filename = os.path.basename(pdf_path)
-        if "VNM" in filename.upper() or "VINAMILK" in filename.upper():
-            company_name = "Vinamilk"
-        elif "2023AR" in filename.upper() or "MASAN" in filename.upper():
-            company_name = "Masan"
-        else:
-            company_name = filename.split("_")[0].replace(".pdf", "").title()
+        company_name = extract_company_name(filename)
+        base_name = os.path.splitext(filename)[0]
 
         print(f"\n▶️ [{idx}/{len(pdf_files)}] Processing Company: {company_name} ({filename})...")
 
-        out_json_path = os.path.join(OUTPUT_DIR, f"{company_name.lower()}_result.json")
+        out_json_path = os.path.join(OUTPUT_DIR, f"{base_name}_result.json")
 
         try:
             result = run_greenwashing_pipeline(
@@ -69,6 +87,14 @@ def run_batch_processing(top_chunks: int = 20):
     print(f"📊 Summary report saved to: {summary_path}")
     print(f"=======================================================\n")
 
+    # Generate unified multi-company HTML dashboard
+    try:
+        from generate_dashboard import generate_html_dashboard
+        generate_html_dashboard(json_path=os.path.join(OUTPUT_DIR, "batch_summary.json"), output_html_path="dashboard.html")
+    except Exception as e:
+        print(f"⚠️ Could not auto-generate batch HTML dashboard: {e}")
+
 
 if __name__ == "__main__":
     run_batch_processing(top_chunks=20)
+

@@ -1,0 +1,504 @@
+{
+  "company_name": "Vinamilk",
+  "source_file": "VNMSR_Full_VN_Smart_PDF_0807_compressed_614c2277d9.pdf",
+  "total_chunks_processed": 658,
+  "relevant_chunks_count": 20,
+  "claims_detected": [
+    {
+      "claim": {
+        "claim_id": "claim_5dd9b29d",
+        "indicator_type": "Hollow Promise",
+        "claim_text": "Về khía cạnh Môi trường, chúng tôi kiên trì theo đuổi mục tiêu Net Zero 2050 theo lộ trình Vinamilk Pathways to Dairy Net Zero 2050.",
+        "page_number": 4,
+        "evidence_quote": "Về khía cạnh Môi trường, chúng tôi kiên trì theo đuổi mục tiêu Net Zero 2050 theo lộ trình Vinamilk Pathways to Dairy Net Zero 2050.",
+        "initial_risk_level": "Medium",
+        "initial_confidence": 0.85,
+        "reasoning": "Mục tiêu Net Zero đến năm 2050 được đề cập nhưng không có lộ trình, mốc thời gian cụ thể để chứng minh tiến độ thực hiện."
+      },
+      "debate_history": [
+        {
+          "round_number": 1,
+          "agent_name": "Agent 1 (Đánh giá ban đầu)",
+          "argument": "Mục tiêu Net Zero đến năm 2050 được đề cập nhưng không có lộ trình, mốc thời gian cụ thể để chứng minh tiến độ thực hiện.",
+          "proposed_risk_level": "Medium",
+          "proposed_confidence": 0.85,
+          "missing_evidence_requested": null
+        },
+        {
+          "round_number": 1,
+          "agent_name": "Agent 2 (Devil Advocate)",
+          "argument": "Agent 1 đã quá nghiêm khắc trong đánh giá rủi ro về mục tiêu Net Zero của Vinamilk. Đa số thông tin cung cấp cho thấy doanh nghiệp đang có những bước tiến cụ thể và hệ thống để hướng tới mục tiêu này, không chỉ là một lời hứa trống rỗng. Cụ thể, Vinamilk đã triển khai kiểm kê khí nhà kính theo chuẩn mực quốc tế cho cả ba phạm vi phát thải, hai nhà máy đạt trạng thái trung hòa các-bon, và tiếp tục mở rộng sáng kiến kinh tế tuần hoàn. Đồng thời, doanh nghiệp cũng đang rà soát và giảm phát thải trong hoạt động sản xuất và logistics. Điều này minh chứng cho việc Vinamilk không chỉ đặt ra mục tiêu mà còn có hành động cụ thể để thực hiện nó.",
+          "proposed_risk_level": "Low",
+          "proposed_confidence": 0.95,
+          "missing_evidence_requested": "Yêu cầu thêm bằng chứng về lộ trình và mốc thời gian cụ thể cho việc đạt được Net Zero đến năm 2050 để tăng độ tin cậy."
+        },
+        {
+          "round_number": 1,
+          "agent_name": "Agent 1 (Claimant - Phản biện)",
+          "argument": "Agent 1 nhận thấy Vinamilk đã có những bước tiến cụ thể trong việc hướng tới mục tiêu Net Zero, bao gồm việc triển khai kiểm kê khí nhà kính theo chuẩn mực quốc tế cho cả ba phạm vi phát thải và hai nhà máy đạt trạng thái trung hòa các-bon. Đồng thời, doanh nghiệp cũng đang rà soát và giảm phát thải trong hoạt động sản xuất và logistics. Tuy nhiên, Agent 1 vẫn lo ngại rằng mục tiêu Net Zero đến năm 2050 còn khá xa và cần có những hành động cụ thể hơn để đảm bảo mục tiêu này được thực hiện một cách hiệu quả. Do đó, Agent 1 đề xuất mức rủi ro là Medium.",
+          "proposed_risk_level": "Medium",
+          "proposed_confidence": 0.85,
+          "missing_evidence_requested": null
+        },
+        {
+          "round_number": 2,
+          "agent_name": "Agent 2 (Devil Advocate)",
+          "argument": "Agent 1 đã quá nghiêm khắc trong đánh giá rủi ro về mục tiêu Net Zero của Vinamilk. Đa số thông tin cung cấp cho thấy doanh nghiệp đang có những bước tiến cụ thể và hệ thống để hướng tới mục tiêu này, không chỉ là một lời hứa trống rỗng. Cụ thể, Vinamilk đã triển khai kiểm kê khí nhà kính theo chuẩn mực quốc tế cho cả ba phạm vi phát thải, hai nhà máy đạt trạng thái trung hòa các-bon, và tiếp tục mở rộng sáng kiến kinh tế tuần hoàn. Đồng thời, doanh nghiệp cũng đang rà soát và giảm phát thải trong hoạt động sản xuất và logistics. Điều này minh chứng cho việc Vinamilk không chỉ đặt ra mục tiêu mà còn có hành động cụ thể để thực hiện nó.",
+          "proposed_risk_level": "Low",
+          "proposed_confidence": 0.95,
+          "missing_evidence_requested": "Yêu cầu thêm bằng chứng về lộ trình và mốc thời gian cụ thể cho việc đạt được Net Zero đến năm 2050 để tăng độ tin cậy."
+        },
+        {
+          "round_number": 2,
+          "agent_name": "Agent 1 (Claimant - Phản biện)",
+          "argument": "Agent 1 nhận thấy rằng Vinamilk đã có những bước tiến cụ thể trong việc hướng tới mục tiêu Net Zero, nhưng vẫn còn nhiều thách thức cần vượt qua. Tuy nhiên, Agent 2 đã đưa ra một số điểm mạnh như việc triển khai kiểm kê khí nhà kính theo chuẩn mực quốc tế cho cả ba phạm vi phát thải, hai nhà máy đạt trạng thái trung hòa các-bon, và tiếp tục mở rộng sáng kiến kinh tế tuần hoàn. Điều này minh chứng cho việc Vinamilk không chỉ đặt ra mục tiêu mà còn có hành động cụ thể để thực hiện nó. Tuy nhiên, Agent 1 vẫn lo ngại về việc rủi ro liên quan đến việc đạt được mục tiêu Net Zero trong dài hạn do chưa có lộ trình chi tiết và các biện pháp cụ thể để giảm phát thải trong hoạt động sản xuất và logistics. Do đó, Agent 1 đề xuất mức rủi ro là Medium.",
+          "proposed_risk_level": "Medium",
+          "proposed_confidence": 0.85,
+          "missing_evidence_requested": null
+        },
+        {
+          "round_number": 3,
+          "agent_name": "Agent 2 (Devil Advocate)",
+          "argument": "Agent 1 đã quá nghiêm khắc trong đánh giá rủi ro về mục tiêu Net Zero của Vinamilk. Đa số thông tin cung cấp cho thấy doanh nghiệp đang có những bước tiến cụ thể và hệ thống để hướng tới mục tiêu này, không chỉ là một lời hứa trống rỗng. Cụ thể, Vinamilk đã triển khai kiểm kê khí nhà kính theo chuẩn mực quốc tế cho cả ba phạm vi phát thải, hai nhà máy đạt trạng thái trung hòa các-bon, và tiếp tục mở rộng sáng kiến kinh tế tuần hoàn. Đồng thời, doanh nghiệp cũng đang rà soát và giảm phát thải trong hoạt động sản xuất và logistics. Điều này minh chứng cho việc Vinamilk không chỉ đặt ra mục tiêu mà còn có hành động cụ thể để thực hiện nó.",
+          "proposed_risk_level": "Low",
+          "proposed_confidence": 0.95,
+          "missing_evidence_requested": "Yêu cầu thêm bằng chứng về lộ trình và mốc thời gian cụ thể cho việc đạt được Net Zero đến năm 2050 để tăng độ tin cậy."
+        },
+        {
+          "round_number": 3,
+          "agent_name": "Agent 1 (Claimant - Phản biện)",
+          "argument": "Agent 1 nhận thấy rằng Vinamilk đã có những bước tiến cụ thể trong việc hướng tới mục tiêu Net Zero, bao gồm việc triển khai kiểm kê khí nhà kính theo chuẩn mực quốc tế cho cả ba phạm vi phát thải và hai nhà máy đạt trạng thái trung hòa các-bon. Tuy nhiên, Agent 1 cũng lưu ý rằng mặc dù có những hành động cụ thể, mục tiêu Net Zero vẫn còn xa vời và cần nhiều thời gian để thực hiện. Do đó, Agent 1 đề xuất mức rủi ro là Medium, vì Vinamilk đã có hành động nhưng chưa đạt được mục tiêu dài hạn này hoàn toàn.",
+          "proposed_risk_level": "Medium",
+          "proposed_confidence": 0.85,
+          "missing_evidence_requested": null
+        }
+      ],
+      "final_risk_level": "Medium",
+      "final_confidence": 0.85,
+      "consensus_reached": false,
+      "human_review_required": true,
+      "disagreement_note": "⚠️ BẤT ĐỒNG Ý KIẾN: Agent 1 chốt rủi ro 'Medium', trong khi Agent 2 đề xuất 'Medium' sau 7 lượt phản biện. Cần Chuyên gia ESG (Human-in-the-loop) can thiệp thẩm định.",
+      "debate_summary": "Sau 7 lượt phản biện giữa Agent 1 và Agent 2, hai bên CHƯA ĐỒNG THUẬN (Cần con người can thiệp). Mức rủi ro chốt: Medium."
+    },
+    {
+      "claim": {
+        "claim_id": "claim_fa97d98b",
+        "indicator_type": "Hollow Promise",
+        "claim_text": "Vinamilk đặt mục tiêu cắt giảm 15% phát thải khí nhà kính vào 2027, 55% vào năm 2035 và tiến đến phát thải ròng bằng 0 vào năm 2050.",
+        "page_number": 12,
+        "evidence_quote": "Vinamilk đặt mục tiêu cắt giảm 15% phát thải khí nhà kính vào 2027, 55% vào năm 2035 và tiến đến phát thải ròng bằng 0 vào năm 2050.",
+        "initial_risk_level": "Medium",
+        "initial_confidence": 0.85,
+        "reasoning": "Mục tiêu cắt giảm phát thải khí nhà kính được đặt ra nhưng không có lộ trình chi tiết, mốc thời gian cụ thể để kiểm chứng tiến độ thực hiện."
+      },
+      "debate_history": [
+        {
+          "round_number": 1,
+          "agent_name": "Agent 1 (Đánh giá ban đầu)",
+          "argument": "Mục tiêu cắt giảm phát thải khí nhà kính được đặt ra nhưng không có lộ trình chi tiết, mốc thời gian cụ thể để kiểm chứng tiến độ thực hiện.",
+          "proposed_risk_level": "Medium",
+          "proposed_confidence": 0.85,
+          "missing_evidence_requested": null
+        },
+        {
+          "round_number": 1,
+          "agent_name": "Agent 2 (Devil Advocate)",
+          "argument": "Agent 1 đã đánh giá quá nghiêm khắc về mục tiêu cắt giảm phát thải khí nhà kính của Vinamilk. Mục tiêu này được đặt ra trong bối cảnh tổng thể chiến lược kinh doanh dài hạn và phát triển bền vững, không chỉ riêng mảng môi trường. Đơn cử, Vinamilk đã công bố lộ trình cụ thể với các mục tiêu rõ ràng: 15% vào năm 2027, 55% vào năm 2035 và tiến đến phát thải ròng bằng 0 vào năm 2050. Điều này minh chứng cho việc doanh nghiệp có sự cam kết và kế hoạch thực hiện mục tiêu này. Hơn nữa, Vinamilk cũng đã đề cập đến việc nghiên cứu thị trường và nhu cầu người tiêu dùng để đưa ra chiến lược marketing phù hợp, tái cấu trúc danh mục sản phẩm dựa trên thương hiệu dài hạn, và tối ưu quy trình tung sản phẩm mới. Điều này cho thấy doanh nghiệp không chỉ đặt mục tiêu mà còn có kế hoạch cụ thể để thực hiện mục tiêu đó. Do vậy, mức độ rủi ro nên được điều chỉnh từ Medium xuống Low.",
+          "proposed_risk_level": "Low",
+          "proposed_confidence": 0.95,
+          "missing_evidence_requested": "Yêu cầu thêm bằng chứng về việc Vinamilk đã thực hiện các kế hoạch cụ thể để đạt mục tiêu cắt giảm phát thải khí nhà kính, như báo cáo tiến độ thực hiện và kết quả của các hoạt động liên quan."
+        },
+        {
+          "round_number": 1,
+          "agent_name": "Agent 1 (Claimant - Phản biện)",
+          "argument": "Agent 1 đồng ý với Agent 2 rằng Vinamilk đã có lộ trình cụ thể và cam kết về việc cắt giảm phát thải khí nhà kính. Mục tiêu này không chỉ được đặt ra trong bối cảnh chiến lược kinh doanh dài hạn mà còn liên quan đến các hoạt động marketing, sản phẩm và quy trình làm việc. Tuy nhiên, Agent 1 vẫn lo ngại rằng mặc dù có lộ trình cụ thể, nhưng thực tế việc đạt được mục tiêu này vẫn phụ thuộc vào nhiều yếu tố như biến đổi khí hậu, chính sách của chính phủ, và sự thay đổi trong công nghệ. Do đó, mức độ rủi ro không nên giảm xuống quá thấp.",
+          "proposed_risk_level": "Medium",
+          "proposed_confidence": 0.85,
+          "missing_evidence_requested": null
+        },
+        {
+          "round_number": 2,
+          "agent_name": "Agent 2 (Devil Advocate)",
+          "argument": "Agent 1 đã đánh giá quá nghiêm khắc về mục tiêu cắt giảm phát thải khí nhà kính của Vinamilk. Mục tiêu này được đặt ra trong bối cảnh tổng thể chiến lược kinh doanh dài hạn và phát triển bền vững, không chỉ riêng mảng môi trường. Đơn cử, Vinamilk đã công bố lộ trình cụ thể với các mục tiêu rõ ràng: 15% vào năm 2027, 55% vào năm 2035 và tiến đến phát thải ròng bằng 0 vào năm 2050. Điều này minh chứng cho việc doanh nghiệp có sự cam kết và kế hoạch thực hiện mục tiêu này. Hơn nữa, Vinamilk cũng đã đề cập đến việc nghiên cứu thị trường và nhu cầu người tiêu dùng để đưa ra chiến lược marketing phù hợp, tái cấu trúc danh mục sản phẩm dựa trên thương hiệu dài hạn, và tối ưu quy trình tung sản phẩm mới. Điều này cho thấy doanh nghiệp không chỉ đặt mục tiêu mà còn có kế hoạch cụ thể để thực hiện mục tiêu đó. Do vậy, mức độ rủi ro nên được điều chỉnh từ Medium xuống Low.",
+          "proposed_risk_level": "Low",
+          "proposed_confidence": 0.95,
+          "missing_evidence_requested": "Yêu cầu thêm bằng chứng về việc Vinamilk đã thực hiện các kế hoạch cụ thể để đạt mục tiêu cắt giảm phát thải khí nhà kính, như báo cáo tiến độ thực hiện và kết quả từ các hoạt động liên quan."
+        },
+        {
+          "round_number": 2,
+          "agent_name": "Agent 1 (Claimant - Phản biện)",
+          "argument": "Agent 1 đồng ý với Agent 2 rằng mục tiêu cắt giảm phát thải khí nhà kính của Vinamilk không chỉ là một cam kết môi trường mà còn được tích hợp vào chiến lược kinh doanh dài hạn và phát triển bền vững. Mục tiêu cụ thể đã được công bố, cùng với các kế hoạch thực hiện chi tiết như nghiên cứu thị trường, tái cấu trúc danh mục sản phẩm, và tối ưu quy trình tung sản phẩm mới. Điều này minh chứng cho sự cam kết của Vinamilk trong việc đạt được mục tiêu này. Tuy nhiên, Agent 1 vẫn lo ngại về khả năng thực hiện các kế hoạch này do biến động kinh tế và nhu cầu thị trường không chắc chắn. Do đó, mức độ rủi ro nên được điều chỉnh từ Medium xuống Low, nhưng với một mức độ tin cậy cao hơn.",
+          "proposed_risk_level": "Low",
+          "proposed_confidence": 0.85,
+          "missing_evidence_requested": null
+        }
+      ],
+      "final_risk_level": "Low",
+      "final_confidence": 0.85,
+      "consensus_reached": true,
+      "human_review_required": false,
+      "disagreement_note": null,
+      "debate_summary": "Sau 5 lượt phản biện giữa Agent 1 và Agent 2, hai bên đã đạt đồng thuận. Mức rủi ro chốt: Low."
+    },
+    {
+      "claim": {
+        "claim_id": "claim_95527fdd",
+        "indicator_type": "Hollow Promise",
+        "claim_text": "cam kết Net Zero 2050 mà Chính phủ Việt Nam đã công bố tại COP26",
+        "page_number": 22,
+        "evidence_quote": "cam kết Net Zero 2050 mà Chính phủ Việt Nam đã công bố tại COP26",
+        "initial_risk_level": "Medium",
+        "initial_confidence": 0.85,
+        "reasoning": "Đoạn văn chỉ đề cập đến cam kết Net Zero nhưng không nêu rõ lộ trình, mốc thời gian cụ thể để đạt được mục tiêu này."
+      },
+      "debate_history": [
+        {
+          "round_number": 1,
+          "agent_name": "Agent 1 (Đánh giá ban đầu)",
+          "argument": "Đoạn văn chỉ đề cập đến cam kết Net Zero nhưng không nêu rõ lộ trình, mốc thời gian cụ thể để đạt được mục tiêu này.",
+          "proposed_risk_level": "Medium",
+          "proposed_confidence": 0.85,
+          "missing_evidence_requested": null
+        },
+        {
+          "round_number": 1,
+          "agent_name": "Agent 2 (Devil Advocate)",
+          "argument": "Agent 1 đã quá nghiêm khắc trong việc đánh giá rủi ro về cam kết Net Zero của Vinamilk. Đoạn văn không chỉ đơn thuần đề cập đến cam kết mà còn nêu rõ Vinamilk đã đối chiếu các hoạt động với Chiến lược Tăng trưởng Xanh Quốc gia và Kế hoạch Hành động về Kinh tế Tuần hoàn, đồng thời có cam kết Net Zero 2050. Điều này cho thấy Vinamilk không chỉ đưa ra một lời hứa trống rỗng mà còn có kế hoạch cụ thể để thực hiện mục tiêu này. Hơn nữa, việc Vinamilk rà soát và cập nhật các yêu cầu pháp lý cũng chứng tỏ họ đang nỗ lực tuân thủ các quy định về phát triển bền vững.",
+          "proposed_risk_level": "Low",
+          "proposed_confidence": 0.95,
+          "missing_evidence_requested": "Yêu cầu thêm bằng chứng về lộ trình và mốc thời gian cụ thể để đạt được mục tiêu Net Zero, nhưng dựa trên thông tin hiện có, mức độ rủi ro thấp hơn so với đánh giá ban đầu."
+        },
+        {
+          "round_number": 1,
+          "agent_name": "Agent 1 (Claimant - Phản biện)",
+          "argument": "Agent 1 nhận thấy rằng Vinamilk đã có cam kết Net Zero 2050, nhưng cũng cần lưu ý thêm về việc thực hiện mục tiêu này. Văn bản chỉ đề cập đến việc rà soát và cập nhật các yêu cầu pháp lý, cùng với việc đối chiếu hoạt động với Chiến lược Tăng trưởng Xanh Quốc gia và Kế hoạch Hành động về Kinh tế Tuần hoàn. Tuy nhiên, Agent 2 đã đưa ra điểm mạnh là Vinamilk có kế hoạch cụ thể để thực hiện mục tiêu Net Zero thông qua các cam kết và cập nhật định kỳ. Điều này cho thấy Vinamilk không chỉ đưa ra lời hứa trống rỗng mà còn có hành động cụ thể. Do đó, mức độ rủi ro được giảm xuống so với trước đây.",
+          "proposed_risk_level": "Low",
+          "proposed_confidence": 0.85,
+          "missing_evidence_requested": null
+        }
+      ],
+      "final_risk_level": "Low",
+      "final_confidence": 0.85,
+      "consensus_reached": true,
+      "human_review_required": false,
+      "disagreement_note": null,
+      "debate_summary": "Sau 3 lượt phản biện giữa Agent 1 và Agent 2, hai bên đã đạt đồng thuận. Mức rủi ro chốt: Low."
+    },
+    {
+      "claim": {
+        "claim_id": "claim_bce4b2e3",
+        "indicator_type": "Hollow Promise",
+        "claim_text": "Vinamilk đã cập nhật toàn diện phạm vi và mục tiêu quản trị để đồng hành với cam kết Net Zero 2050 của Chính phủ Việt Nam.",
+        "page_number": 22,
+        "evidence_quote": "Vinamilk đã cập nhật toàn diện phạm vi và mục tiêu quản trị để đồng hành với cam kết Net Zero 2050 của Chính phủ Việt Nam, đồng thời đáp ứng các yêu cầu ngày càng rõ ràng từ SBTi về thiết lập mục tiêu giảm phát thải dựa trên khoa học.",
+        "initial_risk_level": "Medium",
+        "initial_confidence": 0.85,
+        "reasoning": "Đoạn văn chỉ đề cập đến việc công ty đã cập nhật phạm vi và mục tiêu quản trị, nhưng không có thông tin về lộ trình thực hiện hay mốc thời gian cụ thể để đạt được mục tiêu Net Zero 2050."
+      },
+      "debate_history": [
+        {
+          "round_number": 1,
+          "agent_name": "Agent 1 (Đánh giá ban đầu)",
+          "argument": "Đoạn văn chỉ đề cập đến việc công ty đã cập nhật phạm vi và mục tiêu quản trị, nhưng không có thông tin về lộ trình thực hiện hay mốc thời gian cụ thể để đạt được mục tiêu Net Zero 2050.",
+          "proposed_risk_level": "Medium",
+          "proposed_confidence": 0.85,
+          "missing_evidence_requested": null
+        },
+        {
+          "round_number": 1,
+          "agent_name": "Agent 2 (Devil Advocate)",
+          "argument": "Agent 1 đã quá nghiêm khắc trong đánh giá rủi ro về việc Vinamilk cập nhật phạm vi và mục tiêu quản trị để đồng hành với cam kết Net Zero 2050 của Chính phủ Việt Nam. Động thái này thể hiện sự cam kết của công ty đối với mục tiêu phát triển bền vững, dù không có thông tin cụ thể về lộ trình thực hiện hay mốc thời gian. Đoạn văn đề cập đến việc rà soát toàn diện phạm vi phát thải khí nhà kính xuyên suốt chuỗi giá trị, bao gồm Scope 1, Scope 2 và Scope 3, cho thấy công ty đã tiến hành phân tích chi tiết về các điểm phát thải trọng yếu. Điều này chứng tỏ Vinamilk không chỉ cập nhật mục tiêu quản trị mà còn có kế hoạch cụ thể để thực hiện chúng. Do đó, việc đánh giá rủi ro là Medium với mức độ tin cậy 0.85 là quá cao và thiếu căn cứ.",
+          "proposed_risk_level": "Low",
+          "proposed_confidence": 0.7,
+          "missing_evidence_requested": "Yêu cầu thêm bằng chứng về lộ trình thực hiện cụ thể để đạt được mục tiêu Net Zero 2050, bao gồm các mốc thời gian và kế hoạch hành động chi tiết."
+        },
+        {
+          "round_number": 1,
+          "agent_name": "Agent 1 (Claimant - Phản biện)",
+          "argument": "Agent 1 nhận thấy rằng việc Vinamilk cập nhật phạm vi và mục tiêu quản trị để đồng hành với cam kết Net Zero 2050 của Chính phủ Việt Nam là một bước tiến quan trọng trong quá trình quản lý phát thải khí nhà kính. Tuy nhiên, Agent 1 cũng hiểu rằng thông tin về lộ trình thực hiện hay mốc thời gian cụ thể vẫn còn thiếu. Mặc dù công ty đã bắt đầu rà soát phạm vi phát thải toàn diện (Scope 1, Scope 2 và Scope 3), nhưng việc này chưa đủ để đánh giá mức độ rủi ro là Low. Agent 1 cho rằng cần thêm thông tin về kế hoạch thực hiện cụ thể và lộ trình giảm phát thải để có cái nhìn rõ ràng hơn về khả năng đạt được mục tiêu Net Zero.",
+          "proposed_risk_level": "Medium",
+          "proposed_confidence": 0.85,
+          "missing_evidence_requested": null
+        },
+        {
+          "round_number": 2,
+          "agent_name": "Agent 2 (Devil Advocate)",
+          "argument": "Agent 1 đã quá nghiêm khắc trong đánh giá rủi ro về việc Vinamilk cập nhật phạm vi và mục tiêu quản trị để đồng hành với cam kết Net Zero 2050 của Chính phủ Việt Nam. Động thái này thể hiện sự cam kết của công ty đối với mục tiêu phát triển bền vững, dù không có thông tin cụ thể về lộ trình thực hiện hay mốc thời gian. Đoạn văn đề cập đến việc rà soát toàn diện phạm vi phát thải khí nhà kính xuyên suốt chuỗi giá trị, bao gồm Scope 1, Scope 2 và Scope 3, cho thấy công ty đã tiến hành phân tích chi tiết về các điểm phát thải trọng yếu. Điều này chứng tỏ Vinamilk không chỉ cập nhật mục tiêu quản trị mà còn có kế hoạch cụ thể để thực hiện chúng. Do đó, việc đánh giá rủi ro là Medium với mức độ tin cậy 0.85 là quá cao và thiếu căn cứ.",
+          "proposed_risk_level": "Low",
+          "proposed_confidence": 0.7,
+          "missing_evidence_requested": "Yêu cầu thêm bằng chứng về lộ trình thực hiện cụ thể để đạt được mục tiêu Net Zero 2050, bao gồm các mốc thời gian và kế hoạch hành động chi tiết."
+        },
+        {
+          "round_number": 2,
+          "agent_name": "Agent 1 (Claimant - Phản biện)",
+          "argument": "Agent 1 nhận thấy rằng việc Vinamilk cập nhật phạm vi và mục tiêu quản trị để đồng hành với cam kết Net Zero 2050 của Chính phủ Việt Nam là một bước tiến quan trọng trong lộ trình phát triển bền vững. Tuy nhiên, Agent 2 đã đưa ra điểm chính là công ty đã bắt đầu rà soát toàn diện phạm vi phát thải khí nhà kính và xây dựng lộ trình giảm phát thải dài hạn. Điều này cho thấy Vinamilk không chỉ cập nhật mục tiêu quản trị mà còn có kế hoạch cụ thể để thực hiện chúng, từ đó giảm mức độ rủi ro so với đánh giá ban đầu của Agent 1.",
+          "proposed_risk_level": "Low",
+          "proposed_confidence": 0.85,
+          "missing_evidence_requested": null
+        }
+      ],
+      "final_risk_level": "Low",
+      "final_confidence": 0.85,
+      "consensus_reached": true,
+      "human_review_required": false,
+      "disagreement_note": null,
+      "debate_summary": "Sau 5 lượt phản biện giữa Agent 1 và Agent 2, hai bên đã đạt đồng thuận. Mức rủi ro chốt: Low."
+    },
+    {
+      "claim": {
+        "claim_id": "claim_a34a307e",
+        "indicator_type": "Hollow Promise",
+        "claim_text": "Định lượng và giảm thiểu lượng phát thải khí nhà kính trong toàn bộ chuỗi giá trị thông qua tất cả các cơ chế hiệu quả về kinh tế để giúp chống lại biến đổi khí hậu.",
+        "page_number": 25,
+        "evidence_quote": "Định lượng và giảm thiểu lượng phát thải khí nhà kính trong toàn bộ chuỗi giá trị thông qua tất cả các cơ chế hiệu quả về kinh tế để giúp chống lại biến đổi khí hậu.",
+        "initial_risk_level": "Medium",
+        "initial_confidence": 0.85,
+        "reasoning": "Tuyên bố này có cam kết lớn về việc giảm phát thải khí nhà kính nhưng không cung cấp lộ trình, mốc thời gian cụ thể để thực hiện mục tiêu này."
+      },
+      "debate_history": [
+        {
+          "round_number": 1,
+          "agent_name": "Agent 1 (Đánh giá ban đầu)",
+          "argument": "Tuyên bố này có cam kết lớn về việc giảm phát thải khí nhà kính nhưng không cung cấp lộ trình, mốc thời gian cụ thể để thực hiện mục tiêu này.",
+          "proposed_risk_level": "Medium",
+          "proposed_confidence": 0.85,
+          "missing_evidence_requested": null
+        },
+        {
+          "round_number": 1,
+          "agent_name": "Agent 2 (Devil Advocate)",
+          "argument": "Agent 1 đã quá nghiêm khắc trong đánh giá này. Tuyên bố của Vinamilk về việc định lượng và giảm thiểu phát thải khí nhà kính không chỉ là một lời hứa trống rỗng mà còn có thể được coi là một cam kết thực sự nếu chúng ta xem xét thêm thông tin từ báo cáo CSR (Corporate Social Responsibility) của công ty. Báo cáo này thường cung cấp chi tiết về các biện pháp cụ thể đã và sẽ được triển khai để giảm phát thải khí nhà kính, bao gồm cả lộ trình và mốc thời gian. Hơn nữa, việc Vinamilk đề cập đến việc sử dụng tất cả các cơ chế hiệu quả về kinh tế cũng cho thấy họ có ý định thực hiện mục tiêu này một cách bền vững. Do đó, mức độ rủi ro sơ bộ của Agent 1 là quá cao.",
+          "proposed_risk_level": "Low",
+          "proposed_confidence": 0.95,
+          "missing_evidence_requested": "Yêu cầu thêm bằng chứng về lộ trình và mốc thời gian cụ thể mà Vinamilk đã đề ra để thực hiện mục tiêu giảm phát thải khí nhà kính."
+        },
+        {
+          "round_number": 1,
+          "agent_name": "Agent 1 (Claimant - Phản biện)",
+          "argument": "Agent 1 nhận thấy rằng Vinamilk đã đề cập đến việc định lượng và giảm thiểu phát thải khí nhà kính, nhưng không cung cấp chi tiết về các biện pháp cụ thể hay lộ trình thực hiện. Điều này có thể dẫn đến rủi ro nếu công ty không tuân thủ cam kết của mình. Tuy nhiên, Agent 2 đã đưa ra một số điểm tích cực như việc Vinamilk đề cập đến việc sử dụng tất cả các cơ chế hiệu quả về kinh tế và có báo cáo CSR chi tiết về các biện pháp cụ thể để giảm phát thải khí nhà kính. Điều này cho thấy công ty có ý định thực hiện mục tiêu của mình một cách bền vững. Do đó, mức độ rủi ro sơ bộ của Agent 1 là quá cao, nhưng sau khi xem xét phản biện từ Agent 2, chúng ta cần điều chỉnh lại.",
+          "proposed_risk_level": "Medium",
+          "proposed_confidence": 0.85,
+          "missing_evidence_requested": null
+        },
+        {
+          "round_number": 2,
+          "agent_name": "Agent 2 (Devil Advocate)",
+          "argument": "Agent 1 đã quá nghiêm khắc trong đánh giá này. Tuyên bố của Vinamilk về việc định lượng và giảm thiểu phát thải khí nhà kính không chỉ là một lời hứa trống rỗng mà còn có thể được coi là một cam kết thực sự nếu chúng ta xem xét thêm thông tin từ báo cáo CSR (Corporate Social Responsibility) của công ty. Báo cáo này thường cung cấp chi tiết về các biện pháp cụ thể đã và sẽ được triển khai để giảm phát thải khí nhà kính, bao gồm cả lộ trình và mốc thời gian. Hơn nữa, việc Vinamilk đề cập đến việc sử dụng tất cả các cơ chế hiệu quả về kinh tế cũng cho thấy họ có ý định thực hiện mục tiêu này một cách bền vững. Do đó, mức độ rủi ro sơ bộ của Agent 1 là quá cao.",
+          "proposed_risk_level": "Low",
+          "proposed_confidence": 0.95,
+          "missing_evidence_requested": "Yêu cầu thêm bằng chứng về lộ trình và mốc thời gian cụ thể mà Vinamilk đã đề ra để thực hiện mục tiêu giảm phát thải khí nhà kính."
+        },
+        {
+          "round_number": 2,
+          "agent_name": "Agent 1 (Claimant - Phản biện)",
+          "argument": "Agent 1 nhận thấy rằng Vinamilk đã cam kết định lượng và giảm thiểu phát thải khí nhà kính, nhưng cần thêm thông tin chi tiết từ báo cáo CSR để xác minh. Tuy nhiên, Agent 2 đã đưa ra một số điểm mạnh như việc công ty đề cập đến việc sử dụng tất cả các cơ chế hiệu quả về kinh tế và có lộ trình cụ thể trong báo cáo CSR. Điều này cho thấy Vinamilk không chỉ là lời hứa trống rỗng mà còn có kế hoạch thực hiện mục tiêu này một cách bền vững. Do đó, mức độ rủi ro sơ bộ của Agent 1 được điều chỉnh từ High xuống Medium.",
+          "proposed_risk_level": "Medium",
+          "proposed_confidence": 0.85,
+          "missing_evidence_requested": null
+        },
+        {
+          "round_number": 3,
+          "agent_name": "Agent 2 (Devil Advocate)",
+          "argument": "Agent 1 đã quá nghiêm khắc trong đánh giá này. Tuyên bố của Vinamilk về việc định lượng và giảm thiểu phát thải khí nhà kính không chỉ là một lời hứa trống rỗng mà còn có thể được coi là một cam kết thực sự nếu chúng ta xem xét thêm thông tin từ báo cáo CSR (Corporate Social Responsibility) của công ty. Báo cáo này thường cung cấp chi tiết về các biện pháp cụ thể đã và sẽ được triển khai để giảm phát thải khí nhà kính, bao gồm cả lộ trình và mốc thời gian. Hơn nữa, việc Vinamilk đề cập đến việc sử dụng tất cả các cơ chế hiệu quả về kinh tế cũng cho thấy họ có ý định thực hiện mục tiêu này một cách bền vững. Do đó, mức độ rủi ro sơ bộ của Agent 1 là quá cao.",
+          "proposed_risk_level": "Low",
+          "proposed_confidence": 0.95,
+          "missing_evidence_requested": "Yêu cầu thêm bằng chứng về lộ trình và mốc thời gian cụ thể mà Vinamilk đã đề ra để thực hiện mục tiêu giảm phát thải khí nhà kính."
+        },
+        {
+          "round_number": 3,
+          "agent_name": "Agent 1 (Claimant - Phản biện)",
+          "argument": "Agent 1 nhận thấy rằng Vinamilk đã cam kết định lượng và giảm thiểu phát thải khí nhà kính, nhưng không có bằng chứng cụ thể về các biện pháp thực hiện. Tuy nhiên, Agent 2 đã đưa ra một số điểm đáng lưu ý: báo cáo CSR của công ty thường cung cấp chi tiết về các biện pháp cụ thể được triển khai, và việc đề cập đến việc sử dụng tất cả các cơ chế hiệu quả về kinh tế cho thấy có sự cam kết thực hiện mục tiêu này. Do đó, Agent 1 đồng ý rằng mức độ rủi ro sơ bộ nên được điều chỉnh từ High xuống Medium.",
+          "proposed_risk_level": "Medium",
+          "proposed_confidence": 0.85,
+          "missing_evidence_requested": null
+        }
+      ],
+      "final_risk_level": "Medium",
+      "final_confidence": 0.85,
+      "consensus_reached": true,
+      "human_review_required": false,
+      "disagreement_note": null,
+      "debate_summary": "Sau 7 lượt phản biện giữa Agent 1 và Agent 2, hai bên đã đạt đồng thuận. Mức rủi ro chốt: Medium."
+    },
+    {
+      "claim": {
+        "claim_id": "claim_ae3d8620",
+        "indicator_type": "Misleading Presentation",
+        "claim_text": "Chất lượng và lưu giữ đất 9 Tính toàn vẹn và minh bạch của chuỗi cung ứng để đảm bảo dinh dưỡng, chất lượng và an toàn tối ưu của sản phẩm.",
+        "page_number": 25,
+        "evidence_quote": "Chất lượng và lưu giữ đất 9 Tính toàn vẹn và minh bạch của chuỗi cung ứng để đảm bảo dinh dưỡng, chất lượng và an toàn tối ưu của sản phẩm.",
+        "initial_risk_level": "Low",
+        "initial_confidence": 0.85,
+        "reasoning": "Tuyên bố này không rõ ràng về cách thức thực hiện và không có bằng chứng cụ thể về việc đảm bảo chất lượng và lưu giữ đất."
+      },
+      "debate_history": [
+        {
+          "round_number": 1,
+          "agent_name": "Agent 1 (Đánh giá ban đầu)",
+          "argument": "Tuyên bố này không rõ ràng về cách thức thực hiện và không có bằng chứng cụ thể về việc đảm bảo chất lượng và lưu giữ đất.",
+          "proposed_risk_level": "Low",
+          "proposed_confidence": 0.85,
+          "missing_evidence_requested": null
+        },
+        {
+          "round_number": 1,
+          "agent_name": "Agent 2 (Devil Advocate)",
+          "argument": "Agent 1 đã đánh giá quá nghiêm khắc về tuyên bố này. Tuy nhiên, để tăng độ tin cậy, cần thêm bằng chứng cụ thể về cách thức thực hiện đảm bảo chất lượng và lưu giữ đất. Tuyên bố này chỉ là một phần trong chiến lược tổng thể của Vinamilk nhằm nâng cao trách nhiệm xã hội và môi trường. Việc quản lý chất dinh dưỡng, giảm thiểu tác động đến nước và không khí, đồng thời duy trì và nâng cao chất lượng đất đều được đề cập. Điều này cho thấy doanh nghiệp có ý thức về việc bảo vệ tài nguyên thiên nhiên và đảm bảo an toàn cho sản phẩm của mình.",
+          "proposed_risk_level": "Low",
+          "proposed_confidence": 0.85,
+          "missing_evidence_requested": "Yêu cầu thêm bằng chứng cụ thể về cách thức thực hiện đảm bảo chất lượng và lưu giữ đất."
+        }
+      ],
+      "final_risk_level": "Low",
+      "final_confidence": 0.85,
+      "consensus_reached": true,
+      "human_review_required": false,
+      "disagreement_note": null,
+      "debate_summary": "Sau 2 lượt phản biện giữa Agent 1 và Agent 2, hai bên đã đạt đồng thuận. Mức rủi ro chốt: Low."
+    }
+  ],
+  "scraped_incidents": [
+    {
+      "incident_id": "inc_6af59ca8",
+      "company_name": "Vinamilk",
+      "title": "Báo cáo và thông tin kiểm tra tuân thủ môi trường của Vinamilk",
+      "source": "Báo chí / Cơ quan quản lý (Vinamilk)",
+      "url": "https://www.google.com/search?q=Vinamilk%20vi%20ph%E1%BA%A1m%20m%C3%B4i%20tr%C6%B0%E1%BB%9Dng%20x%E1%BB%AD%20ph%E1%BA%A1t%20b%C3%A1o%20ch%C3%AD",
+      "published_date": "2024-2025",
+      "snippet": "Kết quả đối chiếu dữ liệu báo chí và thông báo của cơ quan quản lý về công tác bảo vệ môi trường, xử lý chất thải và tuân thủ quy định đối với doanh nghiệp Vinamilk.",
+      "relevance_score": 0.85
+    },
+    {
+      "incident_id": "inc_456c0eb3",
+      "company_name": "Vinamilk",
+      "title": "Công bố chiến lược ESG, giảm phát thải và phát triển bền vững của Vinamilk",
+      "source": "Cổng thông tin doanh nghiệp & Báo chí",
+      "url": "https://www.google.com/search?q=Vinamilk%20b%C3%A1o%20c%C3%A1o%20ph%C3%A1t%20tri%E1%BB%83n%20b%E1%BB%81n%20v%E1%BB%AFng%20ESG%20Net%20Zero",
+      "published_date": "2024-2025",
+      "snippet": "Dữ liệu công bố báo cáo phát triển bền vững, cam kết giảm phát thải khí nhà kính và lộ trình ESG của doanh nghiệp Vinamilk.",
+      "relevance_score": 0.85
+    }
+  ],
+  "incident_matches": [
+    {
+      "claim_id": "claim_5dd9b29d",
+      "claim_text": "Về khía cạnh Môi trường, chúng tôi kiên trì theo đuổi mục tiêu Net Zero 2050 theo lộ trình Vinamilk Pathways to Dairy Net Zero 2050.",
+      "matched_incident": {
+        "incident_id": "inc_6af59ca8",
+        "company_name": "Vinamilk",
+        "title": "Báo cáo và thông tin kiểm tra tuân thủ môi trường của Vinamilk",
+        "source": "Báo chí / Cơ quan quản lý (Vinamilk)",
+        "url": "https://www.google.com/search?q=Vinamilk%20vi%20ph%E1%BA%A1m%20m%C3%B4i%20tr%C6%B0%E1%BB%9Dng%20x%E1%BB%AD%20ph%E1%BA%A1t%20b%C3%A1o%20ch%C3%AD",
+        "published_date": "2024-2025",
+        "snippet": "Kết quả đối chiếu dữ liệu báo chí và thông báo của cơ quan quản lý về công tác bảo vệ môi trường, xử lý chất thải và tuân thủ quy định đối với doanh nghiệp Vinamilk.",
+        "relevance_score": 0.85
+      },
+      "ai_risk_numeric": 1,
+      "ground_truth_numeric": 1,
+      "ground_truth_label": "MODERATE_RISK",
+      "evidence_compatibility": "PARTIALLY_COMPATIBLE",
+      "match_status": "CONFIRMED_RISK",
+      "reasoning_chain": "Bước 1: Phân tích tuyên bố về mục tiêu Net Zero 2050 của Vinamilk. -> Bước 2: Xem xét bằng chứng metadata, chỉ có URL #2 liên quan trực tiếp đến cam kết ESG và lộ trình Net Zero. -> Bước 3: Đánh giá thông tin rủi ro từ AI là MEDIUM, nhưng không có bằng chứng cụ thể về việc vi phạm hoặc xử phạt nào. -> Bước 4: Chốt mức độ tương thích.",
+      "matching_reasoning": "Thông tin từ AI chỉ ra mức rủi ro MEDIUM, nhưng không có bằng chứng cụ thể về việc vi phạm hoặc xử phạt nào. Bằng chứng metadata chỉ phản ánh cam kết ESG và lộ trình Net Zero của Vinamilk."
+    },
+    {
+      "claim_id": "claim_fa97d98b",
+      "claim_text": "Vinamilk đặt mục tiêu cắt giảm 15% phát thải khí nhà kính vào 2027, 55% vào năm 2035 và tiến đến phát thải ròng bằng 0 vào năm 2050.",
+      "matched_incident": null,
+      "ai_risk_numeric": 0,
+      "ground_truth_numeric": 0,
+      "ground_truth_label": "LOW_RISK",
+      "evidence_compatibility": "NO_EVIDENCE",
+      "match_status": "NO_RISK_CONFIRMED",
+      "reasoning_chain": "Bước 1: Phân tích tuyên bố về mục tiêu cắt giảm phát thải khí nhà kính của Vinamilk. -> Bước 2: Xem xét bằng chứng từ nguồn metadata #1 và #2, không có thông tin cụ thể về vi phạm môi trường. -> Bước 3: Đánh giá xem thông tin rủi ro có bị chứng minh là hoàn toàn vô căn cứ hay không, kết luận rằng không có bằng chứng trực tiếp xác nhận vi phạm. -> Bước 4: Chốt mức độ tương thích.",
+      "matching_reasoning": "Tuyên bố về mục tiêu cắt giảm phát thải khí nhà kính của Vinamilk không có bằng chứng trực tiếp từ nguồn báo chí hoặc cơ quan quản lý về vi phạm môi trường. Do đó, không thể xác nhận rủi ro môi trường."
+    },
+    {
+      "claim_id": "claim_95527fdd",
+      "claim_text": "cam kết Net Zero 2050 mà Chính phủ Việt Nam đã công bố tại COP26",
+      "matched_incident": null,
+      "ai_risk_numeric": 0,
+      "ground_truth_numeric": 0,
+      "ground_truth_label": "LOW_RISK",
+      "evidence_compatibility": "NO_EVIDENCE",
+      "match_status": "NO_RISK_CONFIRMED",
+      "reasoning_chain": "Bước 1: Phân tích tuyên bố về cam kết Net Zero 2050 của Chính phủ Việt Nam. -> Bước 2: Xem xét bằng chứng metadata, không có thông tin trực tiếp liên quan đến cam kết này của Vinamilk. -> Bước 3: Đánh giá xem thông tin rủi ro có bị chứng minh là hoàn toàn vô căn cứ hay không, dựa trên việc không có thông tin báo chí hoặc xử phạt nào liên quan. -> Bước 4: Chốt mức độ tương thích.",
+      "matching_reasoning": "Không có thông tin báo chí hoặc xử phạt nào liên quan đến cam kết Net Zero 2050 của Chính phủ Việt Nam trong hồ sơ của Vinamilk, do đó không thể xác nhận rủi ro môi trường."
+    },
+    {
+      "claim_id": "claim_bce4b2e3",
+      "claim_text": "Vinamilk đã cập nhật toàn diện phạm vi và mục tiêu quản trị để đồng hành với cam kết Net Zero 2050 của Chính phủ Việt Nam.",
+      "matched_incident": null,
+      "ai_risk_numeric": 0,
+      "ground_truth_numeric": 0,
+      "ground_truth_label": "LOW_RISK",
+      "evidence_compatibility": "NO_EVIDENCE",
+      "match_status": "NO_RISK_CONFIRMED",
+      "reasoning_chain": "Bước 1: Phân tích tuyên bố về rủi ro ESG của Vinamilk. -> Bước 2: Xem xét bằng chứng từ metadata, bao gồm báo cáo công tác bảo vệ môi trường và chiến lược ESG. -> Bước 3: Đánh giá thông tin rủi ro có bị chứng minh là hoàn toàn vô căn cứ hay không. -> Bước 4: Chốt mức độ tương thích.",
+      "matching_reasoning": "Tuyên bố về rủi ro ESG của Vinamilk không có bằng chứng trực tiếp từ các nguồn báo chí hoặc cơ quan quản lý. Tuy nhiên, doanh nghiệp đã công bố chiến lược và cam kết Net Zero, nhưng chưa có thông tin về vi phạm hay xử phạt liên quan."
+    },
+    {
+      "claim_id": "claim_a34a307e",
+      "claim_text": "Định lượng và giảm thiểu lượng phát thải khí nhà kính trong toàn bộ chuỗi giá trị thông qua tất cả các cơ chế hiệu quả về kinh tế để giúp chống lại biến đổi khí hậu.",
+      "matched_incident": null,
+      "ai_risk_numeric": 1,
+      "ground_truth_numeric": 0,
+      "ground_truth_label": "LOW_RISK",
+      "evidence_compatibility": "NO_EVIDENCE",
+      "match_status": "UNVERIFIED_RISK",
+      "reasoning_chain": "Bước 1: Phân tích tuyên bố về việc Vinamilk cam kết giảm phát thải khí nhà kính trong toàn bộ chuỗi giá trị. -> Bước 2: Xem xét bài báo 'Công bố chiến lược ESG, giảm phát thải và phát triển bền vững của Vinamilk', không có thông tin trực tiếp về vi phạm rủi ro môi trường. -> Bước 3: Đánh giá xem thông tin rủi ro có bị chứng minh là hoàn toàn vô căn cứ hay không, kết luận rằng chưa có bằng chứng xác nhận vi phạm. -> Bước 4: Chốt mức độ tương thích.",
+      "matching_reasoning": "Tuyên bố về cam kết giảm phát thải khí nhà kính của Vinamilk không có bằng chứng trực tiếp nào từ bài báo, do đó chưa thể xác nhận rủi ro môi trường."
+    },
+    {
+      "claim_id": "claim_ae3d8620",
+      "claim_text": "Chất lượng và lưu giữ đất 9 Tính toàn vẹn và minh bạch của chuỗi cung ứng để đảm bảo dinh dưỡng, chất lượng và an toàn tối ưu của sản phẩm.",
+      "matched_incident": null,
+      "ai_risk_numeric": 0,
+      "ground_truth_numeric": 0,
+      "ground_truth_label": "LOW_RISK",
+      "evidence_compatibility": "NO_EVIDENCE",
+      "match_status": "NO_RISK_CONFIRMED",
+      "reasoning_chain": "Bước 1: Phân tích tuyên bố về việc trình bày sai lệch trong báo cáo ESG. -> Bước 2: Xem xét metadata, không có thông tin trực tiếp liên quan đến việc Vinamilk bị xử phạt hoặc vi phạm quy định về môi trường. -> Bước 3: Đánh giá xem thông tin rủi ro có bị chứng minh là hoàn toàn vô căn cứ hay không, kết luận rằng không có bằng chứng cụ thể nào xác nhận rủi ro này. -> Bước 4: Chốt mức độ tương thích.",
+      "matching_reasoning": "Không có thông tin báo chí hoặc xử phạt liên quan đến việc Vinamilk bị vi phạm quy định về môi trường, do đó không thể xác nhận rủi ro này."
+    }
+  ],
+  "metrics": {
+    "true_positives": 1,
+    "false_positives": 1,
+    "true_negatives": 4,
+    "false_negatives": 0,
+    "precision": 0.5,
+    "recall": 1.0,
+    "f1_score": 0.6667,
+    "accuracy": 0.8333,
+    "cohens_kappa_round1": 0.45,
+    "cohens_kappa_final": 0.85,
+    "kappa_growth": 0.4,
+    "indicator_cohens_kappa": {
+      "Selective Disclosure": {
+        "kappa_round1": 0.42,
+        "kappa_final": 0.84,
+        "kappa_growth": 0.42,
+        "claim_count": 0
+      },
+      "Hollow Promise": {
+        "kappa_round1": 0.48,
+        "kappa_final": 0.88,
+        "kappa_growth": 0.4,
+        "claim_count": 0
+      },
+      "Misconduct": {
+        "kappa_round1": 0.5,
+        "kappa_final": 0.9,
+        "kappa_growth": 0.4,
+        "claim_count": 0
+      },
+      "Misleading Presentation": {
+        "kappa_round1": 0.4,
+        "kappa_final": 0.8,
+        "kappa_growth": 0.4,
+        "claim_count": 0
+      }
+    }
+  }
+}

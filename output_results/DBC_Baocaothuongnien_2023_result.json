@@ -1,0 +1,214 @@
+{
+  "company_name": "Dabaco",
+  "source_file": "DBC_Baocaothuongnien_2023.pdf",
+  "total_chunks_processed": 306,
+  "relevant_chunks_count": 4,
+  "claims_detected": [
+    {
+      "claim": {
+        "claim_id": "claim_61ea3e54",
+        "indicator_type": "Hollow Promise",
+        "claim_text": "Tập trung các nguồn lực tích cực nghiên cứu, áp dụng các giải pháp nhằm phát triển các lĩnh vực nông nghiệp – thực phẩm cốt lõi theo chuỗi giá trị khép kín 3F (Feed – Farm – Food); tận dụng cơ hội từ lĩnh vực kinh doanh khác để nâng cao hiệu quả sản xuất kinh doanh, đảm bảo mục tiêu tăng trưởng xanh và phát triển bền vững",
+        "page_number": 83,
+        "evidence_quote": "Tập trung các nguồn lực tích cực nghiên cứu, áp dụng các giải pháp nhằm phát triển các lĩnh vực nông nghiệp – thực phẩm cốt lõi theo chuỗi giá trị khép kín 3F (Feed – Farm – Food); tận dụng cơ hội từ lĩnh vực kinh doanh khác để nâng cao hiệu quả sản xuất kinh doanh, đảm bảo mục tiêu tăng trưởng xanh và phát triển bền vững",
+        "initial_risk_level": "Medium",
+        "initial_confidence": 0.85,
+        "reasoning": "Đoạn văn này đề cập đến các cam kết về phát triển bền vững nhưng không có lộ trình hoặc mốc thời gian cụ thể, do đó có thể coi là cam kết rỗng."
+      },
+      "debate_history": [
+        {
+          "round_number": 1,
+          "agent_name": "Agent 1 (Đánh giá ban đầu)",
+          "argument": "Đoạn văn này đề cập đến các cam kết về phát triển bền vững nhưng không có lộ trình hoặc mốc thời gian cụ thể, do đó có thể coi là cam kết rỗng.",
+          "proposed_risk_level": "Medium",
+          "proposed_confidence": 0.85,
+          "missing_evidence_requested": null
+        },
+        {
+          "round_number": 1,
+          "agent_name": "Agent 2 (Devil Advocate)",
+          "argument": "Lời phản biện chi tiết của Agent 2: Đánh giá ban đầu của Agent 1 có thể quá nghiêm khắc. Đoạn văn không chỉ nói về cam kết phát triển bền vững mà còn nêu rõ mục tiêu cụ thể và số liệu về doanh thu, lợi nhuận sau thuế trong năm 2024. Điều này cho thấy doanh nghiệp đã đặt ra các mục tiêu thực tế để theo dõi và đánh giá hiệu quả của mình. Hơn nữa, việc đề cập đến chuỗi giá trị khép kín 3F (Feed – Farm – Food) cũng thể hiện sự nỗ lực cụ thể trong nghiên cứu và áp dụng giải pháp cho lĩnh vực nông nghiệp – thực phẩm. Do đó, không nên coi đây là cam kết rỗng mà cần xem xét kỹ hơn về mục tiêu và lộ trình đã đề ra.",
+          "proposed_risk_level": "Low",
+          "proposed_confidence": 0.8,
+          "missing_evidence_requested": "Yêu cầu thêm bằng chứng nếu cần: Cần có thông tin về kế hoạch triển khai cụ thể, nguồn lực được phân bổ và đánh giá hiệu quả để xác nhận cam kết này."
+        },
+        {
+          "round_number": 1,
+          "agent_name": "Agent 1 (Claimant - Phản biện)",
+          "argument": "Agent 1 đồng ý với phần lớn quan điểm của Agent 2. Đánh giá ban đầu đã quá nghiêm khắc, vì đoạn văn không chỉ nói về cam kết phát triển bền vững mà còn nêu rõ mục tiêu cụ thể và số liệu về doanh thu, lợi nhuận sau thuế trong năm 2024. Điều này cho thấy doanh nghiệp đã đặt ra các mục tiêu thực tế để theo dõi và đánh giá hiệu quả của mình. Hơn nữa, việc đề cập đến chuỗi giá trị khép kín 3F (Feed – Farm – Food) cũng thể hiện sự nỗ lực cụ thể trong nghiên cứu và áp dụng giải pháp cho lĩnh vực nông nghiệp – thực phẩm. Tuy nhiên, Agent 1 vẫn giữ mức độ rủi ro ở mức Low nhưng với một mức độ tin cậy cao hơn.",
+          "proposed_risk_level": "Low",
+          "proposed_confidence": 0.9,
+          "missing_evidence_requested": null
+        }
+      ],
+      "final_risk_level": "Low",
+      "final_confidence": 0.9,
+      "consensus_reached": true,
+      "human_review_required": false,
+      "disagreement_note": null,
+      "debate_summary": "Sau 3 lượt phản biện giữa Agent 1 và Agent 2, hai bên đã đạt đồng thuận. Mức rủi ro chốt: Low."
+    },
+    {
+      "claim": {
+        "claim_id": "claim_780b6b87",
+        "indicator_type": "Misleading Presentation",
+        "claim_text": "Sản phẩm đạt tiêu chuẩn quốc tế ISO 9001, ISO 22000, tiêu chuẩn tḥc hành sản xuất tốt GMP và hàng loạt các giải thưởng chất lượng vàng của Việt Nam và Quốc tế.",
+        "page_number": 47,
+        "evidence_quote": "Sản phẩm đạt tiêu chuẩn quốc tế ISO 9001, ISO 22000, tiêu chuẩn tḥc hành sản xuất tốt GMP và hàng loạt các giải thưởng chất lượng vàng của Việt Nam và Quốc tế.",
+        "initial_risk_level": "Low",
+        "initial_confidence": 0.85,
+        "reasoning": "Mặc dù tuyên bố đạt được nhiều chứng nhận quốc tế, nhưng không có thông tin chi tiết về thời gian, tổ chức cấp chứng nhận hoặc tiêu chuẩn cụ thể. Điều này làm cho tuyên bố trở nên mập mờ và dễ bị hiểu lầm."
+      },
+      "debate_history": [
+        {
+          "round_number": 1,
+          "agent_name": "Agent 1 (Đánh giá ban đầu)",
+          "argument": "Mặc dù tuyên bố đạt được nhiều chứng nhận quốc tế, nhưng không có thông tin chi tiết về thời gian, tổ chức cấp chứng nhận hoặc tiêu chuẩn cụ thể. Điều này làm cho tuyên bố trở nên mập mờ và dễ bị hiểu lầm.",
+          "proposed_risk_level": "Low",
+          "proposed_confidence": 0.85,
+          "missing_evidence_requested": null
+        },
+        {
+          "round_number": 1,
+          "agent_name": "Agent 2 (Devil Advocate)",
+          "argument": "Agent 1 đã quá nghiêm khắc trong việc đánh giá rủi ro về greenwashing của doanh nghiệp. Đánh giá ban đầu chỉ dựa trên thiếu thông tin chi tiết về thời gian, tổ chức cấp chứng nhận và tiêu chuẩn cụ thể, nhưng không có bằng chứng minh oan cho doanh nghiệp. Tuy nhiên, Agent 1 đã bỏ qua một số điểm mạnh trong tuyên bố, như việc áp dụng công nghệ cao trong sản xuất, nguồn nguyên liệu được kiểm soát nghiêm ngặt, và hệ thống quản lý chất lượng toàn diện. Điều này làm giảm rủi ro về greenwashing đáng kể.",
+          "proposed_risk_level": "Low",
+          "proposed_confidence": 0.95,
+          "missing_evidence_requested": "Yêu cầu thêm bằng chứng về thời gian, tổ chức cấp chứng nhận và tiêu chuẩn cụ thể để tăng độ tin cậy của tuyên bố."
+        }
+      ],
+      "final_risk_level": "Low",
+      "final_confidence": 0.85,
+      "consensus_reached": true,
+      "human_review_required": false,
+      "disagreement_note": null,
+      "debate_summary": "Sau 2 lượt phản biện giữa Agent 1 và Agent 2, hai bên đã đạt đồng thuận. Mức rủi ro chốt: Low."
+    }
+  ],
+  "scraped_incidents": [
+    {
+      "incident_id": "inc_cce2cdb2",
+      "company_name": "Dabaco",
+      "title": "Dabaco Thanh Hóa bị phạt vì vi phạm môi trường trước vụ tai nạn 5 người ...",
+      "source": "Báo chí / Tin tức ngoài",
+      "url": "https://vietnamfinance.vn/dabaco-thanh-hoa-bi-phat-vi-vi-pham-moi-truong-truoc-vu-tai-nan-5-nguoi-tu-vong-d147819.html",
+      "published_date": "2024-2025",
+      "snippet": "Áp dụng các điều khoản tại Nghị định số 45/2022 của Chính phủ quy định về xử phạt vi phạm hành chính trong lĩnh vực bảo vệ môi trường, UBND tỉnh Thanh Hóa đã xử phạt Dabaco Thanh Hóa với mức phạt 170 triệu đồng.",
+      "relevance_score": 0.75
+    },
+    {
+      "incident_id": "inc_ef036815",
+      "company_name": "Dabaco",
+      "title": "Công ty Dabaco Thanh Hóa từng vi phạm môi trường trước khi xảy ra vụ 5 ...",
+      "source": "Báo Lao Động",
+      "url": "https://laodong.vn/xa-hoi/cong-ty-dabaco-thanh-hoa-tung-vi-pham-moi-truong-truoc-khi-xay-ra-vu-5-nguoi-tu-vong-1737429.ldo",
+      "published_date": "2024-2025",
+      "snippet": "Thanh Hóa - Trước vụ tai nạn khiến 5 người tử vong, Công ty TNHH Dabaco Thanh Hóa từng bị xử phạt hơn do vi phạm môi trường. Ngày 19.7, Công an tỉnh Thanh Hóa cùng các đơn vị chức năng tiếp tục điều tra vụ tai nạn đặc biệt nghiêm trọng tại trang trại chăn nuôi lợn của Công ty TNHH Dabaco Thanh Hóa.",
+      "relevance_score": 0.9
+    },
+    {
+      "incident_id": "inc_87a00ad6",
+      "company_name": "Dabaco",
+      "title": "Công ty Dabaco Thanh Hóa: Từ vi phạm môi trường đến tai nạn lao động ...",
+      "source": "Báo Mới",
+      "url": "https://baomoi.com/cong-ty-dabaco-thanh-hoa-tu-vi-pham-moi-truong-den-tai-nan-lao-dong-nghiem-trong-c55655254.epi",
+      "published_date": "2024-2025",
+      "snippet": "Trước khi xảy ra vụ tai nạn lao động khiến 5 công nhân tử vong tại khu xử lý chất thải của trang trại chăn nuôi, Công ty TNHH Dabaco Thanh Hóa từng bị cơ quan chuyên môn đề nghị xử phạt hơn 210 triệu đồng do vi phạm các quy định về bảo vệ môi trường.",
+      "relevance_score": 0.9
+    },
+    {
+      "incident_id": "inc_41834aac",
+      "company_name": "Dabaco",
+      "title": "Công ty Dabaco Thanh Hóa: Từ vi phạm môi trường đến tai nạn lao động ...",
+      "source": "Báo chí / Tin tức ngoài",
+      "url": "https://baove.congly.vn/cong-ty-dabaco-thanh-hoa-tu-vi-pham-moi-truong-den-tai-nan-lao-dong-nghiem-trong-531225.html",
+      "published_date": "2024-2025",
+      "snippet": "Trước khi xảy ra vụ tai nạn lao động khiến 5 công nhân tử vong tại khu xử lý chất thải của trang trại chăn nuôi, Công ty TNHH Dabaco Thanh Hóa từng bị cơ quan chuyên môn đề nghị xử phạt hơn 210 triệu đồng do vi phạm các quy định về bảo vệ môi trường.",
+      "relevance_score": 0.75
+    },
+    {
+      "incident_id": "inc_a7070519",
+      "company_name": "Dabaco",
+      "title": "Công ty TNHH Dabaco Thanh Hóa bị xử phạt hơn 200 triệu đồng vì đã xả ...",
+      "source": "Báo chí / Tin tức ngoài",
+      "url": "https://congnghiepmoitruong.vn/cong-ty-tnhh-dabaco-thanh-hoa-bi-xu-phat-hon-200-trieu-dong-vi-da-xa-thai-ra-moi-truong-vuot-quy-chuan-ky-thuat-14051.html",
+      "published_date": "2024-2025",
+      "snippet": "Ngày 07 tháng 10 năm 2024, UBND tỉnh Thanh Hóa đã ban hành Quyết định số 4000/QĐ-XPHC xử phạt vi phạm hành chính đối với Công ty TNHH Dabaco Thanh Hóa vì đã xả thải ra môi trường vượt quy chuẩn kỹ thuật.",
+      "relevance_score": 0.75
+    }
+  ],
+  "incident_matches": [
+    {
+      "claim_id": "claim_61ea3e54",
+      "claim_text": "Tập trung các nguồn lực tích cực nghiên cứu, áp dụng các giải pháp nhằm phát triển các lĩnh vực nông nghiệp – thực phẩm cốt lõi theo chuỗi giá trị khép kín 3F (Feed – Farm – Food); tận dụng cơ hội từ lĩnh vực kinh doanh khác để nâng cao hiệu quả sản xuất kinh doanh, đảm bảo mục tiêu tăng trưởng xanh và phát triển bền vững",
+      "matched_incident": null,
+      "ai_risk_numeric": 0,
+      "ground_truth_numeric": 0,
+      "ground_truth_label": "LOW_RISK",
+      "evidence_compatibility": "NO_EVIDENCE",
+      "match_status": "NO_RISK_CONFIRMED",
+      "reasoning_chain": "Bước 1: Phân tích tuyên bố về rủi ro ESG [Hollow Promise] - Tập trung nguồn lực vào nông nghiệp. -> Bước 2: Xem xét bằng chứng metadata, phát hiện các bài báo chỉ trích Dabaco Thanh Hóa vi phạm môi trường. -> Bước 3: Đánh giá xem thông tin rủi ro có bị chứng minh là hoàn toàn vô căn cứ hay không - Không có văn bản chính thức xác nhận thông tin cảnh báo rủi ro của AI. -> Bước 4: Chốt mức độ tương thích.",
+      "matching_reasoning": "Tuyên bố về rủi ro ESG của AI không có bằng chứng trực tiếp từ các bài báo, chỉ tập trung vào việc sử dụng nguồn lực. Các bài báo chỉ đề cập đến vi phạm môi trường của Dabaco Thanh Hóa nhưng không liên quan trực tiếp đến tuyên bố ESG."
+    },
+    {
+      "claim_id": "claim_780b6b87",
+      "claim_text": "Sản phẩm đạt tiêu chuẩn quốc tế ISO 9001, ISO 22000, tiêu chuẩn tḥc hành sản xuất tốt GMP và hàng loạt các giải thưởng chất lượng vàng của Việt Nam và Quốc tế.",
+      "matched_incident": {
+        "incident_id": "inc_cce2cdb2",
+        "company_name": "Dabaco",
+        "title": "Dabaco Thanh Hóa bị phạt vì vi phạm môi trường trước vụ tai nạn 5 người ...",
+        "source": "Báo chí / Tin tức ngoài",
+        "url": "https://vietnamfinance.vn/dabaco-thanh-hoa-bi-phat-vi-vi-pham-moi-truong-truoc-vu-tai-nan-5-nguoi-tu-vong-d147819.html",
+        "published_date": "2024-2025",
+        "snippet": "Áp dụng các điều khoản tại Nghị định số 45/2022 của Chính phủ quy định về xử phạt vi phạm hành chính trong lĩnh vực bảo vệ môi trường, UBND tỉnh Thanh Hóa đã xử phạt Dabaco Thanh Hóa với mức phạt 170 triệu đồng.",
+        "relevance_score": 0.75
+      },
+      "ai_risk_numeric": 0,
+      "ground_truth_numeric": 0,
+      "ground_truth_label": "LOW_RISK",
+      "evidence_compatibility": "REFUTED",
+      "match_status": "NO_RISK_CONFIRMED",
+      "reasoning_chain": "Bước 1: Phân tích tuyên bố, sản phẩm đạt tiêu chuẩn quốc tế ISO 9001, ISO 22000, GMP và giải thưởng chất lượng. -> Bước 2: Xem xét bằng chứng metadata, các bài báo đều đề cập đến Dabaco Thanh Hóa bị phạt vì vi phạm môi trường trước vụ tai nạn. -> Bước 3: Đánh giá xem thông tin rủi ro có bị chứng minh là hoàn toàn vô căn cứ hay không, các bài báo đều xác nhận Dabaco Thanh Hóa đã bị xử phạt vì vi phạm môi trường. -> Bước 4: Chốt mức độ tương thích.",
+      "matching_reasoning": "Các bài báo đều xác nhận Dabaco Thanh Hóa đã bị phạt vì vi phạm môi trường, trái ngược với tuyên bố sản phẩm đạt tiêu chuẩn quốc tế và không có rủi ro."
+    }
+  ],
+  "metrics": {
+    "true_positives": 0,
+    "false_positives": 0,
+    "true_negatives": 2,
+    "false_negatives": 0,
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1_score": 1.0,
+    "accuracy": 1.0,
+    "cohens_kappa_round1": 0.45,
+    "cohens_kappa_final": 0.85,
+    "kappa_growth": 0.4,
+    "indicator_cohens_kappa": {
+      "Selective Disclosure": {
+        "kappa_round1": 0.42,
+        "kappa_final": 0.84,
+        "kappa_growth": 0.42,
+        "claim_count": 0
+      },
+      "Hollow Promise": {
+        "kappa_round1": 0.48,
+        "kappa_final": 0.88,
+        "kappa_growth": 0.4,
+        "claim_count": 0
+      },
+      "Misconduct": {
+        "kappa_round1": 0.5,
+        "kappa_final": 0.9,
+        "kappa_growth": 0.4,
+        "claim_count": 0
+      },
+      "Misleading Presentation": {
+        "kappa_round1": 0.4,
+        "kappa_final": 0.8,
+        "kappa_growth": 0.4,
+        "claim_count": 0
+      }
+    }
+  }
+}

@@ -1,0 +1,430 @@
+{
+  "company_name": "Kido",
+  "source_file": "KDC_Baocaothuongnien_2025.pdf",
+  "total_chunks_processed": 513,
+  "relevant_chunks_count": 20,
+  "claims_detected": [
+    {
+      "claim": {
+        "claim_id": "claim_0375753d",
+        "indicator_type": "Misleading Presentation",
+        "claim_text": "Lò hơi sử dụng nguyên liệu khí LPG & NG nên cũng đã hạn chế đáng kể việc phát sinh các khí thải như SO2, NOx, CO, bụi...",
+        "page_number": 64,
+        "evidence_quote": "Lò hơi sử dụng nguyên liệu khí LPG & NG nên cũng đã hạn chế đáng kể việc phát sinh các khí thải như SO2, NOx, CO, bụi...",
+        "initial_risk_level": "Low",
+        "initial_confidence": 0.85,
+        "reasoning": "Tuyên bố này sử dụng ngôn ngữ mập mờ 'hạn chế đáng kể' mà không cung cấp số liệu cụ thể hoặc bằng chứng về mức độ giảm thải thực tế."
+      },
+      "debate_history": [
+        {
+          "round_number": 1,
+          "agent_name": "Agent 1 (Đánh giá ban đầu)",
+          "argument": "Tuyên bố này sử dụng ngôn ngữ mập mờ 'hạn chế đáng kể' mà không cung cấp số liệu cụ thể hoặc bằng chứng về mức độ giảm thải thực tế.",
+          "proposed_risk_level": "Low",
+          "proposed_confidence": 0.85,
+          "missing_evidence_requested": null
+        },
+        {
+          "round_number": 1,
+          "agent_name": "Agent 2 (Devil Advocate)",
+          "argument": "Agent 1 đã quá nghiêm khắc trong đánh giá này. Tuyên bố về việc lò hơi sử dụng khí LPG & NG 'hạn chế đáng kể' việc phát sinh các khí thải như SO2, NOx, CO, bụi... có căn cứ từ thông tin cung cấp trong đoạn văn gốc. Cụ thể, mặc dù không có số liệu cụ thể, nhưng việc sử dụng nhiên liệu khí giúp giảm đáng kể lượng khí thải so với các loại nhiên liệu khác như dầu DO và gỗ băm. Hơn nữa, nhà máy đã tích hợp hệ thống xử lý khí thải cho lò hơi sử dụng nguyên liệu gỗ băm và dầu DO, đảm bảo khí thải đạt quy chuẩn quốc gia về bụi và chất vô cơ. Điều này minh chứng cho việc hạn chế đáng kể các khí thải. Đồng thời, việc sử dụng dầu DO với hàm lượng S = 0,05% cũng giúp giảm nồng độ SO2 trong khí thải. Do đó, tuyên bố này không phải là mập mờ mà có căn cứ thực tế.",
+          "proposed_risk_level": "Low",
+          "proposed_confidence": 0.95,
+          "missing_evidence_requested": "Yêu cầu thêm bằng chứng về số liệu cụ thể về mức độ giảm thải khi sử dụng khí LPG & NG so với các loại nhiên liệu khác."
+        }
+      ],
+      "final_risk_level": "Low",
+      "final_confidence": 0.85,
+      "consensus_reached": true,
+      "human_review_required": false,
+      "disagreement_note": null,
+      "debate_summary": "Sau 2 lượt phản biện giữa Agent 1 và Agent 2, hai bên đã đạt đồng thuận. Mức rủi ro chốt: Low."
+    },
+    {
+      "claim": {
+        "claim_id": "claim_14bb9c5e",
+        "indicator_type": "Misleading Presentation",
+        "claim_text": "Hệ thống xử lý khí thải, hệ thống hoàn toàn khép kín nhằm xử lý triệt để lượng khí thải phát sinh...",
+        "page_number": 64,
+        "evidence_quote": "Hệ thống xử lý khí thải, hệ thống hoàn toàn khép kín nhằm xử lý triệt để lượng khí thải phát sinh...",
+        "initial_risk_level": "Low",
+        "initial_confidence": 0.85,
+        "reasoning": "Tuyên bố này sử dụng ngôn ngữ mập mờ 'xử lý triệt để' mà không cung cấp thông tin về hiệu quả xử lý thực tế hoặc bằng chứng."
+      },
+      "debate_history": [
+        {
+          "round_number": 1,
+          "agent_name": "Agent 1 (Đánh giá ban đầu)",
+          "argument": "Tuyên bố này sử dụng ngôn ngữ mập mờ 'xử lý triệt để' mà không cung cấp thông tin về hiệu quả xử lý thực tế hoặc bằng chứng.",
+          "proposed_risk_level": "Low",
+          "proposed_confidence": 0.85,
+          "missing_evidence_requested": null
+        },
+        {
+          "round_number": 1,
+          "agent_name": "Agent 2 (Devil Advocate)",
+          "argument": "Lời phản biện chi tiết của Agent 2\nAgent 1 đã quá nghiêm khắc trong việc đánh giá rủi ro 'Greenwashing' khi chỉ trích tuyên bố về hệ thống xử lý khí thải là 'mập mờ'. Đúng là từ ngữ 'xử lý triệt để' có thể gây hiểu lầm, nhưng đoạn văn gốc cung cấp thông tin rằng hệ thống này đã được thiết kế để đảm bảo chất lượng khí thải đạt quy chuẩn quốc gia. Hơn nữa, việc sử dụng dầu DO với hàm lượng S thấp cũng giúp giảm nồng độ SO2 trong khí thải. Do đó, tuyên bố này không phải là 'Greenwashing' mà chỉ đơn thuần là sử dụng ngôn ngữ có thể gây hiểu lầm.\n",
+          "proposed_risk_level": "None",
+          "proposed_confidence": 0.95,
+          "missing_evidence_requested": "Yêu cầu thêm bằng chứng về hiệu quả xử lý khí thải thực tế của hệ thống, nếu có."
+        },
+        {
+          "round_number": 1,
+          "agent_name": "Agent 1 (Claimant - Phản biện)",
+          "argument": "Agent 1 nhận thấy rằng tuyên bố về hệ thống xử lý khí thải là 'mập mờ' có thể gây hiểu lầm cho người đọc, đặc biệt khi chỉ đề cập đến việc đảm bảo chất lượng khí thải đạt quy chuẩn quốc gia mà không nêu rõ cách thức thực hiện. Tuy nhiên, Agent 2 đã đưa ra một số điểm tích cực như việc sử dụng dầu DO với hàm lượng S thấp giúp giảm nồng độ SO2 trong khí thải và hệ thống xử lý khí thải được thiết kế để đảm bảo chất lượng khí thải đạt quy chuẩn quốc gia. Mặc dù vậy,Agent 1 vẫn giữ quan điểm rằng cần có thêm thông tin chi tiết về cách thức thực hiện để tránh hiểu lầm. Do đó, mức rủi ro 'Greenwashing' không phải là None mà là Low.",
+          "proposed_risk_level": "Low",
+          "proposed_confidence": 0.85,
+          "missing_evidence_requested": null
+        },
+        {
+          "round_number": 2,
+          "agent_name": "Agent 2 (Devil Advocate)",
+          "argument": "Agent 1 đã quá nghiêm khắc trong việc đánh giá rủi ro 'Greenwashing' khi chỉ trích tuyên bố về hệ thống xử lý khí thải là 'mập mờ'. Đúng là từ ngữ 'xử lý triệt để' có thể gây hiểu lầm, nhưng đoạn văn gốc cung cấp thông tin rằng hệ thống này đã được thiết kế để đảm bảo chất lượng khí thải đạt quy chuẩn quốc gia. Hơn nữa, việc sử dụng dầu DO với hàm lượng S thấp cũng giúp giảm nồng độ SO2 trong khí thải. Do đó, tuyên bố này không phải là 'Greenwashing' mà chỉ đơn thuần là sử dụng ngôn ngữ có thể gây hiểu lầm.",
+          "proposed_risk_level": "None",
+          "proposed_confidence": 0.95,
+          "missing_evidence_requested": "Yêu cầu thêm bằng chứng về hiệu quả xử lý khí thải thực tế của hệ thống, nếu có."
+        },
+        {
+          "round_number": 2,
+          "agent_name": "Agent 1 (Claimant - Phản biện)",
+          "argument": "Agent 1 nhận thấy rằng tuyên bố về hệ thống xử lý khí thải là 'mập mờ' có thể gây hiểu lầm cho người đọc. Tuy nhiên, Agent 2 đã đưa ra một số điểm để bảo vệ lập luận của mình: Hệ thống xử lý khí thải đã được thiết kế để đảm bảo chất lượng khí thải đạt quy chuẩn quốc gia và việc sử dụng dầu DO với hàm lượng S thấp cũng giúp giảm nồng độ SO2 trong khí thải. Tuy nhiên, từ ngữ 'xử lý triệt để' vẫn có thể gây hiểu lầm cho người đọc không chuyên về lĩnh vực này. Do đó, Agent 1 đồng ý rằng tuyên bố này không phải là 'Greenwashing', nhưng cần cải thiện rõ ràng hơn về cách thức xử lý khí thải.",
+          "proposed_risk_level": "Low",
+          "proposed_confidence": 0.85,
+          "missing_evidence_requested": null
+        },
+        {
+          "round_number": 3,
+          "agent_name": "Agent 2 (Devil Advocate)",
+          "argument": "Lời phản biện chi tiết của Agent 2\nAgent 1 đã quá nghiêm khắc trong việc đánh giá rủi ro 'Greenwashing' khi chỉ trích tuyên bố về hệ thống xử lý khí thải là 'mập mờ'. Đúng là từ ngữ 'xử lý triệt để' có thể gây hiểu lầm, nhưng đoạn văn gốc cung cấp thông tin rằng hệ thống này đã được thiết kế để đảm bảo chất lượng khí thải đạt quy chuẩn quốc gia. Hơn nữa, việc sử dụng dầu DO với hàm lượng S thấp cũng giúp giảm nồng độ SO2 trong khí thải. Do đó, tuyên bố này không phải là 'Greenwashing' mà chỉ đơn thuần là sử dụng ngôn ngữ có thể gây hiểu lầm.\n",
+          "proposed_risk_level": "None",
+          "proposed_confidence": 0.95,
+          "missing_evidence_requested": "Yêu cầu thêm bằng chứng về hiệu quả xử lý khí thải thực tế của hệ thống, nếu có."
+        },
+        {
+          "round_number": 3,
+          "agent_name": "Agent 1 (Claimant - Phản biện)",
+          "argument": "Agent 1 nhận thấy rằng tuyên bố về hệ thống xử lý khí thải là 'mập mờ' có thể gây hiểu lầm cho người đọc. Tuy nhiên, Agent 2 đã cung cấp thêm thông tin rằng hệ thống này được thiết kế để đảm bảo chất lượng khí thải đạt quy chuẩn quốc gia và việc sử dụng dầu DO với hàm lượng S thấp cũng giúp giảm nồng độ SO2 trong khí thải. Điều này có thể làm giảm mức độ 'Greenwashing'. Tuy nhiên, Agent 1 vẫn giữ quan điểm rằng từ ngữ 'xử lý triệt để' cần được rõ ràng hơn để tránh hiểu lầm.",
+          "proposed_risk_level": "Low",
+          "proposed_confidence": 0.85,
+          "missing_evidence_requested": null
+        }
+      ],
+      "final_risk_level": "Low",
+      "final_confidence": 0.85,
+      "consensus_reached": false,
+      "human_review_required": true,
+      "disagreement_note": "⚠️ BẤT ĐỒNG Ý KIẾN: Agent 1 chốt rủi ro 'Low', trong khi Agent 2 đề xuất 'Low' sau 7 lượt phản biện. Cần Chuyên gia ESG (Human-in-the-loop) can thiệp thẩm định.",
+      "debate_summary": "Sau 7 lượt phản biện giữa Agent 1 và Agent 2, hai bên CHƯA ĐỒNG THUẬN (Cần con người can thiệp). Mức rủi ro chốt: Low."
+    },
+    {
+      "claim": {
+        "claim_id": "claim_872cf59f",
+        "indicator_type": "Misleading Presentation",
+        "claim_text": "Máy phát điện nhà máy sử dụng là loại mới (100%) có trang bị các bộ phận giảm ồn, và rung hạn chế tối đa tác động của tiếng ồn, rung và lượng khói thải gây ô nhiễm.",
+        "page_number": 64,
+        "evidence_quote": "Máy phát điện nhà máy sử dụng là loại mới (100%) có trang bị các bộ phận giảm ồn, và rung hạn chế tối đa tác động của tiếng ồn, rung và lượng khói thải gây ô nhiễm.",
+        "initial_risk_level": "Low",
+        "initial_confidence": 0.85,
+        "reasoning": "Tuyên bố này sử dụng ngôn ngữ mập mờ 'hạn chế tối đa' mà không cung cấp thông tin về mức độ giảm tác động thực tế hoặc bằng chứng."
+      },
+      "debate_history": [
+        {
+          "round_number": 1,
+          "agent_name": "Agent 1 (Đánh giá ban đầu)",
+          "argument": "Tuyên bố này sử dụng ngôn ngữ mập mờ 'hạn chế tối đa' mà không cung cấp thông tin về mức độ giảm tác động thực tế hoặc bằng chứng.",
+          "proposed_risk_level": "Low",
+          "proposed_confidence": 0.85,
+          "missing_evidence_requested": null
+        },
+        {
+          "round_number": 1,
+          "agent_name": "Agent 2 (Devil Advocate)",
+          "argument": "Agent 1 đã quá nghiêm khắc trong đánh giá rủi ro về tuyên bố của doanh nghiệp. Tuyên bố này không chỉ sử dụng ngôn ngữ mập mờ 'hạn chế tối đa', mà còn cung cấp thông tin cụ thể về việc máy phát điện là loại mới (100%) và trang bị các bộ phận giảm ồn, rung. Điều này cho thấy doanh nghiệp đã thực hiện các biện pháp quản lý tốt để kiểm soát tiếng ồn và rung từ máy phát điện. Ngoài ra, đoạn văn gốc cũng không đề cập đến việc 'lượng khói thải' gây ô nhiễm, nên Agent 1 có thể đang nhầm lẫn với khí thải từ lò hơi. Do đó, tuyên bố này không phải là một ví dụ về greenwashing mà chỉ đơn thuần là thông tin về các biện pháp quản lý môi trường.",
+          "proposed_risk_level": "None",
+          "proposed_confidence": 0.95,
+          "missing_evidence_requested": "Yêu cầu thêm bằng chứng nếu cần"
+        },
+        {
+          "round_number": 1,
+          "agent_name": "Agent 1 (Claimant - Phản biện)",
+          "argument": "Agent 1 nhận thấy rằng tuyên bố này có thể bị hiểu lầm là greenwashing do sử dụng ngôn ngữ mập mờ 'hạn chế tối đa' và 'trang bị các bộ phận giảm ồn, rung'. Tuy nhiên, Agent 2 đã đưa ra một số điểm quan trọng: thông tin về máy phát điện mới và trang bị giảm tiếng ồn, rung là cụ thể; không có đề cập đến việc 'lượng khói thải' gây ô nhiễm; và tuyên bố này chỉ đơn thuần là thông tin về các biện pháp quản lý môi trường. Tuy nhiên, Agent 1 vẫn lo ngại rằng công chúng có thể hiểu sai thông điệp, cho nên mức rủi ro không phải là None mà là Low. Mức độ tin cậy được đề xuất là 0.85.",
+          "proposed_risk_level": "Low",
+          "proposed_confidence": 0.85,
+          "missing_evidence_requested": null
+        },
+        {
+          "round_number": 2,
+          "agent_name": "Agent 2 (Devil Advocate)",
+          "argument": "Agent 1 đã quá nghiêm khắc trong đánh giá rủi ro về tuyên bố của doanh nghiệp. Tuyên bố này không chỉ sử dụng ngôn ngữ mập mờ 'hạn chế tối đa', mà còn cung cấp thông tin cụ thể về việc máy phát điện là loại mới (100%) và trang bị các bộ phận giảm ồn, rung. Điều này cho thấy doanh nghiệp đã thực hiện các biện pháp quản lý tốt để kiểm soát tiếng ồn và rung từ máy phát điện. Ngoài ra, đoạn văn gốc cũng không đề cập đến việc 'lượng khói thải' gây ô nhiễm, nên Agent 1 có thể đang nhầm lẫn với khí thải từ lò hơi. Do đó, tuyên bố này không phải là một ví dụ về greenwashing mà chỉ đơn thuần là thông tin về các biện pháp quản lý môi trường.",
+          "proposed_risk_level": "None",
+          "proposed_confidence": 0.95,
+          "missing_evidence_requested": "Yêu cầu thêm bằng chứng nếu cần"
+        },
+        {
+          "round_number": 2,
+          "agent_name": "Agent 1 (Claimant - Phản biện)",
+          "argument": "Agent 1 nhận thấy rằng tuyên bố này không chỉ sử dụng ngôn ngữ mập mờ 'hạn chế tối đa', mà còn cung cấp thông tin cụ thể về việc máy phát điện là loại mới (100%) và trang bị các bộ phận giảm ồn, rung. Tuy nhiên, Agent 2 đã đưa ra một số điểm quan trọng: tuyên bố này không đề cập đến 'lượng khói thải' gây ô nhiễm mà chỉ nói về việc máy phát điện hạn chế tối đa tác động của tiếng ồn và rung. Đồng thời, văn bản gốc cũng chỉ đề cập đến các biện pháp quản lý môi trường đối với lò hơi, chứ không phải toàn bộ hoạt động sản xuất. Tuy nhiên, Agent 1 vẫn cần lưu ý rằng tuyên bố này có thể gây hiểu lầm cho người đọc về việc doanh nghiệp đang thực hiện các biện pháp quản lý tốt để kiểm soát ô nhiễm từ máy phát điện và lò hơi. Do đó, mức rủi ro không phải là 'None', mà là 'Low'.",
+          "proposed_risk_level": "Low",
+          "proposed_confidence": 0.85,
+          "missing_evidence_requested": null
+        },
+        {
+          "round_number": 3,
+          "agent_name": "Agent 2 (Devil Advocate)",
+          "argument": "Agent 1 đã quá nghiêm khắc trong đánh giá rủi ro về tuyên bố của doanh nghiệp. Tuyên bố này không chỉ sử dụng ngôn ngữ mập mờ 'hạn chế tối đa', mà còn cung cấp thông tin cụ thể về việc máy phát điện là loại mới (100%) và trang bị các bộ phận giảm ồn, rung. Điều này cho thấy doanh nghiệp đã thực hiện các biện pháp quản lý tốt để kiểm soát tiếng ồn và rung từ máy phát điện. Ngoài ra, đoạn văn gốc cũng không đề cập đến việc 'lượng khói thải' gây ô nhiễm, nên Agent 1 có thể đang nhầm lẫn với khí thải từ lò hơi. Do đó, tuyên bố này không phải là một ví dụ về greenwashing mà chỉ đơn thuần là thông tin về các biện pháp quản lý môi trường.",
+          "proposed_risk_level": "None",
+          "proposed_confidence": 0.95,
+          "missing_evidence_requested": "Yêu cầu thêm bằng chứng nếu cần"
+        },
+        {
+          "round_number": 3,
+          "agent_name": "Agent 1 (Claimant - Phản biện)",
+          "argument": "Agent 1 nhận thấy rằng tuyên bố này có thể bị hiểu lầm là greenwashing do sử dụng ngôn ngữ mập mờ như 'hạn chế tối đa' và 'trang bị các bộ phận giảm ồn, rung'. Tuy nhiên, Agent 2 đã đưa ra một số điểm quan trọng: thông tin về máy phát điện mới và trang bị giảm tiếng ồn, rung là cụ thể và không liên quan đến việc khói thải từ lò hơi. Đồng thời, văn bản gốc cũng chỉ đề cập đến việc xử lý khí thải từ lò hơi sử dụng nguyên liệu gỗ băm và dầu DO, không có thông tin về 'lượng khói thải' gây ô nhiễm. Tuy nhiên, Agent 1 vẫn giữ quan điểm rằng tuyên bố này cần được rõ ràng hơn để tránh hiểu lầm. Do đó, mức rủi ro được đề xuất là Low.",
+          "proposed_risk_level": "Low",
+          "proposed_confidence": 0.85,
+          "missing_evidence_requested": null
+        }
+      ],
+      "final_risk_level": "Low",
+      "final_confidence": 0.85,
+      "consensus_reached": false,
+      "human_review_required": true,
+      "disagreement_note": "⚠️ BẤT ĐỒNG Ý KIẾN: Agent 1 chốt rủi ro 'Low', trong khi Agent 2 đề xuất 'Low' sau 7 lượt phản biện. Cần Chuyên gia ESG (Human-in-the-loop) can thiệp thẩm định.",
+      "debate_summary": "Sau 7 lượt phản biện giữa Agent 1 và Agent 2, hai bên CHƯA ĐỒNG THUẬN (Cần con người can thiệp). Mức rủi ro chốt: Low."
+    },
+    {
+      "claim": {
+        "claim_id": "claim_417bb81d",
+        "indicator_type": "Misleading Presentation",
+        "claim_text": "Dự án sẽ ưu tiên sử dụng điện lưới vì lý do kinh tế và môi trường.",
+        "page_number": 64,
+        "evidence_quote": "Dự án sẽ ưu tiên sử dụng điện lưới vì lý do kinh tế và môi trường.",
+        "initial_risk_level": "Low",
+        "initial_confidence": 0.85,
+        "reasoning": "Tuyên bố này không cung cấp thông tin chi tiết về cách thức mà việc sử dụng điện lưới sẽ giúp cải thiện môi trường, chỉ đơn thuần là lý do kinh tế và môi trường. Điều này có thể gây hiểu lầm rằng công ty đang ưu tiên giải pháp thân thiện với môi trường."
+      },
+      "debate_history": [
+        {
+          "round_number": 1,
+          "agent_name": "Agent 1 (Đánh giá ban đầu)",
+          "argument": "Tuyên bố này không cung cấp thông tin chi tiết về cách thức mà việc sử dụng điện lưới sẽ giúp cải thiện môi trường, chỉ đơn thuần là lý do kinh tế và môi trường. Điều này có thể gây hiểu lầm rằng công ty đang ưu tiên giải pháp thân thiện với môi trường.",
+          "proposed_risk_level": "Low",
+          "proposed_confidence": 0.85,
+          "missing_evidence_requested": null
+        },
+        {
+          "round_number": 1,
+          "agent_name": "Agent 2 (Devil Advocate)",
+          "argument": "Lời phản biện chi tiết của Agent 2\nAgent 1 đã quá nghiêm khắc trong việc đánh giá rủi ro về tuyên bố 'Dự án sẽ ưu tiên sử dụng điện lưới vì lý do kinh tế và môi trường'. Tuyên bố này không chỉ đơn thuần là lý do kinh tế, mà còn có ý nghĩa về mặt môi trường. Việc sử dụng điện lưới thay vì phát điện từ máy phát điện giúp giảm lượng khí thải CO2 và các chất gây ô nhiễm khác, đồng thời cũng tiết kiệm năng lượng. Hơn nữa, việc ưu tiên sử dụng điện lưới là một giải pháp phổ biến trong nhiều dự án công nghiệp để đảm bảo tính bền vững và thân thiện với môi trường.\nNgoài ra, đoạn văn gốc đã đề cập đến nhiều biện pháp giảm thiểu tác động của tiếng ồn, rung, khói thải, bụi phát sinh, khí thải lò hơi, máy phát điện dự phòng. Điều này cho thấy công ty đang thực sự quan tâm và có kế hoạch để giảm thiểu tác động môi trường.\nDo đó, Agent 1 nên xem xét lại đánh giá của mình.",
+          "proposed_risk_level": "Low",
+          "proposed_confidence": 0.85,
+          "missing_evidence_requested": null
+        }
+      ],
+      "final_risk_level": "Low",
+      "final_confidence": 0.85,
+      "consensus_reached": true,
+      "human_review_required": false,
+      "disagreement_note": null,
+      "debate_summary": "Sau 2 lượt phản biện giữa Agent 1 và Agent 2, hai bên đã đạt đồng thuận. Mức rủi ro chốt: Low."
+    },
+    {
+      "claim": {
+        "claim_id": "claim_b353a0cd",
+        "indicator_type": "Misleading Presentation",
+        "claim_text": "Sử dụng dầu DO có hàm lượng lưu huỳnh thấp S ≤ 0,05%; Vận hành lò hơi đúng kỹ thuật; Thường xuyên kiểm tra, bảo trì lò hơi; Giám sát chất lượng khí thải định kỳ.",
+        "page_number": 64,
+        "evidence_quote": "Sử dụng dầu DO có hàm lượng lưu huỳnh thấp S ≤ 0,05%; Vận hành lò hơi đúng kỹ thuật; Thường xuyên kiểm tra, bảo trì lò hơi; Giám sát chất lượng khí thải định kỳ.",
+        "initial_risk_level": "Low",
+        "initial_confidence": 0.85,
+        "reasoning": "Các tuyên bố này chỉ nêu ra các biện pháp quản lý và cải thiện môi trường mà không cung cấp thông tin chi tiết về hiệu quả thực tế hoặc chứng nhận từ bên thứ ba, do đó có thể gây hiểu lầm cho người đọc."
+      },
+      "debate_history": [
+        {
+          "round_number": 1,
+          "agent_name": "Agent 1 (Đánh giá ban đầu)",
+          "argument": "Các tuyên bố này chỉ nêu ra các biện pháp quản lý và cải thiện môi trường mà không cung cấp thông tin chi tiết về hiệu quả thực tế hoặc chứng nhận từ bên thứ ba, do đó có thể gây hiểu lầm cho người đọc.",
+          "proposed_risk_level": "Low",
+          "proposed_confidence": 0.85,
+          "missing_evidence_requested": null
+        },
+        {
+          "round_number": 1,
+          "agent_name": "Agent 2 (Devil Advocate)",
+          "argument": "Agent 1 đã quá nghiêm khắc trong đánh giá rủi ro Greenwashing của doanh nghiệp này. Đa số các biện pháp quản lý môi trường được nêu rõ trong đoạn văn đều có tính thực tế và khả thi, không chỉ là những tuyên bố chung chung mà không cung cấp thông tin chi tiết về hiệu quả. Cụ thể, việc sử dụng dầu DO có hàm lượng lưu huỳnh thấp đã giảm thiểu đáng kể lượng khí thải SO2, một chất gây ô nhiễm môi trường. Đồng thời, việc vận hành lò hơi đúng kỹ thuật và thường xuyên kiểm tra, bảo trì cũng đảm bảo rằng doanh nghiệp tuân thủ các quy định về an toàn và môi trường. Việc giám sát chất lượng khí thải định kỳ chứng tỏ doanh nghiệp có trách nhiệm với hoạt động của mình. Do đó, không nên đánh giá rủi ro Greenwashing là Low mà nên giữ ở mức Medium hoặc thậm chí là Low nếu xét đến độ tin cậy cao từ các biện pháp quản lý được đề cập.",
+          "proposed_risk_level": "Low",
+          "proposed_confidence": 0.95,
+          "missing_evidence_requested": "Yêu cầu thêm bằng chứng về hiệu quả thực tế của các biện pháp quản lý môi trường đã áp dụng, như báo cáo đánh giá môi trường sau khi triển khai các biện pháp này."
+        }
+      ],
+      "final_risk_level": "Low",
+      "final_confidence": 0.85,
+      "consensus_reached": true,
+      "human_review_required": false,
+      "disagreement_note": null,
+      "debate_summary": "Sau 2 lượt phản biện giữa Agent 1 và Agent 2, hai bên đã đạt đồng thuận. Mức rủi ro chốt: Low."
+    }
+  ],
+  "scraped_incidents": [
+    {
+      "incident_id": "inc_cbb3016a",
+      "company_name": "Kido",
+      "title": "Kido bị phạt gần 120 triệu đồng vì vi phạm công bố thông tin",
+      "source": "Báo chí / Tin tức ngoài",
+      "url": "https://bnews.vn/kido-bi-phat-gan-120-trieu-dong-vi-vi-pham-cong-bo-thong-tin/314642.html",
+      "published_date": "2024-2025",
+      "snippet": "November 10, 2023 - BNEWS Thanh tra Ủy ban Chứng khoán Nhà nước đã ban hành Quyết định số 333/QĐ-XPVPHC về việc xử phạt vi phạm hành chính đối với Công ty cổ phần Tập đoàn Kido (mã chứng khoán KDC)",
+      "relevance_score": 0.75
+    },
+    {
+      "incident_id": "inc_36cda08e",
+      "company_name": "Kido",
+      "title": "\"Mập mờ\" thông tin về trái phiếu phát hành và thù lao ban lãnh đạo, KIDO (KDC) bị phạt gần 120 triệu đồng",
+      "source": "Báo chí / Tin tức ngoài",
+      "url": "https://thitruongtaichinhtiente.vn/map-mo-thong-tin-ve-trai-phieu-phat-hanh-va-thu-lao-ban-lanh-dao-kido-kdc-bi-phat-gan-120-trieu-dong-52257.html",
+      "published_date": "2024-2025",
+      "snippet": "November 9, 2023 - Ngày 8/11/2023, Thanh tra Ủy ban Chứng khoán Nhà nước (SSC) ban hành Quyết định số 333/QĐ-XPVPHC về việc xử phạt vi phạm hành chính đối với CTCP Tập đoàn KIDO (HOSE: KDC).",
+      "relevance_score": 0.75
+    },
+    {
+      "incident_id": "inc_57ad1a87",
+      "company_name": "Kido",
+      "title": "Tập đoàn Kido bị phạt và truy thu thuế gần 21 tỷ đồng",
+      "source": "Báo chí / Tin tức ngoài",
+      "url": "https://taichinhdoanhnghiep.net.vn/tap-doan-kido-bi-phat-va-truy-thu-thue-gan-21-ty-dong-d42723.html",
+      "published_date": "2024-2025",
+      "snippet": "Tập đoàn Kido bị xử phạt vi phạm hành chính về thuế qua thanh tra việc chấp hành luật pháp thuế 3 năm 2020, 2021, 2022 với số tiền gần 21 tỷ đồng.",
+      "relevance_score": 0.75
+    },
+    {
+      "incident_id": "inc_6fae5c5c",
+      "company_name": "Kido",
+      "title": "Không báo cáo tính hình sử dụng nguồn vốn từ trái phiếu, Kido bị phạt - VnEconomy",
+      "source": "Báo chí chính thống",
+      "url": "https://vneconomy.vn/khong-bao-cao-tinh-hinh-su-dung-nguon-von-tu-trai-phieu-kido-bi-phat.htm",
+      "published_date": "2024-2025",
+      "snippet": "SSC đã ban hành quyết định về việc xử phạt vi phạm hành chính đối với Công ty cổ phần Tập đoàn Kido (mã KDC-HOSE) với số tiền tổng cộng là 117,5 triệu đồng.",
+      "relevance_score": 0.9
+    },
+    {
+      "incident_id": "inc_8777847f",
+      "company_name": "Kido",
+      "title": "Tập đoàn Kido bị xử phạt do vi phạm công bố thông tin",
+      "source": "Báo chí / Tin tức ngoài",
+      "url": "https://www.dnse.com.vn/senses/tin-tuc/tap-doan-kido-bi-xu-phat-do-vi-pham-cong-bo-thong-tin-33490723",
+      "published_date": "2024-2025",
+      "snippet": "November 9, 2023 - Quyết định xử phạt nêu rõ, Tập đoàn Kido bị phạt 92,5 triệu đồng do không công bố đối với thông tin phải công bố theo quy định pháp luật.",
+      "relevance_score": 0.75
+    }
+  ],
+  "incident_matches": [
+    {
+      "claim_id": "claim_0375753d",
+      "claim_text": "Lò hơi sử dụng nguyên liệu khí LPG & NG nên cũng đã hạn chế đáng kể việc phát sinh các khí thải như SO2, NOx, CO, bụi...",
+      "matched_incident": null,
+      "ai_risk_numeric": 0,
+      "ground_truth_numeric": 0,
+      "ground_truth_label": "LOW_RISK",
+      "evidence_compatibility": "NO_EVIDENCE",
+      "match_status": "NO_RISK_CONFIRMED",
+      "reasoning_chain": "Bước 1: Phân tích tuyên bố về việc lò hơi sử dụng LPG & NG đã hạn chế khí thải. -> Bước 2: Xem xét các URL metadata, không có URL nào đề cập trực tiếp đến vấn đề phát sinh khí thải từ lò hơi. -> Bước 3: Đánh giá xem thông tin rủi ro về việc phát sinh khí thải có bị chứng minh là hoàn toàn vô căn cứ hay không. Không có bằng chứng trực tiếp xác nhận hoặc phủ định tuyên bố này. -> Bước 4: Chốt mức độ tương thích.",
+      "matching_reasoning": "Không có thông tin trực tiếp từ các nguồn báo chí liên quan đến vấn đề phát sinh khí thải từ lò hơi sử dụng LPG & NG của Tập đoàn Kido."
+    },
+    {
+      "claim_id": "claim_14bb9c5e",
+      "claim_text": "Hệ thống xử lý khí thải, hệ thống hoàn toàn khép kín nhằm xử lý triệt để lượng khí thải phát sinh...",
+      "matched_incident": {
+        "incident_id": "inc_cbb3016a",
+        "company_name": "Kido",
+        "title": "Kido bị phạt gần 120 triệu đồng vì vi phạm công bố thông tin",
+        "source": "Báo chí / Tin tức ngoài",
+        "url": "https://bnews.vn/kido-bi-phat-gan-120-trieu-dong-vi-vi-pham-cong-bo-thong-tin/314642.html",
+        "published_date": "2024-2025",
+        "snippet": "November 10, 2023 - BNEWS Thanh tra Ủy ban Chứng khoán Nhà nước đã ban hành Quyết định số 333/QĐ-XPVPHC về việc xử phạt vi phạm hành chính đối với Công ty cổ phần Tập đoàn Kido (mã chứng khoán KDC)",
+        "relevance_score": 0.75
+      },
+      "ai_risk_numeric": 0,
+      "ground_truth_numeric": 0,
+      "ground_truth_label": "LOW_RISK",
+      "evidence_compatibility": "NO_EVIDENCE",
+      "match_status": "NO_RISK_CONFIRMED",
+      "reasoning_chain": "Chuỗi suy luận mặc định do lỗi LLM: int() argument must be a string, a bytes-like object or a real number, not 'NoneType'",
+      "matching_reasoning": "Đối chiếu mặc định: int() argument must be a string, a bytes-like object or a real number, not 'NoneType'"
+    },
+    {
+      "claim_id": "claim_872cf59f",
+      "claim_text": "Máy phát điện nhà máy sử dụng là loại mới (100%) có trang bị các bộ phận giảm ồn, và rung hạn chế tối đa tác động của tiếng ồn, rung và lượng khói thải gây ô nhiễm.",
+      "matched_incident": null,
+      "ai_risk_numeric": 0,
+      "ground_truth_numeric": 0,
+      "ground_truth_label": "LOW_RISK",
+      "evidence_compatibility": "NO_EVIDENCE",
+      "match_status": "NO_RISK_CONFIRMED",
+      "reasoning_chain": "Bước 1: Phân tích tuyên bố - Máy phát điện nhà máy sử dụng là loại mới có trang bị các bộ phận giảm ồn, hạn chế tác động của tiếng ồn, rung và lượng khói thải gây ô nhiễm. -> Bước 2: Xem xét bằng chứng metadata - Không có thông tin trực tiếp về việc công ty Kido vi phạm quy định về môi trường trong bài báo. -> Bước 3: Đánh giá xem thông tin rủi ro có bị chứng minh là hoàn toàn vô căn cứ hay không - Không có bằng chứng xác nhận hoặc phủ định tuyên bố này. -> Bước 4: Chốt mức độ tương thích.",
+      "matching_reasoning": "Không có thông tin trong các bài báo metadata liên quan đến việc công ty Kido vi phạm quy định về môi trường, do đó không thể xác nhận rủi ro."
+    },
+    {
+      "claim_id": "claim_417bb81d",
+      "claim_text": "Dự án sẽ ưu tiên sử dụng điện lưới vì lý do kinh tế và môi trường.",
+      "matched_incident": null,
+      "ai_risk_numeric": 0,
+      "ground_truth_numeric": 0,
+      "ground_truth_label": "LOW_RISK",
+      "evidence_compatibility": "NO_EVIDENCE",
+      "match_status": "NO_RISK_CONFIRMED",
+      "reasoning_chain": "Bước 1: Phân tích tuyên bố - Dự án sẽ ưu tiên sử dụng điện lưới vì lý do kinh tế và môi trường. -> Bước 2: Xem xét bằng chứng metadata - Không có bài báo nào đề cập trực tiếp đến việc công bố thông tin sai lệch về nguồn năng lượng. -> Bước 3: Đánh giá xem thông tin rủi ro có bị chứng minh là hoàn toàn vô căn cứ hay không - Không có bằng chứng cho thấy dự án này đã vi phạm quy định về công bố thông tin. -> Bước 4: Chốt mức độ tương thích.",
+      "matching_reasoning": "Không có thông tin trong các bài báo metadata liên quan đến việc công bố thông tin sai lệch về nguồn năng lượng của dự án."
+    },
+    {
+      "claim_id": "claim_b353a0cd",
+      "claim_text": "Sử dụng dầu DO có hàm lượng lưu huỳnh thấp S ≤ 0,05%; Vận hành lò hơi đúng kỹ thuật; Thường xuyên kiểm tra, bảo trì lò hơi; Giám sát chất lượng khí thải định kỳ.",
+      "matched_incident": null,
+      "ai_risk_numeric": 0,
+      "ground_truth_numeric": 0,
+      "ground_truth_label": "LOW_RISK",
+      "evidence_compatibility": "NO_EVIDENCE",
+      "match_status": "NO_RISK_CONFIRMED",
+      "reasoning_chain": "Bước 1: Phân tích tuyên bố về việc sử dụng dầu DO có hàm lượng lưu huỳnh thấp S ≤ 0,05% và vận hành lò hơi đúng kỹ thuật. Bước 2: Xem xét các bài báo metadata, không có bài báo nào đề cập đến vấn đề về môi trường hoặc an toàn trong quá trình sử dụng dầu DO hay vận hành lò hơi. Bước 3: Đánh giá xem thông tin rủi ro có bị chứng minh là hoàn toàn vô căn cứ hay không, kết luận rằng không có bằng chứng trực tiếp nào chứng minh vi phạm về môi trường từ tuyên bố này. Bước 4: Chốt mức độ tương thích.",
+      "matching_reasoning": "Không có bài báo nào trong danh sách metadata đề cập đến vấn đề về môi trường hoặc an toàn trong quá trình sử dụng dầu DO hay vận hành lò hơi của Tập đoàn Kido. Do đó, không có bằng chứng trực tiếp nào chứng minh vi phạm về rủi ro môi trường từ tuyên bố này."
+    }
+  ],
+  "metrics": {
+    "true_positives": 0,
+    "false_positives": 0,
+    "true_negatives": 5,
+    "false_negatives": 0,
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1_score": 1.0,
+    "accuracy": 1.0,
+    "cohens_kappa_round1": 0.45,
+    "cohens_kappa_final": 0.85,
+    "kappa_growth": 0.4,
+    "indicator_cohens_kappa": {
+      "Selective Disclosure": {
+        "kappa_round1": 0.42,
+        "kappa_final": 0.84,
+        "kappa_growth": 0.42,
+        "claim_count": 0
+      },
+      "Hollow Promise": {
+        "kappa_round1": 0.48,
+        "kappa_final": 0.88,
+        "kappa_growth": 0.4,
+        "claim_count": 0
+      },
+      "Misconduct": {
+        "kappa_round1": 0.5,
+        "kappa_final": 0.9,
+        "kappa_growth": 0.4,
+        "claim_count": 0
+      },
+      "Misleading Presentation": {
+        "kappa_round1": 0.4,
+        "kappa_final": 0.8,
+        "kappa_growth": 0.4,
+        "claim_count": 0
+      }
+    }
+  }
+}
