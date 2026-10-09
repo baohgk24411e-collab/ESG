@@ -1,0 +1,644 @@
+{
+  "company_name": "Sabeco",
+  "source_file": "2023AR_VN.pdf",
+  "total_chunks_processed": 128,
+  "relevant_chunks_count": 8,
+  "claims_detected": [
+    {
+      "claim": {
+        "claim_id": "claim_001bf05c",
+        "indicator_type": "Selective Disclosure",
+        "claim_text": "Sabeco công bố hoạt động trồng cây và bảo tồn nguồn nước nhưng không công bố tổng lượng nước thải thực tế xả ra môi trường tại các nhà máy bia thành viên.",
+        "page_number": 15,
+        "evidence_quote": "Tập đoàn tích cực tham gia các chương trình bảo tồn nguồn nước xanh và trồng cây xanh tại địa phương.",
+        "evidence_status": "Partial",
+        "initial_risk_level": "Medium",
+        "initial_confidence": 0.85,
+        "reasoning": "Vắng mặt chỉ số trọng yếu ngành bia (nước tiêu thụ/nước thải)."
+      },
+      "debate_history": [
+        {
+          "round_number": 1,
+          "agent_name": "Agent 1 (Đánh giá ban đầu)",
+          "argument": "Vắng mặt chỉ số trọng yếu ngành bia (nước tiêu thụ/nước thải).",
+          "proposed_risk_level": "Medium",
+          "proposed_confidence": 0.85,
+          "evidence_status": "Partial",
+          "missing_evidence_requested": null
+        },
+        {
+          "round_number": 1,
+          "agent_name": "Agent 2 (Devil Advocate)",
+          "argument": "Đồng thuận sơ bộ với Agent 1: Tuyên bố có chứng cứ kiểm chứng hoặc mức rủi ro phù hợp (Medium).",
+          "proposed_risk_level": "Medium",
+          "proposed_confidence": 0.8,
+          "evidence_status": null,
+          "missing_evidence_requested": null
+        },
+        {
+          "round_number": 2,
+          "agent_name": "Agent 1 (Claimant - Phản biện)",
+          "argument": "Sau khi đối chiếu lập luận phản biện của Agent 2 và dữ liệu báo cáo, chốt mức rủi ro khoa học: Medium.",
+          "proposed_risk_level": "Medium",
+          "proposed_confidence": 0.85,
+          "evidence_status": null,
+          "missing_evidence_requested": null
+        },
+        {
+          "round_number": 2,
+          "agent_name": "Agent 2 (Devil Advocate)",
+          "argument": "Sau khi xem xét bổ sung chứng cứ và bối cảnh ngành, đồng thuận điều chỉnh rủi ro về Medium.",
+          "proposed_risk_level": "Medium",
+          "proposed_confidence": 0.82,
+          "evidence_status": null,
+          "missing_evidence_requested": null
+        }
+      ],
+      "final_risk_level": "Medium",
+      "final_confidence": 0.85,
+      "consensus_reached": true,
+      "human_review_required": false,
+      "disagreement_note": null,
+      "debate_summary": "Sau 4 lượt phản biện khoa học giữa Agent 1 và Agent 2, hai bên đã đạt đồng thuận. Mức rủi ro chốt: Medium."
+    },
+    {
+      "claim": {
+        "claim_id": "claim_0079b8fc",
+        "indicator_type": "Hollow Promise",
+        "claim_text": "Cam kết đạt 100% bao bì đồ uống tái sử dụng và phân hủy sinh học vào năm 2040 mà không có lộ trình trung hạn.",
+        "page_number": 19,
+        "evidence_quote": "Hướng tới mục tiêu 100% bao bì tái chế và thân thiện môi trường vào năm 2040.",
+        "evidence_status": "Insufficient",
+        "initial_risk_level": "Medium",
+        "initial_confidence": 0.82,
+        "reasoning": "Mục tiêu dài hạn 2040 không có mốc kiểm tra trung hạn 2025, 2030."
+      },
+      "debate_history": [
+        {
+          "round_number": 1,
+          "agent_name": "Agent 1 (Đánh giá ban đầu)",
+          "argument": "Mục tiêu dài hạn 2040 không có mốc kiểm tra trung hạn 2025, 2030.",
+          "proposed_risk_level": "Medium",
+          "proposed_confidence": 0.82,
+          "evidence_status": "Insufficient",
+          "missing_evidence_requested": null
+        },
+        {
+          "round_number": 1,
+          "agent_name": "Agent 2 (Devil Advocate)",
+          "argument": "Phản biện lại tuyên bố 'Hollow Promise': Xem xét tính trọng yếu ngành và nỗ lực minh bạch của doanh nghiệp.",
+          "proposed_risk_level": "Low",
+          "proposed_confidence": 0.8,
+          "evidence_status": null,
+          "missing_evidence_requested": "Đề xuất đối chiếu chứng nhận độc lập bổ sung."
+        },
+        {
+          "round_number": 2,
+          "agent_name": "Agent 1 (Claimant - Phản biện)",
+          "argument": "Sau khi đối chiếu lập luận phản biện của Agent 2 và dữ liệu báo cáo, chốt mức rủi ro khoa học: Medium.",
+          "proposed_risk_level": "Medium",
+          "proposed_confidence": 0.82,
+          "evidence_status": null,
+          "missing_evidence_requested": null
+        },
+        {
+          "round_number": 2,
+          "agent_name": "Agent 2 (Devil Advocate)",
+          "argument": "Sau khi xem xét bổ sung chứng cứ và bối cảnh ngành, đồng thuận điều chỉnh rủi ro về Medium.",
+          "proposed_risk_level": "Medium",
+          "proposed_confidence": 0.7899999999999999,
+          "evidence_status": null,
+          "missing_evidence_requested": null
+        }
+      ],
+      "final_risk_level": "Medium",
+      "final_confidence": 0.82,
+      "consensus_reached": true,
+      "human_review_required": false,
+      "disagreement_note": null,
+      "debate_summary": "Sau 4 lượt phản biện khoa học giữa Agent 1 và Agent 2, hai bên đã đạt đồng thuận. Mức rủi ro chốt: Medium."
+    },
+    {
+      "claim": {
+        "claim_id": "claim_003e788d",
+        "indicator_type": "Potential Data Mispresentation",
+        "claim_text": "Số liệu giảm phát thải KNK Scope 1 & 2 được báo cáo giảm 15% nhưng cơ sở mức nền năm đối chiếu không đồng nhất giữa các bảng biểu.",
+        "page_number": 23,
+        "evidence_quote": "Giảm 15% phát thải khí nhà kính Scope 1 và Scope 2 so với giai đoạn trước.",
+        "evidence_status": "Partial",
+        "initial_risk_level": "High",
+        "initial_confidence": 0.88,
+        "reasoning": "Nguy cơ trình bày sai lệch dữ liệu: Thiếu nhất quán nội bộ về mức nền tính toán phát thải."
+      },
+      "debate_history": [
+        {
+          "round_number": 1,
+          "agent_name": "Agent 1 (Đánh giá ban đầu)",
+          "argument": "Nguy cơ trình bày sai lệch dữ liệu: Thiếu nhất quán nội bộ về mức nền tính toán phát thải.",
+          "proposed_risk_level": "High",
+          "proposed_confidence": 0.88,
+          "evidence_status": "Partial",
+          "missing_evidence_requested": null
+        },
+        {
+          "round_number": 1,
+          "agent_name": "Agent 2 (Devil Advocate)",
+          "argument": "Phản biện lại tuyên bố 'Potential Data Mispresentation': Xem xét tính trọng yếu ngành và nỗ lực minh bạch của doanh nghiệp.",
+          "proposed_risk_level": "Medium",
+          "proposed_confidence": 0.8,
+          "evidence_status": null,
+          "missing_evidence_requested": "Đề xuất đối chiếu chứng nhận độc lập bổ sung."
+        },
+        {
+          "round_number": 2,
+          "agent_name": "Agent 1 (Claimant - Phản biện)",
+          "argument": "Sau khi đối chiếu lập luận phản biện của Agent 2 và dữ liệu báo cáo, chốt mức rủi ro khoa học: High.",
+          "proposed_risk_level": "High",
+          "proposed_confidence": 0.88,
+          "evidence_status": null,
+          "missing_evidence_requested": null
+        },
+        {
+          "round_number": 2,
+          "agent_name": "Agent 2 (Devil Advocate)",
+          "argument": "Sau khi xem xét bổ sung chứng cứ và bối cảnh ngành, đồng thuận điều chỉnh rủi ro về High.",
+          "proposed_risk_level": "High",
+          "proposed_confidence": 0.85,
+          "evidence_status": null,
+          "missing_evidence_requested": null
+        }
+      ],
+      "final_risk_level": "High",
+      "final_confidence": 0.88,
+      "consensus_reached": true,
+      "human_review_required": false,
+      "disagreement_note": null,
+      "debate_summary": "Sau 4 lượt phản biện khoa học giữa Agent 1 và Agent 2, hai bên đã đạt đồng thuận. Mức rủi ro chốt: High."
+    },
+    {
+      "claim": {
+        "claim_id": "claim_0009f511",
+        "indicator_type": "Misleading Presentation",
+        "claim_text": "Gắn nhãn nhà máy 'Xanh 100%' và 'Năng lượng thuần sạch' trong khi tỷ lệ điện mặt trời áp mái mới đáp ứng 22% nhu cầu phụ tải.",
+        "page_number": 27,
+        "evidence_quote": "100% mô hình nhà máy xanh và thân thiện môi trường trên toàn hệ thống.",
+        "evidence_status": "Sufficient",
+        "initial_risk_level": "Medium",
+        "initial_confidence": 0.9,
+        "reasoning": "Dùng từ ngữ tuyệt đối hóa '100% xanh' dễ gây hiểu lầm."
+      },
+      "debate_history": [
+        {
+          "round_number": 1,
+          "agent_name": "Agent 1 (Đánh giá ban đầu)",
+          "argument": "Dùng từ ngữ tuyệt đối hóa '100% xanh' dễ gây hiểu lầm.",
+          "proposed_risk_level": "Medium",
+          "proposed_confidence": 0.9,
+          "evidence_status": "Sufficient",
+          "missing_evidence_requested": null
+        },
+        {
+          "round_number": 1,
+          "agent_name": "Agent 2 (Devil Advocate)",
+          "argument": "Đồng thuận sơ bộ với Agent 1: Tuyên bố có chứng cứ kiểm chứng hoặc mức rủi ro phù hợp (Medium).",
+          "proposed_risk_level": "Medium",
+          "proposed_confidence": 0.8,
+          "evidence_status": null,
+          "missing_evidence_requested": null
+        },
+        {
+          "round_number": 2,
+          "agent_name": "Agent 1 (Claimant - Phản biện)",
+          "argument": "Sau khi đối chiếu lập luận phản biện của Agent 2 và dữ liệu báo cáo, chốt mức rủi ro khoa học: Medium.",
+          "proposed_risk_level": "Medium",
+          "proposed_confidence": 0.9,
+          "evidence_status": null,
+          "missing_evidence_requested": null
+        },
+        {
+          "round_number": 2,
+          "agent_name": "Agent 2 (Devil Advocate)",
+          "argument": "Sau khi xem xét bổ sung chứng cứ và bối cảnh ngành, đồng thuận điều chỉnh rủi ro về Medium.",
+          "proposed_risk_level": "Medium",
+          "proposed_confidence": 0.87,
+          "evidence_status": null,
+          "missing_evidence_requested": null
+        }
+      ],
+      "final_risk_level": "Medium",
+      "final_confidence": 0.9,
+      "consensus_reached": true,
+      "human_review_required": false,
+      "disagreement_note": null,
+      "debate_summary": "Sau 4 lượt phản biện khoa học giữa Agent 1 và Agent 2, hai bên đã đạt đồng thuận. Mức rủi ro chốt: Medium."
+    },
+    {
+      "claim": {
+        "claim_id": "claim_00260490",
+        "indicator_type": "Selective Disclosure",
+        "claim_text": "Báo cáo đầu tư hệ thống xử lý nước thải đạt tiêu chuẩn Cột A có kiểm định quan trắc định kỳ.",
+        "page_number": 31,
+        "evidence_quote": "Nước thải sau xử lý đạt quy chuẩn QCVN 40:2011/BTNMT Cột A.",
+        "evidence_status": "Sufficient",
+        "initial_risk_level": "Low",
+        "initial_confidence": 0.85,
+        "reasoning": "Doanh nghiệp có công bố đạt chuẩn Cột A kèm viện dẫn quy chuẩn."
+      },
+      "debate_history": [
+        {
+          "round_number": 1,
+          "agent_name": "Agent 1 (Đánh giá ban đầu)",
+          "argument": "Doanh nghiệp có công bố đạt chuẩn Cột A kèm viện dẫn quy chuẩn.",
+          "proposed_risk_level": "Low",
+          "proposed_confidence": 0.85,
+          "evidence_status": "Sufficient",
+          "missing_evidence_requested": null
+        },
+        {
+          "round_number": 1,
+          "agent_name": "Agent 2 (Devil Advocate)",
+          "argument": "Đồng thuận sơ bộ với Agent 1: Tuyên bố có chứng cứ kiểm chứng hoặc mức rủi ro phù hợp (Low).",
+          "proposed_risk_level": "Low",
+          "proposed_confidence": 0.8,
+          "evidence_status": null,
+          "missing_evidence_requested": null
+        },
+        {
+          "round_number": 2,
+          "agent_name": "Agent 1 (Claimant - Phản biện)",
+          "argument": "Sau khi đối chiếu lập luận phản biện của Agent 2 và dữ liệu báo cáo, chốt mức rủi ro khoa học: Low.",
+          "proposed_risk_level": "Low",
+          "proposed_confidence": 0.85,
+          "evidence_status": null,
+          "missing_evidence_requested": null
+        },
+        {
+          "round_number": 2,
+          "agent_name": "Agent 2 (Devil Advocate)",
+          "argument": "Sau khi xem xét bổ sung chứng cứ và bối cảnh ngành, đồng thuận điều chỉnh rủi ro về Low.",
+          "proposed_risk_level": "Low",
+          "proposed_confidence": 0.82,
+          "evidence_status": null,
+          "missing_evidence_requested": null
+        }
+      ],
+      "final_risk_level": "Low",
+      "final_confidence": 0.85,
+      "consensus_reached": true,
+      "human_review_required": false,
+      "disagreement_note": null,
+      "debate_summary": "Sau 4 lượt phản biện khoa học giữa Agent 1 và Agent 2, hai bên đã đạt đồng thuận. Mức rủi ro chốt: Low."
+    },
+    {
+      "claim": {
+        "claim_id": "claim_0073a1fe",
+        "indicator_type": "Potential Data Mispresentation",
+        "claim_text": "Tỷ lệ tái sử dụng vỏ chai và két nhựa được công bố 98% có biên bản đối chiếu lượng thu hồi.",
+        "page_number": 35,
+        "evidence_quote": "Đạt tỷ lệ thu hồi và tái sử dụng vỏ chai thủy tinh 98.2%.",
+        "evidence_status": "Sufficient",
+        "initial_risk_level": "None",
+        "initial_confidence": 0.92,
+        "reasoning": "Số liệu kiểm đếm thu hồi bao bì rõ ràng, minh bạch."
+      },
+      "debate_history": [
+        {
+          "round_number": 1,
+          "agent_name": "Agent 1 (Đánh giá ban đầu)",
+          "argument": "Số liệu kiểm đếm thu hồi bao bì rõ ràng, minh bạch.",
+          "proposed_risk_level": "None",
+          "proposed_confidence": 0.92,
+          "evidence_status": "Sufficient",
+          "missing_evidence_requested": null
+        },
+        {
+          "round_number": 1,
+          "agent_name": "Agent 2 (Devil Advocate)",
+          "argument": "Đồng thuận sơ bộ với Agent 1: Tuyên bố có chứng cứ kiểm chứng hoặc mức rủi ro phù hợp (None).",
+          "proposed_risk_level": "None",
+          "proposed_confidence": 0.8,
+          "evidence_status": null,
+          "missing_evidence_requested": null
+        },
+        {
+          "round_number": 2,
+          "agent_name": "Agent 1 (Claimant - Phản biện)",
+          "argument": "Sau khi đối chiếu lập luận phản biện của Agent 2 và dữ liệu báo cáo, chốt mức rủi ro khoa học: None.",
+          "proposed_risk_level": "None",
+          "proposed_confidence": 0.92,
+          "evidence_status": null,
+          "missing_evidence_requested": null
+        },
+        {
+          "round_number": 2,
+          "agent_name": "Agent 2 (Devil Advocate)",
+          "argument": "Sau khi xem xét bổ sung chứng cứ và bối cảnh ngành, đồng thuận điều chỉnh rủi ro về None.",
+          "proposed_risk_level": "None",
+          "proposed_confidence": 0.89,
+          "evidence_status": null,
+          "missing_evidence_requested": null
+        }
+      ],
+      "final_risk_level": "None",
+      "final_confidence": 0.92,
+      "consensus_reached": true,
+      "human_review_required": false,
+      "disagreement_note": null,
+      "debate_summary": "Sau 4 lượt phản biện khoa học giữa Agent 1 và Agent 2, hai bên đã đạt đồng thuận. Mức rủi ro chốt: None."
+    },
+    {
+      "claim": {
+        "claim_id": "claim_0007cc4e",
+        "indicator_type": "Hollow Promise",
+        "claim_text": "Lộ trình chuyển đổi xe tải điện giao hàng năm 2035 có kế hoạch thử nghiệm giai đoạn 1.",
+        "page_number": 39,
+        "evidence_quote": "Thử nghiệm 50 xe tải điện giao hàng tại TP.HCM trong năm 2024.",
+        "evidence_status": "Sufficient",
+        "initial_risk_level": "Low",
+        "initial_confidence": 0.88,
+        "reasoning": "Cam kết có kế hoạch hành động ngắn hạn thử nghiệm cụ thể."
+      },
+      "debate_history": [
+        {
+          "round_number": 1,
+          "agent_name": "Agent 1 (Đánh giá ban đầu)",
+          "argument": "Cam kết có kế hoạch hành động ngắn hạn thử nghiệm cụ thể.",
+          "proposed_risk_level": "Low",
+          "proposed_confidence": 0.88,
+          "evidence_status": "Sufficient",
+          "missing_evidence_requested": null
+        },
+        {
+          "round_number": 1,
+          "agent_name": "Agent 2 (Devil Advocate)",
+          "argument": "Đồng thuận sơ bộ với Agent 1: Tuyên bố có chứng cứ kiểm chứng hoặc mức rủi ro phù hợp (Low).",
+          "proposed_risk_level": "Low",
+          "proposed_confidence": 0.8,
+          "evidence_status": null,
+          "missing_evidence_requested": null
+        },
+        {
+          "round_number": 2,
+          "agent_name": "Agent 1 (Claimant - Phản biện)",
+          "argument": "Sau khi đối chiếu lập luận phản biện của Agent 2 và dữ liệu báo cáo, chốt mức rủi ro khoa học: Low.",
+          "proposed_risk_level": "Low",
+          "proposed_confidence": 0.88,
+          "evidence_status": null,
+          "missing_evidence_requested": null
+        },
+        {
+          "round_number": 2,
+          "agent_name": "Agent 2 (Devil Advocate)",
+          "argument": "Sau khi xem xét bổ sung chứng cứ và bối cảnh ngành, đồng thuận điều chỉnh rủi ro về Low.",
+          "proposed_risk_level": "Low",
+          "proposed_confidence": 0.85,
+          "evidence_status": null,
+          "missing_evidence_requested": null
+        }
+      ],
+      "final_risk_level": "Low",
+      "final_confidence": 0.88,
+      "consensus_reached": true,
+      "human_review_required": false,
+      "disagreement_note": null,
+      "debate_summary": "Sau 4 lượt phản biện khoa học giữa Agent 1 và Agent 2, hai bên đã đạt đồng thuận. Mức rủi ro chốt: Low."
+    },
+    {
+      "claim": {
+        "claim_id": "claim_0047a219",
+        "indicator_type": "Selective Disclosure",
+        "claim_text": "Số liệu sử dụng nhiệt năng sinh khối Biomass đạt 100% tại các nhà máy chính nhưng chưa bao quát toàn bộ nhà máy vệ tinh.",
+        "page_number": 43,
+        "evidence_quote": "100% nhiệt năng phục vụ nấu bia được cung cấp từ nhiên liệu sinh khối biomass.",
+        "evidence_status": "Sufficient",
+        "initial_risk_level": "Low",
+        "initial_confidence": 0.86,
+        "reasoning": "Bỏ sót rủi ro phát thải từ các nhà máy vệ tinh nhỏ do báo cáo chỉ nêu nhà máy chính."
+      },
+      "debate_history": [
+        {
+          "round_number": 1,
+          "agent_name": "Agent 1 (Đánh giá ban đầu)",
+          "argument": "Bỏ sót rủi ro phát thải từ các nhà máy vệ tinh nhỏ do báo cáo chỉ nêu nhà máy chính.",
+          "proposed_risk_level": "Low",
+          "proposed_confidence": 0.86,
+          "evidence_status": "Sufficient",
+          "missing_evidence_requested": null
+        },
+        {
+          "round_number": 1,
+          "agent_name": "Agent 2 (Devil Advocate)",
+          "argument": "Đồng thuận sơ bộ với Agent 1: Tuyên bố có chứng cứ kiểm chứng hoặc mức rủi ro phù hợp (Low).",
+          "proposed_risk_level": "Low",
+          "proposed_confidence": 0.8,
+          "evidence_status": null,
+          "missing_evidence_requested": null
+        },
+        {
+          "round_number": 2,
+          "agent_name": "Agent 1 (Claimant - Phản biện)",
+          "argument": "Sau khi đối chiếu lập luận phản biện của Agent 2 và dữ liệu báo cáo, chốt mức rủi ro khoa học: Low.",
+          "proposed_risk_level": "Low",
+          "proposed_confidence": 0.86,
+          "evidence_status": null,
+          "missing_evidence_requested": null
+        },
+        {
+          "round_number": 2,
+          "agent_name": "Agent 2 (Devil Advocate)",
+          "argument": "Sau khi xem xét bổ sung chứng cứ và bối cảnh ngành, đồng thuận điều chỉnh rủi ro về Low.",
+          "proposed_risk_level": "Low",
+          "proposed_confidence": 0.83,
+          "evidence_status": null,
+          "missing_evidence_requested": null
+        }
+      ],
+      "final_risk_level": "Low",
+      "final_confidence": 0.86,
+      "consensus_reached": true,
+      "human_review_required": false,
+      "disagreement_note": null,
+      "debate_summary": "Sau 4 lượt phản biện khoa học giữa Agent 1 và Agent 2, hai bên đã đạt đồng thuận. Mức rủi ro chốt: Low."
+    }
+  ],
+  "scraped_incidents": [
+    {
+      "incident_id": "inc_ae9622c7",
+      "company_name": "Sabeco",
+      "title": "Nghệ An: Nghi vấn nước thải ô nhiễm từ KCN Bắc Vinh (khu vực Sabeco Sông Lam) xả ra môi trường",
+      "source": "Báo Dân Việt",
+      "url": "https://danviet.vn/nghe-an-nghi-van-nuoc-thai-o-nhiem-tu-kcn-bac-vinh-chay-ra-kenh-bac-7777977610.htm",
+      "article_url": null,
+      "published_date": "2023-2024",
+      "snippet": "Kiểm tra liên ngành và phản ánh thực tế về việc chấp hành quy định bảo vệ môi trường, vận hành hệ thống xử lý nước thải và kênh xả thải công nghiệp tại cơ sở thành viên Sabeco Sông Lam.",
+      "relevance_score": 0.92
+    }
+  ],
+  "incident_matches": [
+    {
+      "claim_id": "claim_001bf05c",
+      "claim_text": "Sabeco công bố hoạt động trồng cây và bảo tồn nguồn nước nhưng không công bố tổng lượng nước thải thực tế xả ra môi trường tại các nhà máy bia thành viên.",
+      "matched_incident": {
+        "incident_id": "inc_ae9622c7",
+        "company_name": "Sabeco",
+        "title": "Nghệ An: Nghi vấn nước thải ô nhiễm từ KCN Bắc Vinh (khu vực Sabeco Sông Lam) xả ra môi trường",
+        "source": "Báo Dân Việt",
+        "url": "https://danviet.vn/nghe-an-nghi-van-nuoc-thai-o-nhiem-tu-kcn-bac-vinh-chay-ra-kenh-bac-7777977610.htm",
+        "article_url": null,
+        "published_date": "2023-2024",
+        "snippet": "Kiểm tra liên ngành và phản ánh thực tế về việc chấp hành quy định bảo vệ môi trường, vận hành hệ thống xử lý nước thải và kênh xả thải công nghiệp tại cơ sở thành viên Sabeco Sông Lam.",
+        "relevance_score": 0.92
+      },
+      "ai_risk_numeric": 1,
+      "ground_truth_numeric": 1,
+      "ground_truth_label": "MODERATE_RISK",
+      "evidence_compatibility": "HIGHLY_COMPATIBLE",
+      "match_status": "CONFIRMED_RISK",
+      "reasoning_chain": "Bước 1: Phân tích tuyên bố 'Selective Disclosure'. -> Bước 2: Xem xét dữ liệu báo chí thực tế. -> Bước 3: Đánh giá tương thích 'HIGHLY_COMPATIBLE'. -> Bước 4: Chốt nhãn 'CONFIRMED_RISK'.",
+      "matching_reasoning": "Đối chiếu AI Risk (Medium) với Bằng chứng Thực tế (HIGHLY_COMPATIBLE)."
+    },
+    {
+      "claim_id": "claim_0079b8fc",
+      "claim_text": "Cam kết đạt 100% bao bì đồ uống tái sử dụng và phân hủy sinh học vào năm 2040 mà không có lộ trình trung hạn.",
+      "matched_incident": null,
+      "ai_risk_numeric": 1,
+      "ground_truth_numeric": 0,
+      "ground_truth_label": "LOW_RISK",
+      "evidence_compatibility": "NO_EVIDENCE",
+      "match_status": "UNVERIFIED_RISK",
+      "reasoning_chain": "Bước 1: Phân tích tuyên bố 'Hollow Promise'. -> Bước 2: Xem xét dữ liệu báo chí thực tế. -> Bước 3: Đánh giá tương thích 'NO_EVIDENCE'. -> Bước 4: Chốt nhãn 'UNVERIFIED_RISK'.",
+      "matching_reasoning": "Đối chiếu AI Risk (Medium) với Bằng chứng Thực tế (NO_EVIDENCE)."
+    },
+    {
+      "claim_id": "claim_003e788d",
+      "claim_text": "Số liệu giảm phát thải KNK Scope 1 & 2 được báo cáo giảm 15% nhưng cơ sở mức nền năm đối chiếu không đồng nhất giữa các bảng biểu.",
+      "matched_incident": {
+        "incident_id": "inc_ae9622c7",
+        "company_name": "Sabeco",
+        "title": "Nghệ An: Nghi vấn nước thải ô nhiễm từ KCN Bắc Vinh (khu vực Sabeco Sông Lam) xả ra môi trường",
+        "source": "Báo Dân Việt",
+        "url": "https://danviet.vn/nghe-an-nghi-van-nuoc-thai-o-nhiem-tu-kcn-bac-vinh-chay-ra-kenh-bac-7777977610.htm",
+        "article_url": null,
+        "published_date": "2023-2024",
+        "snippet": "Kiểm tra liên ngành và phản ánh thực tế về việc chấp hành quy định bảo vệ môi trường, vận hành hệ thống xử lý nước thải và kênh xả thải công nghiệp tại cơ sở thành viên Sabeco Sông Lam.",
+        "relevance_score": 0.92
+      },
+      "ai_risk_numeric": 2,
+      "ground_truth_numeric": 2,
+      "ground_truth_label": "HIGH_RISK",
+      "evidence_compatibility": "PARTIALLY_COMPATIBLE",
+      "match_status": "CONFIRMED_RISK",
+      "reasoning_chain": "Bước 1: Phân tích tuyên bố 'Potential Data Mispresentation'. -> Bước 2: Xem xét dữ liệu báo chí thực tế. -> Bước 3: Đánh giá tương thích 'PARTIALLY_COMPATIBLE'. -> Bước 4: Chốt nhãn 'CONFIRMED_RISK'.",
+      "matching_reasoning": "Đối chiếu AI Risk (High) với Bằng chứng Thực tế (PARTIALLY_COMPATIBLE)."
+    },
+    {
+      "claim_id": "claim_0009f511",
+      "claim_text": "Gắn nhãn nhà máy 'Xanh 100%' và 'Năng lượng thuần sạch' trong khi tỷ lệ điện mặt trời áp mái mới đáp ứng 22% nhu cầu phụ tải.",
+      "matched_incident": {
+        "incident_id": "inc_ae9622c7",
+        "company_name": "Sabeco",
+        "title": "Nghệ An: Nghi vấn nước thải ô nhiễm từ KCN Bắc Vinh (khu vực Sabeco Sông Lam) xả ra môi trường",
+        "source": "Báo Dân Việt",
+        "url": "https://danviet.vn/nghe-an-nghi-van-nuoc-thai-o-nhiem-tu-kcn-bac-vinh-chay-ra-kenh-bac-7777977610.htm",
+        "article_url": null,
+        "published_date": "2023-2024",
+        "snippet": "Kiểm tra liên ngành và phản ánh thực tế về việc chấp hành quy định bảo vệ môi trường, vận hành hệ thống xử lý nước thải và kênh xả thải công nghiệp tại cơ sở thành viên Sabeco Sông Lam.",
+        "relevance_score": 0.92
+      },
+      "ai_risk_numeric": 1,
+      "ground_truth_numeric": 1,
+      "ground_truth_label": "MODERATE_RISK",
+      "evidence_compatibility": "HIGHLY_COMPATIBLE",
+      "match_status": "CONFIRMED_RISK",
+      "reasoning_chain": "Bước 1: Phân tích tuyên bố 'Misleading Presentation'. -> Bước 2: Xem xét dữ liệu báo chí thực tế. -> Bước 3: Đánh giá tương thích 'HIGHLY_COMPATIBLE'. -> Bước 4: Chốt nhãn 'CONFIRMED_RISK'.",
+      "matching_reasoning": "Đối chiếu AI Risk (Medium) với Bằng chứng Thực tế (HIGHLY_COMPATIBLE)."
+    },
+    {
+      "claim_id": "claim_00260490",
+      "claim_text": "Báo cáo đầu tư hệ thống xử lý nước thải đạt tiêu chuẩn Cột A có kiểm định quan trắc định kỳ.",
+      "matched_incident": null,
+      "ai_risk_numeric": 0,
+      "ground_truth_numeric": 0,
+      "ground_truth_label": "LOW_RISK",
+      "evidence_compatibility": "NO_EVIDENCE",
+      "match_status": "NO_RISK_CONFIRMED",
+      "reasoning_chain": "Bước 1: Phân tích tuyên bố 'Selective Disclosure'. -> Bước 2: Xem xét dữ liệu báo chí thực tế. -> Bước 3: Đánh giá tương thích 'NO_EVIDENCE'. -> Bước 4: Chốt nhãn 'NO_RISK_CONFIRMED'.",
+      "matching_reasoning": "Đối chiếu AI Risk (Low) với Bằng chứng Thực tế (NO_EVIDENCE)."
+    },
+    {
+      "claim_id": "claim_0073a1fe",
+      "claim_text": "Tỷ lệ tái sử dụng vỏ chai và két nhựa được công bố 98% có biên bản đối chiếu lượng thu hồi.",
+      "matched_incident": null,
+      "ai_risk_numeric": 0,
+      "ground_truth_numeric": 0,
+      "ground_truth_label": "LOW_RISK",
+      "evidence_compatibility": "NO_EVIDENCE",
+      "match_status": "NO_RISK_CONFIRMED",
+      "reasoning_chain": "Bước 1: Phân tích tuyên bố 'Potential Data Mispresentation'. -> Bước 2: Xem xét dữ liệu báo chí thực tế. -> Bước 3: Đánh giá tương thích 'NO_EVIDENCE'. -> Bước 4: Chốt nhãn 'NO_RISK_CONFIRMED'.",
+      "matching_reasoning": "Đối chiếu AI Risk (None) với Bằng chứng Thực tế (NO_EVIDENCE)."
+    },
+    {
+      "claim_id": "claim_0007cc4e",
+      "claim_text": "Lộ trình chuyển đổi xe tải điện giao hàng năm 2035 có kế hoạch thử nghiệm giai đoạn 1.",
+      "matched_incident": null,
+      "ai_risk_numeric": 0,
+      "ground_truth_numeric": 0,
+      "ground_truth_label": "LOW_RISK",
+      "evidence_compatibility": "NO_EVIDENCE",
+      "match_status": "NO_RISK_CONFIRMED",
+      "reasoning_chain": "Bước 1: Phân tích tuyên bố 'Hollow Promise'. -> Bước 2: Xem xét dữ liệu báo chí thực tế. -> Bước 3: Đánh giá tương thích 'NO_EVIDENCE'. -> Bước 4: Chốt nhãn 'NO_RISK_CONFIRMED'.",
+      "matching_reasoning": "Đối chiếu AI Risk (Low) với Bằng chứng Thực tế (NO_EVIDENCE)."
+    },
+    {
+      "claim_id": "claim_0047a219",
+      "claim_text": "Số liệu sử dụng nhiệt năng sinh khối Biomass đạt 100% tại các nhà máy chính nhưng chưa bao quát toàn bộ nhà máy vệ tinh.",
+      "matched_incident": null,
+      "ai_risk_numeric": 0,
+      "ground_truth_numeric": 1,
+      "ground_truth_label": "MODERATE_RISK",
+      "evidence_compatibility": "PARTIALLY_COMPATIBLE",
+      "match_status": "MISSED_RISK",
+      "reasoning_chain": "Bước 1: Phân tích tuyên bố 'Selective Disclosure'. -> Bước 2: Xem xét dữ liệu báo chí thực tế. -> Bước 3: Đánh giá tương thích 'PARTIALLY_COMPATIBLE'. -> Bước 4: Chốt nhãn 'MISSED_RISK'.",
+      "matching_reasoning": "Đối chiếu AI Risk (Low) với Bằng chứng Thực tế (PARTIALLY_COMPATIBLE)."
+    }
+  ],
+  "metrics": {
+    "true_positives": 3,
+    "false_positives": 1,
+    "true_negatives": 3,
+    "false_negatives": 1,
+    "precision": 0.75,
+    "recall": 0.75,
+    "f1_score": 0.75,
+    "accuracy": 0.75,
+    "cohens_kappa_round1": 0.619,
+    "cohens_kappa_final": 1.0,
+    "kappa_growth": 0.381,
+    "indicator_cohens_kappa": {
+      "Selective Disclosure": {
+        "kappa_round1": 1.0,
+        "kappa_final": 1.0,
+        "kappa_growth": 0.0,
+        "claim_count": 3
+      },
+      "Hollow Promise": {
+        "kappa_round1": 0.0,
+        "kappa_final": 1.0,
+        "kappa_growth": 1.0,
+        "claim_count": 2
+      },
+      "Potential Data Mispresentation": {
+        "kappa_round1": 0.3333,
+        "kappa_final": 1.0,
+        "kappa_growth": 0.6667,
+        "claim_count": 2
+      },
+      "Misleading Presentation": {
+        "kappa_round1": 1.0,
+        "kappa_final": 1.0,
+        "kappa_growth": 0.0,
+        "claim_count": 1
+      }
+    }
+  }
+}

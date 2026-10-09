@@ -1,0 +1,427 @@
+{
+  "company_name": "Masan",
+  "source_file": "masan2026.pdf",
+  "total_chunks_processed": 480,
+  "relevant_chunks_count": 5,
+  "claims_detected": [
+    {
+      "claim": {
+        "claim_id": "claim_001ac846",
+        "indicator_type": "Selective Disclosure",
+        "claim_text": "Báo cáo lộ trình giảm phát thải khí nhà kính Scope 1 & 2 giai đoạn 2026-2030 nhưng chưa bao gồm lượng phát thải nông hộ liên kết.",
+        "page_number": 15,
+        "evidence_quote": "Lộ trình cắt giảm 20% phát thải khí nhà kính tại các nhà máy chế biến thực phẩm đến năm 2030.",
+        "evidence_status": "Partial",
+        "initial_risk_level": "Medium",
+        "initial_confidence": 0.86,
+        "reasoning": "Chưa bao phủ toàn diện Scope 3 của chuỗi cung ứng."
+      },
+      "debate_history": [
+        {
+          "round_number": 1,
+          "agent_name": "Agent 1 (Đánh giá ban đầu)",
+          "argument": "Chưa bao phủ toàn diện Scope 3 của chuỗi cung ứng.",
+          "proposed_risk_level": "Medium",
+          "proposed_confidence": 0.86,
+          "evidence_status": "Partial",
+          "missing_evidence_requested": null
+        },
+        {
+          "round_number": 1,
+          "agent_name": "Agent 2 (Devil Advocate)",
+          "argument": "Đồng thuận sơ bộ với Agent 1: Tuyên bố có chứng cứ kiểm chứng hoặc mức rủi ro phù hợp (Medium).",
+          "proposed_risk_level": "Medium",
+          "proposed_confidence": 0.8,
+          "evidence_status": null,
+          "missing_evidence_requested": null
+        },
+        {
+          "round_number": 2,
+          "agent_name": "Agent 1 (Claimant - Phản biện)",
+          "argument": "Sau khi đối chiếu lập luận phản biện của Agent 2 và dữ liệu báo cáo, chốt mức rủi ro khoa học: Medium.",
+          "proposed_risk_level": "Medium",
+          "proposed_confidence": 0.86,
+          "evidence_status": null,
+          "missing_evidence_requested": null
+        },
+        {
+          "round_number": 2,
+          "agent_name": "Agent 2 (Devil Advocate)",
+          "argument": "Sau khi xem xét bổ sung chứng cứ và bối cảnh ngành, đồng thuận điều chỉnh rủi ro về Medium.",
+          "proposed_risk_level": "Medium",
+          "proposed_confidence": 0.83,
+          "evidence_status": null,
+          "missing_evidence_requested": null
+        }
+      ],
+      "final_risk_level": "Medium",
+      "final_confidence": 0.86,
+      "consensus_reached": true,
+      "human_review_required": false,
+      "disagreement_note": null,
+      "debate_summary": "Sau 4 lượt phản biện khoa học giữa Agent 1 và Agent 2, hai bên đã đạt đồng thuận. Mức rủi ro chốt: Medium."
+    },
+    {
+      "claim": {
+        "claim_id": "claim_0043ff3c",
+        "indicator_type": "Potential Data Mispresentation",
+        "claim_text": "Tỷ lệ thu hồi và tái chế bao bì màng co đạt 45% thông qua chương trình liên minh tái chế PRO Vietnam.",
+        "page_number": 19,
+        "evidence_quote": "Hợp tác cùng PRO Vietnam nâng cao tỷ lệ thu gom tái chế bao bì tiêu dùng.",
+        "evidence_status": "Sufficient",
+        "initial_risk_level": "Low",
+        "initial_confidence": 0.88,
+        "reasoning": "Có hợp tác với tổ chức liên minh tái chế quốc gia PRO Vietnam."
+      },
+      "debate_history": [
+        {
+          "round_number": 1,
+          "agent_name": "Agent 1 (Đánh giá ban đầu)",
+          "argument": "Có hợp tác với tổ chức liên minh tái chế quốc gia PRO Vietnam.",
+          "proposed_risk_level": "Low",
+          "proposed_confidence": 0.88,
+          "evidence_status": "Sufficient",
+          "missing_evidence_requested": null
+        },
+        {
+          "round_number": 1,
+          "agent_name": "Agent 2 (Devil Advocate)",
+          "argument": "Đồng thuận sơ bộ với Agent 1: Tuyên bố có chứng cứ kiểm chứng hoặc mức rủi ro phù hợp (Low).",
+          "proposed_risk_level": "Low",
+          "proposed_confidence": 0.8,
+          "evidence_status": null,
+          "missing_evidence_requested": null
+        },
+        {
+          "round_number": 2,
+          "agent_name": "Agent 1 (Claimant - Phản biện)",
+          "argument": "Sau khi đối chiếu lập luận phản biện của Agent 2 và dữ liệu báo cáo, chốt mức rủi ro khoa học: Low.",
+          "proposed_risk_level": "Low",
+          "proposed_confidence": 0.88,
+          "evidence_status": null,
+          "missing_evidence_requested": null
+        },
+        {
+          "round_number": 2,
+          "agent_name": "Agent 2 (Devil Advocate)",
+          "argument": "Sau khi xem xét bổ sung chứng cứ và bối cảnh ngành, đồng thuận điều chỉnh rủi ro về Low.",
+          "proposed_risk_level": "Low",
+          "proposed_confidence": 0.85,
+          "evidence_status": null,
+          "missing_evidence_requested": null
+        }
+      ],
+      "final_risk_level": "Low",
+      "final_confidence": 0.88,
+      "consensus_reached": true,
+      "human_review_required": false,
+      "disagreement_note": null,
+      "debate_summary": "Sau 4 lượt phản biện khoa học giữa Agent 1 và Agent 2, hai bên đã đạt đồng thuận. Mức rủi ro chốt: Low."
+    },
+    {
+      "claim": {
+        "claim_id": "claim_006e7fc8",
+        "indicator_type": "Hollow Promise",
+        "claim_text": "Kế hoạch xây dựng trung tâm logistics xanh và kho bãi đạt chuẩn LEED vào năm 2028 chưa có hợp đồng tổng thầu.",
+        "page_number": 23,
+        "evidence_quote": "Khởi công cụm trung tâm logistics xanh tiết kiệm năng lượng đạt chuẩn quốc tế.",
+        "evidence_status": "Insufficient",
+        "initial_risk_level": "Medium",
+        "initial_confidence": 0.85,
+        "reasoning": "Cam kết lớn chưa có bảng chỉ tiêu năng lượng và hồ sơ đăng ký LEED."
+      },
+      "debate_history": [
+        {
+          "round_number": 1,
+          "agent_name": "Agent 1 (Đánh giá ban đầu)",
+          "argument": "Cam kết lớn chưa có bảng chỉ tiêu năng lượng và hồ sơ đăng ký LEED.",
+          "proposed_risk_level": "Medium",
+          "proposed_confidence": 0.85,
+          "evidence_status": "Insufficient",
+          "missing_evidence_requested": null
+        },
+        {
+          "round_number": 1,
+          "agent_name": "Agent 2 (Devil Advocate)",
+          "argument": "Phản biện lại tuyên bố 'Hollow Promise': Xem xét tính trọng yếu ngành và nỗ lực minh bạch của doanh nghiệp.",
+          "proposed_risk_level": "Low",
+          "proposed_confidence": 0.8,
+          "evidence_status": null,
+          "missing_evidence_requested": "Đề xuất đối chiếu chứng nhận độc lập bổ sung."
+        },
+        {
+          "round_number": 2,
+          "agent_name": "Agent 1 (Claimant - Phản biện)",
+          "argument": "Sau khi đối chiếu lập luận phản biện của Agent 2 và dữ liệu báo cáo, chốt mức rủi ro khoa học: Medium.",
+          "proposed_risk_level": "Medium",
+          "proposed_confidence": 0.85,
+          "evidence_status": null,
+          "missing_evidence_requested": null
+        },
+        {
+          "round_number": 2,
+          "agent_name": "Agent 2 (Devil Advocate)",
+          "argument": "Sau khi xem xét bổ sung chứng cứ và bối cảnh ngành, đồng thuận điều chỉnh rủi ro về Medium.",
+          "proposed_risk_level": "Medium",
+          "proposed_confidence": 0.82,
+          "evidence_status": null,
+          "missing_evidence_requested": null
+        }
+      ],
+      "final_risk_level": "Medium",
+      "final_confidence": 0.85,
+      "consensus_reached": true,
+      "human_review_required": false,
+      "disagreement_note": null,
+      "debate_summary": "Sau 4 lượt phản biện khoa học giữa Agent 1 và Agent 2, hai bên đã đạt đồng thuận. Mức rủi ro chốt: Medium."
+    },
+    {
+      "claim": {
+        "claim_id": "claim_000a7b97",
+        "indicator_type": "Misleading Presentation",
+        "claim_text": "Gắn nhãn WinEco '100% rau củ hữu cơ siêu sạch' khi vùng trồng áp dụng chuẩn VietGAP, chưa bao phủ chứng nhận hữu cơ quốc tế.",
+        "page_number": 27,
+        "evidence_quote": "WinEco tiên phong dòng rau củ sạch 100% thuần hữu cơ an toàn cho gia đình.",
+        "evidence_status": "Partial",
+        "initial_risk_level": "Medium",
+        "initial_confidence": 0.84,
+        "reasoning": "Mập mờ giữa quy chuẩn nông nghiệp an toàn VietGAP và chứng nhận Hữu cơ Organic."
+      },
+      "debate_history": [
+        {
+          "round_number": 1,
+          "agent_name": "Agent 1 (Đánh giá ban đầu)",
+          "argument": "Mập mờ giữa quy chuẩn nông nghiệp an toàn VietGAP và chứng nhận Hữu cơ Organic.",
+          "proposed_risk_level": "Medium",
+          "proposed_confidence": 0.84,
+          "evidence_status": "Partial",
+          "missing_evidence_requested": null
+        },
+        {
+          "round_number": 1,
+          "agent_name": "Agent 2 (Devil Advocate)",
+          "argument": "Đồng thuận sơ bộ với Agent 1: Tuyên bố có chứng cứ kiểm chứng hoặc mức rủi ro phù hợp (Medium).",
+          "proposed_risk_level": "Medium",
+          "proposed_confidence": 0.8,
+          "evidence_status": null,
+          "missing_evidence_requested": null
+        },
+        {
+          "round_number": 2,
+          "agent_name": "Agent 1 (Claimant - Phản biện)",
+          "argument": "Sau khi đối chiếu lập luận phản biện của Agent 2 và dữ liệu báo cáo, chốt mức rủi ro khoa học: Medium.",
+          "proposed_risk_level": "Medium",
+          "proposed_confidence": 0.84,
+          "evidence_status": null,
+          "missing_evidence_requested": null
+        },
+        {
+          "round_number": 2,
+          "agent_name": "Agent 2 (Devil Advocate)",
+          "argument": "Sau khi xem xét bổ sung chứng cứ và bối cảnh ngành, đồng thuận điều chỉnh rủi ro về Medium.",
+          "proposed_risk_level": "Medium",
+          "proposed_confidence": 0.8099999999999999,
+          "evidence_status": null,
+          "missing_evidence_requested": null
+        }
+      ],
+      "final_risk_level": "Medium",
+      "final_confidence": 0.84,
+      "consensus_reached": true,
+      "human_review_required": false,
+      "disagreement_note": null,
+      "debate_summary": "Sau 4 lượt phản biện khoa học giữa Agent 1 và Agent 2, hai bên đã đạt đồng thuận. Mức rủi ro chốt: Medium."
+    },
+    {
+      "claim": {
+        "claim_id": "claim_002dc496",
+        "indicator_type": "Selective Disclosure",
+        "claim_text": "Quan trắc nước thải định kỳ và xử lý đạt tiêu chuẩn Cột A tại Nhà máy nước mắm Phú Quốc Masan.",
+        "page_number": 31,
+        "evidence_quote": "Hệ thống xử lý nước thải chế biến nước mắm truyền thống đạt tiêu chuẩn môi trường biển đảo.",
+        "evidence_status": "Sufficient",
+        "initial_risk_level": "None",
+        "initial_confidence": 0.94,
+        "reasoning": "Báo cáo quan trắc môi trường nước biển và xả thải định kỳ."
+      },
+      "debate_history": [
+        {
+          "round_number": 1,
+          "agent_name": "Agent 1 (Đánh giá ban đầu)",
+          "argument": "Báo cáo quan trắc môi trường nước biển và xả thải định kỳ.",
+          "proposed_risk_level": "None",
+          "proposed_confidence": 0.94,
+          "evidence_status": "Sufficient",
+          "missing_evidence_requested": null
+        },
+        {
+          "round_number": 1,
+          "agent_name": "Agent 2 (Devil Advocate)",
+          "argument": "Đồng thuận sơ bộ với Agent 1: Tuyên bố có chứng cứ kiểm chứng hoặc mức rủi ro phù hợp (None).",
+          "proposed_risk_level": "None",
+          "proposed_confidence": 0.8,
+          "evidence_status": null,
+          "missing_evidence_requested": null
+        },
+        {
+          "round_number": 2,
+          "agent_name": "Agent 1 (Claimant - Phản biện)",
+          "argument": "Sau khi đối chiếu lập luận phản biện của Agent 2 và dữ liệu báo cáo, chốt mức rủi ro khoa học: None.",
+          "proposed_risk_level": "None",
+          "proposed_confidence": 0.94,
+          "evidence_status": null,
+          "missing_evidence_requested": null
+        },
+        {
+          "round_number": 2,
+          "agent_name": "Agent 2 (Devil Advocate)",
+          "argument": "Sau khi xem xét bổ sung chứng cứ và bối cảnh ngành, đồng thuận điều chỉnh rủi ro về None.",
+          "proposed_risk_level": "None",
+          "proposed_confidence": 0.9099999999999999,
+          "evidence_status": null,
+          "missing_evidence_requested": null
+        }
+      ],
+      "final_risk_level": "None",
+      "final_confidence": 0.94,
+      "consensus_reached": true,
+      "human_review_required": false,
+      "disagreement_note": null,
+      "debate_summary": "Sau 4 lượt phản biện khoa học giữa Agent 1 và Agent 2, hai bên đã đạt đồng thuận. Mức rủi ro chốt: None."
+    }
+  ],
+  "scraped_incidents": [
+    {
+      "incident_id": "inc_336c477f",
+      "company_name": "Masan",
+      "title": "Thu hồi hơn 582.000 m2 đất ngoài quy hoạch của Công ty Núi Pháo (Masan) sau kết luận thanh tra Bộ TN&MT",
+      "source": "Báo Tuổi Trẻ",
+      "url": "https://tuoitre.vn/thu-hoi-hon-582-000m2-dat-ngoai-quy-hoach-cua-cong-ty-nui-phao-20220302144702161.htm",
+      "article_url": null,
+      "published_date": "03/2022",
+      "snippet": "UBND tỉnh Thái Nguyên thu hồi 582.321 m² đất ngoài ranh giới quy hoạch của dự án Núi Pháo theo Kết luận thanh tra số 2065/KL-BTNMT ngày 27/4/2017 của Bộ Tài nguyên và Môi trường.",
+      "relevance_score": 0.95
+    }
+  ],
+  "incident_matches": [
+    {
+      "claim_id": "claim_001ac846",
+      "claim_text": "Báo cáo lộ trình giảm phát thải khí nhà kính Scope 1 & 2 giai đoạn 2026-2030 nhưng chưa bao gồm lượng phát thải nông hộ liên kết.",
+      "matched_incident": {
+        "incident_id": "inc_336c477f",
+        "company_name": "Masan",
+        "title": "Thu hồi hơn 582.000 m2 đất ngoài quy hoạch của Công ty Núi Pháo (Masan) sau kết luận thanh tra Bộ TN&MT",
+        "source": "Báo Tuổi Trẻ",
+        "url": "https://tuoitre.vn/thu-hoi-hon-582-000m2-dat-ngoai-quy-hoach-cua-cong-ty-nui-phao-20220302144702161.htm",
+        "article_url": null,
+        "published_date": "03/2022",
+        "snippet": "UBND tỉnh Thái Nguyên thu hồi 582.321 m² đất ngoài ranh giới quy hoạch của dự án Núi Pháo theo Kết luận thanh tra số 2065/KL-BTNMT ngày 27/4/2017 của Bộ Tài nguyên và Môi trường.",
+        "relevance_score": 0.95
+      },
+      "ai_risk_numeric": 1,
+      "ground_truth_numeric": 1,
+      "ground_truth_label": "MODERATE_RISK",
+      "evidence_compatibility": "PARTIALLY_COMPATIBLE",
+      "match_status": "CONFIRMED_RISK",
+      "reasoning_chain": "Bước 1: Phân tích tuyên bố 'Selective Disclosure'. -> Bước 2: Xem xét dữ liệu báo chí thực tế. -> Bước 3: Đánh giá tương thích 'PARTIALLY_COMPATIBLE'. -> Bước 4: Chốt nhãn 'CONFIRMED_RISK'.",
+      "matching_reasoning": "Đối chiếu AI Risk (Medium) với Bằng chứng Thực tế (PARTIALLY_COMPATIBLE)."
+    },
+    {
+      "claim_id": "claim_0043ff3c",
+      "claim_text": "Tỷ lệ thu hồi và tái chế bao bì màng co đạt 45% thông qua chương trình liên minh tái chế PRO Vietnam.",
+      "matched_incident": null,
+      "ai_risk_numeric": 0,
+      "ground_truth_numeric": 0,
+      "ground_truth_label": "LOW_RISK",
+      "evidence_compatibility": "NO_EVIDENCE",
+      "match_status": "NO_RISK_CONFIRMED",
+      "reasoning_chain": "Bước 1: Phân tích tuyên bố 'Potential Data Mispresentation'. -> Bước 2: Xem xét dữ liệu báo chí thực tế. -> Bước 3: Đánh giá tương thích 'NO_EVIDENCE'. -> Bước 4: Chốt nhãn 'NO_RISK_CONFIRMED'.",
+      "matching_reasoning": "Đối chiếu AI Risk (Low) với Bằng chứng Thực tế (NO_EVIDENCE)."
+    },
+    {
+      "claim_id": "claim_006e7fc8",
+      "claim_text": "Kế hoạch xây dựng trung tâm logistics xanh và kho bãi đạt chuẩn LEED vào năm 2028 chưa có hợp đồng tổng thầu.",
+      "matched_incident": null,
+      "ai_risk_numeric": 1,
+      "ground_truth_numeric": 0,
+      "ground_truth_label": "LOW_RISK",
+      "evidence_compatibility": "NO_EVIDENCE",
+      "match_status": "UNVERIFIED_RISK",
+      "reasoning_chain": "Bước 1: Phân tích tuyên bố 'Hollow Promise'. -> Bước 2: Xem xét dữ liệu báo chí thực tế. -> Bước 3: Đánh giá tương thích 'NO_EVIDENCE'. -> Bước 4: Chốt nhãn 'UNVERIFIED_RISK'.",
+      "matching_reasoning": "Đối chiếu AI Risk (Medium) với Bằng chứng Thực tế (NO_EVIDENCE)."
+    },
+    {
+      "claim_id": "claim_000a7b97",
+      "claim_text": "Gắn nhãn WinEco '100% rau củ hữu cơ siêu sạch' khi vùng trồng áp dụng chuẩn VietGAP, chưa bao phủ chứng nhận hữu cơ quốc tế.",
+      "matched_incident": {
+        "incident_id": "inc_336c477f",
+        "company_name": "Masan",
+        "title": "Thu hồi hơn 582.000 m2 đất ngoài quy hoạch của Công ty Núi Pháo (Masan) sau kết luận thanh tra Bộ TN&MT",
+        "source": "Báo Tuổi Trẻ",
+        "url": "https://tuoitre.vn/thu-hoi-hon-582-000m2-dat-ngoai-quy-hoach-cua-cong-ty-nui-phao-20220302144702161.htm",
+        "article_url": null,
+        "published_date": "03/2022",
+        "snippet": "UBND tỉnh Thái Nguyên thu hồi 582.321 m² đất ngoài ranh giới quy hoạch của dự án Núi Pháo theo Kết luận thanh tra số 2065/KL-BTNMT ngày 27/4/2017 của Bộ Tài nguyên và Môi trường.",
+        "relevance_score": 0.95
+      },
+      "ai_risk_numeric": 1,
+      "ground_truth_numeric": 1,
+      "ground_truth_label": "MODERATE_RISK",
+      "evidence_compatibility": "PARTIALLY_COMPATIBLE",
+      "match_status": "CONFIRMED_RISK",
+      "reasoning_chain": "Bước 1: Phân tích tuyên bố 'Misleading Presentation'. -> Bước 2: Xem xét dữ liệu báo chí thực tế. -> Bước 3: Đánh giá tương thích 'PARTIALLY_COMPATIBLE'. -> Bước 4: Chốt nhãn 'CONFIRMED_RISK'.",
+      "matching_reasoning": "Đối chiếu AI Risk (Medium) với Bằng chứng Thực tế (PARTIALLY_COMPATIBLE)."
+    },
+    {
+      "claim_id": "claim_002dc496",
+      "claim_text": "Quan trắc nước thải định kỳ và xử lý đạt tiêu chuẩn Cột A tại Nhà máy nước mắm Phú Quốc Masan.",
+      "matched_incident": null,
+      "ai_risk_numeric": 0,
+      "ground_truth_numeric": 0,
+      "ground_truth_label": "LOW_RISK",
+      "evidence_compatibility": "NO_EVIDENCE",
+      "match_status": "NO_RISK_CONFIRMED",
+      "reasoning_chain": "Bước 1: Phân tích tuyên bố 'Selective Disclosure'. -> Bước 2: Xem xét dữ liệu báo chí thực tế. -> Bước 3: Đánh giá tương thích 'NO_EVIDENCE'. -> Bước 4: Chốt nhãn 'NO_RISK_CONFIRMED'.",
+      "matching_reasoning": "Đối chiếu AI Risk (None) với Bằng chứng Thực tế (NO_EVIDENCE)."
+    }
+  ],
+  "metrics": {
+    "true_positives": 2,
+    "false_positives": 1,
+    "true_negatives": 2,
+    "false_negatives": 0,
+    "precision": 0.6667,
+    "recall": 1.0,
+    "f1_score": 0.8,
+    "accuracy": 0.8,
+    "cohens_kappa_round1": 0.6875,
+    "cohens_kappa_final": 1.0,
+    "kappa_growth": 0.3125,
+    "indicator_cohens_kappa": {
+      "Selective Disclosure": {
+        "kappa_round1": 1.0,
+        "kappa_final": 1.0,
+        "kappa_growth": 0.0,
+        "claim_count": 2
+      },
+      "Hollow Promise": {
+        "kappa_round1": 0.0,
+        "kappa_final": 1.0,
+        "kappa_growth": 1.0,
+        "claim_count": 1
+      },
+      "Potential Data Mispresentation": {
+        "kappa_round1": 1.0,
+        "kappa_final": 1.0,
+        "kappa_growth": 0.0,
+        "claim_count": 1
+      },
+      "Misleading Presentation": {
+        "kappa_round1": 1.0,
+        "kappa_final": 1.0,
+        "kappa_growth": 0.0,
+        "claim_count": 1
+      }
+    }
+  }
+}

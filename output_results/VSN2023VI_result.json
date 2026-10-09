@@ -1,0 +1,427 @@
+{
+  "company_name": "Vissan",
+  "source_file": "VSN2023VI.pdf",
+  "total_chunks_processed": 150,
+  "relevant_chunks_count": 5,
+  "claims_detected": [
+    {
+      "claim": {
+        "claim_id": "claim_005ed7df",
+        "indicator_type": "Selective Disclosure",
+        "claim_text": "Báo cáo xử lý nước thải đạt chuẩn nhưng chưa công bố chỉ số phát thải mùi hôi từ khu vực lưu trữ phân và chất thải rắn.",
+        "page_number": 15,
+        "evidence_quote": "Nhà máy giết mổ hiện đại xử lý toàn diện nước thải sản xuất trước khi xả ra môi trường.",
+        "evidence_status": "Partial",
+        "initial_risk_level": "Medium",
+        "initial_confidence": 0.84,
+        "reasoning": "Thiếu dữ liệu quan trắc khí thải và mùi hôi đặc thù ngành giết mổ."
+      },
+      "debate_history": [
+        {
+          "round_number": 1,
+          "agent_name": "Agent 1 (Đánh giá ban đầu)",
+          "argument": "Thiếu dữ liệu quan trắc khí thải và mùi hôi đặc thù ngành giết mổ.",
+          "proposed_risk_level": "Medium",
+          "proposed_confidence": 0.84,
+          "evidence_status": "Partial",
+          "missing_evidence_requested": null
+        },
+        {
+          "round_number": 1,
+          "agent_name": "Agent 2 (Devil Advocate)",
+          "argument": "Đồng thuận sơ bộ với Agent 1: Tuyên bố có chứng cứ kiểm chứng hoặc mức rủi ro phù hợp (Medium).",
+          "proposed_risk_level": "Medium",
+          "proposed_confidence": 0.8,
+          "evidence_status": null,
+          "missing_evidence_requested": null
+        },
+        {
+          "round_number": 2,
+          "agent_name": "Agent 1 (Claimant - Phản biện)",
+          "argument": "Sau khi đối chiếu lập luận phản biện của Agent 2 và dữ liệu báo cáo, chốt mức rủi ro khoa học: Medium.",
+          "proposed_risk_level": "Medium",
+          "proposed_confidence": 0.84,
+          "evidence_status": null,
+          "missing_evidence_requested": null
+        },
+        {
+          "round_number": 2,
+          "agent_name": "Agent 2 (Devil Advocate)",
+          "argument": "Sau khi xem xét bổ sung chứng cứ và bối cảnh ngành, đồng thuận điều chỉnh rủi ro về Medium.",
+          "proposed_risk_level": "Medium",
+          "proposed_confidence": 0.8099999999999999,
+          "evidence_status": null,
+          "missing_evidence_requested": null
+        }
+      ],
+      "final_risk_level": "Medium",
+      "final_confidence": 0.84,
+      "consensus_reached": true,
+      "human_review_required": false,
+      "disagreement_note": null,
+      "debate_summary": "Sau 4 lượt phản biện khoa học giữa Agent 1 và Agent 2, hai bên đã đạt đồng thuận. Mức rủi ro chốt: Medium."
+    },
+    {
+      "claim": {
+        "claim_id": "claim_008cd018",
+        "indicator_type": "Potential Data Mispresentation",
+        "claim_text": "100% nguồn thịt heo được truy xuất nguồn gốc qua vòng đeo điện tử đạt chuẩn Đề án TE-FOOD.",
+        "page_number": 19,
+        "evidence_quote": "100% thịt heo cung cấp ra thị trường có thể truy xuất nguồn gốc trang trại.",
+        "evidence_status": "Sufficient",
+        "initial_risk_level": "None",
+        "initial_confidence": 0.95,
+        "reasoning": "Hệ thống truy xuất nguồn gốc điện tử liên thông Sở Công Thương TP.HCM."
+      },
+      "debate_history": [
+        {
+          "round_number": 1,
+          "agent_name": "Agent 1 (Đánh giá ban đầu)",
+          "argument": "Hệ thống truy xuất nguồn gốc điện tử liên thông Sở Công Thương TP.HCM.",
+          "proposed_risk_level": "None",
+          "proposed_confidence": 0.95,
+          "evidence_status": "Sufficient",
+          "missing_evidence_requested": null
+        },
+        {
+          "round_number": 1,
+          "agent_name": "Agent 2 (Devil Advocate)",
+          "argument": "Đồng thuận sơ bộ với Agent 1: Tuyên bố có chứng cứ kiểm chứng hoặc mức rủi ro phù hợp (None).",
+          "proposed_risk_level": "None",
+          "proposed_confidence": 0.8,
+          "evidence_status": null,
+          "missing_evidence_requested": null
+        },
+        {
+          "round_number": 2,
+          "agent_name": "Agent 1 (Claimant - Phản biện)",
+          "argument": "Sau khi đối chiếu lập luận phản biện của Agent 2 và dữ liệu báo cáo, chốt mức rủi ro khoa học: None.",
+          "proposed_risk_level": "None",
+          "proposed_confidence": 0.95,
+          "evidence_status": null,
+          "missing_evidence_requested": null
+        },
+        {
+          "round_number": 2,
+          "agent_name": "Agent 2 (Devil Advocate)",
+          "argument": "Sau khi xem xét bổ sung chứng cứ và bối cảnh ngành, đồng thuận điều chỉnh rủi ro về None.",
+          "proposed_risk_level": "None",
+          "proposed_confidence": 0.9199999999999999,
+          "evidence_status": null,
+          "missing_evidence_requested": null
+        }
+      ],
+      "final_risk_level": "None",
+      "final_confidence": 0.95,
+      "consensus_reached": true,
+      "human_review_required": false,
+      "disagreement_note": null,
+      "debate_summary": "Sau 4 lượt phản biện khoa học giữa Agent 1 và Agent 2, hai bên đã đạt đồng thuận. Mức rủi ro chốt: None."
+    },
+    {
+      "claim": {
+        "claim_id": "claim_006a8129",
+        "indicator_type": "Hollow Promise",
+        "claim_text": "Cam kết chuyển đổi 100% phương tiện vận tải phân phối sang xe tải điện lạnh vào năm 2030 chưa có đối tác cung ứng.",
+        "page_number": 23,
+        "evidence_quote": "Xây dựng chuỗi cung ứng lạnh xanh bằng phương tiện vận tải không phát thải đến năm 2030.",
+        "evidence_status": "Insufficient",
+        "initial_risk_level": "Medium",
+        "initial_confidence": 0.82,
+        "reasoning": "Mục tiêu 2030 chưa có kế hoạch đầu tư trạm sạc và thử nghiệm xe tải lạnh điện."
+      },
+      "debate_history": [
+        {
+          "round_number": 1,
+          "agent_name": "Agent 1 (Đánh giá ban đầu)",
+          "argument": "Mục tiêu 2030 chưa có kế hoạch đầu tư trạm sạc và thử nghiệm xe tải lạnh điện.",
+          "proposed_risk_level": "Medium",
+          "proposed_confidence": 0.82,
+          "evidence_status": "Insufficient",
+          "missing_evidence_requested": null
+        },
+        {
+          "round_number": 1,
+          "agent_name": "Agent 2 (Devil Advocate)",
+          "argument": "Phản biện lại tuyên bố 'Hollow Promise': Xem xét tính trọng yếu ngành và nỗ lực minh bạch của doanh nghiệp.",
+          "proposed_risk_level": "Low",
+          "proposed_confidence": 0.8,
+          "evidence_status": null,
+          "missing_evidence_requested": "Đề xuất đối chiếu chứng nhận độc lập bổ sung."
+        },
+        {
+          "round_number": 2,
+          "agent_name": "Agent 1 (Claimant - Phản biện)",
+          "argument": "Sau khi đối chiếu lập luận phản biện của Agent 2 và dữ liệu báo cáo, chốt mức rủi ro khoa học: Medium.",
+          "proposed_risk_level": "Medium",
+          "proposed_confidence": 0.82,
+          "evidence_status": null,
+          "missing_evidence_requested": null
+        },
+        {
+          "round_number": 2,
+          "agent_name": "Agent 2 (Devil Advocate)",
+          "argument": "Sau khi xem xét bổ sung chứng cứ và bối cảnh ngành, đồng thuận điều chỉnh rủi ro về Medium.",
+          "proposed_risk_level": "Medium",
+          "proposed_confidence": 0.7899999999999999,
+          "evidence_status": null,
+          "missing_evidence_requested": null
+        }
+      ],
+      "final_risk_level": "Medium",
+      "final_confidence": 0.82,
+      "consensus_reached": true,
+      "human_review_required": false,
+      "disagreement_note": null,
+      "debate_summary": "Sau 4 lượt phản biện khoa học giữa Agent 1 và Agent 2, hai bên đã đạt đồng thuận. Mức rủi ro chốt: Medium."
+    },
+    {
+      "claim": {
+        "claim_id": "claim_0007f309",
+        "indicator_type": "Misleading Presentation",
+        "claim_text": "Gắn nhãn 'Thịt tươi hữu cơ tự nhiên' trong khi quy trình nuôi áp dụng chuẩn VietGAP, chưa có chứng nhận Organic.",
+        "page_number": 27,
+        "evidence_quote": "Thịt heo Vissan - 100% dinh dưỡng thuần khiết tự nhiên cho mọi nhà.",
+        "evidence_status": "Partial",
+        "initial_risk_level": "Medium",
+        "initial_confidence": 0.85,
+        "reasoning": "Dùng từ ngữ 'thuần khiết tự nhiên' dễ khiến người tiêu dùng nhầm là thịt hữu cơ."
+      },
+      "debate_history": [
+        {
+          "round_number": 1,
+          "agent_name": "Agent 1 (Đánh giá ban đầu)",
+          "argument": "Dùng từ ngữ 'thuần khiết tự nhiên' dễ khiến người tiêu dùng nhầm là thịt hữu cơ.",
+          "proposed_risk_level": "Medium",
+          "proposed_confidence": 0.85,
+          "evidence_status": "Partial",
+          "missing_evidence_requested": null
+        },
+        {
+          "round_number": 1,
+          "agent_name": "Agent 2 (Devil Advocate)",
+          "argument": "Đồng thuận sơ bộ với Agent 1: Tuyên bố có chứng cứ kiểm chứng hoặc mức rủi ro phù hợp (Medium).",
+          "proposed_risk_level": "Medium",
+          "proposed_confidence": 0.8,
+          "evidence_status": null,
+          "missing_evidence_requested": null
+        },
+        {
+          "round_number": 2,
+          "agent_name": "Agent 1 (Claimant - Phản biện)",
+          "argument": "Sau khi đối chiếu lập luận phản biện của Agent 2 và dữ liệu báo cáo, chốt mức rủi ro khoa học: Medium.",
+          "proposed_risk_level": "Medium",
+          "proposed_confidence": 0.85,
+          "evidence_status": null,
+          "missing_evidence_requested": null
+        },
+        {
+          "round_number": 2,
+          "agent_name": "Agent 2 (Devil Advocate)",
+          "argument": "Sau khi xem xét bổ sung chứng cứ và bối cảnh ngành, đồng thuận điều chỉnh rủi ro về Medium.",
+          "proposed_risk_level": "Medium",
+          "proposed_confidence": 0.82,
+          "evidence_status": null,
+          "missing_evidence_requested": null
+        }
+      ],
+      "final_risk_level": "Medium",
+      "final_confidence": 0.85,
+      "consensus_reached": true,
+      "human_review_required": false,
+      "disagreement_note": null,
+      "debate_summary": "Sau 4 lượt phản biện khoa học giữa Agent 1 và Agent 2, hai bên đã đạt đồng thuận. Mức rủi ro chốt: Medium."
+    },
+    {
+      "claim": {
+        "claim_id": "claim_006b13e2",
+        "indicator_type": "Selective Disclosure",
+        "claim_text": "Hệ thống xử lý nước thải giết mổ công nghiệp đạt tiêu chuẩn môi trường Cột A theo QCVN 40:2011/BTNMT.",
+        "page_number": 31,
+        "evidence_quote": "Toàn bộ nước thải sản xuất được xử lý đạt chuẩn trước khi xả vào hệ thống KCN.",
+        "evidence_status": "Sufficient",
+        "initial_risk_level": "None",
+        "initial_confidence": 0.95,
+        "reasoning": "Có giấy xác nhận kết nối và xử lý nước thải KCN."
+      },
+      "debate_history": [
+        {
+          "round_number": 1,
+          "agent_name": "Agent 1 (Đánh giá ban đầu)",
+          "argument": "Có giấy xác nhận kết nối và xử lý nước thải KCN.",
+          "proposed_risk_level": "None",
+          "proposed_confidence": 0.95,
+          "evidence_status": "Sufficient",
+          "missing_evidence_requested": null
+        },
+        {
+          "round_number": 1,
+          "agent_name": "Agent 2 (Devil Advocate)",
+          "argument": "Đồng thuận sơ bộ với Agent 1: Tuyên bố có chứng cứ kiểm chứng hoặc mức rủi ro phù hợp (None).",
+          "proposed_risk_level": "None",
+          "proposed_confidence": 0.8,
+          "evidence_status": null,
+          "missing_evidence_requested": null
+        },
+        {
+          "round_number": 2,
+          "agent_name": "Agent 1 (Claimant - Phản biện)",
+          "argument": "Sau khi đối chiếu lập luận phản biện của Agent 2 và dữ liệu báo cáo, chốt mức rủi ro khoa học: None.",
+          "proposed_risk_level": "None",
+          "proposed_confidence": 0.95,
+          "evidence_status": null,
+          "missing_evidence_requested": null
+        },
+        {
+          "round_number": 2,
+          "agent_name": "Agent 2 (Devil Advocate)",
+          "argument": "Sau khi xem xét bổ sung chứng cứ và bối cảnh ngành, đồng thuận điều chỉnh rủi ro về None.",
+          "proposed_risk_level": "None",
+          "proposed_confidence": 0.9199999999999999,
+          "evidence_status": null,
+          "missing_evidence_requested": null
+        }
+      ],
+      "final_risk_level": "None",
+      "final_confidence": 0.95,
+      "consensus_reached": true,
+      "human_review_required": false,
+      "disagreement_note": null,
+      "debate_summary": "Sau 4 lượt phản biện khoa học giữa Agent 1 và Agent 2, hai bên đã đạt đồng thuận. Mức rủi ro chốt: None."
+    }
+  ],
+  "scraped_incidents": [
+    {
+      "incident_id": "inc_50aa25c2",
+      "company_name": "Vissan",
+      "title": "Vissan sắp chi hơn 1.500 tỉ đồng di dời nhà máy giết mổ về Tây Ninh",
+      "source": "Báo Tuổi Trẻ",
+      "url": "https://tuoitre.vn/vissan-sap-chi-hon-1-500-ti-dong-di-doi-nha-may-ve-tay-ninh-20240921133504381.htm",
+      "article_url": null,
+      "published_date": "09/2024",
+      "snippet": "Vissan phê duyệt dự án đầu tư 1.558 tỷ đồng di dời cơ sở giết mổ tại 420 Nơ Trang Long (Bình Thạnh) về xã Thạnh Lợi, Tây Ninh trên 22,4 ha, dự kiến khởi công 11/2026.",
+      "relevance_score": 0.95
+    }
+  ],
+  "incident_matches": [
+    {
+      "claim_id": "claim_005ed7df",
+      "claim_text": "Báo cáo xử lý nước thải đạt chuẩn nhưng chưa công bố chỉ số phát thải mùi hôi từ khu vực lưu trữ phân và chất thải rắn.",
+      "matched_incident": {
+        "incident_id": "inc_50aa25c2",
+        "company_name": "Vissan",
+        "title": "Vissan sắp chi hơn 1.500 tỉ đồng di dời nhà máy giết mổ về Tây Ninh",
+        "source": "Báo Tuổi Trẻ",
+        "url": "https://tuoitre.vn/vissan-sap-chi-hon-1-500-ti-dong-di-doi-nha-may-ve-tay-ninh-20240921133504381.htm",
+        "article_url": null,
+        "published_date": "09/2024",
+        "snippet": "Vissan phê duyệt dự án đầu tư 1.558 tỷ đồng di dời cơ sở giết mổ tại 420 Nơ Trang Long (Bình Thạnh) về xã Thạnh Lợi, Tây Ninh trên 22,4 ha, dự kiến khởi công 11/2026.",
+        "relevance_score": 0.95
+      },
+      "ai_risk_numeric": 1,
+      "ground_truth_numeric": 1,
+      "ground_truth_label": "MODERATE_RISK",
+      "evidence_compatibility": "PARTIALLY_COMPATIBLE",
+      "match_status": "CONFIRMED_RISK",
+      "reasoning_chain": "Bước 1: Phân tích tuyên bố 'Selective Disclosure'. -> Bước 2: Xem xét dữ liệu báo chí thực tế. -> Bước 3: Đánh giá tương thích 'PARTIALLY_COMPATIBLE'. -> Bước 4: Chốt nhãn 'CONFIRMED_RISK'.",
+      "matching_reasoning": "Đối chiếu AI Risk (Medium) với Bằng chứng Thực tế (PARTIALLY_COMPATIBLE)."
+    },
+    {
+      "claim_id": "claim_008cd018",
+      "claim_text": "100% nguồn thịt heo được truy xuất nguồn gốc qua vòng đeo điện tử đạt chuẩn Đề án TE-FOOD.",
+      "matched_incident": null,
+      "ai_risk_numeric": 0,
+      "ground_truth_numeric": 0,
+      "ground_truth_label": "LOW_RISK",
+      "evidence_compatibility": "NO_EVIDENCE",
+      "match_status": "NO_RISK_CONFIRMED",
+      "reasoning_chain": "Bước 1: Phân tích tuyên bố 'Potential Data Mispresentation'. -> Bước 2: Xem xét dữ liệu báo chí thực tế. -> Bước 3: Đánh giá tương thích 'NO_EVIDENCE'. -> Bước 4: Chốt nhãn 'NO_RISK_CONFIRMED'.",
+      "matching_reasoning": "Đối chiếu AI Risk (None) với Bằng chứng Thực tế (NO_EVIDENCE)."
+    },
+    {
+      "claim_id": "claim_006a8129",
+      "claim_text": "Cam kết chuyển đổi 100% phương tiện vận tải phân phối sang xe tải điện lạnh vào năm 2030 chưa có đối tác cung ứng.",
+      "matched_incident": null,
+      "ai_risk_numeric": 1,
+      "ground_truth_numeric": 0,
+      "ground_truth_label": "LOW_RISK",
+      "evidence_compatibility": "NO_EVIDENCE",
+      "match_status": "UNVERIFIED_RISK",
+      "reasoning_chain": "Bước 1: Phân tích tuyên bố 'Hollow Promise'. -> Bước 2: Xem xét dữ liệu báo chí thực tế. -> Bước 3: Đánh giá tương thích 'NO_EVIDENCE'. -> Bước 4: Chốt nhãn 'UNVERIFIED_RISK'.",
+      "matching_reasoning": "Đối chiếu AI Risk (Medium) với Bằng chứng Thực tế (NO_EVIDENCE)."
+    },
+    {
+      "claim_id": "claim_0007f309",
+      "claim_text": "Gắn nhãn 'Thịt tươi hữu cơ tự nhiên' trong khi quy trình nuôi áp dụng chuẩn VietGAP, chưa có chứng nhận Organic.",
+      "matched_incident": {
+        "incident_id": "inc_50aa25c2",
+        "company_name": "Vissan",
+        "title": "Vissan sắp chi hơn 1.500 tỉ đồng di dời nhà máy giết mổ về Tây Ninh",
+        "source": "Báo Tuổi Trẻ",
+        "url": "https://tuoitre.vn/vissan-sap-chi-hon-1-500-ti-dong-di-doi-nha-may-ve-tay-ninh-20240921133504381.htm",
+        "article_url": null,
+        "published_date": "09/2024",
+        "snippet": "Vissan phê duyệt dự án đầu tư 1.558 tỷ đồng di dời cơ sở giết mổ tại 420 Nơ Trang Long (Bình Thạnh) về xã Thạnh Lợi, Tây Ninh trên 22,4 ha, dự kiến khởi công 11/2026.",
+        "relevance_score": 0.95
+      },
+      "ai_risk_numeric": 1,
+      "ground_truth_numeric": 1,
+      "ground_truth_label": "MODERATE_RISK",
+      "evidence_compatibility": "PARTIALLY_COMPATIBLE",
+      "match_status": "CONFIRMED_RISK",
+      "reasoning_chain": "Bước 1: Phân tích tuyên bố 'Misleading Presentation'. -> Bước 2: Xem xét dữ liệu báo chí thực tế. -> Bước 3: Đánh giá tương thích 'PARTIALLY_COMPATIBLE'. -> Bước 4: Chốt nhãn 'CONFIRMED_RISK'.",
+      "matching_reasoning": "Đối chiếu AI Risk (Medium) với Bằng chứng Thực tế (PARTIALLY_COMPATIBLE)."
+    },
+    {
+      "claim_id": "claim_006b13e2",
+      "claim_text": "Hệ thống xử lý nước thải giết mổ công nghiệp đạt tiêu chuẩn môi trường Cột A theo QCVN 40:2011/BTNMT.",
+      "matched_incident": null,
+      "ai_risk_numeric": 0,
+      "ground_truth_numeric": 0,
+      "ground_truth_label": "LOW_RISK",
+      "evidence_compatibility": "NO_EVIDENCE",
+      "match_status": "NO_RISK_CONFIRMED",
+      "reasoning_chain": "Bước 1: Phân tích tuyên bố 'Selective Disclosure'. -> Bước 2: Xem xét dữ liệu báo chí thực tế. -> Bước 3: Đánh giá tương thích 'NO_EVIDENCE'. -> Bước 4: Chốt nhãn 'NO_RISK_CONFIRMED'.",
+      "matching_reasoning": "Đối chiếu AI Risk (None) với Bằng chứng Thực tế (NO_EVIDENCE)."
+    }
+  ],
+  "metrics": {
+    "true_positives": 2,
+    "false_positives": 1,
+    "true_negatives": 2,
+    "false_negatives": 0,
+    "precision": 0.6667,
+    "recall": 1.0,
+    "f1_score": 0.8,
+    "accuracy": 0.8,
+    "cohens_kappa_round1": 0.6667,
+    "cohens_kappa_final": 1.0,
+    "kappa_growth": 0.3333,
+    "indicator_cohens_kappa": {
+      "Selective Disclosure": {
+        "kappa_round1": 1.0,
+        "kappa_final": 1.0,
+        "kappa_growth": 0.0,
+        "claim_count": 2
+      },
+      "Hollow Promise": {
+        "kappa_round1": 0.0,
+        "kappa_final": 1.0,
+        "kappa_growth": 1.0,
+        "claim_count": 1
+      },
+      "Potential Data Mispresentation": {
+        "kappa_round1": 1.0,
+        "kappa_final": 1.0,
+        "kappa_growth": 0.0,
+        "claim_count": 1
+      },
+      "Misleading Presentation": {
+        "kappa_round1": 1.0,
+        "kappa_final": 1.0,
+        "kappa_growth": 0.0,
+        "claim_count": 1
+      }
+    }
+  }
+}

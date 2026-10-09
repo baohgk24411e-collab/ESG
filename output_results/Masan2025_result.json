@@ -1,0 +1,496 @@
+{
+  "company_name": "Masan",
+  "source_file": "Masan2025.pdf",
+  "total_chunks_processed": 510,
+  "relevant_chunks_count": 6,
+  "claims_detected": [
+    {
+      "claim": {
+        "claim_id": "claim_006d8ab0",
+        "indicator_type": "Selective Disclosure",
+        "claim_text": "Báo cáo nhấn mạnh các thành tựu nông nghiệp công nghệ cao nhưng chưa công bố số liệu phát thải Scope 1-3 từ chuỗi chăn nuôi lợn thịt quy mô lớn.",
+        "page_number": 15,
+        "evidence_quote": "Masan MEATDeli tiên phong công nghệ thịt sạch chuẩn châu Âu.",
+        "evidence_status": "Partial",
+        "initial_risk_level": "High",
+        "initial_confidence": 0.88,
+        "reasoning": "Thiếu dữ liệu phát thải và quản lý phân bón ngành chăn nuôi quy mô lớn."
+      },
+      "debate_history": [
+        {
+          "round_number": 1,
+          "agent_name": "Agent 1 (Đánh giá ban đầu)",
+          "argument": "Thiếu dữ liệu phát thải và quản lý phân bón ngành chăn nuôi quy mô lớn.",
+          "proposed_risk_level": "High",
+          "proposed_confidence": 0.88,
+          "evidence_status": "Partial",
+          "missing_evidence_requested": null
+        },
+        {
+          "round_number": 1,
+          "agent_name": "Agent 2 (Devil Advocate)",
+          "argument": "Đồng thuận sơ bộ với Agent 1: Tuyên bố có chứng cứ kiểm chứng hoặc mức rủi ro phù hợp (High).",
+          "proposed_risk_level": "High",
+          "proposed_confidence": 0.8,
+          "evidence_status": null,
+          "missing_evidence_requested": null
+        },
+        {
+          "round_number": 2,
+          "agent_name": "Agent 1 (Claimant - Phản biện)",
+          "argument": "Sau khi đối chiếu lập luận phản biện của Agent 2 và dữ liệu báo cáo, chốt mức rủi ro khoa học: High.",
+          "proposed_risk_level": "High",
+          "proposed_confidence": 0.88,
+          "evidence_status": null,
+          "missing_evidence_requested": null
+        },
+        {
+          "round_number": 2,
+          "agent_name": "Agent 2 (Devil Advocate)",
+          "argument": "Sau khi xem xét bổ sung chứng cứ và bối cảnh ngành, đồng thuận điều chỉnh rủi ro về High.",
+          "proposed_risk_level": "High",
+          "proposed_confidence": 0.85,
+          "evidence_status": null,
+          "missing_evidence_requested": null
+        }
+      ],
+      "final_risk_level": "High",
+      "final_confidence": 0.88,
+      "consensus_reached": true,
+      "human_review_required": false,
+      "disagreement_note": null,
+      "debate_summary": "Sau 4 lượt phản biện khoa học giữa Agent 1 và Agent 2, hai bên đã đạt đồng thuận. Mức rủi ro chốt: High."
+    },
+    {
+      "claim": {
+        "claim_id": "claim_0058a1d4",
+        "indicator_type": "Potential Data Mispresentation",
+        "claim_text": "Số liệu giảm tiêu thụ nhựa tại chuỗi WinCommerce được báo cáo giảm 30% nhưng không có định lượng theo tấn nhựa cụ thể.",
+        "page_number": 19,
+        "evidence_quote": "Giảm 30% lượng túi nilon và nhựa dùng một lần trên toàn hệ thống bán lẻ WinCommerce.",
+        "evidence_status": "Partial",
+        "initial_risk_level": "Medium",
+        "initial_confidence": 0.82,
+        "reasoning": "Nguy cơ trình bày sai lệch dữ liệu: Thiếu cơ sở kiểm chứng định lượng số tấn nhựa."
+      },
+      "debate_history": [
+        {
+          "round_number": 1,
+          "agent_name": "Agent 1 (Đánh giá ban đầu)",
+          "argument": "Nguy cơ trình bày sai lệch dữ liệu: Thiếu cơ sở kiểm chứng định lượng số tấn nhựa.",
+          "proposed_risk_level": "Medium",
+          "proposed_confidence": 0.82,
+          "evidence_status": "Partial",
+          "missing_evidence_requested": null
+        },
+        {
+          "round_number": 1,
+          "agent_name": "Agent 2 (Devil Advocate)",
+          "argument": "Phản biện lại tuyên bố 'Potential Data Mispresentation': Xem xét tính trọng yếu ngành và nỗ lực minh bạch của doanh nghiệp.",
+          "proposed_risk_level": "Low",
+          "proposed_confidence": 0.8,
+          "evidence_status": null,
+          "missing_evidence_requested": "Đề xuất đối chiếu chứng nhận độc lập bổ sung."
+        },
+        {
+          "round_number": 2,
+          "agent_name": "Agent 1 (Claimant - Phản biện)",
+          "argument": "Sau khi đối chiếu lập luận phản biện của Agent 2 và dữ liệu báo cáo, chốt mức rủi ro khoa học: Medium.",
+          "proposed_risk_level": "Medium",
+          "proposed_confidence": 0.82,
+          "evidence_status": null,
+          "missing_evidence_requested": null
+        },
+        {
+          "round_number": 2,
+          "agent_name": "Agent 2 (Devil Advocate)",
+          "argument": "Vẫn bảo lưu quan điểm rủi ro Low do báo cáo chưa có xác nhận từ bên thứ ba độc lập.",
+          "proposed_risk_level": "Low",
+          "proposed_confidence": 0.7899999999999999,
+          "evidence_status": null,
+          "missing_evidence_requested": null
+        }
+      ],
+      "final_risk_level": "Medium",
+      "final_confidence": 0.82,
+      "consensus_reached": false,
+      "human_review_required": true,
+      "disagreement_note": "Agent 1 giữ mức Medium, Agent 2 đề xuất Low do thiếu dữ liệu kiểm toán độc lập đối chiếu.",
+      "debate_summary": "Sau các vòng tranh luận, hai bên duy trì quan điểm khác biệt nhẹ (Medium vs Low). Đề xuất Human Review."
+    },
+    {
+      "claim": {
+        "claim_id": "claim_00384505",
+        "indicator_type": "Hollow Promise",
+        "claim_text": "Cam kết 100% bao bì sản phẩm tiêu dùng có thể tái chế vào năm 2035 chưa có thỏa thuận EPR hợp tác với các đơn vị tái chế.",
+        "page_number": 23,
+        "evidence_quote": "Chuyển đổi 100% bao bì sang vật liệu tái chế vào năm 2035.",
+        "evidence_status": "Insufficient",
+        "initial_risk_level": "Medium",
+        "initial_confidence": 0.85,
+        "reasoning": "Cam kết lớn nhưng chưa có danh mục đơn vị tái chế hợp tác cụ thể."
+      },
+      "debate_history": [
+        {
+          "round_number": 1,
+          "agent_name": "Agent 1 (Đánh giá ban đầu)",
+          "argument": "Cam kết lớn nhưng chưa có danh mục đơn vị tái chế hợp tác cụ thể.",
+          "proposed_risk_level": "Medium",
+          "proposed_confidence": 0.85,
+          "evidence_status": "Insufficient",
+          "missing_evidence_requested": null
+        },
+        {
+          "round_number": 1,
+          "agent_name": "Agent 2 (Devil Advocate)",
+          "argument": "Phản biện lại tuyên bố 'Hollow Promise': Xem xét tính trọng yếu ngành và nỗ lực minh bạch của doanh nghiệp.",
+          "proposed_risk_level": "Low",
+          "proposed_confidence": 0.8,
+          "evidence_status": null,
+          "missing_evidence_requested": "Đề xuất đối chiếu chứng nhận độc lập bổ sung."
+        },
+        {
+          "round_number": 2,
+          "agent_name": "Agent 1 (Claimant - Phản biện)",
+          "argument": "Sau khi đối chiếu lập luận phản biện của Agent 2 và dữ liệu báo cáo, chốt mức rủi ro khoa học: Medium.",
+          "proposed_risk_level": "Medium",
+          "proposed_confidence": 0.85,
+          "evidence_status": null,
+          "missing_evidence_requested": null
+        },
+        {
+          "round_number": 2,
+          "agent_name": "Agent 2 (Devil Advocate)",
+          "argument": "Sau khi xem xét bổ sung chứng cứ và bối cảnh ngành, đồng thuận điều chỉnh rủi ro về Medium.",
+          "proposed_risk_level": "Medium",
+          "proposed_confidence": 0.82,
+          "evidence_status": null,
+          "missing_evidence_requested": null
+        }
+      ],
+      "final_risk_level": "Medium",
+      "final_confidence": 0.85,
+      "consensus_reached": true,
+      "human_review_required": false,
+      "disagreement_note": null,
+      "debate_summary": "Sau 4 lượt phản biện khoa học giữa Agent 1 và Agent 2, hai bên đã đạt đồng thuận. Mức rủi ro chốt: Medium."
+    },
+    {
+      "claim": {
+        "claim_id": "claim_000d84a2",
+        "indicator_type": "Misleading Presentation",
+        "claim_text": "Sử dụng nhãn 'Nông nghiệp xanh tuần hoàn không phát thải' tại trang trại chăn nuôi công nghệ cao.",
+        "page_number": 27,
+        "evidence_quote": "Mô hình trang trại khép kín 3F sạch và thân thiện môi trường hoàn hảo.",
+        "evidence_status": "Sufficient",
+        "initial_risk_level": "Low",
+        "initial_confidence": 0.85,
+        "reasoning": "Bỏ sót rủi ro phát thải khí nhà kính nông trại do báo cáo dùng thuật ngữ tuần hoàn."
+      },
+      "debate_history": [
+        {
+          "round_number": 1,
+          "agent_name": "Agent 1 (Đánh giá ban đầu)",
+          "argument": "Bỏ sót rủi ro phát thải khí nhà kính nông trại do báo cáo dùng thuật ngữ tuần hoàn.",
+          "proposed_risk_level": "Low",
+          "proposed_confidence": 0.85,
+          "evidence_status": "Sufficient",
+          "missing_evidence_requested": null
+        },
+        {
+          "round_number": 1,
+          "agent_name": "Agent 2 (Devil Advocate)",
+          "argument": "Đồng thuận sơ bộ với Agent 1: Tuyên bố có chứng cứ kiểm chứng hoặc mức rủi ro phù hợp (Low).",
+          "proposed_risk_level": "Low",
+          "proposed_confidence": 0.8,
+          "evidence_status": null,
+          "missing_evidence_requested": null
+        },
+        {
+          "round_number": 2,
+          "agent_name": "Agent 1 (Claimant - Phản biện)",
+          "argument": "Sau khi đối chiếu lập luận phản biện của Agent 2 và dữ liệu báo cáo, chốt mức rủi ro khoa học: Low.",
+          "proposed_risk_level": "Low",
+          "proposed_confidence": 0.85,
+          "evidence_status": null,
+          "missing_evidence_requested": null
+        },
+        {
+          "round_number": 2,
+          "agent_name": "Agent 2 (Devil Advocate)",
+          "argument": "Sau khi xem xét bổ sung chứng cứ và bối cảnh ngành, đồng thuận điều chỉnh rủi ro về Low.",
+          "proposed_risk_level": "Low",
+          "proposed_confidence": 0.82,
+          "evidence_status": null,
+          "missing_evidence_requested": null
+        }
+      ],
+      "final_risk_level": "Low",
+      "final_confidence": 0.85,
+      "consensus_reached": true,
+      "human_review_required": false,
+      "disagreement_note": null,
+      "debate_summary": "Sau 4 lượt phản biện khoa học giữa Agent 1 và Agent 2, hai bên đã đạt đồng thuận. Mức rủi ro chốt: Low."
+    },
+    {
+      "claim": {
+        "claim_id": "claim_0052650d",
+        "indicator_type": "Potential Data Mispresentation",
+        "claim_text": "Số liệu tỷ lệ nước thải tuần hoàn 100% tại tổ hợp Vonfram Núi Pháo có hệ thống trạm quan trắc tự động kết nối trực tiếp Sở TN&MT.",
+        "page_number": 31,
+        "evidence_quote": "100% nước thải khai khoáng được xử lý tuần hoàn và giám sát qua hệ thống quan trắc tự động liên tục.",
+        "evidence_status": "Sufficient",
+        "initial_risk_level": "None",
+        "initial_confidence": 0.95,
+        "reasoning": "Trạm quan trắc tự động truyền dữ liệu 24/7 về cơ quan quản lý nhà nước."
+      },
+      "debate_history": [
+        {
+          "round_number": 1,
+          "agent_name": "Agent 1 (Đánh giá ban đầu)",
+          "argument": "Trạm quan trắc tự động truyền dữ liệu 24/7 về cơ quan quản lý nhà nước.",
+          "proposed_risk_level": "None",
+          "proposed_confidence": 0.95,
+          "evidence_status": "Sufficient",
+          "missing_evidence_requested": null
+        },
+        {
+          "round_number": 1,
+          "agent_name": "Agent 2 (Devil Advocate)",
+          "argument": "Đồng thuận sơ bộ với Agent 1: Tuyên bố có chứng cứ kiểm chứng hoặc mức rủi ro phù hợp (None).",
+          "proposed_risk_level": "None",
+          "proposed_confidence": 0.8,
+          "evidence_status": null,
+          "missing_evidence_requested": null
+        },
+        {
+          "round_number": 2,
+          "agent_name": "Agent 1 (Claimant - Phản biện)",
+          "argument": "Sau khi đối chiếu lập luận phản biện của Agent 2 và dữ liệu báo cáo, chốt mức rủi ro khoa học: None.",
+          "proposed_risk_level": "None",
+          "proposed_confidence": 0.95,
+          "evidence_status": null,
+          "missing_evidence_requested": null
+        },
+        {
+          "round_number": 2,
+          "agent_name": "Agent 2 (Devil Advocate)",
+          "argument": "Sau khi xem xét bổ sung chứng cứ và bối cảnh ngành, đồng thuận điều chỉnh rủi ro về None.",
+          "proposed_risk_level": "None",
+          "proposed_confidence": 0.9199999999999999,
+          "evidence_status": null,
+          "missing_evidence_requested": null
+        }
+      ],
+      "final_risk_level": "None",
+      "final_confidence": 0.95,
+      "consensus_reached": true,
+      "human_review_required": false,
+      "disagreement_note": null,
+      "debate_summary": "Sau 4 lượt phản biện khoa học giữa Agent 1 và Agent 2, hai bên đã đạt đồng thuận. Mức rủi ro chốt: None."
+    },
+    {
+      "claim": {
+        "claim_id": "claim_0007ad82",
+        "indicator_type": "Selective Disclosure",
+        "claim_text": "Tuân thủ đánh giá tác động môi trường ĐTM tại 100% các nhà máy sản xuất mì ăn liền và gia vị.",
+        "page_number": 35,
+        "evidence_quote": "Các nhà máy chế biến thực phẩm đều có giấy phép môi trường và phê duyệt ĐTM đầy đủ.",
+        "evidence_status": "Sufficient",
+        "initial_risk_level": "Low",
+        "initial_confidence": 0.9,
+        "reasoning": "Có trích dẫn số quyết định phê duyệt ĐTM của cơ quan quản lý."
+      },
+      "debate_history": [
+        {
+          "round_number": 1,
+          "agent_name": "Agent 1 (Đánh giá ban đầu)",
+          "argument": "Có trích dẫn số quyết định phê duyệt ĐTM của cơ quan quản lý.",
+          "proposed_risk_level": "Low",
+          "proposed_confidence": 0.9,
+          "evidence_status": "Sufficient",
+          "missing_evidence_requested": null
+        },
+        {
+          "round_number": 1,
+          "agent_name": "Agent 2 (Devil Advocate)",
+          "argument": "Đồng thuận sơ bộ với Agent 1: Tuyên bố có chứng cứ kiểm chứng hoặc mức rủi ro phù hợp (Low).",
+          "proposed_risk_level": "Low",
+          "proposed_confidence": 0.8,
+          "evidence_status": null,
+          "missing_evidence_requested": null
+        },
+        {
+          "round_number": 2,
+          "agent_name": "Agent 1 (Claimant - Phản biện)",
+          "argument": "Sau khi đối chiếu lập luận phản biện của Agent 2 và dữ liệu báo cáo, chốt mức rủi ro khoa học: Low.",
+          "proposed_risk_level": "Low",
+          "proposed_confidence": 0.9,
+          "evidence_status": null,
+          "missing_evidence_requested": null
+        },
+        {
+          "round_number": 2,
+          "agent_name": "Agent 2 (Devil Advocate)",
+          "argument": "Sau khi xem xét bổ sung chứng cứ và bối cảnh ngành, đồng thuận điều chỉnh rủi ro về Low.",
+          "proposed_risk_level": "Low",
+          "proposed_confidence": 0.87,
+          "evidence_status": null,
+          "missing_evidence_requested": null
+        }
+      ],
+      "final_risk_level": "Low",
+      "final_confidence": 0.9,
+      "consensus_reached": true,
+      "human_review_required": false,
+      "disagreement_note": null,
+      "debate_summary": "Sau 4 lượt phản biện khoa học giữa Agent 1 và Agent 2, hai bên đã đạt đồng thuận. Mức rủi ro chốt: Low."
+    }
+  ],
+  "scraped_incidents": [
+    {
+      "incident_id": "inc_336c477f",
+      "company_name": "Masan",
+      "title": "Thu hồi hơn 582.000 m2 đất ngoài quy hoạch của Công ty Núi Pháo (Masan) sau kết luận thanh tra Bộ TN&MT",
+      "source": "Báo Tuổi Trẻ",
+      "url": "https://tuoitre.vn/thu-hoi-hon-582-000m2-dat-ngoai-quy-hoach-cua-cong-ty-nui-phao-20220302144702161.htm",
+      "article_url": null,
+      "published_date": "03/2022",
+      "snippet": "UBND tỉnh Thái Nguyên thu hồi 582.321 m² đất ngoài ranh giới quy hoạch của dự án Núi Pháo theo Kết luận thanh tra số 2065/KL-BTNMT ngày 27/4/2017 của Bộ Tài nguyên và Môi trường.",
+      "relevance_score": 0.95
+    }
+  ],
+  "incident_matches": [
+    {
+      "claim_id": "claim_006d8ab0",
+      "claim_text": "Báo cáo nhấn mạnh các thành tựu nông nghiệp công nghệ cao nhưng chưa công bố số liệu phát thải Scope 1-3 từ chuỗi chăn nuôi lợn thịt quy mô lớn.",
+      "matched_incident": {
+        "incident_id": "inc_336c477f",
+        "company_name": "Masan",
+        "title": "Thu hồi hơn 582.000 m2 đất ngoài quy hoạch của Công ty Núi Pháo (Masan) sau kết luận thanh tra Bộ TN&MT",
+        "source": "Báo Tuổi Trẻ",
+        "url": "https://tuoitre.vn/thu-hoi-hon-582-000m2-dat-ngoai-quy-hoach-cua-cong-ty-nui-phao-20220302144702161.htm",
+        "article_url": null,
+        "published_date": "03/2022",
+        "snippet": "UBND tỉnh Thái Nguyên thu hồi 582.321 m² đất ngoài ranh giới quy hoạch của dự án Núi Pháo theo Kết luận thanh tra số 2065/KL-BTNMT ngày 27/4/2017 của Bộ Tài nguyên và Môi trường.",
+        "relevance_score": 0.95
+      },
+      "ai_risk_numeric": 2,
+      "ground_truth_numeric": 2,
+      "ground_truth_label": "HIGH_RISK",
+      "evidence_compatibility": "HIGHLY_COMPATIBLE",
+      "match_status": "CONFIRMED_RISK",
+      "reasoning_chain": "Bước 1: Phân tích tuyên bố 'Selective Disclosure'. -> Bước 2: Xem xét dữ liệu báo chí thực tế. -> Bước 3: Đánh giá tương thích 'HIGHLY_COMPATIBLE'. -> Bước 4: Chốt nhãn 'CONFIRMED_RISK'.",
+      "matching_reasoning": "Đối chiếu AI Risk (High) với Bằng chứng Thực tế (HIGHLY_COMPATIBLE)."
+    },
+    {
+      "claim_id": "claim_0058a1d4",
+      "claim_text": "Số liệu giảm tiêu thụ nhựa tại chuỗi WinCommerce được báo cáo giảm 30% nhưng không có định lượng theo tấn nhựa cụ thể.",
+      "matched_incident": {
+        "incident_id": "inc_336c477f",
+        "company_name": "Masan",
+        "title": "Thu hồi hơn 582.000 m2 đất ngoài quy hoạch của Công ty Núi Pháo (Masan) sau kết luận thanh tra Bộ TN&MT",
+        "source": "Báo Tuổi Trẻ",
+        "url": "https://tuoitre.vn/thu-hoi-hon-582-000m2-dat-ngoai-quy-hoach-cua-cong-ty-nui-phao-20220302144702161.htm",
+        "article_url": null,
+        "published_date": "03/2022",
+        "snippet": "UBND tỉnh Thái Nguyên thu hồi 582.321 m² đất ngoài ranh giới quy hoạch của dự án Núi Pháo theo Kết luận thanh tra số 2065/KL-BTNMT ngày 27/4/2017 của Bộ Tài nguyên và Môi trường.",
+        "relevance_score": 0.95
+      },
+      "ai_risk_numeric": 1,
+      "ground_truth_numeric": 1,
+      "ground_truth_label": "MODERATE_RISK",
+      "evidence_compatibility": "PARTIALLY_COMPATIBLE",
+      "match_status": "CONFIRMED_RISK",
+      "reasoning_chain": "Bước 1: Phân tích tuyên bố 'Potential Data Mispresentation'. -> Bước 2: Xem xét dữ liệu báo chí thực tế. -> Bước 3: Đánh giá tương thích 'PARTIALLY_COMPATIBLE'. -> Bước 4: Chốt nhãn 'CONFIRMED_RISK'.",
+      "matching_reasoning": "Đối chiếu AI Risk (Medium) với Bằng chứng Thực tế (PARTIALLY_COMPATIBLE)."
+    },
+    {
+      "claim_id": "claim_00384505",
+      "claim_text": "Cam kết 100% bao bì sản phẩm tiêu dùng có thể tái chế vào năm 2035 chưa có thỏa thuận EPR hợp tác với các đơn vị tái chế.",
+      "matched_incident": null,
+      "ai_risk_numeric": 1,
+      "ground_truth_numeric": 0,
+      "ground_truth_label": "LOW_RISK",
+      "evidence_compatibility": "NO_EVIDENCE",
+      "match_status": "UNVERIFIED_RISK",
+      "reasoning_chain": "Bước 1: Phân tích tuyên bố 'Hollow Promise'. -> Bước 2: Xem xét dữ liệu báo chí thực tế. -> Bước 3: Đánh giá tương thích 'NO_EVIDENCE'. -> Bước 4: Chốt nhãn 'UNVERIFIED_RISK'.",
+      "matching_reasoning": "Đối chiếu AI Risk (Medium) với Bằng chứng Thực tế (NO_EVIDENCE)."
+    },
+    {
+      "claim_id": "claim_000d84a2",
+      "claim_text": "Sử dụng nhãn 'Nông nghiệp xanh tuần hoàn không phát thải' tại trang trại chăn nuôi công nghệ cao.",
+      "matched_incident": null,
+      "ai_risk_numeric": 0,
+      "ground_truth_numeric": 1,
+      "ground_truth_label": "MODERATE_RISK",
+      "evidence_compatibility": "PARTIALLY_COMPATIBLE",
+      "match_status": "MISSED_RISK",
+      "reasoning_chain": "Bước 1: Phân tích tuyên bố 'Misleading Presentation'. -> Bước 2: Xem xét dữ liệu báo chí thực tế. -> Bước 3: Đánh giá tương thích 'PARTIALLY_COMPATIBLE'. -> Bước 4: Chốt nhãn 'MISSED_RISK'.",
+      "matching_reasoning": "Đối chiếu AI Risk (Low) với Bằng chứng Thực tế (PARTIALLY_COMPATIBLE)."
+    },
+    {
+      "claim_id": "claim_0052650d",
+      "claim_text": "Số liệu tỷ lệ nước thải tuần hoàn 100% tại tổ hợp Vonfram Núi Pháo có hệ thống trạm quan trắc tự động kết nối trực tiếp Sở TN&MT.",
+      "matched_incident": null,
+      "ai_risk_numeric": 0,
+      "ground_truth_numeric": 0,
+      "ground_truth_label": "LOW_RISK",
+      "evidence_compatibility": "NO_EVIDENCE",
+      "match_status": "NO_RISK_CONFIRMED",
+      "reasoning_chain": "Bước 1: Phân tích tuyên bố 'Potential Data Mispresentation'. -> Bước 2: Xem xét dữ liệu báo chí thực tế. -> Bước 3: Đánh giá tương thích 'NO_EVIDENCE'. -> Bước 4: Chốt nhãn 'NO_RISK_CONFIRMED'.",
+      "matching_reasoning": "Đối chiếu AI Risk (None) với Bằng chứng Thực tế (NO_EVIDENCE)."
+    },
+    {
+      "claim_id": "claim_0007ad82",
+      "claim_text": "Tuân thủ đánh giá tác động môi trường ĐTM tại 100% các nhà máy sản xuất mì ăn liền và gia vị.",
+      "matched_incident": null,
+      "ai_risk_numeric": 0,
+      "ground_truth_numeric": 0,
+      "ground_truth_label": "LOW_RISK",
+      "evidence_compatibility": "NO_EVIDENCE",
+      "match_status": "NO_RISK_CONFIRMED",
+      "reasoning_chain": "Bước 1: Phân tích tuyên bố 'Selective Disclosure'. -> Bước 2: Xem xét dữ liệu báo chí thực tế. -> Bước 3: Đánh giá tương thích 'NO_EVIDENCE'. -> Bước 4: Chốt nhãn 'NO_RISK_CONFIRMED'.",
+      "matching_reasoning": "Đối chiếu AI Risk (Low) với Bằng chứng Thực tế (NO_EVIDENCE)."
+    }
+  ],
+  "metrics": {
+    "true_positives": 2,
+    "false_positives": 1,
+    "true_negatives": 2,
+    "false_negatives": 1,
+    "precision": 0.6667,
+    "recall": 0.6667,
+    "f1_score": 0.6667,
+    "accuracy": 0.6667,
+    "cohens_kappa_round1": 0.5385,
+    "cohens_kappa_final": 0.7692,
+    "kappa_growth": 0.2307,
+    "indicator_cohens_kappa": {
+      "Selective Disclosure": {
+        "kappa_round1": 1.0,
+        "kappa_final": 1.0,
+        "kappa_growth": 0.0,
+        "claim_count": 2
+      },
+      "Hollow Promise": {
+        "kappa_round1": 0.0,
+        "kappa_final": 1.0,
+        "kappa_growth": 1.0,
+        "claim_count": 1
+      },
+      "Potential Data Mispresentation": {
+        "kappa_round1": 0.3333,
+        "kappa_final": 0.3333,
+        "kappa_growth": 0.0,
+        "claim_count": 2
+      },
+      "Misleading Presentation": {
+        "kappa_round1": 1.0,
+        "kappa_final": 1.0,
+        "kappa_growth": 0.0,
+        "claim_count": 1
+      }
+    }
+  }
+}

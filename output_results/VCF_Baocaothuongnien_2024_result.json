@@ -1,0 +1,427 @@
+{
+  "company_name": "Vinacafé",
+  "source_file": "VCF_Baocaothuongnien_2024.pdf",
+  "total_chunks_processed": 120,
+  "relevant_chunks_count": 5,
+  "claims_detected": [
+    {
+      "claim": {
+        "claim_id": "claim_0063cf01",
+        "indicator_type": "Hollow Promise",
+        "claim_text": "Cam kết 100% vùng trồng cà phê liên kết đạt chứng nhận nông nghiệp bền vững vào năm 2030 nhưng chưa có thỏa thuận hỗ trợ nông dân.",
+        "page_number": 15,
+        "evidence_quote": "Định hướng phát triển 100% vùng nguyên liệu cà phê xanh bền vững vào năm 2030.",
+        "evidence_status": "Insufficient",
+        "initial_risk_level": "Medium",
+        "initial_confidence": 0.82,
+        "reasoning": "Cam kết 2030 thiếu ngân sách và hợp đồng liên kết kỹ thuật cụ thể."
+      },
+      "debate_history": [
+        {
+          "round_number": 1,
+          "agent_name": "Agent 1 (Đánh giá ban đầu)",
+          "argument": "Cam kết 2030 thiếu ngân sách và hợp đồng liên kết kỹ thuật cụ thể.",
+          "proposed_risk_level": "Medium",
+          "proposed_confidence": 0.82,
+          "evidence_status": "Insufficient",
+          "missing_evidence_requested": null
+        },
+        {
+          "round_number": 1,
+          "agent_name": "Agent 2 (Devil Advocate)",
+          "argument": "Đồng thuận sơ bộ với Agent 1: Tuyên bố có chứng cứ kiểm chứng hoặc mức rủi ro phù hợp (Medium).",
+          "proposed_risk_level": "Medium",
+          "proposed_confidence": 0.8,
+          "evidence_status": null,
+          "missing_evidence_requested": null
+        },
+        {
+          "round_number": 2,
+          "agent_name": "Agent 1 (Claimant - Phản biện)",
+          "argument": "Sau khi đối chiếu lập luận phản biện của Agent 2 và dữ liệu báo cáo, chốt mức rủi ro khoa học: Medium.",
+          "proposed_risk_level": "Medium",
+          "proposed_confidence": 0.82,
+          "evidence_status": null,
+          "missing_evidence_requested": null
+        },
+        {
+          "round_number": 2,
+          "agent_name": "Agent 2 (Devil Advocate)",
+          "argument": "Sau khi xem xét bổ sung chứng cứ và bối cảnh ngành, đồng thuận điều chỉnh rủi ro về Medium.",
+          "proposed_risk_level": "Medium",
+          "proposed_confidence": 0.7899999999999999,
+          "evidence_status": null,
+          "missing_evidence_requested": null
+        }
+      ],
+      "final_risk_level": "Medium",
+      "final_confidence": 0.82,
+      "consensus_reached": true,
+      "human_review_required": false,
+      "disagreement_note": null,
+      "debate_summary": "Sau 4 lượt phản biện khoa học giữa Agent 1 và Agent 2, hai bên đã đạt đồng thuận. Mức rủi ro chốt: Medium."
+    },
+    {
+      "claim": {
+        "claim_id": "claim_00472514",
+        "indicator_type": "Selective Disclosure",
+        "claim_text": "Hệ số phát thải khí nhà kính trực tiếp và gián tiếp 5 Ton phát thải/Ton IC chưa có lộ trình giảm phát thải cụ thể.",
+        "page_number": 19,
+        "evidence_quote": "Hệ số phát thải khí nhà kính trực tiếp và gián tiếp (bao gồm hệ số CO2, CH4, N2O): 5 Ton phát thải/Ton IC.",
+        "evidence_status": "Partial",
+        "initial_risk_level": "Medium",
+        "initial_confidence": 0.85,
+        "reasoning": "Công bố hệ số phát thải nhưng thiếu kế hoạch giảm thiểu tác động môi trường."
+      },
+      "debate_history": [
+        {
+          "round_number": 1,
+          "agent_name": "Agent 1 (Đánh giá ban đầu)",
+          "argument": "Công bố hệ số phát thải nhưng thiếu kế hoạch giảm thiểu tác động môi trường.",
+          "proposed_risk_level": "Medium",
+          "proposed_confidence": 0.85,
+          "evidence_status": "Partial",
+          "missing_evidence_requested": null
+        },
+        {
+          "round_number": 1,
+          "agent_name": "Agent 2 (Devil Advocate)",
+          "argument": "Phản biện lại tuyên bố 'Selective Disclosure': Xem xét tính trọng yếu ngành và nỗ lực minh bạch của doanh nghiệp.",
+          "proposed_risk_level": "Low",
+          "proposed_confidence": 0.8,
+          "evidence_status": null,
+          "missing_evidence_requested": "Đề xuất đối chiếu chứng nhận độc lập bổ sung."
+        },
+        {
+          "round_number": 2,
+          "agent_name": "Agent 1 (Claimant - Phản biện)",
+          "argument": "Sau khi đối chiếu lập luận phản biện của Agent 2 và dữ liệu báo cáo, chốt mức rủi ro khoa học: Medium.",
+          "proposed_risk_level": "Medium",
+          "proposed_confidence": 0.85,
+          "evidence_status": null,
+          "missing_evidence_requested": null
+        },
+        {
+          "round_number": 2,
+          "agent_name": "Agent 2 (Devil Advocate)",
+          "argument": "Vẫn bảo lưu quan điểm rủi ro Low do báo cáo chưa có xác nhận từ bên thứ ba độc lập.",
+          "proposed_risk_level": "Low",
+          "proposed_confidence": 0.82,
+          "evidence_status": null,
+          "missing_evidence_requested": null
+        }
+      ],
+      "final_risk_level": "Medium",
+      "final_confidence": 0.85,
+      "consensus_reached": false,
+      "human_review_required": true,
+      "disagreement_note": "Agent 1 giữ mức Medium, Agent 2 đề xuất Low do thiếu dữ liệu kiểm toán độc lập đối chiếu.",
+      "debate_summary": "Sau các vòng tranh luận, hai bên duy trì quan điểm khác biệt nhẹ (Medium vs Low). Đề xuất Human Review."
+    },
+    {
+      "claim": {
+        "claim_id": "claim_008ab20c",
+        "indicator_type": "Potential Data Mispresentation",
+        "claim_text": "Hệ thống xử lý nước thải chế biến cà phê hòa tan đạt quy chuẩn Cột A và thu hồi 100% bã cà phê làm phân bón sinh học.",
+        "page_number": 23,
+        "evidence_quote": "100% nước thải và phụ phẩm bã cà phê được xử lý tái chế đạt tiêu chuẩn môi trường.",
+        "evidence_status": "Sufficient",
+        "initial_risk_level": "None",
+        "initial_confidence": 0.94,
+        "reasoning": "Quy trình tái chế bã cà phê và nước thải có kiểm định quan trắc."
+      },
+      "debate_history": [
+        {
+          "round_number": 1,
+          "agent_name": "Agent 1 (Đánh giá ban đầu)",
+          "argument": "Quy trình tái chế bã cà phê và nước thải có kiểm định quan trắc.",
+          "proposed_risk_level": "None",
+          "proposed_confidence": 0.94,
+          "evidence_status": "Sufficient",
+          "missing_evidence_requested": null
+        },
+        {
+          "round_number": 1,
+          "agent_name": "Agent 2 (Devil Advocate)",
+          "argument": "Đồng thuận sơ bộ với Agent 1: Tuyên bố có chứng cứ kiểm chứng hoặc mức rủi ro phù hợp (None).",
+          "proposed_risk_level": "None",
+          "proposed_confidence": 0.8,
+          "evidence_status": null,
+          "missing_evidence_requested": null
+        },
+        {
+          "round_number": 2,
+          "agent_name": "Agent 1 (Claimant - Phản biện)",
+          "argument": "Sau khi đối chiếu lập luận phản biện của Agent 2 và dữ liệu báo cáo, chốt mức rủi ro khoa học: None.",
+          "proposed_risk_level": "None",
+          "proposed_confidence": 0.94,
+          "evidence_status": null,
+          "missing_evidence_requested": null
+        },
+        {
+          "round_number": 2,
+          "agent_name": "Agent 2 (Devil Advocate)",
+          "argument": "Sau khi xem xét bổ sung chứng cứ và bối cảnh ngành, đồng thuận điều chỉnh rủi ro về None.",
+          "proposed_risk_level": "None",
+          "proposed_confidence": 0.9099999999999999,
+          "evidence_status": null,
+          "missing_evidence_requested": null
+        }
+      ],
+      "final_risk_level": "None",
+      "final_confidence": 0.94,
+      "consensus_reached": true,
+      "human_review_required": false,
+      "disagreement_note": null,
+      "debate_summary": "Sau 4 lượt phản biện khoa học giữa Agent 1 và Agent 2, hai bên đã đạt đồng thuận. Mức rủi ro chốt: None."
+    },
+    {
+      "claim": {
+        "claim_id": "claim_002e82d9",
+        "indicator_type": "Misleading Presentation",
+        "claim_text": "Tuyên bố sản phẩm cà phê năng lượng xanh tuần hoàn tự nhiên khi bao bì gói nhỏ vẫn dùng màng ghép phức hợp khó tái chế.",
+        "page_number": 27,
+        "evidence_quote": "Sản phẩm cà phê hòa tan xanh vì tương lai năng lượng sạch.",
+        "evidence_status": "Sufficient",
+        "initial_risk_level": "Low",
+        "initial_confidence": 0.84,
+        "reasoning": "Bỏ sót rủi ro rác thải bao bì màng nhôm ghép nhựa do câu từ mang tính quảng bá chung."
+      },
+      "debate_history": [
+        {
+          "round_number": 1,
+          "agent_name": "Agent 1 (Đánh giá ban đầu)",
+          "argument": "Bỏ sót rủi ro rác thải bao bì màng nhôm ghép nhựa do câu từ mang tính quảng bá chung.",
+          "proposed_risk_level": "Low",
+          "proposed_confidence": 0.84,
+          "evidence_status": "Sufficient",
+          "missing_evidence_requested": null
+        },
+        {
+          "round_number": 1,
+          "agent_name": "Agent 2 (Devil Advocate)",
+          "argument": "Đồng thuận sơ bộ với Agent 1: Tuyên bố có chứng cứ kiểm chứng hoặc mức rủi ro phù hợp (Low).",
+          "proposed_risk_level": "Low",
+          "proposed_confidence": 0.8,
+          "evidence_status": null,
+          "missing_evidence_requested": null
+        },
+        {
+          "round_number": 2,
+          "agent_name": "Agent 1 (Claimant - Phản biện)",
+          "argument": "Sau khi đối chiếu lập luận phản biện của Agent 2 và dữ liệu báo cáo, chốt mức rủi ro khoa học: Low.",
+          "proposed_risk_level": "Low",
+          "proposed_confidence": 0.84,
+          "evidence_status": null,
+          "missing_evidence_requested": null
+        },
+        {
+          "round_number": 2,
+          "agent_name": "Agent 2 (Devil Advocate)",
+          "argument": "Sau khi xem xét bổ sung chứng cứ và bối cảnh ngành, đồng thuận điều chỉnh rủi ro về Low.",
+          "proposed_risk_level": "Low",
+          "proposed_confidence": 0.8099999999999999,
+          "evidence_status": null,
+          "missing_evidence_requested": null
+        }
+      ],
+      "final_risk_level": "Low",
+      "final_confidence": 0.84,
+      "consensus_reached": true,
+      "human_review_required": false,
+      "disagreement_note": null,
+      "debate_summary": "Sau 4 lượt phản biện khoa học giữa Agent 1 và Agent 2, hai bên đã đạt đồng thuận. Mức rủi ro chốt: Low."
+    },
+    {
+      "claim": {
+        "claim_id": "claim_00699630",
+        "indicator_type": "Selective Disclosure",
+        "claim_text": "Chất thải rắn công nghiệp thông thường và chất thải nguy hại được phân loại, thu gom và chuyển giao theo quy định.",
+        "page_number": 31,
+        "evidence_quote": "100% chất thải nguy hại phát sinh được phân loại và xử lý theo đúng quy định.",
+        "evidence_status": "Sufficient",
+        "initial_risk_level": "None",
+        "initial_confidence": 0.95,
+        "reasoning": "Có chứng từ giao nhận chất thải nguy hại theo quy định."
+      },
+      "debate_history": [
+        {
+          "round_number": 1,
+          "agent_name": "Agent 1 (Đánh giá ban đầu)",
+          "argument": "Có chứng từ giao nhận chất thải nguy hại theo quy định.",
+          "proposed_risk_level": "None",
+          "proposed_confidence": 0.95,
+          "evidence_status": "Sufficient",
+          "missing_evidence_requested": null
+        },
+        {
+          "round_number": 1,
+          "agent_name": "Agent 2 (Devil Advocate)",
+          "argument": "Đồng thuận sơ bộ với Agent 1: Tuyên bố có chứng cứ kiểm chứng hoặc mức rủi ro phù hợp (None).",
+          "proposed_risk_level": "None",
+          "proposed_confidence": 0.8,
+          "evidence_status": null,
+          "missing_evidence_requested": null
+        },
+        {
+          "round_number": 2,
+          "agent_name": "Agent 1 (Claimant - Phản biện)",
+          "argument": "Sau khi đối chiếu lập luận phản biện của Agent 2 và dữ liệu báo cáo, chốt mức rủi ro khoa học: None.",
+          "proposed_risk_level": "None",
+          "proposed_confidence": 0.95,
+          "evidence_status": null,
+          "missing_evidence_requested": null
+        },
+        {
+          "round_number": 2,
+          "agent_name": "Agent 2 (Devil Advocate)",
+          "argument": "Sau khi xem xét bổ sung chứng cứ và bối cảnh ngành, đồng thuận điều chỉnh rủi ro về None.",
+          "proposed_risk_level": "None",
+          "proposed_confidence": 0.9199999999999999,
+          "evidence_status": null,
+          "missing_evidence_requested": null
+        }
+      ],
+      "final_risk_level": "None",
+      "final_confidence": 0.95,
+      "consensus_reached": true,
+      "human_review_required": false,
+      "disagreement_note": null,
+      "debate_summary": "Sau 4 lượt phản biện khoa học giữa Agent 1 và Agent 2, hai bên đã đạt đồng thuận. Mức rủi ro chốt: None."
+    }
+  ],
+  "scraped_incidents": [
+    {
+      "incident_id": "inc_b3927fb4",
+      "company_name": "Vinacafé",
+      "title": "Đồng Nai chuyển đổi công năng KCN Biên Hòa 1 - di dời các cơ sở gây ô nhiễm",
+      "source": "Báo Tuổi Trẻ",
+      "url": "https://tuoitre.vn/dong-nai-chuyen-doi-cong-nang-kcn-bien-hoa-1-20240223143025678.htm",
+      "article_url": null,
+      "published_date": "02/2024",
+      "snippet": "UBND tỉnh Đồng Nai ban hành kế hoạch giải phóng mặt bằng và di dời toàn bộ các nhà máy công nghiệp cũ khỏi KCN Biên Hòa 1 nhằm bảo vệ môi trường nguồn nước lưu vực sông Đồng Nai.",
+      "relevance_score": 0.94
+    }
+  ],
+  "incident_matches": [
+    {
+      "claim_id": "claim_0063cf01",
+      "claim_text": "Cam kết 100% vùng trồng cà phê liên kết đạt chứng nhận nông nghiệp bền vững vào năm 2030 nhưng chưa có thỏa thuận hỗ trợ nông dân.",
+      "matched_incident": {
+        "incident_id": "inc_b3927fb4",
+        "company_name": "Vinacafé",
+        "title": "Đồng Nai chuyển đổi công năng KCN Biên Hòa 1 - di dời các cơ sở gây ô nhiễm",
+        "source": "Báo Tuổi Trẻ",
+        "url": "https://tuoitre.vn/dong-nai-chuyen-doi-cong-nang-kcn-bien-hoa-1-20240223143025678.htm",
+        "article_url": null,
+        "published_date": "02/2024",
+        "snippet": "UBND tỉnh Đồng Nai ban hành kế hoạch giải phóng mặt bằng và di dời toàn bộ các nhà máy công nghiệp cũ khỏi KCN Biên Hòa 1 nhằm bảo vệ môi trường nguồn nước lưu vực sông Đồng Nai.",
+        "relevance_score": 0.94
+      },
+      "ai_risk_numeric": 1,
+      "ground_truth_numeric": 1,
+      "ground_truth_label": "MODERATE_RISK",
+      "evidence_compatibility": "PARTIALLY_COMPATIBLE",
+      "match_status": "CONFIRMED_RISK",
+      "reasoning_chain": "Bước 1: Phân tích tuyên bố 'Hollow Promise'. -> Bước 2: Xem xét dữ liệu báo chí thực tế. -> Bước 3: Đánh giá tương thích 'PARTIALLY_COMPATIBLE'. -> Bước 4: Chốt nhãn 'CONFIRMED_RISK'.",
+      "matching_reasoning": "Đối chiếu AI Risk (Medium) với Bằng chứng Thực tế (PARTIALLY_COMPATIBLE)."
+    },
+    {
+      "claim_id": "claim_00472514",
+      "claim_text": "Hệ số phát thải khí nhà kính trực tiếp và gián tiếp 5 Ton phát thải/Ton IC chưa có lộ trình giảm phát thải cụ thể.",
+      "matched_incident": {
+        "incident_id": "inc_b3927fb4",
+        "company_name": "Vinacafé",
+        "title": "Đồng Nai chuyển đổi công năng KCN Biên Hòa 1 - di dời các cơ sở gây ô nhiễm",
+        "source": "Báo Tuổi Trẻ",
+        "url": "https://tuoitre.vn/dong-nai-chuyen-doi-cong-nang-kcn-bien-hoa-1-20240223143025678.htm",
+        "article_url": null,
+        "published_date": "02/2024",
+        "snippet": "UBND tỉnh Đồng Nai ban hành kế hoạch giải phóng mặt bằng và di dời toàn bộ các nhà máy công nghiệp cũ khỏi KCN Biên Hòa 1 nhằm bảo vệ môi trường nguồn nước lưu vực sông Đồng Nai.",
+        "relevance_score": 0.94
+      },
+      "ai_risk_numeric": 1,
+      "ground_truth_numeric": 1,
+      "ground_truth_label": "MODERATE_RISK",
+      "evidence_compatibility": "PARTIALLY_COMPATIBLE",
+      "match_status": "CONFIRMED_RISK",
+      "reasoning_chain": "Bước 1: Phân tích tuyên bố 'Selective Disclosure'. -> Bước 2: Xem xét dữ liệu báo chí thực tế. -> Bước 3: Đánh giá tương thích 'PARTIALLY_COMPATIBLE'. -> Bước 4: Chốt nhãn 'CONFIRMED_RISK'.",
+      "matching_reasoning": "Đối chiếu AI Risk (Medium) với Bằng chứng Thực tế (PARTIALLY_COMPATIBLE)."
+    },
+    {
+      "claim_id": "claim_008ab20c",
+      "claim_text": "Hệ thống xử lý nước thải chế biến cà phê hòa tan đạt quy chuẩn Cột A và thu hồi 100% bã cà phê làm phân bón sinh học.",
+      "matched_incident": null,
+      "ai_risk_numeric": 0,
+      "ground_truth_numeric": 0,
+      "ground_truth_label": "LOW_RISK",
+      "evidence_compatibility": "NO_EVIDENCE",
+      "match_status": "NO_RISK_CONFIRMED",
+      "reasoning_chain": "Bước 1: Phân tích tuyên bố 'Potential Data Mispresentation'. -> Bước 2: Xem xét dữ liệu báo chí thực tế. -> Bước 3: Đánh giá tương thích 'NO_EVIDENCE'. -> Bước 4: Chốt nhãn 'NO_RISK_CONFIRMED'.",
+      "matching_reasoning": "Đối chiếu AI Risk (None) với Bằng chứng Thực tế (NO_EVIDENCE)."
+    },
+    {
+      "claim_id": "claim_002e82d9",
+      "claim_text": "Tuyên bố sản phẩm cà phê năng lượng xanh tuần hoàn tự nhiên khi bao bì gói nhỏ vẫn dùng màng ghép phức hợp khó tái chế.",
+      "matched_incident": null,
+      "ai_risk_numeric": 0,
+      "ground_truth_numeric": 1,
+      "ground_truth_label": "MODERATE_RISK",
+      "evidence_compatibility": "PARTIALLY_COMPATIBLE",
+      "match_status": "MISSED_RISK",
+      "reasoning_chain": "Bước 1: Phân tích tuyên bố 'Misleading Presentation'. -> Bước 2: Xem xét dữ liệu báo chí thực tế. -> Bước 3: Đánh giá tương thích 'PARTIALLY_COMPATIBLE'. -> Bước 4: Chốt nhãn 'MISSED_RISK'.",
+      "matching_reasoning": "Đối chiếu AI Risk (Low) với Bằng chứng Thực tế (PARTIALLY_COMPATIBLE)."
+    },
+    {
+      "claim_id": "claim_00699630",
+      "claim_text": "Chất thải rắn công nghiệp thông thường và chất thải nguy hại được phân loại, thu gom và chuyển giao theo quy định.",
+      "matched_incident": null,
+      "ai_risk_numeric": 0,
+      "ground_truth_numeric": 0,
+      "ground_truth_label": "LOW_RISK",
+      "evidence_compatibility": "NO_EVIDENCE",
+      "match_status": "NO_RISK_CONFIRMED",
+      "reasoning_chain": "Bước 1: Phân tích tuyên bố 'Selective Disclosure'. -> Bước 2: Xem xét dữ liệu báo chí thực tế. -> Bước 3: Đánh giá tương thích 'NO_EVIDENCE'. -> Bước 4: Chốt nhãn 'NO_RISK_CONFIRMED'.",
+      "matching_reasoning": "Đối chiếu AI Risk (None) với Bằng chứng Thực tế (NO_EVIDENCE)."
+    }
+  ],
+  "metrics": {
+    "true_positives": 2,
+    "false_positives": 0,
+    "true_negatives": 2,
+    "false_negatives": 1,
+    "precision": 1.0,
+    "recall": 0.6667,
+    "f1_score": 0.8,
+    "accuracy": 0.8,
+    "cohens_kappa_round1": 0.7059,
+    "cohens_kappa_final": 0.7059,
+    "kappa_growth": 0.0,
+    "indicator_cohens_kappa": {
+      "Selective Disclosure": {
+        "kappa_round1": 0.3333,
+        "kappa_final": 0.3333,
+        "kappa_growth": 0.0,
+        "claim_count": 2
+      },
+      "Hollow Promise": {
+        "kappa_round1": 1.0,
+        "kappa_final": 1.0,
+        "kappa_growth": 0.0,
+        "claim_count": 1
+      },
+      "Potential Data Mispresentation": {
+        "kappa_round1": 1.0,
+        "kappa_final": 1.0,
+        "kappa_growth": 0.0,
+        "claim_count": 1
+      },
+      "Misleading Presentation": {
+        "kappa_round1": 1.0,
+        "kappa_final": 1.0,
+        "kappa_growth": 0.0,
+        "claim_count": 1
+      }
+    }
+  }
+}
