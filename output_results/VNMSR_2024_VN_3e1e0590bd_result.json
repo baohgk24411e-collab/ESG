@@ -6,7 +6,7 @@
   "claims_detected": [
     {
       "claim": {
-        "claim_id": "claim_00004f31",
+        "claim_id": "claim_00509b4a",
         "indicator_type": "Potential Data Mispresentation",
         "claim_text": "Cam kết đạt Net Zero vào năm 2050 theo chuẩn PAS 2060, với 3 đơn vị đầu tiên đạt chứng nhận trung hòa carbon độc lập.",
         "page_number": 15,
@@ -63,7 +63,7 @@
     },
     {
       "claim": {
-        "claim_id": "claim_008f0383",
+        "claim_id": "claim_0005673d",
         "indicator_type": "Selective Disclosure",
         "claim_text": "Báo cáo giảm phát thải KNK Scope 1 và Scope 2 nhưng chưa công bố đầy đủ dữ liệu phát thải Scope 3 từ các hộ nông dân chăn nuôi bò sữa liên kết.",
         "page_number": 19,
@@ -120,7 +120,7 @@
     },
     {
       "claim": {
-        "claim_id": "claim_001f58a9",
+        "claim_id": "claim_003a6e61",
         "indicator_type": "Hollow Promise",
         "claim_text": "Mục tiêu 100% bao bì có khả năng tái chế vào năm 2030 và giảm 10% lượng nhựa nguyên sinh sử dụng có thỏa thuận PRO Vietnam.",
         "page_number": 23,
@@ -177,7 +177,7 @@
     },
     {
       "claim": {
-        "claim_id": "claim_007edeca",
+        "claim_id": "claim_00642298",
         "indicator_type": "Misleading Presentation",
         "claim_text": "Tuyên bố mô hình Green Farm sinh thái 100% tuần hoàn tự nhiên trong khi vẫn sử dụng điện lưới quốc gia.",
         "page_number": 27,
@@ -234,7 +234,7 @@
     },
     {
       "claim": {
-        "claim_id": "claim_002c7314",
+        "claim_id": "claim_0078da59",
         "indicator_type": "Selective Disclosure",
         "claim_text": "100% nước thải sau xử lý đạt tiêu chuẩn Cột A và tái sử dụng 20% cho mục đích tưới tiêu cây xanh nội bộ.",
         "page_number": 31,
@@ -291,7 +291,7 @@
     },
     {
       "claim": {
-        "claim_id": "claim_0058a9a5",
+        "claim_id": "claim_006d9a86",
         "indicator_type": "Potential Data Mispresentation",
         "claim_text": "Lắp đặt hệ thống điện mặt trời áp mái tại tất cả các trang trại tạo ra hơn 70 triệu kWh điện sạch.",
         "page_number": 35,
@@ -349,22 +349,38 @@
   ],
   "scraped_incidents": [
     {
-      "incident_id": "inc_c4e5cf38",
+      "incident_id": "inc_627487f1",
       "company_name": "Vinamilk",
-      "title": "Vinamilk khởi động chương trình thu gom vỏ hộp sữa tái chế",
-      "source": "VnExpress",
-      "url": "https://vnexpress.net/search.html?q=Vinamilk+thu+gom+vo+hop+sua+tai+che",
-      "article_url": null,
-      "published_date": "2024",
-      "snippet": "Đánh giá hiệu quả các sáng kiến kinh tế tuần hoàn, thu gom vỏ hộp giấy và tỷ lệ tái chế bao bì nhựa trong chuỗi cung ứng ngành sữa.",
-      "relevance_score": 0.9
+      "title": "Nhà máy và trang trại của Vinamilk đạt chứng nhận trung hòa carbon (PAS 2060)",
+      "source": "Báo VietNamNet",
+      "url": "https://vietnamnet.vn/nha-may-va-trang-trai-cua-vinamilk-dat-chung-nhan-trung-hoa-carbon-2148884.html",
+      "article_url": "https://vietnamnet.vn/nha-may-va-trang-trai-cua-vinamilk-dat-chung-nhan-trung-hoa-carbon-2148884.html",
+      "search_query": "Vinamilk Nhà máy và trang trại của Vinamilk đạt chứng nhận trung hòa carbon (PAS 2060)",
+      "search_url": "https://www.google.com/search?q=Vinamilk+Nh%C3%A0+m%C3%A1y+v%C3%A0+trang+tr%E1%BA%A1i+c%E1%BB%A7a+Vinamilk+%C4%91%E1%BA%A1t+ch%E1%BB%A9ng+nh%E1%BA%ADn+trung+h%C3%B2a+carbon+%28PAS+2060%29",
+      "article_url_status": "VERIFIED_EXACT",
+      "published_date": "2023-2024",
+      "snippet": "Nhà máy sữa và trang trại bò sữa của Vinamilk tại Nghệ An vừa đạt chứng nhận về trung hòa carbon theo tiêu chuẩn quốc tế PAS 2060:2014, tiên phong lộ trình Net Zero 2050.",
+      "relevance_score": 0.95
     }
   ],
   "incident_matches": [
     {
-      "claim_id": "claim_00004f31",
+      "claim_id": "claim_00509b4a",
       "claim_text": "Cam kết đạt Net Zero vào năm 2050 theo chuẩn PAS 2060, với 3 đơn vị đầu tiên đạt chứng nhận trung hòa carbon độc lập.",
-      "matched_incident": null,
+      "matched_incident": {
+        "incident_id": "inc_627487f1",
+        "company_name": "Vinamilk",
+        "title": "Nhà máy và trang trại của Vinamilk đạt chứng nhận trung hòa carbon (PAS 2060)",
+        "source": "Báo VietNamNet",
+        "url": "https://vietnamnet.vn/nha-may-va-trang-trai-cua-vinamilk-dat-chung-nhan-trung-hoa-carbon-2148884.html",
+        "article_url": "https://vietnamnet.vn/nha-may-va-trang-trai-cua-vinamilk-dat-chung-nhan-trung-hoa-carbon-2148884.html",
+        "search_query": "Vinamilk Nhà máy và trang trại của Vinamilk đạt chứng nhận trung hòa carbon (PAS 2060)",
+        "search_url": "https://www.google.com/search?q=Vinamilk+Nh%C3%A0+m%C3%A1y+v%C3%A0+trang+tr%E1%BA%A1i+c%E1%BB%A7a+Vinamilk+%C4%91%E1%BA%A1t+ch%E1%BB%A9ng+nh%E1%BA%ADn+trung+h%C3%B2a+carbon+%28PAS+2060%29",
+        "article_url_status": "VERIFIED_EXACT",
+        "published_date": "2023-2024",
+        "snippet": "Nhà máy sữa và trang trại bò sữa của Vinamilk tại Nghệ An vừa đạt chứng nhận về trung hòa carbon theo tiêu chuẩn quốc tế PAS 2060:2014, tiên phong lộ trình Net Zero 2050.",
+        "relevance_score": 0.95
+      },
       "ai_risk_numeric": 0,
       "ground_truth_numeric": 0,
       "ground_truth_label": "LOW_RISK",
@@ -374,19 +390,9 @@
       "matching_reasoning": "Đối chiếu AI Risk (None) với Bằng chứng Thực tế (NO_EVIDENCE)."
     },
     {
-      "claim_id": "claim_008f0383",
+      "claim_id": "claim_0005673d",
       "claim_text": "Báo cáo giảm phát thải KNK Scope 1 và Scope 2 nhưng chưa công bố đầy đủ dữ liệu phát thải Scope 3 từ các hộ nông dân chăn nuôi bò sữa liên kết.",
-      "matched_incident": {
-        "incident_id": "inc_c4e5cf38",
-        "company_name": "Vinamilk",
-        "title": "Vinamilk khởi động chương trình thu gom vỏ hộp sữa tái chế",
-        "source": "VnExpress",
-        "url": "https://vnexpress.net/search.html?q=Vinamilk+thu+gom+vo+hop+sua+tai+che",
-        "article_url": null,
-        "published_date": "2024",
-        "snippet": "Đánh giá hiệu quả các sáng kiến kinh tế tuần hoàn, thu gom vỏ hộp giấy và tỷ lệ tái chế bao bì nhựa trong chuỗi cung ứng ngành sữa.",
-        "relevance_score": 0.9
-      },
+      "matched_incident": null,
       "ai_risk_numeric": 1,
       "ground_truth_numeric": 1,
       "ground_truth_label": "MODERATE_RISK",
@@ -396,7 +402,7 @@
       "matching_reasoning": "Đối chiếu AI Risk (Medium) với Bằng chứng Thực tế (PARTIALLY_COMPATIBLE)."
     },
     {
-      "claim_id": "claim_001f58a9",
+      "claim_id": "claim_003a6e61",
       "claim_text": "Mục tiêu 100% bao bì có khả năng tái chế vào năm 2030 và giảm 10% lượng nhựa nguyên sinh sử dụng có thỏa thuận PRO Vietnam.",
       "matched_incident": null,
       "ai_risk_numeric": 0,
@@ -408,19 +414,9 @@
       "matching_reasoning": "Đối chiếu AI Risk (Low) với Bằng chứng Thực tế (NO_EVIDENCE)."
     },
     {
-      "claim_id": "claim_007edeca",
+      "claim_id": "claim_00642298",
       "claim_text": "Tuyên bố mô hình Green Farm sinh thái 100% tuần hoàn tự nhiên trong khi vẫn sử dụng điện lưới quốc gia.",
-      "matched_incident": {
-        "incident_id": "inc_c4e5cf38",
-        "company_name": "Vinamilk",
-        "title": "Vinamilk khởi động chương trình thu gom vỏ hộp sữa tái chế",
-        "source": "VnExpress",
-        "url": "https://vnexpress.net/search.html?q=Vinamilk+thu+gom+vo+hop+sua+tai+che",
-        "article_url": null,
-        "published_date": "2024",
-        "snippet": "Đánh giá hiệu quả các sáng kiến kinh tế tuần hoàn, thu gom vỏ hộp giấy và tỷ lệ tái chế bao bì nhựa trong chuỗi cung ứng ngành sữa.",
-        "relevance_score": 0.9
-      },
+      "matched_incident": null,
       "ai_risk_numeric": 1,
       "ground_truth_numeric": 1,
       "ground_truth_label": "MODERATE_RISK",
@@ -430,7 +426,7 @@
       "matching_reasoning": "Đối chiếu AI Risk (Medium) với Bằng chứng Thực tế (PARTIALLY_COMPATIBLE)."
     },
     {
-      "claim_id": "claim_002c7314",
+      "claim_id": "claim_0078da59",
       "claim_text": "100% nước thải sau xử lý đạt tiêu chuẩn Cột A và tái sử dụng 20% cho mục đích tưới tiêu cây xanh nội bộ.",
       "matched_incident": null,
       "ai_risk_numeric": 0,
@@ -442,7 +438,7 @@
       "matching_reasoning": "Đối chiếu AI Risk (None) với Bằng chứng Thực tế (NO_EVIDENCE)."
     },
     {
-      "claim_id": "claim_0058a9a5",
+      "claim_id": "claim_006d9a86",
       "claim_text": "Lắp đặt hệ thống điện mặt trời áp mái tại tất cả các trang trại tạo ra hơn 70 triệu kWh điện sạch.",
       "matched_incident": null,
       "ai_risk_numeric": 0,

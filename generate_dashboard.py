@@ -663,16 +663,9 @@ TEMPLATE_HTML = """<!DOCTYPE html>
 
                 const matchRes = matches.find(m => m.claim_id === claim.claim_id) || {};
 
-                // Prefer matched_incident from Agent 3, then find best scraped incident for this company
-                // Use the FIRST scraped incident that matches the current company (not a random global fallback)
-                const companyIncidents = scrapedIncidents.filter(inc =>
-                    (inc.company_name || '').toLowerCase() === (claim.company_name || filteredCompanies[0]?.company_name || '').toLowerCase()
-                );
-                // Prefer incidents with known trusted domains
-                const trustedDomains = ['laodong.vn','tuoitre.vn','vnexpress.net','thanhnien.vn','vietstock.vn','tienphong.vn','baomoi.com','cafef.vn','vietnambiz.vn','dantri.com.vn','monre.gov.vn','chinhphu.vn'];
-                const bestScrapeInc = companyIncidents.find(inc => trustedDomains.some(d => (inc.url||'').includes(d)))
-                                      || companyIncidents[0] || null;
-                const matchedInc = matchRes.matched_incident || bestScrapeInc;
+                // Use ONLY the matched_incident verified by Agent 3 for this specific claim.
+                // NEVER silently substitute an unrelated scraped incident as claim-specific evidence.
+                const matchedInc = matchRes.matched_incident || null;
 
                 let badgeClass = risk === 'High' ? 'badge-red' : (risk === 'Medium' ? 'badge-amber' : 'badge-green');
                 
@@ -692,24 +685,58 @@ TEMPLATE_HTML = """<!DOCTYPE html>
                     `;
                 });
 
-                let incidentHtml = '<em>Không có bài báo/quyết định xử phạt vi phạm nào được tìm thấy.</em>';
+                let incidentHtml = '';
                 if (matchedInc) {
                     const compName = matchedInc.company_name || selectedCompanyName || '';
-                    const searchQuery = encodeURIComponent(`${compName} ${matchedInc.title}`);
-                    const googleSearchUrl = `https://www.google.com/search?q=${searchQuery}`;
+                    const searchQuery = matchedInc.search_query || `${compName} ${matchedInc.title}`.trim();
+                    const googleSearchUrl = matchedInc.search_url || `https://www.google.com/search?q=${encodeURIComponent(searchQuery)}`;
+                    const status = matchedInc.article_url_status || 'UNAVAILABLE';
+                    const isVerifiedDirect = matchedInc.article_url && (status === 'VERIFIED_EXACT');
+                    const isUnverifiedAccess = matchedInc.article_url && (status === 'UNVERIFIED_ACCESS');
+                    const isRejectedMismatch = (status === 'REJECTED_MISMATCH');
+
+                    let sourceBadge = `<span class="stat-badge badge-amber" style="font-size: 11px; margin-left: 6px;">[Nguồn được truy xuất]</span>`;
+                    if (isVerifiedDirect) {
+                        sourceBadge = `<span class="stat-badge badge-green" style="font-size: 11px; margin-left: 6px;">[Link bài báo đã xác thực - VERIFIED_EXACT]</span>`;
+                    } else if (isRejectedMismatch) {
+                        sourceBadge = `<span class="stat-badge badge-red" style="font-size: 11px; margin-left: 6px;">[URL trực tiếp bị loại do sai lệch - REJECTED_MISMATCH]</span>`;
+                    } else if (isUnverifiedAccess) {
+                        sourceBadge = `<span class="stat-badge badge-amber" style="font-size: 11px; margin-left: 6px;">[Nguồn trực tiếp - UNVERIFIED_ACCESS]</span>`;
+                    }
 
                     incidentHtml = `
                         <div><strong>Tiêu đề / Sự kiện:</strong> ${matchedInc.title}</div>
                         <div style="margin-top: 6px; margin-bottom: 8px;">
                             <strong>Nguồn dữ liệu:</strong> ${matchedInc.source} (${matchedInc.published_date}) 
-                            <span class="stat-badge badge-green" style="font-size: 11px; margin-left: 6px;">[Xác thực bởi hệ thống]</span>
+                            ${sourceBadge}
                         </div>
-                        <div style="margin: 10px 0;">
+                        <div style="margin: 10px 0; display: flex; gap: 8px; flex-wrap: wrap;">
                             <a href="${googleSearchUrl}" target="_blank" rel="noopener noreferrer" class="news-link" style="display: inline-flex; align-items: center; gap: 6px; background: rgba(245, 158, 11, 0.15); border: 1px solid rgba(245, 158, 11, 0.4); padding: 8px 16px; border-radius: 8px; color: #fde68a; font-weight: 700; text-decoration: none; font-size: 13px; transition: all 0.2s ease;">
-                                🔍 Tra cứu sự kiện trên Google
+                                🔎 Search Google
                             </a>
+                            ${isVerifiedDirect ? `
+                            <a href="${matchedInc.article_url}" target="_blank" rel="noopener noreferrer" class="news-link" style="display: inline-flex; align-items: center; gap: 6px; background: rgba(59, 130, 246, 0.15); border: 1px solid rgba(59, 130, 246, 0.4); padding: 8px 16px; border-radius: 8px; color: #93c5fd; font-weight: 700; text-decoration: none; font-size: 13px; transition: all 0.2s ease;">
+                                ↗ Open Article
+                            </a>
+                            ` : ''}
                         </div>
                         <div class="incident-box">"${matchedInc.snippet}"</div>
+                    `;
+                } else {
+                    const compName = claim.company_name || selectedCompanyName || '';
+                    const claimSnippet = claim.claim_text ? claim.claim_text.substring(0, 80) : '';
+                    const claimSearchQuery = `${compName} ${claimSnippet}`.trim();
+                    const claimGoogleSearchUrl = `https://www.google.com/search?q=${encodeURIComponent(claimSearchQuery)}`;
+
+                    incidentHtml = `
+                        <div style="color: var(--text-muted); font-size: 13px; margin-bottom: 6px;">
+                            <em>Chưa có bài báo đối chiếu cụ thể được liên kết trực tiếp với tuyên bố này.</em>
+                        </div>
+                        <div style="margin: 8px 0;">
+                            <a href="${claimGoogleSearchUrl}" target="_blank" rel="noopener noreferrer" class="news-link" style="display: inline-flex; align-items: center; gap: 6px; background: rgba(245, 158, 11, 0.1); border: 1px solid rgba(245, 158, 11, 0.3); padding: 6px 14px; border-radius: 8px; color: #fde68a; font-weight: 600; text-decoration: none; font-size: 12px; transition: all 0.2s ease;">
+                                🔎 Search Google
+                            </a>
+                        </div>
                     `;
                 }
 
@@ -1122,7 +1149,13 @@ def generate_html_dashboard(json_path: str = "output_results.json", output_html_
             for cf in sorted(comp_files):
                 try:
                     with open(cf, "r", encoding="utf-8") as f:
-                        data.append(json.load(f))
+                        single_data = json.load(f)
+                        data.append(single_data)
+                        # Also generate standalone single report HTML
+                        single_html = TEMPLATE_HTML.replace("__DATA_JSON__", json.dumps(single_data, ensure_ascii=False))
+                        single_html_path = os.path.splitext(cf)[0] + ".html"
+                        with open(single_html_path, "w", encoding="utf-8") as sf:
+                            sf.write(single_html)
                 except Exception:
                     pass
 

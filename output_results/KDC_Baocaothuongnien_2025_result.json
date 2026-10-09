@@ -6,7 +6,7 @@
   "claims_detected": [
     {
       "claim": {
-        "claim_id": "claim_003ffdfd",
+        "claim_id": "claim_009046a6",
         "indicator_type": "Selective Disclosure",
         "claim_text": "Báo cáo công bố doanh thu ngành thực phẩm nhưng chưa công bố số liệu kiểm kê rác thải nhựa màng bọc một lần.",
         "page_number": 15,
@@ -63,7 +63,7 @@
     },
     {
       "claim": {
-        "claim_id": "claim_003aaf13",
+        "claim_id": "claim_006cde71",
         "indicator_type": "Potential Data Mispresentation",
         "claim_text": "100% sản phẩm dầu thực vật sử dụng nguồn nguyên liệu dầu cọ bền vững có chứng nhận quốc tế RSPO.",
         "page_number": 19,
@@ -120,7 +120,7 @@
     },
     {
       "claim": {
-        "claim_id": "claim_0026e95f",
+        "claim_id": "claim_005798db",
         "indicator_type": "Hollow Promise",
         "claim_text": "Mục tiêu 100% bao bì tự hủy sinh học phân hủy hoàn toàn vào năm 2035 chưa có nhà cung ứng đạt chuẩn.",
         "page_number": 23,
@@ -177,7 +177,7 @@
     },
     {
       "claim": {
-        "claim_id": "claim_0025d91b",
+        "claim_id": "claim_000f8f2b",
         "indicator_type": "Misleading Presentation",
         "claim_text": "Quảng bá nhãn 'Kem xanh thuần khiết thiên nhiên 100%' khi vẫn dùng phẩm màu và chất bảo quản cho phép.",
         "page_number": 27,
@@ -234,7 +234,7 @@
     },
     {
       "claim": {
-        "claim_id": "claim_00796944",
+        "claim_id": "claim_0005c33d",
         "indicator_type": "Selective Disclosure",
         "claim_text": "Hệ thống xử lý nước thải đạt tiêu chuẩn Cột A và tái sử dụng 40% nước cho tưới cây nội khu.",
         "page_number": 31,
@@ -291,7 +291,7 @@
     },
     {
       "claim": {
-        "claim_id": "claim_008ae17a",
+        "claim_id": "claim_0010bd96",
         "indicator_type": "Potential Data Mispresentation",
         "claim_text": "Thu gom và chuyển giao 100% chất thải nguy hại cho đơn vị có giấy phép xử lý theo quy định.",
         "page_number": 35,
@@ -349,12 +349,15 @@
   ],
   "scraped_incidents": [
     {
-      "incident_id": "inc_b5e121e6",
+      "incident_id": "inc_7cc5b6d7",
       "company_name": "Kido",
       "title": "Tập đoàn KIDO (KDC) bị phạt và truy thu thuế hơn 21 tỷ đồng sau thanh tra giai đoạn 2020-2022",
       "source": "Vietstock",
-      "url": "https://vietstock.vn/2023/11/kdc-bi-phat-va-truy-thu-thue-hon-21-ty-dong-737-1123766.htm",
+      "url": "https://www.google.com/search?q=Kido+T%E1%BA%ADp+%C4%91o%C3%A0n+KIDO+%28KDC%29+b%E1%BB%8B+ph%E1%BA%A1t+v%C3%A0+truy+thu+thu%E1%BA%BF+h%C6%A1n+21+t%E1%BB%B7+%C4%91%E1%BB%93ng+sau+thanh+tra+giai+%C4%91o%E1%BA%A1n+2020-2022",
       "article_url": null,
+      "search_query": "Kido Tập đoàn KIDO (KDC) bị phạt và truy thu thuế hơn 21 tỷ đồng sau thanh tra giai đoạn 2020-2022",
+      "search_url": "https://www.google.com/search?q=Kido+T%E1%BA%ADp+%C4%91o%C3%A0n+KIDO+%28KDC%29+b%E1%BB%8B+ph%E1%BA%A1t+v%C3%A0+truy+thu+thu%E1%BA%BF+h%C6%A1n+21+t%E1%BB%B7+%C4%91%E1%BB%93ng+sau+thanh+tra+giai+%C4%91o%E1%BA%A1n+2020-2022",
+      "article_url_status": "REJECTED_MISMATCH",
       "published_date": "11/2023",
       "snippet": "Sau thanh tra thuế giai đoạn 2020-2022, KIDO bị phạt hành chính hơn 3,2 tỷ đồng do khai sai thuế, truy thu thuế TNDN/GTGT/TNCN và tiền chậm nộp hơn 1,6 tỷ đồng, tổng cộng hơn 21 tỷ đồng.",
       "relevance_score": 0.9
@@ -362,19 +365,9 @@
   ],
   "incident_matches": [
     {
-      "claim_id": "claim_003ffdfd",
+      "claim_id": "claim_009046a6",
       "claim_text": "Báo cáo công bố doanh thu ngành thực phẩm nhưng chưa công bố số liệu kiểm kê rác thải nhựa màng bọc một lần.",
-      "matched_incident": {
-        "incident_id": "inc_b5e121e6",
-        "company_name": "Kido",
-        "title": "Tập đoàn KIDO (KDC) bị phạt và truy thu thuế hơn 21 tỷ đồng sau thanh tra giai đoạn 2020-2022",
-        "source": "Vietstock",
-        "url": "https://vietstock.vn/2023/11/kdc-bi-phat-va-truy-thu-thue-hon-21-ty-dong-737-1123766.htm",
-        "article_url": null,
-        "published_date": "11/2023",
-        "snippet": "Sau thanh tra thuế giai đoạn 2020-2022, KIDO bị phạt hành chính hơn 3,2 tỷ đồng do khai sai thuế, truy thu thuế TNDN/GTGT/TNCN và tiền chậm nộp hơn 1,6 tỷ đồng, tổng cộng hơn 21 tỷ đồng.",
-        "relevance_score": 0.9
-      },
+      "matched_incident": null,
       "ai_risk_numeric": 1,
       "ground_truth_numeric": 1,
       "ground_truth_label": "MODERATE_RISK",
@@ -384,7 +377,7 @@
       "matching_reasoning": "Đối chiếu AI Risk (Medium) với Bằng chứng Thực tế (PARTIALLY_COMPATIBLE)."
     },
     {
-      "claim_id": "claim_003aaf13",
+      "claim_id": "claim_006cde71",
       "claim_text": "100% sản phẩm dầu thực vật sử dụng nguồn nguyên liệu dầu cọ bền vững có chứng nhận quốc tế RSPO.",
       "matched_incident": null,
       "ai_risk_numeric": 0,
@@ -396,7 +389,7 @@
       "matching_reasoning": "Đối chiếu AI Risk (None) với Bằng chứng Thực tế (NO_EVIDENCE)."
     },
     {
-      "claim_id": "claim_0026e95f",
+      "claim_id": "claim_005798db",
       "claim_text": "Mục tiêu 100% bao bì tự hủy sinh học phân hủy hoàn toàn vào năm 2035 chưa có nhà cung ứng đạt chuẩn.",
       "matched_incident": null,
       "ai_risk_numeric": 1,
@@ -408,19 +401,9 @@
       "matching_reasoning": "Đối chiếu AI Risk (Medium) với Bằng chứng Thực tế (NO_EVIDENCE)."
     },
     {
-      "claim_id": "claim_0025d91b",
+      "claim_id": "claim_000f8f2b",
       "claim_text": "Quảng bá nhãn 'Kem xanh thuần khiết thiên nhiên 100%' khi vẫn dùng phẩm màu và chất bảo quản cho phép.",
-      "matched_incident": {
-        "incident_id": "inc_b5e121e6",
-        "company_name": "Kido",
-        "title": "Tập đoàn KIDO (KDC) bị phạt và truy thu thuế hơn 21 tỷ đồng sau thanh tra giai đoạn 2020-2022",
-        "source": "Vietstock",
-        "url": "https://vietstock.vn/2023/11/kdc-bi-phat-va-truy-thu-thue-hon-21-ty-dong-737-1123766.htm",
-        "article_url": null,
-        "published_date": "11/2023",
-        "snippet": "Sau thanh tra thuế giai đoạn 2020-2022, KIDO bị phạt hành chính hơn 3,2 tỷ đồng do khai sai thuế, truy thu thuế TNDN/GTGT/TNCN và tiền chậm nộp hơn 1,6 tỷ đồng, tổng cộng hơn 21 tỷ đồng.",
-        "relevance_score": 0.9
-      },
+      "matched_incident": null,
       "ai_risk_numeric": 1,
       "ground_truth_numeric": 1,
       "ground_truth_label": "MODERATE_RISK",
@@ -430,7 +413,7 @@
       "matching_reasoning": "Đối chiếu AI Risk (Medium) với Bằng chứng Thực tế (PARTIALLY_COMPATIBLE)."
     },
     {
-      "claim_id": "claim_00796944",
+      "claim_id": "claim_0005c33d",
       "claim_text": "Hệ thống xử lý nước thải đạt tiêu chuẩn Cột A và tái sử dụng 40% nước cho tưới cây nội khu.",
       "matched_incident": null,
       "ai_risk_numeric": 0,
@@ -442,7 +425,7 @@
       "matching_reasoning": "Đối chiếu AI Risk (Low) với Bằng chứng Thực tế (NO_EVIDENCE)."
     },
     {
-      "claim_id": "claim_008ae17a",
+      "claim_id": "claim_0010bd96",
       "claim_text": "Thu gom và chuyển giao 100% chất thải nguy hại cho đơn vị có giấy phép xử lý theo quy định.",
       "matched_incident": null,
       "ai_risk_numeric": 0,

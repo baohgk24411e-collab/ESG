@@ -6,7 +6,7 @@
   "claims_detected": [
     {
       "claim": {
-        "claim_id": "claim_00948f10",
+        "claim_id": "claim_002f34c0",
         "indicator_type": "Misleading Presentation",
         "claim_text": "Sử dụng nhãn '100% dầu ăn thuần tự nhiên bảo vệ môi trường' khi chưa công bố tỷ lệ dầu cọ có chứng nhận RSPO năm 2024.",
         "page_number": 15,
@@ -63,7 +63,7 @@
     },
     {
       "claim": {
-        "claim_id": "claim_0059fa33",
+        "claim_id": "claim_00389037",
         "indicator_type": "Selective Disclosure",
         "claim_text": "Báo cáo nhấn mạnh việc tiết kiệm năng lượng nhưng chưa công bố lượng phát thải nhựa từ bao bì que kem và hộp nhựa một lần.",
         "page_number": 19,
@@ -120,7 +120,7 @@
     },
     {
       "claim": {
-        "claim_id": "claim_0037e216",
+        "claim_id": "claim_006a2567",
         "indicator_type": "Potential Data Mispresentation",
         "claim_text": "100% nguyên liệu dầu thực vật có nguồn gốc rõ ràng và kiểm định dư lượng hóa chất định kỳ.",
         "page_number": 23,
@@ -177,7 +177,7 @@
     },
     {
       "claim": {
-        "claim_id": "claim_00378512",
+        "claim_id": "claim_0033acb7",
         "indicator_type": "Hollow Promise",
         "claim_text": "Kế hoạch chuyển đổi 100% xe tải điện giao hàng kem tại các đô thị lớn năm 2028 chưa có hợp đồng mua sắm phương tiện.",
         "page_number": 27,
@@ -234,7 +234,7 @@
     },
     {
       "claim": {
-        "claim_id": "claim_0025007b",
+        "claim_id": "claim_002701c6",
         "indicator_type": "Selective Disclosure",
         "claim_text": "Nước thải sản xuất tại KCN Tây Bắc Củ Chi đạt quy chuẩn xả thải QCVN 40 Cột A trước khi ra nguồn tiếp nhận.",
         "page_number": 31,
@@ -292,12 +292,15 @@
   ],
   "scraped_incidents": [
     {
-      "incident_id": "inc_b5e121e6",
+      "incident_id": "inc_7cc5b6d7",
       "company_name": "Kido",
       "title": "Tập đoàn KIDO (KDC) bị phạt và truy thu thuế hơn 21 tỷ đồng sau thanh tra giai đoạn 2020-2022",
       "source": "Vietstock",
-      "url": "https://vietstock.vn/2023/11/kdc-bi-phat-va-truy-thu-thue-hon-21-ty-dong-737-1123766.htm",
+      "url": "https://www.google.com/search?q=Kido+T%E1%BA%ADp+%C4%91o%C3%A0n+KIDO+%28KDC%29+b%E1%BB%8B+ph%E1%BA%A1t+v%C3%A0+truy+thu+thu%E1%BA%BF+h%C6%A1n+21+t%E1%BB%B7+%C4%91%E1%BB%93ng+sau+thanh+tra+giai+%C4%91o%E1%BA%A1n+2020-2022",
       "article_url": null,
+      "search_query": "Kido Tập đoàn KIDO (KDC) bị phạt và truy thu thuế hơn 21 tỷ đồng sau thanh tra giai đoạn 2020-2022",
+      "search_url": "https://www.google.com/search?q=Kido+T%E1%BA%ADp+%C4%91o%C3%A0n+KIDO+%28KDC%29+b%E1%BB%8B+ph%E1%BA%A1t+v%C3%A0+truy+thu+thu%E1%BA%BF+h%C6%A1n+21+t%E1%BB%B7+%C4%91%E1%BB%93ng+sau+thanh+tra+giai+%C4%91o%E1%BA%A1n+2020-2022",
+      "article_url_status": "REJECTED_MISMATCH",
       "published_date": "11/2023",
       "snippet": "Sau thanh tra thuế giai đoạn 2020-2022, KIDO bị phạt hành chính hơn 3,2 tỷ đồng do khai sai thuế, truy thu thuế TNDN/GTGT/TNCN và tiền chậm nộp hơn 1,6 tỷ đồng, tổng cộng hơn 21 tỷ đồng.",
       "relevance_score": 0.9
@@ -305,19 +308,9 @@
   ],
   "incident_matches": [
     {
-      "claim_id": "claim_00948f10",
+      "claim_id": "claim_002f34c0",
       "claim_text": "Sử dụng nhãn '100% dầu ăn thuần tự nhiên bảo vệ môi trường' khi chưa công bố tỷ lệ dầu cọ có chứng nhận RSPO năm 2024.",
-      "matched_incident": {
-        "incident_id": "inc_b5e121e6",
-        "company_name": "Kido",
-        "title": "Tập đoàn KIDO (KDC) bị phạt và truy thu thuế hơn 21 tỷ đồng sau thanh tra giai đoạn 2020-2022",
-        "source": "Vietstock",
-        "url": "https://vietstock.vn/2023/11/kdc-bi-phat-va-truy-thu-thue-hon-21-ty-dong-737-1123766.htm",
-        "article_url": null,
-        "published_date": "11/2023",
-        "snippet": "Sau thanh tra thuế giai đoạn 2020-2022, KIDO bị phạt hành chính hơn 3,2 tỷ đồng do khai sai thuế, truy thu thuế TNDN/GTGT/TNCN và tiền chậm nộp hơn 1,6 tỷ đồng, tổng cộng hơn 21 tỷ đồng.",
-        "relevance_score": 0.9
-      },
+      "matched_incident": null,
       "ai_risk_numeric": 1,
       "ground_truth_numeric": 1,
       "ground_truth_label": "MODERATE_RISK",
@@ -327,19 +320,9 @@
       "matching_reasoning": "Đối chiếu AI Risk (Medium) với Bằng chứng Thực tế (PARTIALLY_COMPATIBLE)."
     },
     {
-      "claim_id": "claim_0059fa33",
+      "claim_id": "claim_00389037",
       "claim_text": "Báo cáo nhấn mạnh việc tiết kiệm năng lượng nhưng chưa công bố lượng phát thải nhựa từ bao bì que kem và hộp nhựa một lần.",
-      "matched_incident": {
-        "incident_id": "inc_b5e121e6",
-        "company_name": "Kido",
-        "title": "Tập đoàn KIDO (KDC) bị phạt và truy thu thuế hơn 21 tỷ đồng sau thanh tra giai đoạn 2020-2022",
-        "source": "Vietstock",
-        "url": "https://vietstock.vn/2023/11/kdc-bi-phat-va-truy-thu-thue-hon-21-ty-dong-737-1123766.htm",
-        "article_url": null,
-        "published_date": "11/2023",
-        "snippet": "Sau thanh tra thuế giai đoạn 2020-2022, KIDO bị phạt hành chính hơn 3,2 tỷ đồng do khai sai thuế, truy thu thuế TNDN/GTGT/TNCN và tiền chậm nộp hơn 1,6 tỷ đồng, tổng cộng hơn 21 tỷ đồng.",
-        "relevance_score": 0.9
-      },
+      "matched_incident": null,
       "ai_risk_numeric": 1,
       "ground_truth_numeric": 1,
       "ground_truth_label": "MODERATE_RISK",
@@ -349,7 +332,7 @@
       "matching_reasoning": "Đối chiếu AI Risk (Medium) với Bằng chứng Thực tế (PARTIALLY_COMPATIBLE)."
     },
     {
-      "claim_id": "claim_0037e216",
+      "claim_id": "claim_006a2567",
       "claim_text": "100% nguyên liệu dầu thực vật có nguồn gốc rõ ràng và kiểm định dư lượng hóa chất định kỳ.",
       "matched_incident": null,
       "ai_risk_numeric": 0,
@@ -361,7 +344,7 @@
       "matching_reasoning": "Đối chiếu AI Risk (None) với Bằng chứng Thực tế (NO_EVIDENCE)."
     },
     {
-      "claim_id": "claim_00378512",
+      "claim_id": "claim_0033acb7",
       "claim_text": "Kế hoạch chuyển đổi 100% xe tải điện giao hàng kem tại các đô thị lớn năm 2028 chưa có hợp đồng mua sắm phương tiện.",
       "matched_incident": null,
       "ai_risk_numeric": 0,
@@ -373,7 +356,7 @@
       "matching_reasoning": "Đối chiếu AI Risk (Low) với Bằng chứng Thực tế (PARTIALLY_COMPATIBLE)."
     },
     {
-      "claim_id": "claim_0025007b",
+      "claim_id": "claim_002701c6",
       "claim_text": "Nước thải sản xuất tại KCN Tây Bắc Củ Chi đạt quy chuẩn xả thải QCVN 40 Cột A trước khi ra nguồn tiếp nhận.",
       "matched_incident": null,
       "ai_risk_numeric": 0,

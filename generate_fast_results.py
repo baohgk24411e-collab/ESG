@@ -715,7 +715,7 @@ def main():
     for comp_name in unique_companies:
         print(f"  📰 Searching: {comp_name}...")
         try:
-            incidents = search_environmental_incidents(comp_name, max_results=3)
+            incidents = search_environmental_incidents(comp_name, max_results=3, force_refresh=True)
             company_incidents_map[comp_name] = [inc.model_dump() if hasattr(inc, 'model_dump') else inc.dict() for inc in incidents]
             print(f"     ✅ Found {len(company_incidents_map[comp_name])} real articles for {comp_name}")
         except Exception as e:
@@ -822,17 +822,24 @@ def main():
             }
             claims_detected.append(debate_res)
 
-            # Match a real incident URL
+            # Match an authentic incident only when the incident topic strictly corresponds to the claim
             matched_inc = None
-            if real_incidents and c["status"] == "CONFIRMED_RISK":
-                matched_inc = scraped_incidents[idx % len(scraped_incidents)] if scraped_incidents else None
-            elif real_incidents:
-                matched_inc = scraped_incidents[0] if scraped_incidents else None
+            if scraped_incidents:
+                claim_topic = (c.get("news", "") + " " + c.get("text", "")).lower()
+                for inc in scraped_incidents:
+                    inc_title = (inc.get("title") or "").lower()
+                    if any(t in inc_title and t in claim_topic for t in [
+                        "pas 2060", "trung hòa carbon", "net zero", "nước thải",
+                        "núi pháo", "di dời", "biên hòa", "truy thu thuế",
+                        "mùi hôi", "biogas", "tái chế", "thu hồi", "xả thải"
+                    ]):
+                        matched_inc = inc
+                        break
 
             match_res = {
                 "claim_id": claim_id,
                 "claim_text": c["text"],
-                "matched_incident": matched_inc if c["status"] == "CONFIRMED_RISK" else None,
+                "matched_incident": matched_inc,
                 "ai_risk_numeric": 2 if c["risk"] == "High" else (1 if c["risk"] == "Medium" else 0),
                 "ground_truth_numeric": c["gt"],
                 "ground_truth_label": "HIGH_RISK" if c["gt"] == 2 else ("MODERATE_RISK" if c["gt"] == 1 else "LOW_RISK"),

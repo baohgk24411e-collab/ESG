@@ -6,7 +6,7 @@
   "claims_detected": [
     {
       "claim": {
-        "claim_id": "claim_0085a7dc",
+        "claim_id": "claim_0009ab68",
         "indicator_type": "Selective Disclosure",
         "claim_text": "Nhấn mạnh chuỗi khép kín 3F nhưng chưa công bố số liệu phát thải khí nhà kính Scope 1 từ đàn gia súc gia cầm quy mô công nghiệp.",
         "page_number": 15,
@@ -63,7 +63,7 @@
     },
     {
       "claim": {
-        "claim_id": "claim_006b279d",
+        "claim_id": "claim_00547abc",
         "indicator_type": "Potential Data Mispresentation",
         "claim_text": "100% chất thải chăn nuôi tại các trang trại hạt nhân được thu hồi xử lý qua hệ thống hầm Biogas đạt chuẩn.",
         "page_number": 19,
@@ -120,7 +120,7 @@
     },
     {
       "claim": {
-        "claim_id": "claim_002b76d3",
+        "claim_id": "claim_002f5dcf",
         "indicator_type": "Hollow Promise",
         "claim_text": "Cam kết phát triển nông nghiệp carbon thấp không phát thải vào năm 2035 mà chưa có lộ trình kiểm kê phát thải nông hộ.",
         "page_number": 23,
@@ -177,7 +177,7 @@
     },
     {
       "claim": {
-        "claim_id": "claim_0003d5a6",
+        "claim_id": "claim_003eb0d2",
         "indicator_type": "Misleading Presentation",
         "claim_text": "Quảng bá nhãn 'Thịt heo tươi 100% sinh thái không ô nhiễm' khi khu vực chuồng trại vẫn phát sinh mùi hôi cục bộ.",
         "page_number": 27,
@@ -234,7 +234,7 @@
     },
     {
       "claim": {
-        "claim_id": "claim_002d4478",
+        "claim_id": "claim_000fb53c",
         "indicator_type": "Selective Disclosure",
         "claim_text": "Các cơ sở chăn nuôi thực hiện đầy đủ cam kết bảo vệ môi trường và quan trắc định kỳ theo quy định.",
         "page_number": 31,
@@ -291,7 +291,7 @@
     },
     {
       "claim": {
-        "claim_id": "claim_004c49dd",
+        "claim_id": "claim_00978dd2",
         "indicator_type": "Potential Data Mispresentation",
         "claim_text": "Tỷ lệ xử lý nước thải chăn nuôi đạt QCVN 62-MT:2016/BTNMT Cột B có kiểm định quan trắc mẫu nước.",
         "page_number": 35,
@@ -349,12 +349,15 @@
   ],
   "scraped_incidents": [
     {
-      "incident_id": "inc_6d776aeb",
+      "incident_id": "inc_3403c379",
       "company_name": "Dabaco",
       "title": "UBND tỉnh Thanh Hóa xử phạt hơn 216 triệu đồng đối với Dabaco Thanh Hóa do xả nước thải vượt quy chuẩn BOD5",
       "source": "Báo Lao Động",
       "url": "https://laodong.vn/moi-truong/xu-phat-cong-ty-dabaco-thanh-hoa-hon-216-trieu-dong-1404987.ldo",
-      "article_url": null,
+      "article_url": "https://laodong.vn/moi-truong/xu-phat-cong-ty-dabaco-thanh-hoa-hon-216-trieu-dong-1404987.ldo",
+      "search_query": "Dabaco UBND tỉnh Thanh Hóa xử phạt hơn 216 triệu đồng đối với Dabaco Thanh Hóa do xả nước thải vượt quy chuẩn BOD5",
+      "search_url": "https://www.google.com/search?q=Dabaco+UBND+t%E1%BB%89nh+Thanh+H%C3%B3a+x%E1%BB%AD+ph%E1%BA%A1t+h%C6%A1n+216+tri%E1%BB%87u+%C4%91%E1%BB%93ng+%C4%91%E1%BB%91i+v%E1%BB%9Bi+Dabaco+Thanh+H%C3%B3a+do+x%E1%BA%A3+n%C6%B0%E1%BB%9Bc+th%E1%BA%A3i+v%C6%B0%E1%BB%A3t+quy+chu%E1%BA%A9n+BOD5",
+      "article_url_status": "VERIFIED_EXACT",
       "published_date": "10/2024",
       "snippet": "UBND tỉnh Thanh Hóa ban hành Quyết định số 4000/QĐ-XPHC ngày 7/10/2024 xử phạt Công ty TNHH Dabaco Thanh Hóa hơn 216,5 triệu đồng do xả nước thải có BOD5 vượt quy chuẩn 1,48 lần và không lập kế hoạch phòng ngừa sự cố chất thải.",
       "relevance_score": 0.96
@@ -362,19 +365,9 @@
   ],
   "incident_matches": [
     {
-      "claim_id": "claim_0085a7dc",
+      "claim_id": "claim_0009ab68",
       "claim_text": "Nhấn mạnh chuỗi khép kín 3F nhưng chưa công bố số liệu phát thải khí nhà kính Scope 1 từ đàn gia súc gia cầm quy mô công nghiệp.",
-      "matched_incident": {
-        "incident_id": "inc_6d776aeb",
-        "company_name": "Dabaco",
-        "title": "UBND tỉnh Thanh Hóa xử phạt hơn 216 triệu đồng đối với Dabaco Thanh Hóa do xả nước thải vượt quy chuẩn BOD5",
-        "source": "Báo Lao Động",
-        "url": "https://laodong.vn/moi-truong/xu-phat-cong-ty-dabaco-thanh-hoa-hon-216-trieu-dong-1404987.ldo",
-        "article_url": null,
-        "published_date": "10/2024",
-        "snippet": "UBND tỉnh Thanh Hóa ban hành Quyết định số 4000/QĐ-XPHC ngày 7/10/2024 xử phạt Công ty TNHH Dabaco Thanh Hóa hơn 216,5 triệu đồng do xả nước thải có BOD5 vượt quy chuẩn 1,48 lần và không lập kế hoạch phòng ngừa sự cố chất thải.",
-        "relevance_score": 0.96
-      },
+      "matched_incident": null,
       "ai_risk_numeric": 1,
       "ground_truth_numeric": 1,
       "ground_truth_label": "MODERATE_RISK",
@@ -384,7 +377,7 @@
       "matching_reasoning": "Đối chiếu AI Risk (Medium) với Bằng chứng Thực tế (PARTIALLY_COMPATIBLE)."
     },
     {
-      "claim_id": "claim_006b279d",
+      "claim_id": "claim_00547abc",
       "claim_text": "100% chất thải chăn nuôi tại các trang trại hạt nhân được thu hồi xử lý qua hệ thống hầm Biogas đạt chuẩn.",
       "matched_incident": null,
       "ai_risk_numeric": 0,
@@ -396,7 +389,7 @@
       "matching_reasoning": "Đối chiếu AI Risk (None) với Bằng chứng Thực tế (NO_EVIDENCE)."
     },
     {
-      "claim_id": "claim_002b76d3",
+      "claim_id": "claim_002f5dcf",
       "claim_text": "Cam kết phát triển nông nghiệp carbon thấp không phát thải vào năm 2035 mà chưa có lộ trình kiểm kê phát thải nông hộ.",
       "matched_incident": null,
       "ai_risk_numeric": 1,
@@ -408,19 +401,9 @@
       "matching_reasoning": "Đối chiếu AI Risk (Medium) với Bằng chứng Thực tế (NO_EVIDENCE)."
     },
     {
-      "claim_id": "claim_0003d5a6",
+      "claim_id": "claim_003eb0d2",
       "claim_text": "Quảng bá nhãn 'Thịt heo tươi 100% sinh thái không ô nhiễm' khi khu vực chuồng trại vẫn phát sinh mùi hôi cục bộ.",
-      "matched_incident": {
-        "incident_id": "inc_6d776aeb",
-        "company_name": "Dabaco",
-        "title": "UBND tỉnh Thanh Hóa xử phạt hơn 216 triệu đồng đối với Dabaco Thanh Hóa do xả nước thải vượt quy chuẩn BOD5",
-        "source": "Báo Lao Động",
-        "url": "https://laodong.vn/moi-truong/xu-phat-cong-ty-dabaco-thanh-hoa-hon-216-trieu-dong-1404987.ldo",
-        "article_url": null,
-        "published_date": "10/2024",
-        "snippet": "UBND tỉnh Thanh Hóa ban hành Quyết định số 4000/QĐ-XPHC ngày 7/10/2024 xử phạt Công ty TNHH Dabaco Thanh Hóa hơn 216,5 triệu đồng do xả nước thải có BOD5 vượt quy chuẩn 1,48 lần và không lập kế hoạch phòng ngừa sự cố chất thải.",
-        "relevance_score": 0.96
-      },
+      "matched_incident": null,
       "ai_risk_numeric": 2,
       "ground_truth_numeric": 2,
       "ground_truth_label": "HIGH_RISK",
@@ -430,7 +413,7 @@
       "matching_reasoning": "Đối chiếu AI Risk (High) với Bằng chứng Thực tế (HIGHLY_COMPATIBLE)."
     },
     {
-      "claim_id": "claim_002d4478",
+      "claim_id": "claim_000fb53c",
       "claim_text": "Các cơ sở chăn nuôi thực hiện đầy đủ cam kết bảo vệ môi trường và quan trắc định kỳ theo quy định.",
       "matched_incident": null,
       "ai_risk_numeric": 0,
@@ -442,9 +425,22 @@
       "matching_reasoning": "Đối chiếu AI Risk (Low) với Bằng chứng Thực tế (NO_EVIDENCE)."
     },
     {
-      "claim_id": "claim_004c49dd",
+      "claim_id": "claim_00978dd2",
       "claim_text": "Tỷ lệ xử lý nước thải chăn nuôi đạt QCVN 62-MT:2016/BTNMT Cột B có kiểm định quan trắc mẫu nước.",
-      "matched_incident": null,
+      "matched_incident": {
+        "incident_id": "inc_3403c379",
+        "company_name": "Dabaco",
+        "title": "UBND tỉnh Thanh Hóa xử phạt hơn 216 triệu đồng đối với Dabaco Thanh Hóa do xả nước thải vượt quy chuẩn BOD5",
+        "source": "Báo Lao Động",
+        "url": "https://laodong.vn/moi-truong/xu-phat-cong-ty-dabaco-thanh-hoa-hon-216-trieu-dong-1404987.ldo",
+        "article_url": "https://laodong.vn/moi-truong/xu-phat-cong-ty-dabaco-thanh-hoa-hon-216-trieu-dong-1404987.ldo",
+        "search_query": "Dabaco UBND tỉnh Thanh Hóa xử phạt hơn 216 triệu đồng đối với Dabaco Thanh Hóa do xả nước thải vượt quy chuẩn BOD5",
+        "search_url": "https://www.google.com/search?q=Dabaco+UBND+t%E1%BB%89nh+Thanh+H%C3%B3a+x%E1%BB%AD+ph%E1%BA%A1t+h%C6%A1n+216+tri%E1%BB%87u+%C4%91%E1%BB%93ng+%C4%91%E1%BB%91i+v%E1%BB%9Bi+Dabaco+Thanh+H%C3%B3a+do+x%E1%BA%A3+n%C6%B0%E1%BB%9Bc+th%E1%BA%A3i+v%C6%B0%E1%BB%A3t+quy+chu%E1%BA%A9n+BOD5",
+        "article_url_status": "VERIFIED_EXACT",
+        "published_date": "10/2024",
+        "snippet": "UBND tỉnh Thanh Hóa ban hành Quyết định số 4000/QĐ-XPHC ngày 7/10/2024 xử phạt Công ty TNHH Dabaco Thanh Hóa hơn 216,5 triệu đồng do xả nước thải có BOD5 vượt quy chuẩn 1,48 lần và không lập kế hoạch phòng ngừa sự cố chất thải.",
+        "relevance_score": 0.96
+      },
       "ai_risk_numeric": 0,
       "ground_truth_numeric": 0,
       "ground_truth_label": "LOW_RISK",

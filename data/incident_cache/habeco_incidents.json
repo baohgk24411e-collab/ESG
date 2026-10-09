@@ -1,24 +1,16 @@
 [
   {
-    "incident_id": "inc_846f6a36",
+    "incident_id": "inc_6b46859f",
     "company_name": "Habeco",
     "title": "Habeco bị xử phạt do xả nước thải vượt tiêu chuẩn môi trường (COD vượt 11 lần quy chuẩn)",
     "source": "Báo Tiền Phong",
-    "url": "https://www.google.com/search?q=Habeco+xa+nuoc+thai+vuot+tieu+chuan+COD+xu+phat+site%3Atienphong.vn",
+    "url": "https://www.google.com/search?q=Habeco+Habeco+b%E1%BB%8B+x%E1%BB%AD+ph%E1%BA%A1t+do+x%E1%BA%A3+n%C6%B0%E1%BB%9Bc+th%E1%BA%A3i+v%C6%B0%E1%BB%A3t+ti%C3%AAu+chu%E1%BA%A9n+m%C3%B4i+tr%C6%B0%E1%BB%9Dng+%28COD+v%C6%B0%E1%BB%A3t+11+l%E1%BA%A7n+quy+chu%E1%BA%A9n%29",
     "article_url": null,
+    "search_query": "Habeco Habeco bị xử phạt do xả nước thải vượt tiêu chuẩn môi trường (COD vượt 11 lần quy chuẩn)",
+    "search_url": "https://www.google.com/search?q=Habeco+Habeco+b%E1%BB%8B+x%E1%BB%AD+ph%E1%BA%A1t+do+x%E1%BA%A3+n%C6%B0%E1%BB%9Bc+th%E1%BA%A3i+v%C6%B0%E1%BB%A3t+ti%C3%AAu+chu%E1%BA%A9n+m%C3%B4i+tr%C6%B0%E1%BB%9Dng+%28COD+v%C6%B0%E1%BB%A3t+11+l%E1%BA%A7n+quy+chu%E1%BA%A9n%29",
+    "article_url_status": "UNAVAILABLE",
     "published_date": "2009-2024",
     "snippet": "Kết quả phân tích mẫu nước thải từ đường ống xả của Habeco cho thấy hàm lượng COD là 937 mg/l, vượt tiêu chuẩn cho phép (80 mg/l) gấp nhiều lần. Cơ quan chức năng lập biên bản xử phạt hành chính.",
     "relevance_score": 0.93
-  },
-  {
-    "incident_id": "inc_93340855",
-    "company_name": "Habeco",
-    "title": "Vi phạm bản quyền sách trên môi trường số: Gỡ hôm trước, hôm sau lại xuất hiện",
-    "source": "Vietnamnet",
-    "url": "https://vietnamnet.vn/vi-pham-ban-quyen-sach-tren-moi-truong-so-go-hom-truoc-hom-sau-lai-xuat-hien-2517746.html",
-    "article_url": null,
-    "published_date": "2026-05-20",
-    "snippet": "Cùng với sự phát triển của thị trường xuất bản điện tử, các hành vi xâm phạm bản quyền cũng chuyển dịch từ in lậu, photocopy truyền thống sang các hình thức tinh vi hơn trên internet. Ngày 5/5/2026 ...",
-    "relevance_score": 0.85
   }
 ]

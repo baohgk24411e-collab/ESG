@@ -6,7 +6,7 @@
   "claims_detected": [
     {
       "claim": {
-        "claim_id": "claim_0096714d",
+        "claim_id": "claim_001ab383",
         "indicator_type": "Selective Disclosure",
         "claim_text": "Trụ cột Môi trường đặt mục tiêu Bồi hoàn nước vào năm 2040 nhưng không đưa ra chỉ số tiêu thụ nước theo từng hectoliter sản phẩm năm 2024.",
         "page_number": 15,
@@ -63,7 +63,7 @@
     },
     {
       "claim": {
-        "claim_id": "claim_007568e9",
+        "claim_id": "claim_00424cf5",
         "indicator_type": "Hollow Promise",
         "claim_text": "Cam kết đạt bao bì đồ uống tái chế hoặc phân hủy sinh học vào năm 2040 không có các mốc hành động chi tiết.",
         "page_number": 19,
@@ -120,7 +120,7 @@
     },
     {
       "claim": {
-        "claim_id": "claim_000c9116",
+        "claim_id": "claim_003e797b",
         "indicator_type": "Selective Disclosure",
         "claim_text": "Số liệu cường độ tiêu thụ nước 50%, 100%, 90% được ghi chú mập mờ về mốc thời gian hoàn thành.",
         "page_number": 23,
@@ -177,7 +177,7 @@
     },
     {
       "claim": {
-        "claim_id": "claim_001e2382",
+        "claim_id": "claim_0031eff6",
         "indicator_type": "Potential Data Mispresentation",
         "claim_text": "Báo cáo phát thải khí nhà kính Scope 1 & 2 năm 2030 chưa tách bạch giữa phát thải trực tiếp và phát thải gián tiếp.",
         "page_number": 27,
@@ -234,7 +234,7 @@
     },
     {
       "claim": {
-        "claim_id": "claim_007a55de",
+        "claim_id": "claim_00229259",
         "indicator_type": "Misleading Presentation",
         "claim_text": "Tuyên bố bao bì có khả năng tái chế 100% trong khi hệ thống thu hồi thực tế chỉ xử lý được vỏ chai thủy tinh và lon nhôm.",
         "page_number": 31,
@@ -291,7 +291,7 @@
     },
     {
       "claim": {
-        "claim_id": "claim_007725c6",
+        "claim_id": "claim_007467e7",
         "indicator_type": "Potential Data Mispresentation",
         "claim_text": "Hiện nay 14 nhà máy đã trang bị điện mặt trời áp mái tạo ra 32 triệu kWh điện sạch mỗi năm.",
         "page_number": 35,
@@ -348,7 +348,7 @@
     },
     {
       "claim": {
-        "claim_id": "claim_005a07a9",
+        "claim_id": "claim_005afa3d",
         "indicator_type": "Hollow Promise",
         "claim_text": "Kế hoạch tái chế theo quy định EPR 100% tuân thủ đúng danh mục đóng góp tài chính theo Nghị định 08/2022/NĐ-CP.",
         "page_number": 39,
@@ -405,7 +405,7 @@
     },
     {
       "claim": {
-        "claim_id": "claim_005214dc",
+        "claim_id": "claim_00309dcd",
         "indicator_type": "Selective Disclosure",
         "claim_text": "Chương trình Tiền gửi Xanh 2,82 tỷ đồng tài trợ chuyển đổi xanh cho nhà cung ứng chưa kiểm toán kết quả giảm phát thải.",
         "page_number": 43,
@@ -463,12 +463,15 @@
   ],
   "scraped_incidents": [
     {
-      "incident_id": "inc_ae9622c7",
+      "incident_id": "inc_66cb9fa0",
       "company_name": "Sabeco",
       "title": "Nghệ An: Nghi vấn nước thải ô nhiễm từ KCN Bắc Vinh (khu vực Sabeco Sông Lam) xả ra môi trường",
       "source": "Báo Dân Việt",
-      "url": "https://danviet.vn/nghe-an-nghi-van-nuoc-thai-o-nhiem-tu-kcn-bac-vinh-chay-ra-kenh-bac-7777977610.htm",
+      "url": "https://www.google.com/search?q=Sabeco+Ngh%E1%BB%87+An%3A+Nghi+v%E1%BA%A5n+n%C6%B0%E1%BB%9Bc+th%E1%BA%A3i+%C3%B4+nhi%E1%BB%85m+t%E1%BB%AB+KCN+B%E1%BA%AFc+Vinh+%28khu+v%E1%BB%B1c+Sabeco+S%C3%B4ng+Lam%29+x%E1%BA%A3+ra+m%C3%B4i+tr%C6%B0%E1%BB%9Dng",
       "article_url": null,
+      "search_query": "Sabeco Nghệ An: Nghi vấn nước thải ô nhiễm từ KCN Bắc Vinh (khu vực Sabeco Sông Lam) xả ra môi trường",
+      "search_url": "https://www.google.com/search?q=Sabeco+Ngh%E1%BB%87+An%3A+Nghi+v%E1%BA%A5n+n%C6%B0%E1%BB%9Bc+th%E1%BA%A3i+%C3%B4+nhi%E1%BB%85m+t%E1%BB%AB+KCN+B%E1%BA%AFc+Vinh+%28khu+v%E1%BB%B1c+Sabeco+S%C3%B4ng+Lam%29+x%E1%BA%A3+ra+m%C3%B4i+tr%C6%B0%E1%BB%9Dng",
+      "article_url_status": "REJECTED_MISMATCH",
       "published_date": "2023-2024",
       "snippet": "Kiểm tra liên ngành và phản ánh thực tế về việc chấp hành quy định bảo vệ môi trường, vận hành hệ thống xử lý nước thải và kênh xả thải công nghiệp tại cơ sở thành viên Sabeco Sông Lam.",
       "relevance_score": 0.92
@@ -476,19 +479,9 @@
   ],
   "incident_matches": [
     {
-      "claim_id": "claim_0096714d",
+      "claim_id": "claim_001ab383",
       "claim_text": "Trụ cột Môi trường đặt mục tiêu Bồi hoàn nước vào năm 2040 nhưng không đưa ra chỉ số tiêu thụ nước theo từng hectoliter sản phẩm năm 2024.",
-      "matched_incident": {
-        "incident_id": "inc_ae9622c7",
-        "company_name": "Sabeco",
-        "title": "Nghệ An: Nghi vấn nước thải ô nhiễm từ KCN Bắc Vinh (khu vực Sabeco Sông Lam) xả ra môi trường",
-        "source": "Báo Dân Việt",
-        "url": "https://danviet.vn/nghe-an-nghi-van-nuoc-thai-o-nhiem-tu-kcn-bac-vinh-chay-ra-kenh-bac-7777977610.htm",
-        "article_url": null,
-        "published_date": "2023-2024",
-        "snippet": "Kiểm tra liên ngành và phản ánh thực tế về việc chấp hành quy định bảo vệ môi trường, vận hành hệ thống xử lý nước thải và kênh xả thải công nghiệp tại cơ sở thành viên Sabeco Sông Lam.",
-        "relevance_score": 0.92
-      },
+      "matched_incident": null,
       "ai_risk_numeric": 1,
       "ground_truth_numeric": 1,
       "ground_truth_label": "MODERATE_RISK",
@@ -498,7 +491,7 @@
       "matching_reasoning": "Đối chiếu AI Risk (Medium) với Bằng chứng Thực tế (PARTIALLY_COMPATIBLE)."
     },
     {
-      "claim_id": "claim_007568e9",
+      "claim_id": "claim_00424cf5",
       "claim_text": "Cam kết đạt bao bì đồ uống tái chế hoặc phân hủy sinh học vào năm 2040 không có các mốc hành động chi tiết.",
       "matched_incident": null,
       "ai_risk_numeric": 1,
@@ -510,19 +503,9 @@
       "matching_reasoning": "Đối chiếu AI Risk (Medium) với Bằng chứng Thực tế (NO_EVIDENCE)."
     },
     {
-      "claim_id": "claim_000c9116",
+      "claim_id": "claim_003e797b",
       "claim_text": "Số liệu cường độ tiêu thụ nước 50%, 100%, 90% được ghi chú mập mờ về mốc thời gian hoàn thành.",
-      "matched_incident": {
-        "incident_id": "inc_ae9622c7",
-        "company_name": "Sabeco",
-        "title": "Nghệ An: Nghi vấn nước thải ô nhiễm từ KCN Bắc Vinh (khu vực Sabeco Sông Lam) xả ra môi trường",
-        "source": "Báo Dân Việt",
-        "url": "https://danviet.vn/nghe-an-nghi-van-nuoc-thai-o-nhiem-tu-kcn-bac-vinh-chay-ra-kenh-bac-7777977610.htm",
-        "article_url": null,
-        "published_date": "2023-2024",
-        "snippet": "Kiểm tra liên ngành và phản ánh thực tế về việc chấp hành quy định bảo vệ môi trường, vận hành hệ thống xử lý nước thải và kênh xả thải công nghiệp tại cơ sở thành viên Sabeco Sông Lam.",
-        "relevance_score": 0.92
-      },
+      "matched_incident": null,
       "ai_risk_numeric": 2,
       "ground_truth_numeric": 1,
       "ground_truth_label": "MODERATE_RISK",
@@ -532,7 +515,7 @@
       "matching_reasoning": "Đối chiếu AI Risk (High) với Bằng chứng Thực tế (PARTIALLY_COMPATIBLE)."
     },
     {
-      "claim_id": "claim_001e2382",
+      "claim_id": "claim_0031eff6",
       "claim_text": "Báo cáo phát thải khí nhà kính Scope 1 & 2 năm 2030 chưa tách bạch giữa phát thải trực tiếp và phát thải gián tiếp.",
       "matched_incident": null,
       "ai_risk_numeric": 0,
@@ -544,7 +527,7 @@
       "matching_reasoning": "Đối chiếu AI Risk (Low) với Bằng chứng Thực tế (NO_EVIDENCE)."
     },
     {
-      "claim_id": "claim_007a55de",
+      "claim_id": "claim_00229259",
       "claim_text": "Tuyên bố bao bì có khả năng tái chế 100% trong khi hệ thống thu hồi thực tế chỉ xử lý được vỏ chai thủy tinh và lon nhôm.",
       "matched_incident": null,
       "ai_risk_numeric": 1,
@@ -556,7 +539,7 @@
       "matching_reasoning": "Đối chiếu AI Risk (Medium) với Bằng chứng Thực tế (NO_EVIDENCE)."
     },
     {
-      "claim_id": "claim_007725c6",
+      "claim_id": "claim_007467e7",
       "claim_text": "Hiện nay 14 nhà máy đã trang bị điện mặt trời áp mái tạo ra 32 triệu kWh điện sạch mỗi năm.",
       "matched_incident": null,
       "ai_risk_numeric": 0,
@@ -568,7 +551,7 @@
       "matching_reasoning": "Đối chiếu AI Risk (None) với Bằng chứng Thực tế (NO_EVIDENCE)."
     },
     {
-      "claim_id": "claim_005a07a9",
+      "claim_id": "claim_005afa3d",
       "claim_text": "Kế hoạch tái chế theo quy định EPR 100% tuân thủ đúng danh mục đóng góp tài chính theo Nghị định 08/2022/NĐ-CP.",
       "matched_incident": null,
       "ai_risk_numeric": 0,
@@ -580,7 +563,7 @@
       "matching_reasoning": "Đối chiếu AI Risk (Low) với Bằng chứng Thực tế (NO_EVIDENCE)."
     },
     {
-      "claim_id": "claim_005214dc",
+      "claim_id": "claim_00309dcd",
       "claim_text": "Chương trình Tiền gửi Xanh 2,82 tỷ đồng tài trợ chuyển đổi xanh cho nhà cung ứng chưa kiểm toán kết quả giảm phát thải.",
       "matched_incident": null,
       "ai_risk_numeric": 0,

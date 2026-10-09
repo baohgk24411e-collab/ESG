@@ -6,7 +6,7 @@
   "claims_detected": [
     {
       "claim": {
-        "claim_id": "claim_0031d027",
+        "claim_id": "claim_003fc4b0",
         "indicator_type": "Misleading Presentation",
         "claim_text": "Gắn nhãn 'Thịt tươi xanh 100% hữu cơ tự nhiên' trong khi mới áp dụng tiêu chuẩn VietGAP, chưa đạt chuẩn chứng nhận hữu cơ Organic.",
         "page_number": 15,
@@ -63,7 +63,7 @@
     },
     {
       "claim": {
-        "claim_id": "claim_006fbcbe",
+        "claim_id": "claim_00720fc4",
         "indicator_type": "Selective Disclosure",
         "claim_text": "Nhà máy giết mổ công nghiệp áp dụng hệ thống xử lý nước thải tuần hoàn và kiểm dịch thú y 100% đạt chuẩn ISO 22000.",
         "page_number": 19,
@@ -120,7 +120,7 @@
     },
     {
       "claim": {
-        "claim_id": "claim_00593ecc",
+        "claim_id": "claim_005238b2",
         "indicator_type": "Potential Data Mispresentation",
         "claim_text": "Giảm 25% lượng phát thải nhựa thông qua cải tiến bao bì khay thực phẩm sinh học dễ phân hủy.",
         "page_number": 23,
@@ -177,7 +177,7 @@
     },
     {
       "claim": {
-        "claim_id": "claim_005d3e81",
+        "claim_id": "claim_00416d55",
         "indicator_type": "Hollow Promise",
         "claim_text": "Chương trình tiết kiệm năng lượng và giảm 10% điện năng tiêu thụ tại hệ thống kho lạnh chế biến có số liệu kiểm toán.",
         "page_number": 27,
@@ -234,7 +234,7 @@
     },
     {
       "claim": {
-        "claim_id": "claim_00426a31",
+        "claim_id": "claim_00327d8a",
         "indicator_type": "Potential Data Mispresentation",
         "claim_text": "Thu gom và xử lý 100% phụ phẩm giết mổ thành nguyên liệu bột thịt xương phục vụ thức ăn gia súc chưa kiểm định mùi hôi lò sấy.",
         "page_number": 31,
@@ -291,7 +291,7 @@
     },
     {
       "claim": {
-        "claim_id": "claim_002c6cf8",
+        "claim_id": "claim_006fe219",
         "indicator_type": "Selective Disclosure",
         "claim_text": "Biện pháp giảm thiểu tiếng ồn và mùi hôi tại cơ sở giết mổ gia súc quận Bình Thạnh đạt chuẩn đô thị.",
         "page_number": 35,
@@ -349,12 +349,15 @@
   ],
   "scraped_incidents": [
     {
-      "incident_id": "inc_50aa25c2",
+      "incident_id": "inc_f8d41464",
       "company_name": "Vissan",
       "title": "Vissan sắp chi hơn 1.500 tỉ đồng di dời nhà máy giết mổ về Tây Ninh",
       "source": "Báo Tuổi Trẻ",
-      "url": "https://tuoitre.vn/vissan-sap-chi-hon-1-500-ti-dong-di-doi-nha-may-ve-tay-ninh-20240921133504381.htm",
+      "url": "https://www.google.com/search?q=Vissan+Vissan+s%E1%BA%AFp+chi+h%C6%A1n+1.500+t%E1%BB%89+%C4%91%E1%BB%93ng+di+d%E1%BB%9Di+nh%C3%A0+m%C3%A1y+gi%E1%BA%BFt+m%E1%BB%95+v%E1%BB%81+T%C3%A2y+Ninh",
       "article_url": null,
+      "search_query": "Vissan Vissan sắp chi hơn 1.500 tỉ đồng di dời nhà máy giết mổ về Tây Ninh",
+      "search_url": "https://www.google.com/search?q=Vissan+Vissan+s%E1%BA%AFp+chi+h%C6%A1n+1.500+t%E1%BB%89+%C4%91%E1%BB%93ng+di+d%E1%BB%9Di+nh%C3%A0+m%C3%A1y+gi%E1%BA%BFt+m%E1%BB%95+v%E1%BB%81+T%C3%A2y+Ninh",
+      "article_url_status": "REJECTED_MISMATCH",
       "published_date": "09/2024",
       "snippet": "Vissan phê duyệt dự án đầu tư 1.558 tỷ đồng di dời cơ sở giết mổ tại 420 Nơ Trang Long (Bình Thạnh) về xã Thạnh Lợi, Tây Ninh trên 22,4 ha, dự kiến khởi công 11/2026.",
       "relevance_score": 0.95
@@ -362,19 +365,9 @@
   ],
   "incident_matches": [
     {
-      "claim_id": "claim_0031d027",
+      "claim_id": "claim_003fc4b0",
       "claim_text": "Gắn nhãn 'Thịt tươi xanh 100% hữu cơ tự nhiên' trong khi mới áp dụng tiêu chuẩn VietGAP, chưa đạt chuẩn chứng nhận hữu cơ Organic.",
-      "matched_incident": {
-        "incident_id": "inc_50aa25c2",
-        "company_name": "Vissan",
-        "title": "Vissan sắp chi hơn 1.500 tỉ đồng di dời nhà máy giết mổ về Tây Ninh",
-        "source": "Báo Tuổi Trẻ",
-        "url": "https://tuoitre.vn/vissan-sap-chi-hon-1-500-ti-dong-di-doi-nha-may-ve-tay-ninh-20240921133504381.htm",
-        "article_url": null,
-        "published_date": "09/2024",
-        "snippet": "Vissan phê duyệt dự án đầu tư 1.558 tỷ đồng di dời cơ sở giết mổ tại 420 Nơ Trang Long (Bình Thạnh) về xã Thạnh Lợi, Tây Ninh trên 22,4 ha, dự kiến khởi công 11/2026.",
-        "relevance_score": 0.95
-      },
+      "matched_incident": null,
       "ai_risk_numeric": 1,
       "ground_truth_numeric": 1,
       "ground_truth_label": "MODERATE_RISK",
@@ -384,7 +377,7 @@
       "matching_reasoning": "Đối chiếu AI Risk (Medium) với Bằng chứng Thực tế (PARTIALLY_COMPATIBLE)."
     },
     {
-      "claim_id": "claim_006fbcbe",
+      "claim_id": "claim_00720fc4",
       "claim_text": "Nhà máy giết mổ công nghiệp áp dụng hệ thống xử lý nước thải tuần hoàn và kiểm dịch thú y 100% đạt chuẩn ISO 22000.",
       "matched_incident": null,
       "ai_risk_numeric": 0,
@@ -396,7 +389,7 @@
       "matching_reasoning": "Đối chiếu AI Risk (None) với Bằng chứng Thực tế (NO_EVIDENCE)."
     },
     {
-      "claim_id": "claim_00593ecc",
+      "claim_id": "claim_005238b2",
       "claim_text": "Giảm 25% lượng phát thải nhựa thông qua cải tiến bao bì khay thực phẩm sinh học dễ phân hủy.",
       "matched_incident": null,
       "ai_risk_numeric": 0,
@@ -408,7 +401,7 @@
       "matching_reasoning": "Đối chiếu AI Risk (None) với Bằng chứng Thực tế (NO_EVIDENCE)."
     },
     {
-      "claim_id": "claim_005d3e81",
+      "claim_id": "claim_00416d55",
       "claim_text": "Chương trình tiết kiệm năng lượng và giảm 10% điện năng tiêu thụ tại hệ thống kho lạnh chế biến có số liệu kiểm toán.",
       "matched_incident": null,
       "ai_risk_numeric": 0,
@@ -420,19 +413,9 @@
       "matching_reasoning": "Đối chiếu AI Risk (None) với Bằng chứng Thực tế (NO_EVIDENCE)."
     },
     {
-      "claim_id": "claim_00426a31",
+      "claim_id": "claim_00327d8a",
       "claim_text": "Thu gom và xử lý 100% phụ phẩm giết mổ thành nguyên liệu bột thịt xương phục vụ thức ăn gia súc chưa kiểm định mùi hôi lò sấy.",
-      "matched_incident": {
-        "incident_id": "inc_50aa25c2",
-        "company_name": "Vissan",
-        "title": "Vissan sắp chi hơn 1.500 tỉ đồng di dời nhà máy giết mổ về Tây Ninh",
-        "source": "Báo Tuổi Trẻ",
-        "url": "https://tuoitre.vn/vissan-sap-chi-hon-1-500-ti-dong-di-doi-nha-may-ve-tay-ninh-20240921133504381.htm",
-        "article_url": null,
-        "published_date": "09/2024",
-        "snippet": "Vissan phê duyệt dự án đầu tư 1.558 tỷ đồng di dời cơ sở giết mổ tại 420 Nơ Trang Long (Bình Thạnh) về xã Thạnh Lợi, Tây Ninh trên 22,4 ha, dự kiến khởi công 11/2026.",
-        "relevance_score": 0.95
-      },
+      "matched_incident": null,
       "ai_risk_numeric": 1,
       "ground_truth_numeric": 1,
       "ground_truth_label": "MODERATE_RISK",
@@ -442,7 +425,7 @@
       "matching_reasoning": "Đối chiếu AI Risk (Medium) với Bằng chứng Thực tế (PARTIALLY_COMPATIBLE)."
     },
     {
-      "claim_id": "claim_002c6cf8",
+      "claim_id": "claim_006fe219",
       "claim_text": "Biện pháp giảm thiểu tiếng ồn và mùi hôi tại cơ sở giết mổ gia súc quận Bình Thạnh đạt chuẩn đô thị.",
       "matched_incident": null,
       "ai_risk_numeric": 0,

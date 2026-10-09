@@ -1,11 +1,14 @@
 [
   {
-    "incident_id": "inc_50aa25c2",
+    "incident_id": "inc_f8d41464",
     "company_name": "Vissan",
     "title": "Vissan sắp chi hơn 1.500 tỉ đồng di dời nhà máy giết mổ về Tây Ninh",
     "source": "Báo Tuổi Trẻ",
-    "url": "https://tuoitre.vn/vissan-sap-chi-hon-1-500-ti-dong-di-doi-nha-may-ve-tay-ninh-20240921133504381.htm",
+    "url": "https://www.google.com/search?q=Vissan+Vissan+s%E1%BA%AFp+chi+h%C6%A1n+1.500+t%E1%BB%89+%C4%91%E1%BB%93ng+di+d%E1%BB%9Di+nh%C3%A0+m%C3%A1y+gi%E1%BA%BFt+m%E1%BB%95+v%E1%BB%81+T%C3%A2y+Ninh",
     "article_url": null,
+    "search_query": "Vissan Vissan sắp chi hơn 1.500 tỉ đồng di dời nhà máy giết mổ về Tây Ninh",
+    "search_url": "https://www.google.com/search?q=Vissan+Vissan+s%E1%BA%AFp+chi+h%C6%A1n+1.500+t%E1%BB%89+%C4%91%E1%BB%93ng+di+d%E1%BB%9Di+nh%C3%A0+m%C3%A1y+gi%E1%BA%BFt+m%E1%BB%95+v%E1%BB%81+T%C3%A2y+Ninh",
+    "article_url_status": "REJECTED_MISMATCH",
     "published_date": "09/2024",
     "snippet": "Vissan phê duyệt dự án đầu tư 1.558 tỷ đồng di dời cơ sở giết mổ tại 420 Nơ Trang Long (Bình Thạnh) về xã Thạnh Lợi, Tây Ninh trên 22,4 ha, dự kiến khởi công 11/2026.",
     "relevance_score": 0.95

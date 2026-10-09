@@ -55,6 +55,24 @@ def map_risk_str_to_numeric(risk_str: Optional[str]) -> int:
     return 0
 
 
+def normalize_url_for_matching(url: Optional[str]) -> str:
+    """Normalizes URL for exact matching (strips whitespace and trailing slashes)."""
+    if not url or not isinstance(url, str):
+        return ""
+    return url.strip().rstrip("/")
+
+
+def exact_normalized_url_match(url1: Optional[str], url2: Optional[str]) -> bool:
+    """Checks whether two URLs match identically after trimming and normalizing trailing slashes."""
+    if not url1 or not url2:
+        return False
+    u1 = normalize_url_for_matching(url1)
+    u2 = normalize_url_for_matching(url2)
+    if not u1 or not u2:
+        return False
+    return u1.lower() == u2.lower()
+
+
 def match_claim_with_incidents(debate_result: ClaimDebateResult, incidents: List[NewsIncident]) -> IncidentMatchResult:
     """
     Agent 3 matches AI prediction against specific topic Ground Truth risk levels with non-binary evidence reasoning.
@@ -70,7 +88,7 @@ def match_claim_with_incidents(debate_result: ClaimDebateResult, incidents: List
         f"Title: {inc.title[:120]}\n"
         f"Source: {inc.source[:60]}\n"
         f"Publish Date: {inc.published_date}\n"
-        f"URL (Exact): {inc.url}\n"
+        f"URL (Exact): {inc.article_url or inc.url}\n"
         f"Snippet Content: {inc.snippet[:180]}...\n"
         for i, inc in enumerate(top_incidents)
     ])
@@ -114,18 +132,19 @@ Hãy thực hiện chuỗi suy luận từng bước (reasoning_chain) để xá
 
         reasoning = res.get("matching_reasoning", f"So sánh cặp đôi AI ({ai_numeric}) vs Ground Truth ({gt_numeric}) | Bằng chứng: {compatibility}.")
 
-
         # Post-validation: Strict URL citation grounding
         matched_inc = None
         if cited_url and isinstance(cited_url, str):
+            cited_clean = cited_url.strip()
             for inc in incidents:
-                if inc.url.strip() == cited_url.strip():
+                candidates = [inc.article_url, inc.url]
+                if any(c and exact_normalized_url_match(c, cited_clean) for c in candidates):
                     matched_inc = inc
+                    print(f"[Agent3] Exact cited URL matched: {matched_inc.title}")
                     break
 
-        # Fallback if LLM identified GT risk >= 1 but didn't return an exact URL string match
-        if not matched_inc and incidents and gt_numeric >= 1:
-            matched_inc = incidents[0]
+        if not matched_inc:
+            print("[Agent3] No exact article match; leaving matched_incident=None")
 
         return IncidentMatchResult(
             claim_id=claim.claim_id,
@@ -146,7 +165,7 @@ Hãy thực hiện chuỗi suy luận từng bước (reasoning_chain) để xá
         return IncidentMatchResult(
             claim_id=claim.claim_id,
             claim_text=claim.claim_text,
-            matched_incident=incidents[0] if incidents else None,
+            matched_incident=None,
             ai_risk_numeric=ai_numeric,
             ground_truth_numeric=gt_numeric,
             ground_truth_label="LOW_RISK",

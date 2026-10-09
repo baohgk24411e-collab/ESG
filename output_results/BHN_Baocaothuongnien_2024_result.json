@@ -6,7 +6,7 @@
   "claims_detected": [
     {
       "claim": {
-        "claim_id": "claim_007d4144",
+        "claim_id": "claim_003fd584",
         "indicator_type": "Selective Disclosure",
         "claim_text": "Báo cáo công bố hệ thống xử lý nước thải đạt tiêu chuẩn Cột A nhưng chưa cung cấp số liệu tổng lượng tiêu thụ nước cho từng lít bia thành phẩm.",
         "page_number": 15,
@@ -63,7 +63,7 @@
     },
     {
       "claim": {
-        "claim_id": "claim_00220900",
+        "claim_id": "claim_00690ddc",
         "indicator_type": "Hollow Promise",
         "claim_text": "Kế hoạch cắt giảm 30% phát thải than đá vào năm 2030 chưa có kế hoạch tài chính và đơn vị cung ứng nhiên liệu sinh khối cam kết.",
         "page_number": 19,
@@ -120,7 +120,7 @@
     },
     {
       "claim": {
-        "claim_id": "claim_0089c79e",
+        "claim_id": "claim_0068ec21",
         "indicator_type": "Potential Data Mispresentation",
         "claim_text": "Chuyển đổi sang lò hơi sinh khối Biomass tại Nhà máy Bia Hà Nội - Mê Linh có biên bản nghiệm thu kỹ thuật.",
         "page_number": 23,
@@ -177,7 +177,7 @@
     },
     {
       "claim": {
-        "claim_id": "claim_0044530e",
+        "claim_id": "claim_0034b1ad",
         "indicator_type": "Misleading Presentation",
         "claim_text": "Sử dụng nhãn 'Bia xanh thân thiện môi trường 100%' trong chiến dịch truyền thông khi tỷ lệ tái chế bao bì chưa đạt 50%.",
         "page_number": 27,
@@ -234,7 +234,7 @@
     },
     {
       "claim": {
-        "claim_id": "claim_0005929e",
+        "claim_id": "claim_0035c790",
         "indicator_type": "Selective Disclosure",
         "claim_text": "100% nước thải sản xuất qua hệ thống quan trắc tự động kết nối liên tục về Sở TN&MT.",
         "page_number": 31,
@@ -292,39 +292,34 @@
   ],
   "scraped_incidents": [
     {
-      "incident_id": "inc_846f6a36",
+      "incident_id": "inc_6b46859f",
       "company_name": "Habeco",
       "title": "Habeco bị xử phạt do xả nước thải vượt tiêu chuẩn môi trường (COD vượt 11 lần quy chuẩn)",
       "source": "Báo Tiền Phong",
-      "url": "https://www.google.com/search?q=Habeco+xa+nuoc+thai+vuot+tieu+chuan+COD+xu+phat+site%3Atienphong.vn",
+      "url": "https://www.google.com/search?q=Habeco+Habeco+b%E1%BB%8B+x%E1%BB%AD+ph%E1%BA%A1t+do+x%E1%BA%A3+n%C6%B0%E1%BB%9Bc+th%E1%BA%A3i+v%C6%B0%E1%BB%A3t+ti%C3%AAu+chu%E1%BA%A9n+m%C3%B4i+tr%C6%B0%E1%BB%9Dng+%28COD+v%C6%B0%E1%BB%A3t+11+l%E1%BA%A7n+quy+chu%E1%BA%A9n%29",
       "article_url": null,
+      "search_query": "Habeco Habeco bị xử phạt do xả nước thải vượt tiêu chuẩn môi trường (COD vượt 11 lần quy chuẩn)",
+      "search_url": "https://www.google.com/search?q=Habeco+Habeco+b%E1%BB%8B+x%E1%BB%AD+ph%E1%BA%A1t+do+x%E1%BA%A3+n%C6%B0%E1%BB%9Bc+th%E1%BA%A3i+v%C6%B0%E1%BB%A3t+ti%C3%AAu+chu%E1%BA%A9n+m%C3%B4i+tr%C6%B0%E1%BB%9Dng+%28COD+v%C6%B0%E1%BB%A3t+11+l%E1%BA%A7n+quy+chu%E1%BA%A9n%29",
+      "article_url_status": "UNAVAILABLE",
       "published_date": "2009-2024",
       "snippet": "Kết quả phân tích mẫu nước thải từ đường ống xả của Habeco cho thấy hàm lượng COD là 937 mg/l, vượt tiêu chuẩn cho phép (80 mg/l) gấp nhiều lần. Cơ quan chức năng lập biên bản xử phạt hành chính.",
       "relevance_score": 0.93
-    },
-    {
-      "incident_id": "inc_93340855",
-      "company_name": "Habeco",
-      "title": "Vi phạm bản quyền sách trên môi trường số: Gỡ hôm trước, hôm sau lại xuất hiện",
-      "source": "Vietnamnet",
-      "url": "https://vietnamnet.vn/vi-pham-ban-quyen-sach-tren-moi-truong-so-go-hom-truoc-hom-sau-lai-xuat-hien-2517746.html",
-      "article_url": null,
-      "published_date": "2026-05-20",
-      "snippet": "Cùng với sự phát triển của thị trường xuất bản điện tử, các hành vi xâm phạm bản quyền cũng chuyển dịch từ in lậu, photocopy truyền thống sang các hình thức tinh vi hơn trên internet. Ngày 5/5/2026 ...",
-      "relevance_score": 0.85
     }
   ],
   "incident_matches": [
     {
-      "claim_id": "claim_007d4144",
+      "claim_id": "claim_003fd584",
       "claim_text": "Báo cáo công bố hệ thống xử lý nước thải đạt tiêu chuẩn Cột A nhưng chưa cung cấp số liệu tổng lượng tiêu thụ nước cho từng lít bia thành phẩm.",
       "matched_incident": {
-        "incident_id": "inc_846f6a36",
+        "incident_id": "inc_6b46859f",
         "company_name": "Habeco",
         "title": "Habeco bị xử phạt do xả nước thải vượt tiêu chuẩn môi trường (COD vượt 11 lần quy chuẩn)",
         "source": "Báo Tiền Phong",
-        "url": "https://www.google.com/search?q=Habeco+xa+nuoc+thai+vuot+tieu+chuan+COD+xu+phat+site%3Atienphong.vn",
+        "url": "https://www.google.com/search?q=Habeco+Habeco+b%E1%BB%8B+x%E1%BB%AD+ph%E1%BA%A1t+do+x%E1%BA%A3+n%C6%B0%E1%BB%9Bc+th%E1%BA%A3i+v%C6%B0%E1%BB%A3t+ti%C3%AAu+chu%E1%BA%A9n+m%C3%B4i+tr%C6%B0%E1%BB%9Dng+%28COD+v%C6%B0%E1%BB%A3t+11+l%E1%BA%A7n+quy+chu%E1%BA%A9n%29",
         "article_url": null,
+        "search_query": "Habeco Habeco bị xử phạt do xả nước thải vượt tiêu chuẩn môi trường (COD vượt 11 lần quy chuẩn)",
+        "search_url": "https://www.google.com/search?q=Habeco+Habeco+b%E1%BB%8B+x%E1%BB%AD+ph%E1%BA%A1t+do+x%E1%BA%A3+n%C6%B0%E1%BB%9Bc+th%E1%BA%A3i+v%C6%B0%E1%BB%A3t+ti%C3%AAu+chu%E1%BA%A9n+m%C3%B4i+tr%C6%B0%E1%BB%9Dng+%28COD+v%C6%B0%E1%BB%A3t+11+l%E1%BA%A7n+quy+chu%E1%BA%A9n%29",
+        "article_url_status": "UNAVAILABLE",
         "published_date": "2009-2024",
         "snippet": "Kết quả phân tích mẫu nước thải từ đường ống xả của Habeco cho thấy hàm lượng COD là 937 mg/l, vượt tiêu chuẩn cho phép (80 mg/l) gấp nhiều lần. Cơ quan chức năng lập biên bản xử phạt hành chính.",
         "relevance_score": 0.93
@@ -338,7 +333,7 @@
       "matching_reasoning": "Đối chiếu AI Risk (Medium) với Bằng chứng Thực tế (PARTIALLY_COMPATIBLE)."
     },
     {
-      "claim_id": "claim_00220900",
+      "claim_id": "claim_00690ddc",
       "claim_text": "Kế hoạch cắt giảm 30% phát thải than đá vào năm 2030 chưa có kế hoạch tài chính và đơn vị cung ứng nhiên liệu sinh khối cam kết.",
       "matched_incident": null,
       "ai_risk_numeric": 1,
@@ -350,7 +345,7 @@
       "matching_reasoning": "Đối chiếu AI Risk (Medium) với Bằng chứng Thực tế (NO_EVIDENCE)."
     },
     {
-      "claim_id": "claim_0089c79e",
+      "claim_id": "claim_0068ec21",
       "claim_text": "Chuyển đổi sang lò hơi sinh khối Biomass tại Nhà máy Bia Hà Nội - Mê Linh có biên bản nghiệm thu kỹ thuật.",
       "matched_incident": null,
       "ai_risk_numeric": 0,
@@ -362,19 +357,9 @@
       "matching_reasoning": "Đối chiếu AI Risk (None) với Bằng chứng Thực tế (NO_EVIDENCE)."
     },
     {
-      "claim_id": "claim_0044530e",
+      "claim_id": "claim_0034b1ad",
       "claim_text": "Sử dụng nhãn 'Bia xanh thân thiện môi trường 100%' trong chiến dịch truyền thông khi tỷ lệ tái chế bao bì chưa đạt 50%.",
-      "matched_incident": {
-        "incident_id": "inc_93340855",
-        "company_name": "Habeco",
-        "title": "Vi phạm bản quyền sách trên môi trường số: Gỡ hôm trước, hôm sau lại xuất hiện",
-        "source": "Vietnamnet",
-        "url": "https://vietnamnet.vn/vi-pham-ban-quyen-sach-tren-moi-truong-so-go-hom-truoc-hom-sau-lai-xuat-hien-2517746.html",
-        "article_url": null,
-        "published_date": "2026-05-20",
-        "snippet": "Cùng với sự phát triển của thị trường xuất bản điện tử, các hành vi xâm phạm bản quyền cũng chuyển dịch từ in lậu, photocopy truyền thống sang các hình thức tinh vi hơn trên internet. Ngày 5/5/2026 ...",
-        "relevance_score": 0.85
-      },
+      "matched_incident": null,
       "ai_risk_numeric": 1,
       "ground_truth_numeric": 1,
       "ground_truth_label": "MODERATE_RISK",
@@ -384,9 +369,22 @@
       "matching_reasoning": "Đối chiếu AI Risk (Medium) với Bằng chứng Thực tế (PARTIALLY_COMPATIBLE)."
     },
     {
-      "claim_id": "claim_0005929e",
+      "claim_id": "claim_0035c790",
       "claim_text": "100% nước thải sản xuất qua hệ thống quan trắc tự động kết nối liên tục về Sở TN&MT.",
-      "matched_incident": null,
+      "matched_incident": {
+        "incident_id": "inc_6b46859f",
+        "company_name": "Habeco",
+        "title": "Habeco bị xử phạt do xả nước thải vượt tiêu chuẩn môi trường (COD vượt 11 lần quy chuẩn)",
+        "source": "Báo Tiền Phong",
+        "url": "https://www.google.com/search?q=Habeco+Habeco+b%E1%BB%8B+x%E1%BB%AD+ph%E1%BA%A1t+do+x%E1%BA%A3+n%C6%B0%E1%BB%9Bc+th%E1%BA%A3i+v%C6%B0%E1%BB%A3t+ti%C3%AAu+chu%E1%BA%A9n+m%C3%B4i+tr%C6%B0%E1%BB%9Dng+%28COD+v%C6%B0%E1%BB%A3t+11+l%E1%BA%A7n+quy+chu%E1%BA%A9n%29",
+        "article_url": null,
+        "search_query": "Habeco Habeco bị xử phạt do xả nước thải vượt tiêu chuẩn môi trường (COD vượt 11 lần quy chuẩn)",
+        "search_url": "https://www.google.com/search?q=Habeco+Habeco+b%E1%BB%8B+x%E1%BB%AD+ph%E1%BA%A1t+do+x%E1%BA%A3+n%C6%B0%E1%BB%9Bc+th%E1%BA%A3i+v%C6%B0%E1%BB%A3t+ti%C3%AAu+chu%E1%BA%A9n+m%C3%B4i+tr%C6%B0%E1%BB%9Dng+%28COD+v%C6%B0%E1%BB%A3t+11+l%E1%BA%A7n+quy+chu%E1%BA%A9n%29",
+        "article_url_status": "UNAVAILABLE",
+        "published_date": "2009-2024",
+        "snippet": "Kết quả phân tích mẫu nước thải từ đường ống xả của Habeco cho thấy hàm lượng COD là 937 mg/l, vượt tiêu chuẩn cho phép (80 mg/l) gấp nhiều lần. Cơ quan chức năng lập biên bản xử phạt hành chính.",
+        "relevance_score": 0.93
+      },
       "ai_risk_numeric": 0,
       "ground_truth_numeric": 0,
       "ground_truth_label": "LOW_RISK",

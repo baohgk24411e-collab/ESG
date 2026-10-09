@@ -1,13 +1,16 @@
 [
   {
-    "incident_id": "inc_c4e5cf38",
+    "incident_id": "inc_aa1f6817",
     "company_name": "Vinamilk",
-    "title": "Vinamilk khởi động chương trình thu gom vỏ hộp sữa tái chế",
-    "source": "VnExpress",
-    "url": "https://vnexpress.net/search.html?q=Vinamilk+thu+gom+vo+hop+sua+tai+che",
-    "article_url": null,
-    "published_date": "2024",
-    "snippet": "Đánh giá hiệu quả các sáng kiến kinh tế tuần hoàn, thu gom vỏ hộp giấy và tỷ lệ tái chế bao bì nhựa trong chuỗi cung ứng ngành sữa.",
-    "relevance_score": 0.9
+    "title": "Nhà máy và trang trại của Vinamilk đạt chứng nhận trung hòa carbon (PAS 2060)",
+    "source": "Báo VietNamNet",
+    "url": "https://vietnamnet.vn/nha-may-va-trang-trai-cua-vinamilk-dat-chung-nhan-trung-hoa-carbon-2148884.html",
+    "article_url": "https://vietnamnet.vn/nha-may-va-trang-trai-cua-vinamilk-dat-chung-nhan-trung-hoa-carbon-2148884.html",
+    "search_query": "Vinamilk Nhà máy và trang trại của Vinamilk đạt chứng nhận trung hòa carbon (PAS 2060)",
+    "search_url": "https://www.google.com/search?q=Vinamilk+Nh%C3%A0+m%C3%A1y+v%C3%A0+trang+tr%E1%BA%A1i+c%E1%BB%A7a+Vinamilk+%C4%91%E1%BA%A1t+ch%E1%BB%A9ng+nh%E1%BA%ADn+trung+h%C3%B2a+carbon+%28PAS+2060%29",
+    "article_url_status": "VERIFIED_EXACT",
+    "published_date": "2023-2024",
+    "snippet": "Nhà máy sữa và trang trại bò sữa của Vinamilk tại Nghệ An vừa đạt chứng nhận về trung hòa carbon theo tiêu chuẩn quốc tế PAS 2060:2014, tiên phong lộ trình Net Zero 2050.",
+    "relevance_score": 0.95
   }
 ]

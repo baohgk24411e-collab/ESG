@@ -51,6 +51,9 @@ class NewsIncident(BaseModel):
     source: str
     url: str
     article_url: Optional[str] = None
+    search_query: Optional[str] = None
+    search_url: Optional[str] = None
+    article_url_status: str = Field("UNAVAILABLE", description="VERIFIED_EXACT, UNVERIFIED_ACCESS, REJECTED_MISMATCH, UNAVAILABLE")
     published_date: str
     snippet: str
     relevance_score: float = 0.0

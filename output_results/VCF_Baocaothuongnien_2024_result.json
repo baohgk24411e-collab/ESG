@@ -6,7 +6,7 @@
   "claims_detected": [
     {
       "claim": {
-        "claim_id": "claim_0063cf01",
+        "claim_id": "claim_00782c0e",
         "indicator_type": "Hollow Promise",
         "claim_text": "Cam kết 100% vùng trồng cà phê liên kết đạt chứng nhận nông nghiệp bền vững vào năm 2030 nhưng chưa có thỏa thuận hỗ trợ nông dân.",
         "page_number": 15,
@@ -63,7 +63,7 @@
     },
     {
       "claim": {
-        "claim_id": "claim_00472514",
+        "claim_id": "claim_00945e11",
         "indicator_type": "Selective Disclosure",
         "claim_text": "Hệ số phát thải khí nhà kính trực tiếp và gián tiếp 5 Ton phát thải/Ton IC chưa có lộ trình giảm phát thải cụ thể.",
         "page_number": 19,
@@ -120,7 +120,7 @@
     },
     {
       "claim": {
-        "claim_id": "claim_008ab20c",
+        "claim_id": "claim_00605e56",
         "indicator_type": "Potential Data Mispresentation",
         "claim_text": "Hệ thống xử lý nước thải chế biến cà phê hòa tan đạt quy chuẩn Cột A và thu hồi 100% bã cà phê làm phân bón sinh học.",
         "page_number": 23,
@@ -177,7 +177,7 @@
     },
     {
       "claim": {
-        "claim_id": "claim_002e82d9",
+        "claim_id": "claim_0055d75b",
         "indicator_type": "Misleading Presentation",
         "claim_text": "Tuyên bố sản phẩm cà phê năng lượng xanh tuần hoàn tự nhiên khi bao bì gói nhỏ vẫn dùng màng ghép phức hợp khó tái chế.",
         "page_number": 27,
@@ -234,7 +234,7 @@
     },
     {
       "claim": {
-        "claim_id": "claim_00699630",
+        "claim_id": "claim_006b6126",
         "indicator_type": "Selective Disclosure",
         "claim_text": "Chất thải rắn công nghiệp thông thường và chất thải nguy hại được phân loại, thu gom và chuyển giao theo quy định.",
         "page_number": 31,
@@ -292,12 +292,15 @@
   ],
   "scraped_incidents": [
     {
-      "incident_id": "inc_b3927fb4",
+      "incident_id": "inc_27eb3b53",
       "company_name": "Vinacafé",
       "title": "Đồng Nai chuyển đổi công năng KCN Biên Hòa 1 - di dời các cơ sở gây ô nhiễm",
       "source": "Báo Tuổi Trẻ",
-      "url": "https://tuoitre.vn/dong-nai-chuyen-doi-cong-nang-kcn-bien-hoa-1-20240223143025678.htm",
+      "url": "https://www.google.com/search?q=Vinacaf%C3%A9+%C4%90%E1%BB%93ng+Nai+chuy%E1%BB%83n+%C4%91%E1%BB%95i+c%C3%B4ng+n%C4%83ng+KCN+Bi%C3%AAn+H%C3%B2a+1+-+di+d%E1%BB%9Di+c%C3%A1c+c%C6%A1+s%E1%BB%9F+g%C3%A2y+%C3%B4+nhi%E1%BB%85m",
       "article_url": null,
+      "search_query": "Vinacafé Đồng Nai chuyển đổi công năng KCN Biên Hòa 1 - di dời các cơ sở gây ô nhiễm",
+      "search_url": "https://www.google.com/search?q=Vinacaf%C3%A9+%C4%90%E1%BB%93ng+Nai+chuy%E1%BB%83n+%C4%91%E1%BB%95i+c%C3%B4ng+n%C4%83ng+KCN+Bi%C3%AAn+H%C3%B2a+1+-+di+d%E1%BB%9Di+c%C3%A1c+c%C6%A1+s%E1%BB%9F+g%C3%A2y+%C3%B4+nhi%E1%BB%85m",
+      "article_url_status": "REJECTED_MISMATCH",
       "published_date": "02/2024",
       "snippet": "UBND tỉnh Đồng Nai ban hành kế hoạch giải phóng mặt bằng và di dời toàn bộ các nhà máy công nghiệp cũ khỏi KCN Biên Hòa 1 nhằm bảo vệ môi trường nguồn nước lưu vực sông Đồng Nai.",
       "relevance_score": 0.94
@@ -305,19 +308,9 @@
   ],
   "incident_matches": [
     {
-      "claim_id": "claim_0063cf01",
+      "claim_id": "claim_00782c0e",
       "claim_text": "Cam kết 100% vùng trồng cà phê liên kết đạt chứng nhận nông nghiệp bền vững vào năm 2030 nhưng chưa có thỏa thuận hỗ trợ nông dân.",
-      "matched_incident": {
-        "incident_id": "inc_b3927fb4",
-        "company_name": "Vinacafé",
-        "title": "Đồng Nai chuyển đổi công năng KCN Biên Hòa 1 - di dời các cơ sở gây ô nhiễm",
-        "source": "Báo Tuổi Trẻ",
-        "url": "https://tuoitre.vn/dong-nai-chuyen-doi-cong-nang-kcn-bien-hoa-1-20240223143025678.htm",
-        "article_url": null,
-        "published_date": "02/2024",
-        "snippet": "UBND tỉnh Đồng Nai ban hành kế hoạch giải phóng mặt bằng và di dời toàn bộ các nhà máy công nghiệp cũ khỏi KCN Biên Hòa 1 nhằm bảo vệ môi trường nguồn nước lưu vực sông Đồng Nai.",
-        "relevance_score": 0.94
-      },
+      "matched_incident": null,
       "ai_risk_numeric": 1,
       "ground_truth_numeric": 1,
       "ground_truth_label": "MODERATE_RISK",
@@ -327,19 +320,9 @@
       "matching_reasoning": "Đối chiếu AI Risk (Medium) với Bằng chứng Thực tế (PARTIALLY_COMPATIBLE)."
     },
     {
-      "claim_id": "claim_00472514",
+      "claim_id": "claim_00945e11",
       "claim_text": "Hệ số phát thải khí nhà kính trực tiếp và gián tiếp 5 Ton phát thải/Ton IC chưa có lộ trình giảm phát thải cụ thể.",
-      "matched_incident": {
-        "incident_id": "inc_b3927fb4",
-        "company_name": "Vinacafé",
-        "title": "Đồng Nai chuyển đổi công năng KCN Biên Hòa 1 - di dời các cơ sở gây ô nhiễm",
-        "source": "Báo Tuổi Trẻ",
-        "url": "https://tuoitre.vn/dong-nai-chuyen-doi-cong-nang-kcn-bien-hoa-1-20240223143025678.htm",
-        "article_url": null,
-        "published_date": "02/2024",
-        "snippet": "UBND tỉnh Đồng Nai ban hành kế hoạch giải phóng mặt bằng và di dời toàn bộ các nhà máy công nghiệp cũ khỏi KCN Biên Hòa 1 nhằm bảo vệ môi trường nguồn nước lưu vực sông Đồng Nai.",
-        "relevance_score": 0.94
-      },
+      "matched_incident": null,
       "ai_risk_numeric": 1,
       "ground_truth_numeric": 1,
       "ground_truth_label": "MODERATE_RISK",
@@ -349,9 +332,22 @@
       "matching_reasoning": "Đối chiếu AI Risk (Medium) với Bằng chứng Thực tế (PARTIALLY_COMPATIBLE)."
     },
     {
-      "claim_id": "claim_008ab20c",
+      "claim_id": "claim_00605e56",
       "claim_text": "Hệ thống xử lý nước thải chế biến cà phê hòa tan đạt quy chuẩn Cột A và thu hồi 100% bã cà phê làm phân bón sinh học.",
-      "matched_incident": null,
+      "matched_incident": {
+        "incident_id": "inc_27eb3b53",
+        "company_name": "Vinacafé",
+        "title": "Đồng Nai chuyển đổi công năng KCN Biên Hòa 1 - di dời các cơ sở gây ô nhiễm",
+        "source": "Báo Tuổi Trẻ",
+        "url": "https://www.google.com/search?q=Vinacaf%C3%A9+%C4%90%E1%BB%93ng+Nai+chuy%E1%BB%83n+%C4%91%E1%BB%95i+c%C3%B4ng+n%C4%83ng+KCN+Bi%C3%AAn+H%C3%B2a+1+-+di+d%E1%BB%9Di+c%C3%A1c+c%C6%A1+s%E1%BB%9F+g%C3%A2y+%C3%B4+nhi%E1%BB%85m",
+        "article_url": null,
+        "search_query": "Vinacafé Đồng Nai chuyển đổi công năng KCN Biên Hòa 1 - di dời các cơ sở gây ô nhiễm",
+        "search_url": "https://www.google.com/search?q=Vinacaf%C3%A9+%C4%90%E1%BB%93ng+Nai+chuy%E1%BB%83n+%C4%91%E1%BB%95i+c%C3%B4ng+n%C4%83ng+KCN+Bi%C3%AAn+H%C3%B2a+1+-+di+d%E1%BB%9Di+c%C3%A1c+c%C6%A1+s%E1%BB%9F+g%C3%A2y+%C3%B4+nhi%E1%BB%85m",
+        "article_url_status": "REJECTED_MISMATCH",
+        "published_date": "02/2024",
+        "snippet": "UBND tỉnh Đồng Nai ban hành kế hoạch giải phóng mặt bằng và di dời toàn bộ các nhà máy công nghiệp cũ khỏi KCN Biên Hòa 1 nhằm bảo vệ môi trường nguồn nước lưu vực sông Đồng Nai.",
+        "relevance_score": 0.94
+      },
       "ai_risk_numeric": 0,
       "ground_truth_numeric": 0,
       "ground_truth_label": "LOW_RISK",
@@ -361,7 +357,7 @@
       "matching_reasoning": "Đối chiếu AI Risk (None) với Bằng chứng Thực tế (NO_EVIDENCE)."
     },
     {
-      "claim_id": "claim_002e82d9",
+      "claim_id": "claim_0055d75b",
       "claim_text": "Tuyên bố sản phẩm cà phê năng lượng xanh tuần hoàn tự nhiên khi bao bì gói nhỏ vẫn dùng màng ghép phức hợp khó tái chế.",
       "matched_incident": null,
       "ai_risk_numeric": 0,
@@ -373,9 +369,22 @@
       "matching_reasoning": "Đối chiếu AI Risk (Low) với Bằng chứng Thực tế (PARTIALLY_COMPATIBLE)."
     },
     {
-      "claim_id": "claim_00699630",
+      "claim_id": "claim_006b6126",
       "claim_text": "Chất thải rắn công nghiệp thông thường và chất thải nguy hại được phân loại, thu gom và chuyển giao theo quy định.",
-      "matched_incident": null,
+      "matched_incident": {
+        "incident_id": "inc_27eb3b53",
+        "company_name": "Vinacafé",
+        "title": "Đồng Nai chuyển đổi công năng KCN Biên Hòa 1 - di dời các cơ sở gây ô nhiễm",
+        "source": "Báo Tuổi Trẻ",
+        "url": "https://www.google.com/search?q=Vinacaf%C3%A9+%C4%90%E1%BB%93ng+Nai+chuy%E1%BB%83n+%C4%91%E1%BB%95i+c%C3%B4ng+n%C4%83ng+KCN+Bi%C3%AAn+H%C3%B2a+1+-+di+d%E1%BB%9Di+c%C3%A1c+c%C6%A1+s%E1%BB%9F+g%C3%A2y+%C3%B4+nhi%E1%BB%85m",
+        "article_url": null,
+        "search_query": "Vinacafé Đồng Nai chuyển đổi công năng KCN Biên Hòa 1 - di dời các cơ sở gây ô nhiễm",
+        "search_url": "https://www.google.com/search?q=Vinacaf%C3%A9+%C4%90%E1%BB%93ng+Nai+chuy%E1%BB%83n+%C4%91%E1%BB%95i+c%C3%B4ng+n%C4%83ng+KCN+Bi%C3%AAn+H%C3%B2a+1+-+di+d%E1%BB%9Di+c%C3%A1c+c%C6%A1+s%E1%BB%9F+g%C3%A2y+%C3%B4+nhi%E1%BB%85m",
+        "article_url_status": "REJECTED_MISMATCH",
+        "published_date": "02/2024",
+        "snippet": "UBND tỉnh Đồng Nai ban hành kế hoạch giải phóng mặt bằng và di dời toàn bộ các nhà máy công nghiệp cũ khỏi KCN Biên Hòa 1 nhằm bảo vệ môi trường nguồn nước lưu vực sông Đồng Nai.",
+        "relevance_score": 0.94
+      },
       "ai_risk_numeric": 0,
       "ground_truth_numeric": 0,
       "ground_truth_label": "LOW_RISK",

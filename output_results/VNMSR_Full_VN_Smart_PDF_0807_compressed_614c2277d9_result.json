@@ -6,7 +6,7 @@
   "claims_detected": [
     {
       "claim": {
-        "claim_id": "claim_007d1c1b",
+        "claim_id": "claim_003419d0",
         "indicator_type": "Selective Disclosure",
         "claim_text": "Lộ trình Pathway to Net Zero 2050 công bố mục tiêu cắt giảm 15% phát thải vào năm 2027 và 55% vào năm 2035 so với năm cơ sở 2022.",
         "page_number": 15,
@@ -63,7 +63,7 @@
     },
     {
       "claim": {
-        "claim_id": "claim_0084e320",
+        "claim_id": "claim_0088d30a",
         "indicator_type": "Potential Data Mispresentation",
         "claim_text": "Ứng dụng công nghệ điện mặt trời áp mái và năng lượng sinh khối Biomass thay thế 87% năng lượng hóa thạch tại các nhà máy.",
         "page_number": 19,
@@ -120,7 +120,7 @@
     },
     {
       "claim": {
-        "claim_id": "claim_007efc06",
+        "claim_id": "claim_002cb09b",
         "indicator_type": "Hollow Promise",
         "claim_text": "Định hướng phát triển 100% bao bì nhựa có nguồn gốc thực vật tái tạo sinh học vào năm 2040 chưa có thỏa thuận cung ứng nguyên liệu.",
         "page_number": 23,
@@ -177,7 +177,7 @@
     },
     {
       "claim": {
-        "claim_id": "claim_0085ced7",
+        "claim_id": "claim_003d3cf2",
         "indicator_type": "Misleading Presentation",
         "claim_text": "Gắn nhãn sản phẩm sữa 'Trung hòa Carbon thuần khiết' khi tín chỉ carbon chủ yếu mua bù trừ thay vì giảm phát thải trực tiếp tại nguồn.",
         "page_number": 27,
@@ -234,7 +234,7 @@
     },
     {
       "claim": {
-        "claim_id": "claim_007b7ad7",
+        "claim_id": "claim_000f77e6",
         "indicator_type": "Selective Disclosure",
         "claim_text": "Hệ thống Biogas thu hồi 100% khí metan từ chất thải chăn nuôi để phát điện và đun nóng nước phục vụ trang trại.",
         "page_number": 31,
@@ -291,7 +291,7 @@
     },
     {
       "claim": {
-        "claim_id": "claim_00801589",
+        "claim_id": "claim_006721a3",
         "indicator_type": "Potential Data Mispresentation",
         "claim_text": "Tuyên bố đất trồng cỏ chăn nuôi hoàn toàn hữu cơ không sử dụng thuốc bảo vệ thực vật hóa học.",
         "page_number": 35,
@@ -348,7 +348,7 @@
     },
     {
       "claim": {
-        "claim_id": "claim_001b4f97",
+        "claim_id": "claim_008fb5f3",
         "indicator_type": "Selective Disclosure",
         "claim_text": "Chỉ số hoàn trả nước ngầm tại các trang trại phía Bắc đạt tỷ lệ cân bằng sinh thái.",
         "page_number": 39,
@@ -406,20 +406,23 @@
   ],
   "scraped_incidents": [
     {
-      "incident_id": "inc_c4e5cf38",
+      "incident_id": "inc_627487f1",
       "company_name": "Vinamilk",
-      "title": "Vinamilk khởi động chương trình thu gom vỏ hộp sữa tái chế",
-      "source": "VnExpress",
-      "url": "https://vnexpress.net/search.html?q=Vinamilk+thu+gom+vo+hop+sua+tai+che",
-      "article_url": null,
-      "published_date": "2024",
-      "snippet": "Đánh giá hiệu quả các sáng kiến kinh tế tuần hoàn, thu gom vỏ hộp giấy và tỷ lệ tái chế bao bì nhựa trong chuỗi cung ứng ngành sữa.",
-      "relevance_score": 0.9
+      "title": "Nhà máy và trang trại của Vinamilk đạt chứng nhận trung hòa carbon (PAS 2060)",
+      "source": "Báo VietNamNet",
+      "url": "https://vietnamnet.vn/nha-may-va-trang-trai-cua-vinamilk-dat-chung-nhan-trung-hoa-carbon-2148884.html",
+      "article_url": "https://vietnamnet.vn/nha-may-va-trang-trai-cua-vinamilk-dat-chung-nhan-trung-hoa-carbon-2148884.html",
+      "search_query": "Vinamilk Nhà máy và trang trại của Vinamilk đạt chứng nhận trung hòa carbon (PAS 2060)",
+      "search_url": "https://www.google.com/search?q=Vinamilk+Nh%C3%A0+m%C3%A1y+v%C3%A0+trang+tr%E1%BA%A1i+c%E1%BB%A7a+Vinamilk+%C4%91%E1%BA%A1t+ch%E1%BB%A9ng+nh%E1%BA%ADn+trung+h%C3%B2a+carbon+%28PAS+2060%29",
+      "article_url_status": "VERIFIED_EXACT",
+      "published_date": "2023-2024",
+      "snippet": "Nhà máy sữa và trang trại bò sữa của Vinamilk tại Nghệ An vừa đạt chứng nhận về trung hòa carbon theo tiêu chuẩn quốc tế PAS 2060:2014, tiên phong lộ trình Net Zero 2050.",
+      "relevance_score": 0.95
     }
   ],
   "incident_matches": [
     {
-      "claim_id": "claim_007d1c1b",
+      "claim_id": "claim_003419d0",
       "claim_text": "Lộ trình Pathway to Net Zero 2050 công bố mục tiêu cắt giảm 15% phát thải vào năm 2027 và 55% vào năm 2035 so với năm cơ sở 2022.",
       "matched_incident": null,
       "ai_risk_numeric": 0,
@@ -431,7 +434,7 @@
       "matching_reasoning": "Đối chiếu AI Risk (Low) với Bằng chứng Thực tế (NO_EVIDENCE)."
     },
     {
-      "claim_id": "claim_0084e320",
+      "claim_id": "claim_0088d30a",
       "claim_text": "Ứng dụng công nghệ điện mặt trời áp mái và năng lượng sinh khối Biomass thay thế 87% năng lượng hóa thạch tại các nhà máy.",
       "matched_incident": null,
       "ai_risk_numeric": 0,
@@ -443,7 +446,7 @@
       "matching_reasoning": "Đối chiếu AI Risk (None) với Bằng chứng Thực tế (NO_EVIDENCE)."
     },
     {
-      "claim_id": "claim_007efc06",
+      "claim_id": "claim_002cb09b",
       "claim_text": "Định hướng phát triển 100% bao bì nhựa có nguồn gốc thực vật tái tạo sinh học vào năm 2040 chưa có thỏa thuận cung ứng nguyên liệu.",
       "matched_incident": null,
       "ai_risk_numeric": 1,
@@ -455,18 +458,21 @@
       "matching_reasoning": "Đối chiếu AI Risk (Medium) với Bằng chứng Thực tế (NO_EVIDENCE)."
     },
     {
-      "claim_id": "claim_0085ced7",
+      "claim_id": "claim_003d3cf2",
       "claim_text": "Gắn nhãn sản phẩm sữa 'Trung hòa Carbon thuần khiết' khi tín chỉ carbon chủ yếu mua bù trừ thay vì giảm phát thải trực tiếp tại nguồn.",
       "matched_incident": {
-        "incident_id": "inc_c4e5cf38",
+        "incident_id": "inc_627487f1",
         "company_name": "Vinamilk",
-        "title": "Vinamilk khởi động chương trình thu gom vỏ hộp sữa tái chế",
-        "source": "VnExpress",
-        "url": "https://vnexpress.net/search.html?q=Vinamilk+thu+gom+vo+hop+sua+tai+che",
-        "article_url": null,
-        "published_date": "2024",
-        "snippet": "Đánh giá hiệu quả các sáng kiến kinh tế tuần hoàn, thu gom vỏ hộp giấy và tỷ lệ tái chế bao bì nhựa trong chuỗi cung ứng ngành sữa.",
-        "relevance_score": 0.9
+        "title": "Nhà máy và trang trại của Vinamilk đạt chứng nhận trung hòa carbon (PAS 2060)",
+        "source": "Báo VietNamNet",
+        "url": "https://vietnamnet.vn/nha-may-va-trang-trai-cua-vinamilk-dat-chung-nhan-trung-hoa-carbon-2148884.html",
+        "article_url": "https://vietnamnet.vn/nha-may-va-trang-trai-cua-vinamilk-dat-chung-nhan-trung-hoa-carbon-2148884.html",
+        "search_query": "Vinamilk Nhà máy và trang trại của Vinamilk đạt chứng nhận trung hòa carbon (PAS 2060)",
+        "search_url": "https://www.google.com/search?q=Vinamilk+Nh%C3%A0+m%C3%A1y+v%C3%A0+trang+tr%E1%BA%A1i+c%E1%BB%A7a+Vinamilk+%C4%91%E1%BA%A1t+ch%E1%BB%A9ng+nh%E1%BA%ADn+trung+h%C3%B2a+carbon+%28PAS+2060%29",
+        "article_url_status": "VERIFIED_EXACT",
+        "published_date": "2023-2024",
+        "snippet": "Nhà máy sữa và trang trại bò sữa của Vinamilk tại Nghệ An vừa đạt chứng nhận về trung hòa carbon theo tiêu chuẩn quốc tế PAS 2060:2014, tiên phong lộ trình Net Zero 2050.",
+        "relevance_score": 0.95
       },
       "ai_risk_numeric": 2,
       "ground_truth_numeric": 2,
@@ -477,7 +483,7 @@
       "matching_reasoning": "Đối chiếu AI Risk (High) với Bằng chứng Thực tế (HIGHLY_COMPATIBLE)."
     },
     {
-      "claim_id": "claim_007b7ad7",
+      "claim_id": "claim_000f77e6",
       "claim_text": "Hệ thống Biogas thu hồi 100% khí metan từ chất thải chăn nuôi để phát điện và đun nóng nước phục vụ trang trại.",
       "matched_incident": null,
       "ai_risk_numeric": 0,
@@ -489,19 +495,9 @@
       "matching_reasoning": "Đối chiếu AI Risk (None) với Bằng chứng Thực tế (NO_EVIDENCE)."
     },
     {
-      "claim_id": "claim_00801589",
+      "claim_id": "claim_006721a3",
       "claim_text": "Tuyên bố đất trồng cỏ chăn nuôi hoàn toàn hữu cơ không sử dụng thuốc bảo vệ thực vật hóa học.",
-      "matched_incident": {
-        "incident_id": "inc_c4e5cf38",
-        "company_name": "Vinamilk",
-        "title": "Vinamilk khởi động chương trình thu gom vỏ hộp sữa tái chế",
-        "source": "VnExpress",
-        "url": "https://vnexpress.net/search.html?q=Vinamilk+thu+gom+vo+hop+sua+tai+che",
-        "article_url": null,
-        "published_date": "2024",
-        "snippet": "Đánh giá hiệu quả các sáng kiến kinh tế tuần hoàn, thu gom vỏ hộp giấy và tỷ lệ tái chế bao bì nhựa trong chuỗi cung ứng ngành sữa.",
-        "relevance_score": 0.9
-      },
+      "matched_incident": null,
       "ai_risk_numeric": 1,
       "ground_truth_numeric": 1,
       "ground_truth_label": "MODERATE_RISK",
@@ -511,7 +507,7 @@
       "matching_reasoning": "Đối chiếu AI Risk (Medium) với Bằng chứng Thực tế (PARTIALLY_COMPATIBLE)."
     },
     {
-      "claim_id": "claim_001b4f97",
+      "claim_id": "claim_008fb5f3",
       "claim_text": "Chỉ số hoàn trả nước ngầm tại các trang trại phía Bắc đạt tỷ lệ cân bằng sinh thái.",
       "matched_incident": null,
       "ai_risk_numeric": 0,

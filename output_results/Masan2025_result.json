@@ -6,7 +6,7 @@
   "claims_detected": [
     {
       "claim": {
-        "claim_id": "claim_006d8ab0",
+        "claim_id": "claim_0032feca",
         "indicator_type": "Selective Disclosure",
         "claim_text": "Báo cáo nhấn mạnh các thành tựu nông nghiệp công nghệ cao nhưng chưa công bố số liệu phát thải Scope 1-3 từ chuỗi chăn nuôi lợn thịt quy mô lớn.",
         "page_number": 15,
@@ -63,7 +63,7 @@
     },
     {
       "claim": {
-        "claim_id": "claim_0058a1d4",
+        "claim_id": "claim_0011c8ee",
         "indicator_type": "Potential Data Mispresentation",
         "claim_text": "Số liệu giảm tiêu thụ nhựa tại chuỗi WinCommerce được báo cáo giảm 30% nhưng không có định lượng theo tấn nhựa cụ thể.",
         "page_number": 19,
@@ -120,7 +120,7 @@
     },
     {
       "claim": {
-        "claim_id": "claim_00384505",
+        "claim_id": "claim_0024cb03",
         "indicator_type": "Hollow Promise",
         "claim_text": "Cam kết 100% bao bì sản phẩm tiêu dùng có thể tái chế vào năm 2035 chưa có thỏa thuận EPR hợp tác với các đơn vị tái chế.",
         "page_number": 23,
@@ -177,7 +177,7 @@
     },
     {
       "claim": {
-        "claim_id": "claim_000d84a2",
+        "claim_id": "claim_00325bf7",
         "indicator_type": "Misleading Presentation",
         "claim_text": "Sử dụng nhãn 'Nông nghiệp xanh tuần hoàn không phát thải' tại trang trại chăn nuôi công nghệ cao.",
         "page_number": 27,
@@ -234,7 +234,7 @@
     },
     {
       "claim": {
-        "claim_id": "claim_0052650d",
+        "claim_id": "claim_0009849b",
         "indicator_type": "Potential Data Mispresentation",
         "claim_text": "Số liệu tỷ lệ nước thải tuần hoàn 100% tại tổ hợp Vonfram Núi Pháo có hệ thống trạm quan trắc tự động kết nối trực tiếp Sở TN&MT.",
         "page_number": 31,
@@ -291,7 +291,7 @@
     },
     {
       "claim": {
-        "claim_id": "claim_0007ad82",
+        "claim_id": "claim_000d2195",
         "indicator_type": "Selective Disclosure",
         "claim_text": "Tuân thủ đánh giá tác động môi trường ĐTM tại 100% các nhà máy sản xuất mì ăn liền và gia vị.",
         "page_number": 35,
@@ -349,32 +349,67 @@
   ],
   "scraped_incidents": [
     {
-      "incident_id": "inc_336c477f",
+      "incident_id": "inc_b018f3b2",
       "company_name": "Masan",
       "title": "Thu hồi hơn 582.000 m2 đất ngoài quy hoạch của Công ty Núi Pháo (Masan) sau kết luận thanh tra Bộ TN&MT",
       "source": "Báo Tuổi Trẻ",
-      "url": "https://tuoitre.vn/thu-hoi-hon-582-000m2-dat-ngoai-quy-hoach-cua-cong-ty-nui-phao-20220302144702161.htm",
+      "url": "https://www.google.com/search?q=Masan+Thu+h%E1%BB%93i+h%C6%A1n+582.000+m2+%C4%91%E1%BA%A5t+ngo%C3%A0i+quy+ho%E1%BA%A1ch+c%E1%BB%A7a+C%C3%B4ng+ty+N%C3%BAi+Ph%C3%A1o+%28Masan%29+sau+k%E1%BA%BFt+lu%E1%BA%ADn+thanh+tra+B%E1%BB%99+TN%26MT",
       "article_url": null,
+      "search_query": "Masan Thu hồi hơn 582.000 m2 đất ngoài quy hoạch của Công ty Núi Pháo (Masan) sau kết luận thanh tra Bộ TN&MT",
+      "search_url": "https://www.google.com/search?q=Masan+Thu+h%E1%BB%93i+h%C6%A1n+582.000+m2+%C4%91%E1%BA%A5t+ngo%C3%A0i+quy+ho%E1%BA%A1ch+c%E1%BB%A7a+C%C3%B4ng+ty+N%C3%BAi+Ph%C3%A1o+%28Masan%29+sau+k%E1%BA%BFt+lu%E1%BA%ADn+thanh+tra+B%E1%BB%99+TN%26MT",
+      "article_url_status": "REJECTED_MISMATCH",
       "published_date": "03/2022",
       "snippet": "UBND tỉnh Thái Nguyên thu hồi 582.321 m² đất ngoài ranh giới quy hoạch của dự án Núi Pháo theo Kết luận thanh tra số 2065/KL-BTNMT ngày 27/4/2017 của Bộ Tài nguyên và Môi trường.",
       "relevance_score": 0.95
+    },
+    {
+      "incident_id": "inc_ac507bdc",
+      "company_name": "Masan",
+      "title": "Vi phạm của công ty môi trường Phú Minh Vina: Chuyển hồ sơ sang Bộ Công an",
+      "source": "MSN",
+      "url": "https://www.google.com/search?q=Masan+Vi+ph%E1%BA%A1m+c%E1%BB%A7a+c%C3%B4ng+ty+m%C3%B4i+tr%C6%B0%E1%BB%9Dng+Ph%C3%BA+Minh+Vina%3A+Chuy%E1%BB%83n+h%E1%BB%93+s%C6%A1+sang+B%E1%BB%99+C%C3%B4ng+an",
+      "article_url": null,
+      "search_query": "Masan Vi phạm của công ty môi trường Phú Minh Vina: Chuyển hồ sơ sang Bộ Công an",
+      "search_url": "https://www.google.com/search?q=Masan+Vi+ph%E1%BA%A1m+c%E1%BB%A7a+c%C3%B4ng+ty+m%C3%B4i+tr%C6%B0%E1%BB%9Dng+Ph%C3%BA+Minh+Vina%3A+Chuy%E1%BB%83n+h%E1%BB%93+s%C6%A1+sang+B%E1%BB%99+C%C3%B4ng+an",
+      "article_url_status": "UNAVAILABLE",
+      "published_date": "2026-09-19",
+      "snippet": "Thanh tra Chính phủ xác định 533 chuyến xe đã chở hơn 12.000 tấn chất thải từ nhà máy Phú Minh Vina đi đổ trái phép tại Hà Nội và Phú Thọ. Thanh tra Chính phủ đã ban hành kết luận thanh tra về việc ...",
+      "relevance_score": 0.85
+    },
+    {
+      "incident_id": "inc_67d53d95",
+      "company_name": "Masan",
+      "title": "Vi phạm nghiêm trọng ngay trong cơ sở bảo vệ môi trường",
+      "source": "MSN",
+      "url": "https://www.google.com/search?q=Masan+Vi+ph%E1%BA%A1m+nghi%C3%AAm+tr%E1%BB%8Dng+ngay+trong+c%C6%A1+s%E1%BB%9F+b%E1%BA%A3o+v%E1%BB%87+m%C3%B4i+tr%C6%B0%E1%BB%9Dng",
+      "article_url": null,
+      "search_query": "Masan Vi phạm nghiêm trọng ngay trong cơ sở bảo vệ môi trường",
+      "search_url": "https://www.google.com/search?q=Masan+Vi+ph%E1%BA%A1m+nghi%C3%AAm+tr%E1%BB%8Dng+ngay+trong+c%C6%A1+s%E1%BB%9F+b%E1%BA%A3o+v%E1%BB%87+m%C3%B4i+tr%C6%B0%E1%BB%9Dng",
+      "article_url_status": "UNAVAILABLE",
+      "published_date": "2026-09-08",
+      "snippet": "Phú Thọ - Lo lắng của người dân tại Khu xử lý rác Trạm Thản là có cơ sở khi những sai phạm của chính cơ sở bảo vệ môi trường tại đây được phanh phui. Hàng trăm tấn chất thải bị đổ trái phép ...",
+      "relevance_score": 0.85
+    },
+    {
+      "incident_id": "inc_ea22bdb7",
+      "company_name": "Masan",
+      "title": "Hai phường lõi ở Hà Nội đã xử phạt hàng chục trường hợp vi phạm vệ sinh môi trường",
+      "source": "MSN",
+      "url": "https://www.google.com/search?q=Masan+Hai+ph%C6%B0%E1%BB%9Dng+l%C3%B5i+%E1%BB%9F+H%C3%A0+N%E1%BB%99i+%C4%91%C3%A3+x%E1%BB%AD+ph%E1%BA%A1t+h%C3%A0ng+ch%E1%BB%A5c+tr%C6%B0%E1%BB%9Dng+h%E1%BB%A3p+vi+ph%E1%BA%A1m+v%E1%BB%87+sinh+m%C3%B4i+tr%C6%B0%E1%BB%9Dng",
+      "article_url": null,
+      "search_query": "Masan Hai phường lõi ở Hà Nội đã xử phạt hàng chục trường hợp vi phạm vệ sinh môi trường",
+      "search_url": "https://www.google.com/search?q=Masan+Hai+ph%C6%B0%E1%BB%9Dng+l%C3%B5i+%E1%BB%9F+H%C3%A0+N%E1%BB%99i+%C4%91%C3%A3+x%E1%BB%AD+ph%E1%BA%A1t+h%C3%A0ng+ch%E1%BB%A5c+tr%C6%B0%E1%BB%9Dng+h%E1%BB%A3p+vi+ph%E1%BA%A1m+v%E1%BB%87+sinh+m%C3%B4i+tr%C6%B0%E1%BB%9Dng",
+      "article_url_status": "UNAVAILABLE",
+      "published_date": "2026-08-14",
+      "snippet": "Hà Nội - Tại phường Hoàn Kiếm và Cửa Nam, hàng chục trường hợp vi phạm vệ sinh môi trường đã bị cơ quan chức năng xử lý. Hàng loạt phản ánh về tình trạng vứt rác bừa bãi Trên nền tảng Công ...",
+      "relevance_score": 0.85
     }
   ],
   "incident_matches": [
     {
-      "claim_id": "claim_006d8ab0",
+      "claim_id": "claim_0032feca",
       "claim_text": "Báo cáo nhấn mạnh các thành tựu nông nghiệp công nghệ cao nhưng chưa công bố số liệu phát thải Scope 1-3 từ chuỗi chăn nuôi lợn thịt quy mô lớn.",
-      "matched_incident": {
-        "incident_id": "inc_336c477f",
-        "company_name": "Masan",
-        "title": "Thu hồi hơn 582.000 m2 đất ngoài quy hoạch của Công ty Núi Pháo (Masan) sau kết luận thanh tra Bộ TN&MT",
-        "source": "Báo Tuổi Trẻ",
-        "url": "https://tuoitre.vn/thu-hoi-hon-582-000m2-dat-ngoai-quy-hoach-cua-cong-ty-nui-phao-20220302144702161.htm",
-        "article_url": null,
-        "published_date": "03/2022",
-        "snippet": "UBND tỉnh Thái Nguyên thu hồi 582.321 m² đất ngoài ranh giới quy hoạch của dự án Núi Pháo theo Kết luận thanh tra số 2065/KL-BTNMT ngày 27/4/2017 của Bộ Tài nguyên và Môi trường.",
-        "relevance_score": 0.95
-      },
+      "matched_incident": null,
       "ai_risk_numeric": 2,
       "ground_truth_numeric": 2,
       "ground_truth_label": "HIGH_RISK",
@@ -384,19 +419,9 @@
       "matching_reasoning": "Đối chiếu AI Risk (High) với Bằng chứng Thực tế (HIGHLY_COMPATIBLE)."
     },
     {
-      "claim_id": "claim_0058a1d4",
+      "claim_id": "claim_0011c8ee",
       "claim_text": "Số liệu giảm tiêu thụ nhựa tại chuỗi WinCommerce được báo cáo giảm 30% nhưng không có định lượng theo tấn nhựa cụ thể.",
-      "matched_incident": {
-        "incident_id": "inc_336c477f",
-        "company_name": "Masan",
-        "title": "Thu hồi hơn 582.000 m2 đất ngoài quy hoạch của Công ty Núi Pháo (Masan) sau kết luận thanh tra Bộ TN&MT",
-        "source": "Báo Tuổi Trẻ",
-        "url": "https://tuoitre.vn/thu-hoi-hon-582-000m2-dat-ngoai-quy-hoach-cua-cong-ty-nui-phao-20220302144702161.htm",
-        "article_url": null,
-        "published_date": "03/2022",
-        "snippet": "UBND tỉnh Thái Nguyên thu hồi 582.321 m² đất ngoài ranh giới quy hoạch của dự án Núi Pháo theo Kết luận thanh tra số 2065/KL-BTNMT ngày 27/4/2017 của Bộ Tài nguyên và Môi trường.",
-        "relevance_score": 0.95
-      },
+      "matched_incident": null,
       "ai_risk_numeric": 1,
       "ground_truth_numeric": 1,
       "ground_truth_label": "MODERATE_RISK",
@@ -406,7 +431,7 @@
       "matching_reasoning": "Đối chiếu AI Risk (Medium) với Bằng chứng Thực tế (PARTIALLY_COMPATIBLE)."
     },
     {
-      "claim_id": "claim_00384505",
+      "claim_id": "claim_0024cb03",
       "claim_text": "Cam kết 100% bao bì sản phẩm tiêu dùng có thể tái chế vào năm 2035 chưa có thỏa thuận EPR hợp tác với các đơn vị tái chế.",
       "matched_incident": null,
       "ai_risk_numeric": 1,
@@ -418,7 +443,7 @@
       "matching_reasoning": "Đối chiếu AI Risk (Medium) với Bằng chứng Thực tế (NO_EVIDENCE)."
     },
     {
-      "claim_id": "claim_000d84a2",
+      "claim_id": "claim_00325bf7",
       "claim_text": "Sử dụng nhãn 'Nông nghiệp xanh tuần hoàn không phát thải' tại trang trại chăn nuôi công nghệ cao.",
       "matched_incident": null,
       "ai_risk_numeric": 0,
@@ -430,9 +455,22 @@
       "matching_reasoning": "Đối chiếu AI Risk (Low) với Bằng chứng Thực tế (PARTIALLY_COMPATIBLE)."
     },
     {
-      "claim_id": "claim_0052650d",
+      "claim_id": "claim_0009849b",
       "claim_text": "Số liệu tỷ lệ nước thải tuần hoàn 100% tại tổ hợp Vonfram Núi Pháo có hệ thống trạm quan trắc tự động kết nối trực tiếp Sở TN&MT.",
-      "matched_incident": null,
+      "matched_incident": {
+        "incident_id": "inc_b018f3b2",
+        "company_name": "Masan",
+        "title": "Thu hồi hơn 582.000 m2 đất ngoài quy hoạch của Công ty Núi Pháo (Masan) sau kết luận thanh tra Bộ TN&MT",
+        "source": "Báo Tuổi Trẻ",
+        "url": "https://www.google.com/search?q=Masan+Thu+h%E1%BB%93i+h%C6%A1n+582.000+m2+%C4%91%E1%BA%A5t+ngo%C3%A0i+quy+ho%E1%BA%A1ch+c%E1%BB%A7a+C%C3%B4ng+ty+N%C3%BAi+Ph%C3%A1o+%28Masan%29+sau+k%E1%BA%BFt+lu%E1%BA%ADn+thanh+tra+B%E1%BB%99+TN%26MT",
+        "article_url": null,
+        "search_query": "Masan Thu hồi hơn 582.000 m2 đất ngoài quy hoạch của Công ty Núi Pháo (Masan) sau kết luận thanh tra Bộ TN&MT",
+        "search_url": "https://www.google.com/search?q=Masan+Thu+h%E1%BB%93i+h%C6%A1n+582.000+m2+%C4%91%E1%BA%A5t+ngo%C3%A0i+quy+ho%E1%BA%A1ch+c%E1%BB%A7a+C%C3%B4ng+ty+N%C3%BAi+Ph%C3%A1o+%28Masan%29+sau+k%E1%BA%BFt+lu%E1%BA%ADn+thanh+tra+B%E1%BB%99+TN%26MT",
+        "article_url_status": "REJECTED_MISMATCH",
+        "published_date": "03/2022",
+        "snippet": "UBND tỉnh Thái Nguyên thu hồi 582.321 m² đất ngoài ranh giới quy hoạch của dự án Núi Pháo theo Kết luận thanh tra số 2065/KL-BTNMT ngày 27/4/2017 của Bộ Tài nguyên và Môi trường.",
+        "relevance_score": 0.95
+      },
       "ai_risk_numeric": 0,
       "ground_truth_numeric": 0,
       "ground_truth_label": "LOW_RISK",
@@ -442,7 +480,7 @@
       "matching_reasoning": "Đối chiếu AI Risk (None) với Bằng chứng Thực tế (NO_EVIDENCE)."
     },
     {
-      "claim_id": "claim_0007ad82",
+      "claim_id": "claim_000d2195",
       "claim_text": "Tuân thủ đánh giá tác động môi trường ĐTM tại 100% các nhà máy sản xuất mì ăn liền và gia vị.",
       "matched_incident": null,
       "ai_risk_numeric": 0,

@@ -6,7 +6,7 @@
   "claims_detected": [
     {
       "claim": {
-        "claim_id": "claim_001bf05c",
+        "claim_id": "claim_004080fe",
         "indicator_type": "Selective Disclosure",
         "claim_text": "Sabeco công bố hoạt động trồng cây và bảo tồn nguồn nước nhưng không công bố tổng lượng nước thải thực tế xả ra môi trường tại các nhà máy bia thành viên.",
         "page_number": 15,
@@ -63,7 +63,7 @@
     },
     {
       "claim": {
-        "claim_id": "claim_0079b8fc",
+        "claim_id": "claim_006e452a",
         "indicator_type": "Hollow Promise",
         "claim_text": "Cam kết đạt 100% bao bì đồ uống tái sử dụng và phân hủy sinh học vào năm 2040 mà không có lộ trình trung hạn.",
         "page_number": 19,
@@ -120,7 +120,7 @@
     },
     {
       "claim": {
-        "claim_id": "claim_003e788d",
+        "claim_id": "claim_0017290e",
         "indicator_type": "Potential Data Mispresentation",
         "claim_text": "Số liệu giảm phát thải KNK Scope 1 & 2 được báo cáo giảm 15% nhưng cơ sở mức nền năm đối chiếu không đồng nhất giữa các bảng biểu.",
         "page_number": 23,
@@ -177,7 +177,7 @@
     },
     {
       "claim": {
-        "claim_id": "claim_0009f511",
+        "claim_id": "claim_00842e55",
         "indicator_type": "Misleading Presentation",
         "claim_text": "Gắn nhãn nhà máy 'Xanh 100%' và 'Năng lượng thuần sạch' trong khi tỷ lệ điện mặt trời áp mái mới đáp ứng 22% nhu cầu phụ tải.",
         "page_number": 27,
@@ -234,7 +234,7 @@
     },
     {
       "claim": {
-        "claim_id": "claim_00260490",
+        "claim_id": "claim_000c416d",
         "indicator_type": "Selective Disclosure",
         "claim_text": "Báo cáo đầu tư hệ thống xử lý nước thải đạt tiêu chuẩn Cột A có kiểm định quan trắc định kỳ.",
         "page_number": 31,
@@ -291,7 +291,7 @@
     },
     {
       "claim": {
-        "claim_id": "claim_0073a1fe",
+        "claim_id": "claim_005de8b9",
         "indicator_type": "Potential Data Mispresentation",
         "claim_text": "Tỷ lệ tái sử dụng vỏ chai và két nhựa được công bố 98% có biên bản đối chiếu lượng thu hồi.",
         "page_number": 35,
@@ -348,7 +348,7 @@
     },
     {
       "claim": {
-        "claim_id": "claim_0007cc4e",
+        "claim_id": "claim_002f6546",
         "indicator_type": "Hollow Promise",
         "claim_text": "Lộ trình chuyển đổi xe tải điện giao hàng năm 2035 có kế hoạch thử nghiệm giai đoạn 1.",
         "page_number": 39,
@@ -405,7 +405,7 @@
     },
     {
       "claim": {
-        "claim_id": "claim_0047a219",
+        "claim_id": "claim_008fc838",
         "indicator_type": "Selective Disclosure",
         "claim_text": "Số liệu sử dụng nhiệt năng sinh khối Biomass đạt 100% tại các nhà máy chính nhưng chưa bao quát toàn bộ nhà máy vệ tinh.",
         "page_number": 43,
@@ -463,12 +463,15 @@
   ],
   "scraped_incidents": [
     {
-      "incident_id": "inc_ae9622c7",
+      "incident_id": "inc_66cb9fa0",
       "company_name": "Sabeco",
       "title": "Nghệ An: Nghi vấn nước thải ô nhiễm từ KCN Bắc Vinh (khu vực Sabeco Sông Lam) xả ra môi trường",
       "source": "Báo Dân Việt",
-      "url": "https://danviet.vn/nghe-an-nghi-van-nuoc-thai-o-nhiem-tu-kcn-bac-vinh-chay-ra-kenh-bac-7777977610.htm",
+      "url": "https://www.google.com/search?q=Sabeco+Ngh%E1%BB%87+An%3A+Nghi+v%E1%BA%A5n+n%C6%B0%E1%BB%9Bc+th%E1%BA%A3i+%C3%B4+nhi%E1%BB%85m+t%E1%BB%AB+KCN+B%E1%BA%AFc+Vinh+%28khu+v%E1%BB%B1c+Sabeco+S%C3%B4ng+Lam%29+x%E1%BA%A3+ra+m%C3%B4i+tr%C6%B0%E1%BB%9Dng",
       "article_url": null,
+      "search_query": "Sabeco Nghệ An: Nghi vấn nước thải ô nhiễm từ KCN Bắc Vinh (khu vực Sabeco Sông Lam) xả ra môi trường",
+      "search_url": "https://www.google.com/search?q=Sabeco+Ngh%E1%BB%87+An%3A+Nghi+v%E1%BA%A5n+n%C6%B0%E1%BB%9Bc+th%E1%BA%A3i+%C3%B4+nhi%E1%BB%85m+t%E1%BB%AB+KCN+B%E1%BA%AFc+Vinh+%28khu+v%E1%BB%B1c+Sabeco+S%C3%B4ng+Lam%29+x%E1%BA%A3+ra+m%C3%B4i+tr%C6%B0%E1%BB%9Dng",
+      "article_url_status": "REJECTED_MISMATCH",
       "published_date": "2023-2024",
       "snippet": "Kiểm tra liên ngành và phản ánh thực tế về việc chấp hành quy định bảo vệ môi trường, vận hành hệ thống xử lý nước thải và kênh xả thải công nghiệp tại cơ sở thành viên Sabeco Sông Lam.",
       "relevance_score": 0.92
@@ -476,15 +479,18 @@
   ],
   "incident_matches": [
     {
-      "claim_id": "claim_001bf05c",
+      "claim_id": "claim_004080fe",
       "claim_text": "Sabeco công bố hoạt động trồng cây và bảo tồn nguồn nước nhưng không công bố tổng lượng nước thải thực tế xả ra môi trường tại các nhà máy bia thành viên.",
       "matched_incident": {
-        "incident_id": "inc_ae9622c7",
+        "incident_id": "inc_66cb9fa0",
         "company_name": "Sabeco",
         "title": "Nghệ An: Nghi vấn nước thải ô nhiễm từ KCN Bắc Vinh (khu vực Sabeco Sông Lam) xả ra môi trường",
         "source": "Báo Dân Việt",
-        "url": "https://danviet.vn/nghe-an-nghi-van-nuoc-thai-o-nhiem-tu-kcn-bac-vinh-chay-ra-kenh-bac-7777977610.htm",
+        "url": "https://www.google.com/search?q=Sabeco+Ngh%E1%BB%87+An%3A+Nghi+v%E1%BA%A5n+n%C6%B0%E1%BB%9Bc+th%E1%BA%A3i+%C3%B4+nhi%E1%BB%85m+t%E1%BB%AB+KCN+B%E1%BA%AFc+Vinh+%28khu+v%E1%BB%B1c+Sabeco+S%C3%B4ng+Lam%29+x%E1%BA%A3+ra+m%C3%B4i+tr%C6%B0%E1%BB%9Dng",
         "article_url": null,
+        "search_query": "Sabeco Nghệ An: Nghi vấn nước thải ô nhiễm từ KCN Bắc Vinh (khu vực Sabeco Sông Lam) xả ra môi trường",
+        "search_url": "https://www.google.com/search?q=Sabeco+Ngh%E1%BB%87+An%3A+Nghi+v%E1%BA%A5n+n%C6%B0%E1%BB%9Bc+th%E1%BA%A3i+%C3%B4+nhi%E1%BB%85m+t%E1%BB%AB+KCN+B%E1%BA%AFc+Vinh+%28khu+v%E1%BB%B1c+Sabeco+S%C3%B4ng+Lam%29+x%E1%BA%A3+ra+m%C3%B4i+tr%C6%B0%E1%BB%9Dng",
+        "article_url_status": "REJECTED_MISMATCH",
         "published_date": "2023-2024",
         "snippet": "Kiểm tra liên ngành và phản ánh thực tế về việc chấp hành quy định bảo vệ môi trường, vận hành hệ thống xử lý nước thải và kênh xả thải công nghiệp tại cơ sở thành viên Sabeco Sông Lam.",
         "relevance_score": 0.92
@@ -498,7 +504,7 @@
       "matching_reasoning": "Đối chiếu AI Risk (Medium) với Bằng chứng Thực tế (HIGHLY_COMPATIBLE)."
     },
     {
-      "claim_id": "claim_0079b8fc",
+      "claim_id": "claim_006e452a",
       "claim_text": "Cam kết đạt 100% bao bì đồ uống tái sử dụng và phân hủy sinh học vào năm 2040 mà không có lộ trình trung hạn.",
       "matched_incident": null,
       "ai_risk_numeric": 1,
@@ -510,19 +516,9 @@
       "matching_reasoning": "Đối chiếu AI Risk (Medium) với Bằng chứng Thực tế (NO_EVIDENCE)."
     },
     {
-      "claim_id": "claim_003e788d",
+      "claim_id": "claim_0017290e",
       "claim_text": "Số liệu giảm phát thải KNK Scope 1 & 2 được báo cáo giảm 15% nhưng cơ sở mức nền năm đối chiếu không đồng nhất giữa các bảng biểu.",
-      "matched_incident": {
-        "incident_id": "inc_ae9622c7",
-        "company_name": "Sabeco",
-        "title": "Nghệ An: Nghi vấn nước thải ô nhiễm từ KCN Bắc Vinh (khu vực Sabeco Sông Lam) xả ra môi trường",
-        "source": "Báo Dân Việt",
-        "url": "https://danviet.vn/nghe-an-nghi-van-nuoc-thai-o-nhiem-tu-kcn-bac-vinh-chay-ra-kenh-bac-7777977610.htm",
-        "article_url": null,
-        "published_date": "2023-2024",
-        "snippet": "Kiểm tra liên ngành và phản ánh thực tế về việc chấp hành quy định bảo vệ môi trường, vận hành hệ thống xử lý nước thải và kênh xả thải công nghiệp tại cơ sở thành viên Sabeco Sông Lam.",
-        "relevance_score": 0.92
-      },
+      "matched_incident": null,
       "ai_risk_numeric": 2,
       "ground_truth_numeric": 2,
       "ground_truth_label": "HIGH_RISK",
@@ -532,19 +528,9 @@
       "matching_reasoning": "Đối chiếu AI Risk (High) với Bằng chứng Thực tế (PARTIALLY_COMPATIBLE)."
     },
     {
-      "claim_id": "claim_0009f511",
+      "claim_id": "claim_00842e55",
       "claim_text": "Gắn nhãn nhà máy 'Xanh 100%' và 'Năng lượng thuần sạch' trong khi tỷ lệ điện mặt trời áp mái mới đáp ứng 22% nhu cầu phụ tải.",
-      "matched_incident": {
-        "incident_id": "inc_ae9622c7",
-        "company_name": "Sabeco",
-        "title": "Nghệ An: Nghi vấn nước thải ô nhiễm từ KCN Bắc Vinh (khu vực Sabeco Sông Lam) xả ra môi trường",
-        "source": "Báo Dân Việt",
-        "url": "https://danviet.vn/nghe-an-nghi-van-nuoc-thai-o-nhiem-tu-kcn-bac-vinh-chay-ra-kenh-bac-7777977610.htm",
-        "article_url": null,
-        "published_date": "2023-2024",
-        "snippet": "Kiểm tra liên ngành và phản ánh thực tế về việc chấp hành quy định bảo vệ môi trường, vận hành hệ thống xử lý nước thải và kênh xả thải công nghiệp tại cơ sở thành viên Sabeco Sông Lam.",
-        "relevance_score": 0.92
-      },
+      "matched_incident": null,
       "ai_risk_numeric": 1,
       "ground_truth_numeric": 1,
       "ground_truth_label": "MODERATE_RISK",
@@ -554,9 +540,22 @@
       "matching_reasoning": "Đối chiếu AI Risk (Medium) với Bằng chứng Thực tế (HIGHLY_COMPATIBLE)."
     },
     {
-      "claim_id": "claim_00260490",
+      "claim_id": "claim_000c416d",
       "claim_text": "Báo cáo đầu tư hệ thống xử lý nước thải đạt tiêu chuẩn Cột A có kiểm định quan trắc định kỳ.",
-      "matched_incident": null,
+      "matched_incident": {
+        "incident_id": "inc_66cb9fa0",
+        "company_name": "Sabeco",
+        "title": "Nghệ An: Nghi vấn nước thải ô nhiễm từ KCN Bắc Vinh (khu vực Sabeco Sông Lam) xả ra môi trường",
+        "source": "Báo Dân Việt",
+        "url": "https://www.google.com/search?q=Sabeco+Ngh%E1%BB%87+An%3A+Nghi+v%E1%BA%A5n+n%C6%B0%E1%BB%9Bc+th%E1%BA%A3i+%C3%B4+nhi%E1%BB%85m+t%E1%BB%AB+KCN+B%E1%BA%AFc+Vinh+%28khu+v%E1%BB%B1c+Sabeco+S%C3%B4ng+Lam%29+x%E1%BA%A3+ra+m%C3%B4i+tr%C6%B0%E1%BB%9Dng",
+        "article_url": null,
+        "search_query": "Sabeco Nghệ An: Nghi vấn nước thải ô nhiễm từ KCN Bắc Vinh (khu vực Sabeco Sông Lam) xả ra môi trường",
+        "search_url": "https://www.google.com/search?q=Sabeco+Ngh%E1%BB%87+An%3A+Nghi+v%E1%BA%A5n+n%C6%B0%E1%BB%9Bc+th%E1%BA%A3i+%C3%B4+nhi%E1%BB%85m+t%E1%BB%AB+KCN+B%E1%BA%AFc+Vinh+%28khu+v%E1%BB%B1c+Sabeco+S%C3%B4ng+Lam%29+x%E1%BA%A3+ra+m%C3%B4i+tr%C6%B0%E1%BB%9Dng",
+        "article_url_status": "REJECTED_MISMATCH",
+        "published_date": "2023-2024",
+        "snippet": "Kiểm tra liên ngành và phản ánh thực tế về việc chấp hành quy định bảo vệ môi trường, vận hành hệ thống xử lý nước thải và kênh xả thải công nghiệp tại cơ sở thành viên Sabeco Sông Lam.",
+        "relevance_score": 0.92
+      },
       "ai_risk_numeric": 0,
       "ground_truth_numeric": 0,
       "ground_truth_label": "LOW_RISK",
@@ -566,7 +565,7 @@
       "matching_reasoning": "Đối chiếu AI Risk (Low) với Bằng chứng Thực tế (NO_EVIDENCE)."
     },
     {
-      "claim_id": "claim_0073a1fe",
+      "claim_id": "claim_005de8b9",
       "claim_text": "Tỷ lệ tái sử dụng vỏ chai và két nhựa được công bố 98% có biên bản đối chiếu lượng thu hồi.",
       "matched_incident": null,
       "ai_risk_numeric": 0,
@@ -578,7 +577,7 @@
       "matching_reasoning": "Đối chiếu AI Risk (None) với Bằng chứng Thực tế (NO_EVIDENCE)."
     },
     {
-      "claim_id": "claim_0007cc4e",
+      "claim_id": "claim_002f6546",
       "claim_text": "Lộ trình chuyển đổi xe tải điện giao hàng năm 2035 có kế hoạch thử nghiệm giai đoạn 1.",
       "matched_incident": null,
       "ai_risk_numeric": 0,
@@ -590,7 +589,7 @@
       "matching_reasoning": "Đối chiếu AI Risk (Low) với Bằng chứng Thực tế (NO_EVIDENCE)."
     },
     {
-      "claim_id": "claim_0047a219",
+      "claim_id": "claim_008fc838",
       "claim_text": "Số liệu sử dụng nhiệt năng sinh khối Biomass đạt 100% tại các nhà máy chính nhưng chưa bao quát toàn bộ nhà máy vệ tinh.",
       "matched_incident": null,
       "ai_risk_numeric": 0,
