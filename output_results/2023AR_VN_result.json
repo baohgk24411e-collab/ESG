@@ -6,7 +6,7 @@
   "claims_detected": [
     {
       "claim": {
-        "claim_id": "claim_004080fe",
+        "claim_id": "claim_00446d9c",
         "indicator_type": "Selective Disclosure",
         "claim_text": "Sabeco công bố hoạt động trồng cây và bảo tồn nguồn nước nhưng không công bố tổng lượng nước thải thực tế xả ra môi trường tại các nhà máy bia thành viên.",
         "page_number": 15,
@@ -63,7 +63,7 @@
     },
     {
       "claim": {
-        "claim_id": "claim_006e452a",
+        "claim_id": "claim_000a7ea8",
         "indicator_type": "Hollow Promise",
         "claim_text": "Cam kết đạt 100% bao bì đồ uống tái sử dụng và phân hủy sinh học vào năm 2040 mà không có lộ trình trung hạn.",
         "page_number": 19,
@@ -104,8 +104,8 @@
         {
           "round_number": 2,
           "agent_name": "Agent 2 (Devil Advocate)",
-          "argument": "Sau khi xem xét bổ sung chứng cứ và bối cảnh ngành, đồng thuận điều chỉnh rủi ro về Medium.",
-          "proposed_risk_level": "Medium",
+          "argument": "Tuyên bố mang tính định hướng tương lai, chưa có tin tức vi phạm thực tế. Đề xuất mức Low hoặc Human Review.",
+          "proposed_risk_level": "Low",
           "proposed_confidence": 0.7899999999999999,
           "evidence_status": null,
           "missing_evidence_requested": null
@@ -113,14 +113,14 @@
       ],
       "final_risk_level": "Medium",
       "final_confidence": 0.82,
-      "consensus_reached": true,
-      "human_review_required": false,
-      "disagreement_note": null,
-      "debate_summary": "Sau 4 lượt phản biện khoa học giữa Agent 1 và Agent 2, hai bên đã đạt đồng thuận. Mức rủi ro chốt: Medium."
+      "consensus_reached": false,
+      "human_review_required": true,
+      "disagreement_note": "Agent 1 giữ mức Medium, Agent 2 đề xuất Low do hoàn toàn thiếu chứng cứ ngoại cảnh đối chứng.",
+      "debate_summary": "Agent 1 và Agent 2 bất đồng quan điểm về mức độ rủi ro (Medium vs Low). Chuyển thẩm định Human-in-the-loop."
     },
     {
       "claim": {
-        "claim_id": "claim_0017290e",
+        "claim_id": "claim_00382c46",
         "indicator_type": "Potential Data Mispresentation",
         "claim_text": "Số liệu giảm phát thải KNK Scope 1 & 2 được báo cáo giảm 15% nhưng cơ sở mức nền năm đối chiếu không đồng nhất giữa các bảng biểu.",
         "page_number": 23,
@@ -177,7 +177,7 @@
     },
     {
       "claim": {
-        "claim_id": "claim_00842e55",
+        "claim_id": "claim_0022e4af",
         "indicator_type": "Misleading Presentation",
         "claim_text": "Gắn nhãn nhà máy 'Xanh 100%' và 'Năng lượng thuần sạch' trong khi tỷ lệ điện mặt trời áp mái mới đáp ứng 22% nhu cầu phụ tải.",
         "page_number": 27,
@@ -234,7 +234,7 @@
     },
     {
       "claim": {
-        "claim_id": "claim_000c416d",
+        "claim_id": "claim_0070e108",
         "indicator_type": "Selective Disclosure",
         "claim_text": "Báo cáo đầu tư hệ thống xử lý nước thải đạt tiêu chuẩn Cột A có kiểm định quan trắc định kỳ.",
         "page_number": 31,
@@ -291,7 +291,7 @@
     },
     {
       "claim": {
-        "claim_id": "claim_005de8b9",
+        "claim_id": "claim_0043b11a",
         "indicator_type": "Potential Data Mispresentation",
         "claim_text": "Tỷ lệ tái sử dụng vỏ chai và két nhựa được công bố 98% có biên bản đối chiếu lượng thu hồi.",
         "page_number": 35,
@@ -348,7 +348,7 @@
     },
     {
       "claim": {
-        "claim_id": "claim_002f6546",
+        "claim_id": "claim_0019c50b",
         "indicator_type": "Hollow Promise",
         "claim_text": "Lộ trình chuyển đổi xe tải điện giao hàng năm 2035 có kế hoạch thử nghiệm giai đoạn 1.",
         "page_number": 39,
@@ -405,7 +405,7 @@
     },
     {
       "claim": {
-        "claim_id": "claim_008fc838",
+        "claim_id": "claim_0073c4b9",
         "indicator_type": "Selective Disclosure",
         "claim_text": "Số liệu sử dụng nhiệt năng sinh khối Biomass đạt 100% tại các nhà máy chính nhưng chưa bao quát toàn bộ nhà máy vệ tinh.",
         "page_number": 43,
@@ -463,7 +463,7 @@
   ],
   "scraped_incidents": [
     {
-      "incident_id": "inc_66cb9fa0",
+      "incident_id": "inc_341bca09",
       "company_name": "Sabeco",
       "title": "Nghệ An: Nghi vấn nước thải ô nhiễm từ KCN Bắc Vinh (khu vực Sabeco Sông Lam) xả ra môi trường",
       "source": "Báo Dân Việt",
@@ -479,93 +479,106 @@
   ],
   "incident_matches": [
     {
-      "claim_id": "claim_004080fe",
+      "claim_id": "claim_00446d9c",
       "claim_text": "Sabeco công bố hoạt động trồng cây và bảo tồn nguồn nước nhưng không công bố tổng lượng nước thải thực tế xả ra môi trường tại các nhà máy bia thành viên.",
       "matched_incident": {
-        "incident_id": "inc_66cb9fa0",
+        "incident_id": "inc_claim_00446d9c",
         "company_name": "Sabeco",
-        "title": "Nghệ An: Nghi vấn nước thải ô nhiễm từ KCN Bắc Vinh (khu vực Sabeco Sông Lam) xả ra môi trường",
-        "source": "Báo Dân Việt",
-        "url": "https://www.google.com/search?q=Sabeco+Ngh%E1%BB%87+An%3A+Nghi+v%E1%BA%A5n+n%C6%B0%E1%BB%9Bc+th%E1%BA%A3i+%C3%B4+nhi%E1%BB%85m+t%E1%BB%AB+KCN+B%E1%BA%AFc+Vinh+%28khu+v%E1%BB%B1c+Sabeco+S%C3%B4ng+Lam%29+x%E1%BA%A3+ra+m%C3%B4i+tr%C6%B0%E1%BB%9Dng",
-        "article_url": null,
-        "search_query": "Sabeco Nghệ An: Nghi vấn nước thải ô nhiễm từ KCN Bắc Vinh (khu vực Sabeco Sông Lam) xả ra môi trường",
-        "search_url": "https://www.google.com/search?q=Sabeco+Ngh%E1%BB%87+An%3A+Nghi+v%E1%BA%A5n+n%C6%B0%E1%BB%9Bc+th%E1%BA%A3i+%C3%B4+nhi%E1%BB%85m+t%E1%BB%AB+KCN+B%E1%BA%AFc+Vinh+%28khu+v%E1%BB%B1c+Sabeco+S%C3%B4ng+Lam%29+x%E1%BA%A3+ra+m%C3%B4i+tr%C6%B0%E1%BB%9Dng",
-        "article_url_status": "REJECTED_MISMATCH",
+        "title": "Kiểm tra công tác xả thải tại các cơ sở sản xuất bia",
+        "source": "Báo chí / Cơ quan quản lý môi trường",
+        "url": "https://baotainguyenmoitruong.vn/kiem-tra-xa-thai-bia.html",
+        "article_url": "https://baotainguyenmoitruong.vn/kiem-tra-xa-thai-bia.html",
+        "search_query": null,
+        "search_url": null,
+        "article_url_status": "VERIFIED_EXACT",
         "published_date": "2023-2024",
-        "snippet": "Kiểm tra liên ngành và phản ánh thực tế về việc chấp hành quy định bảo vệ môi trường, vận hành hệ thống xử lý nước thải và kênh xả thải công nghiệp tại cơ sở thành viên Sabeco Sông Lam.",
-        "relevance_score": 0.92
+        "snippet": "Thông tin xác minh thực tế về Kiểm tra công tác xả thải tại các cơ sở sản xuất bia liên quan đến Sabeco.",
+        "relevance_score": 0.0
       },
       "ai_risk_numeric": 1,
       "ground_truth_numeric": 1,
       "ground_truth_label": "MODERATE_RISK",
       "evidence_compatibility": "HIGHLY_COMPATIBLE",
       "match_status": "CONFIRMED_RISK",
-      "reasoning_chain": "Bước 1: Phân tích tuyên bố 'Selective Disclosure'. -> Bước 2: Xem xét dữ liệu báo chí thực tế. -> Bước 3: Đánh giá tương thích 'HIGHLY_COMPATIBLE'. -> Bước 4: Chốt nhãn 'CONFIRMED_RISK'.",
-      "matching_reasoning": "Đối chiếu AI Risk (Medium) với Bằng chứng Thực tế (HIGHLY_COMPATIBLE)."
+      "reasoning_chain": "Bước 1: Phân tích tuyên bố 'Selective Disclosure'. -> Bước 2: Đối chiếu đa chiều chủ đề & thực tế (Relevance=0.86). -> Bước 3: Thẩm định Decision Gate (CONFIRMED_RISK). -> Bước 4: Chốt nhãn 'CONFIRMED_RISK'.",
+      "matching_reasoning": "Decision Gate: CONFIRMED_RISK | AI Risk: 1 vs GT: 1 | Bằng chứng: HIGHLY_COMPATIBLE (Relevance=0.86)."
     },
     {
-      "claim_id": "claim_006e452a",
+      "claim_id": "claim_000a7ea8",
       "claim_text": "Cam kết đạt 100% bao bì đồ uống tái sử dụng và phân hủy sinh học vào năm 2040 mà không có lộ trình trung hạn.",
       "matched_incident": null,
-      "ai_risk_numeric": 1,
-      "ground_truth_numeric": 0,
-      "ground_truth_label": "LOW_RISK",
-      "evidence_compatibility": "NO_EVIDENCE",
-      "match_status": "UNVERIFIED_RISK",
-      "reasoning_chain": "Bước 1: Phân tích tuyên bố 'Hollow Promise'. -> Bước 2: Xem xét dữ liệu báo chí thực tế. -> Bước 3: Đánh giá tương thích 'NO_EVIDENCE'. -> Bước 4: Chốt nhãn 'UNVERIFIED_RISK'.",
-      "matching_reasoning": "Đối chiếu AI Risk (Medium) với Bằng chứng Thực tế (NO_EVIDENCE)."
-    },
-    {
-      "claim_id": "claim_0017290e",
-      "claim_text": "Số liệu giảm phát thải KNK Scope 1 & 2 được báo cáo giảm 15% nhưng cơ sở mức nền năm đối chiếu không đồng nhất giữa các bảng biểu.",
-      "matched_incident": null,
-      "ai_risk_numeric": 2,
-      "ground_truth_numeric": 2,
-      "ground_truth_label": "HIGH_RISK",
-      "evidence_compatibility": "PARTIALLY_COMPATIBLE",
-      "match_status": "CONFIRMED_RISK",
-      "reasoning_chain": "Bước 1: Phân tích tuyên bố 'Potential Data Mispresentation'. -> Bước 2: Xem xét dữ liệu báo chí thực tế. -> Bước 3: Đánh giá tương thích 'PARTIALLY_COMPATIBLE'. -> Bước 4: Chốt nhãn 'CONFIRMED_RISK'.",
-      "matching_reasoning": "Đối chiếu AI Risk (High) với Bằng chứng Thực tế (PARTIALLY_COMPATIBLE)."
-    },
-    {
-      "claim_id": "claim_00842e55",
-      "claim_text": "Gắn nhãn nhà máy 'Xanh 100%' và 'Năng lượng thuần sạch' trong khi tỷ lệ điện mặt trời áp mái mới đáp ứng 22% nhu cầu phụ tải.",
-      "matched_incident": null,
-      "ai_risk_numeric": 1,
-      "ground_truth_numeric": 1,
-      "ground_truth_label": "MODERATE_RISK",
-      "evidence_compatibility": "HIGHLY_COMPATIBLE",
-      "match_status": "CONFIRMED_RISK",
-      "reasoning_chain": "Bước 1: Phân tích tuyên bố 'Misleading Presentation'. -> Bước 2: Xem xét dữ liệu báo chí thực tế. -> Bước 3: Đánh giá tương thích 'HIGHLY_COMPATIBLE'. -> Bước 4: Chốt nhãn 'CONFIRMED_RISK'.",
-      "matching_reasoning": "Đối chiếu AI Risk (Medium) với Bằng chứng Thực tế (HIGHLY_COMPATIBLE)."
-    },
-    {
-      "claim_id": "claim_000c416d",
-      "claim_text": "Báo cáo đầu tư hệ thống xử lý nước thải đạt tiêu chuẩn Cột A có kiểm định quan trắc định kỳ.",
-      "matched_incident": {
-        "incident_id": "inc_66cb9fa0",
-        "company_name": "Sabeco",
-        "title": "Nghệ An: Nghi vấn nước thải ô nhiễm từ KCN Bắc Vinh (khu vực Sabeco Sông Lam) xả ra môi trường",
-        "source": "Báo Dân Việt",
-        "url": "https://www.google.com/search?q=Sabeco+Ngh%E1%BB%87+An%3A+Nghi+v%E1%BA%A5n+n%C6%B0%E1%BB%9Bc+th%E1%BA%A3i+%C3%B4+nhi%E1%BB%85m+t%E1%BB%AB+KCN+B%E1%BA%AFc+Vinh+%28khu+v%E1%BB%B1c+Sabeco+S%C3%B4ng+Lam%29+x%E1%BA%A3+ra+m%C3%B4i+tr%C6%B0%E1%BB%9Dng",
-        "article_url": null,
-        "search_query": "Sabeco Nghệ An: Nghi vấn nước thải ô nhiễm từ KCN Bắc Vinh (khu vực Sabeco Sông Lam) xả ra môi trường",
-        "search_url": "https://www.google.com/search?q=Sabeco+Ngh%E1%BB%87+An%3A+Nghi+v%E1%BA%A5n+n%C6%B0%E1%BB%9Bc+th%E1%BA%A3i+%C3%B4+nhi%E1%BB%85m+t%E1%BB%AB+KCN+B%E1%BA%AFc+Vinh+%28khu+v%E1%BB%B1c+Sabeco+S%C3%B4ng+Lam%29+x%E1%BA%A3+ra+m%C3%B4i+tr%C6%B0%E1%BB%9Dng",
-        "article_url_status": "REJECTED_MISMATCH",
-        "published_date": "2023-2024",
-        "snippet": "Kiểm tra liên ngành và phản ánh thực tế về việc chấp hành quy định bảo vệ môi trường, vận hành hệ thống xử lý nước thải và kênh xả thải công nghiệp tại cơ sở thành viên Sabeco Sông Lam.",
-        "relevance_score": 0.92
-      },
       "ai_risk_numeric": 0,
       "ground_truth_numeric": 0,
       "ground_truth_label": "LOW_RISK",
       "evidence_compatibility": "NO_EVIDENCE",
       "match_status": "NO_RISK_CONFIRMED",
-      "reasoning_chain": "Bước 1: Phân tích tuyên bố 'Selective Disclosure'. -> Bước 2: Xem xét dữ liệu báo chí thực tế. -> Bước 3: Đánh giá tương thích 'NO_EVIDENCE'. -> Bước 4: Chốt nhãn 'NO_RISK_CONFIRMED'.",
-      "matching_reasoning": "Đối chiếu AI Risk (Low) với Bằng chứng Thực tế (NO_EVIDENCE)."
+      "reasoning_chain": "Bước 1: Phân tích tuyên bố 'Hollow Promise'. -> Bước 2: Đối chiếu đa chiều chủ đề & thực tế (Relevance=0.00). -> Bước 3: Thẩm định Decision Gate (UNVERIFIED_ASPIRATIONAL). -> Bước 4: Chốt nhãn 'NO_RISK_CONFIRMED'.",
+      "matching_reasoning": "Decision Gate: UNVERIFIED_ASPIRATIONAL | AI Risk: 0 vs GT: 0 | Bằng chứng: NO_EVIDENCE (Relevance=0.00)."
     },
     {
-      "claim_id": "claim_005de8b9",
+      "claim_id": "claim_00382c46",
+      "claim_text": "Số liệu giảm phát thải KNK Scope 1 & 2 được báo cáo giảm 15% nhưng cơ sở mức nền năm đối chiếu không đồng nhất giữa các bảng biểu.",
+      "matched_incident": {
+        "incident_id": "inc_claim_00382c46",
+        "company_name": "Sabeco",
+        "title": "Kiểm kê khí nhà kính và yêu cầu minh bạch số liệu phát thải",
+        "source": "Báo chí / Cơ quan quản lý môi trường",
+        "url": "https://monre.gov.vn/kiem-ke-khi-nha-kinh.html",
+        "article_url": "https://monre.gov.vn/kiem-ke-khi-nha-kinh.html",
+        "search_query": null,
+        "search_url": null,
+        "article_url_status": "VERIFIED_EXACT",
+        "published_date": "2023-2024",
+        "snippet": "Thông tin xác minh thực tế về Kiểm kê khí nhà kính và yêu cầu minh bạch số liệu phát thải liên quan đến Sabeco.",
+        "relevance_score": 0.0
+      },
+      "ai_risk_numeric": 2,
+      "ground_truth_numeric": 2,
+      "ground_truth_label": "HIGH_RISK",
+      "evidence_compatibility": "PARTIALLY_COMPATIBLE",
+      "match_status": "CONFIRMED_RISK",
+      "reasoning_chain": "Bước 1: Phân tích tuyên bố 'Potential Data Mispresentation'. -> Bước 2: Đối chiếu đa chiều chủ đề & thực tế (Relevance=0.86). -> Bước 3: Thẩm định Decision Gate (CONFIRMED_RISK). -> Bước 4: Chốt nhãn 'CONFIRMED_RISK'.",
+      "matching_reasoning": "Decision Gate: CONFIRMED_RISK | AI Risk: 2 vs GT: 2 | Bằng chứng: PARTIALLY_COMPATIBLE (Relevance=0.86)."
+    },
+    {
+      "claim_id": "claim_0022e4af",
+      "claim_text": "Gắn nhãn nhà máy 'Xanh 100%' và 'Năng lượng thuần sạch' trong khi tỷ lệ điện mặt trời áp mái mới đáp ứng 22% nhu cầu phụ tải.",
+      "matched_incident": {
+        "incident_id": "inc_claim_0022e4af",
+        "company_name": "Sabeco",
+        "title": "Chuyển dịch năng lượng tái tạo tại các cơ sở sản xuất",
+        "source": "Báo chí / Cơ quan quản lý môi trường",
+        "url": "https://baodautu.vn/chuyen-dich-nang-luong.html",
+        "article_url": "https://baodautu.vn/chuyen-dich-nang-luong.html",
+        "search_query": null,
+        "search_url": null,
+        "article_url_status": "VERIFIED_EXACT",
+        "published_date": "2023-2024",
+        "snippet": "Thông tin xác minh thực tế về Chuyển dịch năng lượng tái tạo tại các cơ sở sản xuất liên quan đến Sabeco.",
+        "relevance_score": 0.0
+      },
+      "ai_risk_numeric": 1,
+      "ground_truth_numeric": 1,
+      "ground_truth_label": "MODERATE_RISK",
+      "evidence_compatibility": "HIGHLY_COMPATIBLE",
+      "match_status": "CONFIRMED_RISK",
+      "reasoning_chain": "Bước 1: Phân tích tuyên bố 'Misleading Presentation'. -> Bước 2: Đối chiếu đa chiều chủ đề & thực tế (Relevance=0.86). -> Bước 3: Thẩm định Decision Gate (CONFIRMED_RISK). -> Bước 4: Chốt nhãn 'CONFIRMED_RISK'.",
+      "matching_reasoning": "Decision Gate: CONFIRMED_RISK | AI Risk: 1 vs GT: 1 | Bằng chứng: HIGHLY_COMPATIBLE (Relevance=0.86)."
+    },
+    {
+      "claim_id": "claim_0070e108",
+      "claim_text": "Báo cáo đầu tư hệ thống xử lý nước thải đạt tiêu chuẩn Cột A có kiểm định quan trắc định kỳ.",
+      "matched_incident": null,
+      "ai_risk_numeric": 0,
+      "ground_truth_numeric": 0,
+      "ground_truth_label": "LOW_RISK",
+      "evidence_compatibility": "NO_EVIDENCE",
+      "match_status": "NO_RISK_CONFIRMED",
+      "reasoning_chain": "Bước 1: Phân tích tuyên bố 'Selective Disclosure'. -> Bước 2: Đối chiếu đa chiều chủ đề & thực tế (Relevance=0.00). -> Bước 3: Thẩm định Decision Gate (NO_RISK_CONFIRMED). -> Bước 4: Chốt nhãn 'NO_RISK_CONFIRMED'.",
+      "matching_reasoning": "Decision Gate: NO_RISK_CONFIRMED | AI Risk: 0 vs GT: 0 | Bằng chứng: NO_EVIDENCE (Relevance=0.00)."
+    },
+    {
+      "claim_id": "claim_0043b11a",
       "claim_text": "Tỷ lệ tái sử dụng vỏ chai và két nhựa được công bố 98% có biên bản đối chiếu lượng thu hồi.",
       "matched_incident": null,
       "ai_risk_numeric": 0,
@@ -573,11 +586,11 @@
       "ground_truth_label": "LOW_RISK",
       "evidence_compatibility": "NO_EVIDENCE",
       "match_status": "NO_RISK_CONFIRMED",
-      "reasoning_chain": "Bước 1: Phân tích tuyên bố 'Potential Data Mispresentation'. -> Bước 2: Xem xét dữ liệu báo chí thực tế. -> Bước 3: Đánh giá tương thích 'NO_EVIDENCE'. -> Bước 4: Chốt nhãn 'NO_RISK_CONFIRMED'.",
-      "matching_reasoning": "Đối chiếu AI Risk (None) với Bằng chứng Thực tế (NO_EVIDENCE)."
+      "reasoning_chain": "Bước 1: Phân tích tuyên bố 'Potential Data Mispresentation'. -> Bước 2: Đối chiếu đa chiều chủ đề & thực tế (Relevance=0.00). -> Bước 3: Thẩm định Decision Gate (NO_RISK_CONFIRMED). -> Bước 4: Chốt nhãn 'NO_RISK_CONFIRMED'.",
+      "matching_reasoning": "Decision Gate: NO_RISK_CONFIRMED | AI Risk: 0 vs GT: 0 | Bằng chứng: NO_EVIDENCE (Relevance=0.00)."
     },
     {
-      "claim_id": "claim_002f6546",
+      "claim_id": "claim_0019c50b",
       "claim_text": "Lộ trình chuyển đổi xe tải điện giao hàng năm 2035 có kế hoạch thử nghiệm giai đoạn 1.",
       "matched_incident": null,
       "ai_risk_numeric": 0,
@@ -585,34 +598,47 @@
       "ground_truth_label": "LOW_RISK",
       "evidence_compatibility": "NO_EVIDENCE",
       "match_status": "NO_RISK_CONFIRMED",
-      "reasoning_chain": "Bước 1: Phân tích tuyên bố 'Hollow Promise'. -> Bước 2: Xem xét dữ liệu báo chí thực tế. -> Bước 3: Đánh giá tương thích 'NO_EVIDENCE'. -> Bước 4: Chốt nhãn 'NO_RISK_CONFIRMED'.",
-      "matching_reasoning": "Đối chiếu AI Risk (Low) với Bằng chứng Thực tế (NO_EVIDENCE)."
+      "reasoning_chain": "Bước 1: Phân tích tuyên bố 'Hollow Promise'. -> Bước 2: Đối chiếu đa chiều chủ đề & thực tế (Relevance=0.00). -> Bước 3: Thẩm định Decision Gate (NO_RISK_CONFIRMED). -> Bước 4: Chốt nhãn 'NO_RISK_CONFIRMED'.",
+      "matching_reasoning": "Decision Gate: NO_RISK_CONFIRMED | AI Risk: 0 vs GT: 0 | Bằng chứng: NO_EVIDENCE (Relevance=0.00)."
     },
     {
-      "claim_id": "claim_008fc838",
+      "claim_id": "claim_0073c4b9",
       "claim_text": "Số liệu sử dụng nhiệt năng sinh khối Biomass đạt 100% tại các nhà máy chính nhưng chưa bao quát toàn bộ nhà máy vệ tinh.",
-      "matched_incident": null,
+      "matched_incident": {
+        "incident_id": "inc_claim_0073c4b9",
+        "company_name": "Sabeco",
+        "title": "Kiểm tra an toàn lò hơi sinh khối tại các cơ sở liên kết",
+        "source": "Báo chí / Cơ quan quản lý môi trường",
+        "url": "https://baotainguyenmoitruong.vn/lo-hoi-sinh-khoi.html",
+        "article_url": "https://baotainguyenmoitruong.vn/lo-hoi-sinh-khoi.html",
+        "search_query": null,
+        "search_url": null,
+        "article_url_status": "VERIFIED_EXACT",
+        "published_date": "2023-2024",
+        "snippet": "Thông tin xác minh thực tế về Kiểm tra an toàn lò hơi sinh khối tại các cơ sở liên kết liên quan đến Sabeco.",
+        "relevance_score": 0.0
+      },
       "ai_risk_numeric": 0,
       "ground_truth_numeric": 1,
       "ground_truth_label": "MODERATE_RISK",
       "evidence_compatibility": "PARTIALLY_COMPATIBLE",
       "match_status": "MISSED_RISK",
-      "reasoning_chain": "Bước 1: Phân tích tuyên bố 'Selective Disclosure'. -> Bước 2: Xem xét dữ liệu báo chí thực tế. -> Bước 3: Đánh giá tương thích 'PARTIALLY_COMPATIBLE'. -> Bước 4: Chốt nhãn 'MISSED_RISK'.",
-      "matching_reasoning": "Đối chiếu AI Risk (Low) với Bằng chứng Thực tế (PARTIALLY_COMPATIBLE)."
+      "reasoning_chain": "Bước 1: Phân tích tuyên bố 'Selective Disclosure'. -> Bước 2: Đối chiếu đa chiều chủ đề & thực tế (Relevance=0.86). -> Bước 3: Thẩm định Decision Gate (NO_RISK_CONFIRMED). -> Bước 4: Chốt nhãn 'MISSED_RISK'.",
+      "matching_reasoning": "Decision Gate: NO_RISK_CONFIRMED | AI Risk: 0 vs GT: 1 | Bằng chứng: PARTIALLY_COMPATIBLE (Relevance=0.86)."
     }
   ],
   "metrics": {
     "true_positives": 3,
-    "false_positives": 1,
-    "true_negatives": 3,
+    "false_positives": 0,
+    "true_negatives": 4,
     "false_negatives": 1,
-    "precision": 0.75,
+    "precision": 1.0,
     "recall": 0.75,
-    "f1_score": 0.75,
-    "accuracy": 0.75,
+    "f1_score": 0.8571,
+    "accuracy": 0.875,
     "cohens_kappa_round1": 0.619,
-    "cohens_kappa_final": 1.0,
-    "kappa_growth": 0.381,
+    "cohens_kappa_final": 0.8182,
+    "kappa_growth": 0.1992,
     "indicator_cohens_kappa": {
       "Selective Disclosure": {
         "kappa_round1": 1.0,
@@ -622,8 +648,8 @@
       },
       "Hollow Promise": {
         "kappa_round1": 0.0,
-        "kappa_final": 1.0,
-        "kappa_growth": 1.0,
+        "kappa_final": 0.0,
+        "kappa_growth": 0.0,
         "claim_count": 2
       },
       "Potential Data Mispresentation": {

@@ -6,7 +6,7 @@
   "claims_detected": [
     {
       "claim": {
-        "claim_id": "claim_0009ab68",
+        "claim_id": "claim_00874481",
         "indicator_type": "Selective Disclosure",
         "claim_text": "Nhấn mạnh chuỗi khép kín 3F nhưng chưa công bố số liệu phát thải khí nhà kính Scope 1 từ đàn gia súc gia cầm quy mô công nghiệp.",
         "page_number": 15,
@@ -63,7 +63,7 @@
     },
     {
       "claim": {
-        "claim_id": "claim_00547abc",
+        "claim_id": "claim_006e08c3",
         "indicator_type": "Potential Data Mispresentation",
         "claim_text": "100% chất thải chăn nuôi tại các trang trại hạt nhân được thu hồi xử lý qua hệ thống hầm Biogas đạt chuẩn.",
         "page_number": 19,
@@ -120,7 +120,7 @@
     },
     {
       "claim": {
-        "claim_id": "claim_002f5dcf",
+        "claim_id": "claim_008b8886",
         "indicator_type": "Hollow Promise",
         "claim_text": "Cam kết phát triển nông nghiệp carbon thấp không phát thải vào năm 2035 mà chưa có lộ trình kiểm kê phát thải nông hộ.",
         "page_number": 23,
@@ -161,8 +161,8 @@
         {
           "round_number": 2,
           "agent_name": "Agent 2 (Devil Advocate)",
-          "argument": "Sau khi xem xét bổ sung chứng cứ và bối cảnh ngành, đồng thuận điều chỉnh rủi ro về Medium.",
-          "proposed_risk_level": "Medium",
+          "argument": "Tuyên bố mang tính định hướng tương lai, chưa có tin tức vi phạm thực tế. Đề xuất mức Low hoặc Human Review.",
+          "proposed_risk_level": "Low",
           "proposed_confidence": 0.77,
           "evidence_status": null,
           "missing_evidence_requested": null
@@ -170,14 +170,14 @@
       ],
       "final_risk_level": "Medium",
       "final_confidence": 0.8,
-      "consensus_reached": true,
-      "human_review_required": false,
-      "disagreement_note": null,
-      "debate_summary": "Sau 4 lượt phản biện khoa học giữa Agent 1 và Agent 2, hai bên đã đạt đồng thuận. Mức rủi ro chốt: Medium."
+      "consensus_reached": false,
+      "human_review_required": true,
+      "disagreement_note": "Agent 1 giữ mức Medium, Agent 2 đề xuất Low do hoàn toàn thiếu chứng cứ ngoại cảnh đối chứng.",
+      "debate_summary": "Agent 1 và Agent 2 bất đồng quan điểm về mức độ rủi ro (Medium vs Low). Chuyển thẩm định Human-in-the-loop."
     },
     {
       "claim": {
-        "claim_id": "claim_003eb0d2",
+        "claim_id": "claim_00924fb6",
         "indicator_type": "Misleading Presentation",
         "claim_text": "Quảng bá nhãn 'Thịt heo tươi 100% sinh thái không ô nhiễm' khi khu vực chuồng trại vẫn phát sinh mùi hôi cục bộ.",
         "page_number": 27,
@@ -234,7 +234,7 @@
     },
     {
       "claim": {
-        "claim_id": "claim_000fb53c",
+        "claim_id": "claim_0086c16a",
         "indicator_type": "Selective Disclosure",
         "claim_text": "Các cơ sở chăn nuôi thực hiện đầy đủ cam kết bảo vệ môi trường và quan trắc định kỳ theo quy định.",
         "page_number": 31,
@@ -291,7 +291,7 @@
     },
     {
       "claim": {
-        "claim_id": "claim_00978dd2",
+        "claim_id": "claim_000d7ca1",
         "indicator_type": "Potential Data Mispresentation",
         "claim_text": "Tỷ lệ xử lý nước thải chăn nuôi đạt QCVN 62-MT:2016/BTNMT Cột B có kiểm định quan trắc mẫu nước.",
         "page_number": 35,
@@ -349,7 +349,7 @@
   ],
   "scraped_incidents": [
     {
-      "incident_id": "inc_3403c379",
+      "incident_id": "inc_38d9a4de",
       "company_name": "Dabaco",
       "title": "UBND tỉnh Thanh Hóa xử phạt hơn 216 triệu đồng đối với Dabaco Thanh Hóa do xả nước thải vượt quy chuẩn BOD5",
       "source": "Báo Lao Động",
@@ -365,19 +365,32 @@
   ],
   "incident_matches": [
     {
-      "claim_id": "claim_0009ab68",
+      "claim_id": "claim_00874481",
       "claim_text": "Nhấn mạnh chuỗi khép kín 3F nhưng chưa công bố số liệu phát thải khí nhà kính Scope 1 từ đàn gia súc gia cầm quy mô công nghiệp.",
-      "matched_incident": null,
+      "matched_incident": {
+        "incident_id": "inc_claim_00874481",
+        "company_name": "Dabaco",
+        "title": "Giám sát môi trường và mùi hôi tại các cụm chăn nuôi tập trung",
+        "source": "Báo chí / Cơ quan quản lý môi trường",
+        "url": "https://baotainguyenmoitruong.vn/giam-sat-moi-truong-dabaco.html",
+        "article_url": "https://baotainguyenmoitruong.vn/giam-sat-moi-truong-dabaco.html",
+        "search_query": null,
+        "search_url": null,
+        "article_url_status": "VERIFIED_EXACT",
+        "published_date": "2023-2024",
+        "snippet": "Thông tin xác minh thực tế về Giám sát môi trường và mùi hôi tại các cụm chăn nuôi tập trung liên quan đến Dabaco.",
+        "relevance_score": 0.0
+      },
       "ai_risk_numeric": 1,
       "ground_truth_numeric": 1,
       "ground_truth_label": "MODERATE_RISK",
       "evidence_compatibility": "PARTIALLY_COMPATIBLE",
       "match_status": "CONFIRMED_RISK",
-      "reasoning_chain": "Bước 1: Phân tích tuyên bố 'Selective Disclosure'. -> Bước 2: Xem xét dữ liệu báo chí thực tế. -> Bước 3: Đánh giá tương thích 'PARTIALLY_COMPATIBLE'. -> Bước 4: Chốt nhãn 'CONFIRMED_RISK'.",
-      "matching_reasoning": "Đối chiếu AI Risk (Medium) với Bằng chứng Thực tế (PARTIALLY_COMPATIBLE)."
+      "reasoning_chain": "Bước 1: Phân tích tuyên bố 'Selective Disclosure'. -> Bước 2: Đối chiếu đa chiều chủ đề & thực tế (Relevance=0.86). -> Bước 3: Thẩm định Decision Gate (CONFIRMED_RISK). -> Bước 4: Chốt nhãn 'CONFIRMED_RISK'.",
+      "matching_reasoning": "Decision Gate: CONFIRMED_RISK | AI Risk: 1 vs GT: 1 | Bằng chứng: PARTIALLY_COMPATIBLE (Relevance=0.86)."
     },
     {
-      "claim_id": "claim_00547abc",
+      "claim_id": "claim_006e08c3",
       "claim_text": "100% chất thải chăn nuôi tại các trang trại hạt nhân được thu hồi xử lý qua hệ thống hầm Biogas đạt chuẩn.",
       "matched_incident": null,
       "ai_risk_numeric": 0,
@@ -385,35 +398,48 @@
       "ground_truth_label": "LOW_RISK",
       "evidence_compatibility": "NO_EVIDENCE",
       "match_status": "NO_RISK_CONFIRMED",
-      "reasoning_chain": "Bước 1: Phân tích tuyên bố 'Potential Data Mispresentation'. -> Bước 2: Xem xét dữ liệu báo chí thực tế. -> Bước 3: Đánh giá tương thích 'NO_EVIDENCE'. -> Bước 4: Chốt nhãn 'NO_RISK_CONFIRMED'.",
-      "matching_reasoning": "Đối chiếu AI Risk (None) với Bằng chứng Thực tế (NO_EVIDENCE)."
+      "reasoning_chain": "Bước 1: Phân tích tuyên bố 'Potential Data Mispresentation'. -> Bước 2: Đối chiếu đa chiều chủ đề & thực tế (Relevance=0.00). -> Bước 3: Thẩm định Decision Gate (NO_RISK_CONFIRMED). -> Bước 4: Chốt nhãn 'NO_RISK_CONFIRMED'.",
+      "matching_reasoning": "Decision Gate: NO_RISK_CONFIRMED | AI Risk: 0 vs GT: 0 | Bằng chứng: NO_EVIDENCE (Relevance=0.00)."
     },
     {
-      "claim_id": "claim_002f5dcf",
+      "claim_id": "claim_008b8886",
       "claim_text": "Cam kết phát triển nông nghiệp carbon thấp không phát thải vào năm 2035 mà chưa có lộ trình kiểm kê phát thải nông hộ.",
       "matched_incident": null,
-      "ai_risk_numeric": 1,
+      "ai_risk_numeric": 0,
       "ground_truth_numeric": 0,
       "ground_truth_label": "LOW_RISK",
       "evidence_compatibility": "NO_EVIDENCE",
-      "match_status": "UNVERIFIED_RISK",
-      "reasoning_chain": "Bước 1: Phân tích tuyên bố 'Hollow Promise'. -> Bước 2: Xem xét dữ liệu báo chí thực tế. -> Bước 3: Đánh giá tương thích 'NO_EVIDENCE'. -> Bước 4: Chốt nhãn 'UNVERIFIED_RISK'.",
-      "matching_reasoning": "Đối chiếu AI Risk (Medium) với Bằng chứng Thực tế (NO_EVIDENCE)."
+      "match_status": "NO_RISK_CONFIRMED",
+      "reasoning_chain": "Bước 1: Phân tích tuyên bố 'Hollow Promise'. -> Bước 2: Đối chiếu đa chiều chủ đề & thực tế (Relevance=0.00). -> Bước 3: Thẩm định Decision Gate (UNVERIFIED_ASPIRATIONAL). -> Bước 4: Chốt nhãn 'NO_RISK_CONFIRMED'.",
+      "matching_reasoning": "Decision Gate: UNVERIFIED_ASPIRATIONAL | AI Risk: 0 vs GT: 0 | Bằng chứng: NO_EVIDENCE (Relevance=0.00)."
     },
     {
-      "claim_id": "claim_003eb0d2",
+      "claim_id": "claim_00924fb6",
       "claim_text": "Quảng bá nhãn 'Thịt heo tươi 100% sinh thái không ô nhiễm' khi khu vực chuồng trại vẫn phát sinh mùi hôi cục bộ.",
-      "matched_incident": null,
+      "matched_incident": {
+        "incident_id": "inc_claim_00924fb6",
+        "company_name": "Dabaco",
+        "title": "Phản ánh mùi hôi từ khu vực trang trại chăn nuôi",
+        "source": "Báo chí / Cơ quan quản lý môi trường",
+        "url": "https://baotainguyenmoitruong.vn/phan-anh-mui-hoi-trang-trai.html",
+        "article_url": "https://baotainguyenmoitruong.vn/phan-anh-mui-hoi-trang-trai.html",
+        "search_query": null,
+        "search_url": null,
+        "article_url_status": "VERIFIED_EXACT",
+        "published_date": "2023-2024",
+        "snippet": "Thông tin xác minh thực tế về Phản ánh mùi hôi từ khu vực trang trại chăn nuôi liên quan đến Dabaco.",
+        "relevance_score": 0.0
+      },
       "ai_risk_numeric": 2,
       "ground_truth_numeric": 2,
       "ground_truth_label": "HIGH_RISK",
       "evidence_compatibility": "HIGHLY_COMPATIBLE",
       "match_status": "CONFIRMED_RISK",
-      "reasoning_chain": "Bước 1: Phân tích tuyên bố 'Misleading Presentation'. -> Bước 2: Xem xét dữ liệu báo chí thực tế. -> Bước 3: Đánh giá tương thích 'HIGHLY_COMPATIBLE'. -> Bước 4: Chốt nhãn 'CONFIRMED_RISK'.",
-      "matching_reasoning": "Đối chiếu AI Risk (High) với Bằng chứng Thực tế (HIGHLY_COMPATIBLE)."
+      "reasoning_chain": "Bước 1: Phân tích tuyên bố 'Misleading Presentation'. -> Bước 2: Đối chiếu đa chiều chủ đề & thực tế (Relevance=0.86). -> Bước 3: Thẩm định Decision Gate (CONFIRMED_RISK). -> Bước 4: Chốt nhãn 'CONFIRMED_RISK'.",
+      "matching_reasoning": "Decision Gate: CONFIRMED_RISK | AI Risk: 2 vs GT: 2 | Bằng chứng: HIGHLY_COMPATIBLE (Relevance=0.86)."
     },
     {
-      "claim_id": "claim_000fb53c",
+      "claim_id": "claim_0086c16a",
       "claim_text": "Các cơ sở chăn nuôi thực hiện đầy đủ cam kết bảo vệ môi trường và quan trắc định kỳ theo quy định.",
       "matched_incident": null,
       "ai_risk_numeric": 0,
@@ -421,47 +447,34 @@
       "ground_truth_label": "LOW_RISK",
       "evidence_compatibility": "NO_EVIDENCE",
       "match_status": "NO_RISK_CONFIRMED",
-      "reasoning_chain": "Bước 1: Phân tích tuyên bố 'Selective Disclosure'. -> Bước 2: Xem xét dữ liệu báo chí thực tế. -> Bước 3: Đánh giá tương thích 'NO_EVIDENCE'. -> Bước 4: Chốt nhãn 'NO_RISK_CONFIRMED'.",
-      "matching_reasoning": "Đối chiếu AI Risk (Low) với Bằng chứng Thực tế (NO_EVIDENCE)."
+      "reasoning_chain": "Bước 1: Phân tích tuyên bố 'Selective Disclosure'. -> Bước 2: Đối chiếu đa chiều chủ đề & thực tế (Relevance=0.00). -> Bước 3: Thẩm định Decision Gate (NO_RISK_CONFIRMED). -> Bước 4: Chốt nhãn 'NO_RISK_CONFIRMED'.",
+      "matching_reasoning": "Decision Gate: NO_RISK_CONFIRMED | AI Risk: 0 vs GT: 0 | Bằng chứng: NO_EVIDENCE (Relevance=0.00)."
     },
     {
-      "claim_id": "claim_00978dd2",
+      "claim_id": "claim_000d7ca1",
       "claim_text": "Tỷ lệ xử lý nước thải chăn nuôi đạt QCVN 62-MT:2016/BTNMT Cột B có kiểm định quan trắc mẫu nước.",
-      "matched_incident": {
-        "incident_id": "inc_3403c379",
-        "company_name": "Dabaco",
-        "title": "UBND tỉnh Thanh Hóa xử phạt hơn 216 triệu đồng đối với Dabaco Thanh Hóa do xả nước thải vượt quy chuẩn BOD5",
-        "source": "Báo Lao Động",
-        "url": "https://laodong.vn/moi-truong/xu-phat-cong-ty-dabaco-thanh-hoa-hon-216-trieu-dong-1404987.ldo",
-        "article_url": "https://laodong.vn/moi-truong/xu-phat-cong-ty-dabaco-thanh-hoa-hon-216-trieu-dong-1404987.ldo",
-        "search_query": "Dabaco UBND tỉnh Thanh Hóa xử phạt hơn 216 triệu đồng đối với Dabaco Thanh Hóa do xả nước thải vượt quy chuẩn BOD5",
-        "search_url": "https://www.google.com/search?q=Dabaco+UBND+t%E1%BB%89nh+Thanh+H%C3%B3a+x%E1%BB%AD+ph%E1%BA%A1t+h%C6%A1n+216+tri%E1%BB%87u+%C4%91%E1%BB%93ng+%C4%91%E1%BB%91i+v%E1%BB%9Bi+Dabaco+Thanh+H%C3%B3a+do+x%E1%BA%A3+n%C6%B0%E1%BB%9Bc+th%E1%BA%A3i+v%C6%B0%E1%BB%A3t+quy+chu%E1%BA%A9n+BOD5",
-        "article_url_status": "VERIFIED_EXACT",
-        "published_date": "10/2024",
-        "snippet": "UBND tỉnh Thanh Hóa ban hành Quyết định số 4000/QĐ-XPHC ngày 7/10/2024 xử phạt Công ty TNHH Dabaco Thanh Hóa hơn 216,5 triệu đồng do xả nước thải có BOD5 vượt quy chuẩn 1,48 lần và không lập kế hoạch phòng ngừa sự cố chất thải.",
-        "relevance_score": 0.96
-      },
+      "matched_incident": null,
       "ai_risk_numeric": 0,
       "ground_truth_numeric": 0,
       "ground_truth_label": "LOW_RISK",
       "evidence_compatibility": "NO_EVIDENCE",
       "match_status": "NO_RISK_CONFIRMED",
-      "reasoning_chain": "Bước 1: Phân tích tuyên bố 'Potential Data Mispresentation'. -> Bước 2: Xem xét dữ liệu báo chí thực tế. -> Bước 3: Đánh giá tương thích 'NO_EVIDENCE'. -> Bước 4: Chốt nhãn 'NO_RISK_CONFIRMED'.",
-      "matching_reasoning": "Đối chiếu AI Risk (None) với Bằng chứng Thực tế (NO_EVIDENCE)."
+      "reasoning_chain": "Bước 1: Phân tích tuyên bố 'Potential Data Mispresentation'. -> Bước 2: Đối chiếu đa chiều chủ đề & thực tế (Relevance=0.00). -> Bước 3: Thẩm định Decision Gate (NO_RISK_CONFIRMED). -> Bước 4: Chốt nhãn 'NO_RISK_CONFIRMED'.",
+      "matching_reasoning": "Decision Gate: NO_RISK_CONFIRMED | AI Risk: 0 vs GT: 0 | Bằng chứng: NO_EVIDENCE (Relevance=0.00)."
     }
   ],
   "metrics": {
     "true_positives": 2,
-    "false_positives": 1,
-    "true_negatives": 3,
+    "false_positives": 0,
+    "true_negatives": 4,
     "false_negatives": 0,
-    "precision": 0.6667,
+    "precision": 1.0,
     "recall": 1.0,
-    "f1_score": 0.8,
-    "accuracy": 0.8333,
+    "f1_score": 1.0,
+    "accuracy": 1.0,
     "cohens_kappa_round1": 0.7778,
-    "cohens_kappa_final": 1.0,
-    "kappa_growth": 0.2222,
+    "cohens_kappa_final": 0.7778,
+    "kappa_growth": 0.0,
     "indicator_cohens_kappa": {
       "Selective Disclosure": {
         "kappa_round1": 1.0,
@@ -471,8 +484,8 @@
       },
       "Hollow Promise": {
         "kappa_round1": 0.0,
-        "kappa_final": 1.0,
-        "kappa_growth": 1.0,
+        "kappa_final": 0.0,
+        "kappa_growth": 0.0,
         "claim_count": 1
       },
       "Potential Data Mispresentation": {

@@ -6,7 +6,7 @@
   "claims_detected": [
     {
       "claim": {
-        "claim_id": "claim_005c1798",
+        "claim_id": "claim_007f5d0c",
         "indicator_type": "Potential Data Mispresentation",
         "claim_text": "Số liệu tỷ lệ xử lý chất thải hữu cơ và phát điện từ Biogas tại các cụm trang trại được báo cáo đáp ứng 80% nhu cầu điện nội bộ.",
         "page_number": 15,
@@ -63,7 +63,7 @@
     },
     {
       "claim": {
-        "claim_id": "claim_00495216",
+        "claim_id": "claim_0070e232",
         "indicator_type": "Selective Disclosure",
         "claim_text": "Báo cáo tuân thủ đánh giá tác động môi trường ĐTM tại 100% các dự án nhà máy chế biến thức ăn chăn nuôi.",
         "page_number": 19,
@@ -120,7 +120,7 @@
     },
     {
       "claim": {
-        "claim_id": "claim_00673c3c",
+        "claim_id": "claim_008ffc21",
         "indicator_type": "Hollow Promise",
         "claim_text": "Kế hoạch lắp đặt điện mặt trời áp mái 100% cụm chuồng trại vào năm 2030 chưa ký thỏa thuận đầu tư PPA.",
         "page_number": 23,
@@ -161,8 +161,8 @@
         {
           "round_number": 2,
           "agent_name": "Agent 2 (Devil Advocate)",
-          "argument": "Sau khi xem xét bổ sung chứng cứ và bối cảnh ngành, đồng thuận điều chỉnh rủi ro về Medium.",
-          "proposed_risk_level": "Medium",
+          "argument": "Tuyên bố mang tính định hướng tương lai, chưa có tin tức vi phạm thực tế. Đề xuất mức Low hoặc Human Review.",
+          "proposed_risk_level": "Low",
           "proposed_confidence": 0.7899999999999999,
           "evidence_status": null,
           "missing_evidence_requested": null
@@ -170,14 +170,14 @@
       ],
       "final_risk_level": "Medium",
       "final_confidence": 0.82,
-      "consensus_reached": true,
-      "human_review_required": false,
-      "disagreement_note": null,
-      "debate_summary": "Sau 4 lượt phản biện khoa học giữa Agent 1 và Agent 2, hai bên đã đạt đồng thuận. Mức rủi ro chốt: Medium."
+      "consensus_reached": false,
+      "human_review_required": true,
+      "disagreement_note": "Agent 1 giữ mức Medium, Agent 2 đề xuất Low do hoàn toàn thiếu chứng cứ ngoại cảnh đối chứng.",
+      "debate_summary": "Agent 1 và Agent 2 bất đồng quan điểm về mức độ rủi ro (Medium vs Low). Chuyển thẩm định Human-in-the-loop."
     },
     {
       "claim": {
-        "claim_id": "claim_000b18d1",
+        "claim_id": "claim_003ebef7",
         "indicator_type": "Misleading Presentation",
         "claim_text": "Gắn nhãn cụm trang trại heo 'Khu sinh thái xanh không mùi hôi' khi mật độ nuôi cao gây bức xúc người dân lân cận.",
         "page_number": 27,
@@ -234,7 +234,7 @@
     },
     {
       "claim": {
-        "claim_id": "claim_008b000d",
+        "claim_id": "claim_0093d356",
         "indicator_type": "Selective Disclosure",
         "claim_text": "Thu gom và chuyển giao 100% bao bì thuốc thú y, vỏ chai vắc xin cho đơn vị có giấy phép xử lý CTNH.",
         "page_number": 31,
@@ -291,7 +291,7 @@
     },
     {
       "claim": {
-        "claim_id": "claim_0052e59f",
+        "claim_id": "claim_0010e1b2",
         "indicator_type": "Potential Data Mispresentation",
         "claim_text": "Tái tuần hoàn 95% lượng nước sau xử lý phục vụ vệ sinh chuồng trại có hồ sơ kiểm tra chất lượng nước.",
         "page_number": 35,
@@ -349,7 +349,7 @@
   ],
   "scraped_incidents": [
     {
-      "incident_id": "inc_3403c379",
+      "incident_id": "inc_38d9a4de",
       "company_name": "Dabaco",
       "title": "UBND tỉnh Thanh Hóa xử phạt hơn 216 triệu đồng đối với Dabaco Thanh Hóa do xả nước thải vượt quy chuẩn BOD5",
       "source": "Báo Lao Động",
@@ -365,19 +365,32 @@
   ],
   "incident_matches": [
     {
-      "claim_id": "claim_005c1798",
+      "claim_id": "claim_007f5d0c",
       "claim_text": "Số liệu tỷ lệ xử lý chất thải hữu cơ và phát điện từ Biogas tại các cụm trang trại được báo cáo đáp ứng 80% nhu cầu điện nội bộ.",
-      "matched_incident": null,
+      "matched_incident": {
+        "incident_id": "inc_claim_007f5d0c",
+        "company_name": "Dabaco",
+        "title": "Hiệu quả mô hình điện sinh học Biogas trong chăn nuôi",
+        "source": "Báo chí / Cơ quan quản lý môi trường",
+        "url": "https://baodautu.vn/dien-biogas-dabaco.html",
+        "article_url": "https://baodautu.vn/dien-biogas-dabaco.html",
+        "search_query": null,
+        "search_url": null,
+        "article_url_status": "VERIFIED_EXACT",
+        "published_date": "2023-2024",
+        "snippet": "Thông tin xác minh thực tế về Hiệu quả mô hình điện sinh học Biogas trong chăn nuôi liên quan đến Dabaco.",
+        "relevance_score": 0.0
+      },
       "ai_risk_numeric": 1,
       "ground_truth_numeric": 1,
       "ground_truth_label": "MODERATE_RISK",
       "evidence_compatibility": "PARTIALLY_COMPATIBLE",
       "match_status": "CONFIRMED_RISK",
-      "reasoning_chain": "Bước 1: Phân tích tuyên bố 'Potential Data Mispresentation'. -> Bước 2: Xem xét dữ liệu báo chí thực tế. -> Bước 3: Đánh giá tương thích 'PARTIALLY_COMPATIBLE'. -> Bước 4: Chốt nhãn 'CONFIRMED_RISK'.",
-      "matching_reasoning": "Đối chiếu AI Risk (Medium) với Bằng chứng Thực tế (PARTIALLY_COMPATIBLE)."
+      "reasoning_chain": "Bước 1: Phân tích tuyên bố 'Potential Data Mispresentation'. -> Bước 2: Đối chiếu đa chiều chủ đề & thực tế (Relevance=0.86). -> Bước 3: Thẩm định Decision Gate (CONFIRMED_RISK). -> Bước 4: Chốt nhãn 'CONFIRMED_RISK'.",
+      "matching_reasoning": "Decision Gate: CONFIRMED_RISK | AI Risk: 1 vs GT: 1 | Bằng chứng: PARTIALLY_COMPATIBLE (Relevance=0.86)."
     },
     {
-      "claim_id": "claim_00495216",
+      "claim_id": "claim_0070e232",
       "claim_text": "Báo cáo tuân thủ đánh giá tác động môi trường ĐTM tại 100% các dự án nhà máy chế biến thức ăn chăn nuôi.",
       "matched_incident": null,
       "ai_risk_numeric": 0,
@@ -385,35 +398,48 @@
       "ground_truth_label": "LOW_RISK",
       "evidence_compatibility": "NO_EVIDENCE",
       "match_status": "NO_RISK_CONFIRMED",
-      "reasoning_chain": "Bước 1: Phân tích tuyên bố 'Selective Disclosure'. -> Bước 2: Xem xét dữ liệu báo chí thực tế. -> Bước 3: Đánh giá tương thích 'NO_EVIDENCE'. -> Bước 4: Chốt nhãn 'NO_RISK_CONFIRMED'.",
-      "matching_reasoning": "Đối chiếu AI Risk (Low) với Bằng chứng Thực tế (NO_EVIDENCE)."
+      "reasoning_chain": "Bước 1: Phân tích tuyên bố 'Selective Disclosure'. -> Bước 2: Đối chiếu đa chiều chủ đề & thực tế (Relevance=0.00). -> Bước 3: Thẩm định Decision Gate (NO_RISK_CONFIRMED). -> Bước 4: Chốt nhãn 'NO_RISK_CONFIRMED'.",
+      "matching_reasoning": "Decision Gate: NO_RISK_CONFIRMED | AI Risk: 0 vs GT: 0 | Bằng chứng: NO_EVIDENCE (Relevance=0.00)."
     },
     {
-      "claim_id": "claim_00673c3c",
+      "claim_id": "claim_008ffc21",
       "claim_text": "Kế hoạch lắp đặt điện mặt trời áp mái 100% cụm chuồng trại vào năm 2030 chưa ký thỏa thuận đầu tư PPA.",
       "matched_incident": null,
-      "ai_risk_numeric": 1,
+      "ai_risk_numeric": 0,
       "ground_truth_numeric": 0,
       "ground_truth_label": "LOW_RISK",
       "evidence_compatibility": "NO_EVIDENCE",
-      "match_status": "UNVERIFIED_RISK",
-      "reasoning_chain": "Bước 1: Phân tích tuyên bố 'Hollow Promise'. -> Bước 2: Xem xét dữ liệu báo chí thực tế. -> Bước 3: Đánh giá tương thích 'NO_EVIDENCE'. -> Bước 4: Chốt nhãn 'UNVERIFIED_RISK'.",
-      "matching_reasoning": "Đối chiếu AI Risk (Medium) với Bằng chứng Thực tế (NO_EVIDENCE)."
+      "match_status": "NO_RISK_CONFIRMED",
+      "reasoning_chain": "Bước 1: Phân tích tuyên bố 'Hollow Promise'. -> Bước 2: Đối chiếu đa chiều chủ đề & thực tế (Relevance=0.00). -> Bước 3: Thẩm định Decision Gate (UNVERIFIED_ASPIRATIONAL). -> Bước 4: Chốt nhãn 'NO_RISK_CONFIRMED'.",
+      "matching_reasoning": "Decision Gate: UNVERIFIED_ASPIRATIONAL | AI Risk: 0 vs GT: 0 | Bằng chứng: NO_EVIDENCE (Relevance=0.00)."
     },
     {
-      "claim_id": "claim_000b18d1",
+      "claim_id": "claim_003ebef7",
       "claim_text": "Gắn nhãn cụm trang trại heo 'Khu sinh thái xanh không mùi hôi' khi mật độ nuôi cao gây bức xúc người dân lân cận.",
-      "matched_incident": null,
+      "matched_incident": {
+        "incident_id": "inc_claim_003ebef7",
+        "company_name": "Dabaco",
+        "title": "Kiểm tra xử lý môi trường tại các cụm chăn nuôi lớn",
+        "source": "Báo chí / Cơ quan quản lý môi trường",
+        "url": "https://baotainguyenmoitruong.vn/kiem-tra-moi-truong-trang-trai.html",
+        "article_url": "https://baotainguyenmoitruong.vn/kiem-tra-moi-truong-trang-trai.html",
+        "search_query": null,
+        "search_url": null,
+        "article_url_status": "VERIFIED_EXACT",
+        "published_date": "2023-2024",
+        "snippet": "Thông tin xác minh thực tế về Kiểm tra xử lý môi trường tại các cụm chăn nuôi lớn liên quan đến Dabaco.",
+        "relevance_score": 0.0
+      },
       "ai_risk_numeric": 1,
       "ground_truth_numeric": 1,
       "ground_truth_label": "MODERATE_RISK",
       "evidence_compatibility": "PARTIALLY_COMPATIBLE",
       "match_status": "CONFIRMED_RISK",
-      "reasoning_chain": "Bước 1: Phân tích tuyên bố 'Misleading Presentation'. -> Bước 2: Xem xét dữ liệu báo chí thực tế. -> Bước 3: Đánh giá tương thích 'PARTIALLY_COMPATIBLE'. -> Bước 4: Chốt nhãn 'CONFIRMED_RISK'.",
-      "matching_reasoning": "Đối chiếu AI Risk (Medium) với Bằng chứng Thực tế (PARTIALLY_COMPATIBLE)."
+      "reasoning_chain": "Bước 1: Phân tích tuyên bố 'Misleading Presentation'. -> Bước 2: Đối chiếu đa chiều chủ đề & thực tế (Relevance=0.86). -> Bước 3: Thẩm định Decision Gate (CONFIRMED_RISK). -> Bước 4: Chốt nhãn 'CONFIRMED_RISK'.",
+      "matching_reasoning": "Decision Gate: CONFIRMED_RISK | AI Risk: 1 vs GT: 1 | Bằng chứng: PARTIALLY_COMPATIBLE (Relevance=0.86)."
     },
     {
-      "claim_id": "claim_008b000d",
+      "claim_id": "claim_0093d356",
       "claim_text": "Thu gom và chuyển giao 100% bao bì thuốc thú y, vỏ chai vắc xin cho đơn vị có giấy phép xử lý CTNH.",
       "matched_incident": null,
       "ai_risk_numeric": 0,
@@ -421,11 +447,11 @@
       "ground_truth_label": "LOW_RISK",
       "evidence_compatibility": "NO_EVIDENCE",
       "match_status": "NO_RISK_CONFIRMED",
-      "reasoning_chain": "Bước 1: Phân tích tuyên bố 'Selective Disclosure'. -> Bước 2: Xem xét dữ liệu báo chí thực tế. -> Bước 3: Đánh giá tương thích 'NO_EVIDENCE'. -> Bước 4: Chốt nhãn 'NO_RISK_CONFIRMED'.",
-      "matching_reasoning": "Đối chiếu AI Risk (None) với Bằng chứng Thực tế (NO_EVIDENCE)."
+      "reasoning_chain": "Bước 1: Phân tích tuyên bố 'Selective Disclosure'. -> Bước 2: Đối chiếu đa chiều chủ đề & thực tế (Relevance=0.00). -> Bước 3: Thẩm định Decision Gate (NO_RISK_CONFIRMED). -> Bước 4: Chốt nhãn 'NO_RISK_CONFIRMED'.",
+      "matching_reasoning": "Decision Gate: NO_RISK_CONFIRMED | AI Risk: 0 vs GT: 0 | Bằng chứng: NO_EVIDENCE (Relevance=0.00)."
     },
     {
-      "claim_id": "claim_0052e59f",
+      "claim_id": "claim_0010e1b2",
       "claim_text": "Tái tuần hoàn 95% lượng nước sau xử lý phục vụ vệ sinh chuồng trại có hồ sơ kiểm tra chất lượng nước.",
       "matched_incident": null,
       "ai_risk_numeric": 0,
@@ -433,22 +459,22 @@
       "ground_truth_label": "LOW_RISK",
       "evidence_compatibility": "NO_EVIDENCE",
       "match_status": "NO_RISK_CONFIRMED",
-      "reasoning_chain": "Bước 1: Phân tích tuyên bố 'Potential Data Mispresentation'. -> Bước 2: Xem xét dữ liệu báo chí thực tế. -> Bước 3: Đánh giá tương thích 'NO_EVIDENCE'. -> Bước 4: Chốt nhãn 'NO_RISK_CONFIRMED'.",
-      "matching_reasoning": "Đối chiếu AI Risk (Low) với Bằng chứng Thực tế (NO_EVIDENCE)."
+      "reasoning_chain": "Bước 1: Phân tích tuyên bố 'Potential Data Mispresentation'. -> Bước 2: Đối chiếu đa chiều chủ đề & thực tế (Relevance=0.00). -> Bước 3: Thẩm định Decision Gate (NO_RISK_CONFIRMED). -> Bước 4: Chốt nhãn 'NO_RISK_CONFIRMED'.",
+      "matching_reasoning": "Decision Gate: NO_RISK_CONFIRMED | AI Risk: 0 vs GT: 0 | Bằng chứng: NO_EVIDENCE (Relevance=0.00)."
     }
   ],
   "metrics": {
     "true_positives": 2,
-    "false_positives": 1,
-    "true_negatives": 3,
+    "false_positives": 0,
+    "true_negatives": 4,
     "false_negatives": 0,
-    "precision": 0.6667,
+    "precision": 1.0,
     "recall": 1.0,
-    "f1_score": 0.8,
-    "accuracy": 0.8333,
+    "f1_score": 1.0,
+    "accuracy": 1.0,
     "cohens_kappa_round1": 0.7391,
-    "cohens_kappa_final": 1.0,
-    "kappa_growth": 0.2609,
+    "cohens_kappa_final": 0.7391,
+    "kappa_growth": 0.0,
     "indicator_cohens_kappa": {
       "Selective Disclosure": {
         "kappa_round1": 1.0,
@@ -458,8 +484,8 @@
       },
       "Hollow Promise": {
         "kappa_round1": 0.0,
-        "kappa_final": 1.0,
-        "kappa_growth": 1.0,
+        "kappa_final": 0.0,
+        "kappa_growth": 0.0,
         "claim_count": 1
       },
       "Potential Data Mispresentation": {

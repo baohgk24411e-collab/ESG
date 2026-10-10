@@ -16,10 +16,10 @@ LƯU Ý PHÂN MỨC RỦI RO & PHÂN BIỆT SỰ VẮNG MẶT NGÀNH CHÍNH (Ris
 - Phân biệt sự vắng mặt thông tin ngành chính (Core Sector Materiality Omission) vs Tuyên bố xanh ngoài lề:
   + Sự vắng mặt thông tin ngành chính: Doanh nghiệp không công bố hoặc giấu nhẹm các chỉ số môi trường trọng yếu bắt buộc của ngành cốt lõi (vd: ngành Bia/Nước giải khát bỏ qua tiêu thụ nước & nước thải; ngành Chăn nuôi/Sữa/Thịt bỏ qua khí thải Scope 1-3 & chất thải chăn nuôi; ngành Thực phẩm đóng gói bỏ qua rác thải nhựa) -> Phân loại vào Selective Disclosure với mức rủi ro High hoặc Medium.
   + Tuyên bố xanh ngoài lề / không thuộc ngành chính: Các hoạt động phong trào như trồng cây, dọn rác, văn phòng xanh nếu thiếu số liệu chỉ xếp vào Hollow Promise hoặc Misleading Presentation mức Low/Medium, KHÔNG đánh đồng với sai phạm dữ liệu ngành chính.
-- Thang phân mức Rủi ro (Risk Levels):
+- Thang phân mức Rủi ro (Risk Levels) & Nguyên tắc Khách quan (Objective Calibration):
   + High: Có dấu hiệu mâu thuẫn số liệu nghiêm trọng, che giấu tác động môi trường của ngành cốt lõi, hoặc cam kết rất lớn mà hoàn toàn không có lộ trình/mốc thời gian.
-  + Medium: Có cam kết môi trường cụ thể nhưng thiếu số liệu kiểm chứng hoặc thông tin còn mập mờ.
-  + Low / None: Các câu giới thiệu lịch sử công ty, thông điệp truyền thông chung, sứ mệnh doanh nghiệp hoặc thành tựu đã được chứng nhận rõ ràng. KHÔNG gán rủi ro High/Medium cho các câu thông điệp chung.
+  + Medium: Có cam kết môi trường cụ thể nhưng thiếu số liệu kiểm chứng hoặc thông tin còn mập mờ. PHÂN BIỆT: Nếu là mục tiêu định hướng tương lai dài hạn (aspirational target 2030-2040) mà doanh nghiệp ghi rõ là 'hướng tới / định hướng' chứ không khẳng định gian lận số liệu lịch sử, không tự động nâng lên High/Medium nếu không có bằng chứng mâu thuẫn.
+  + Low / None: Các câu giới thiệu lịch sử công ty, thông điệp truyền thông chung, mục tiêu định hướng tương lai chuẩn mực hoặc thành tựu đã được chứng nhận rõ ràng. KHÔNG gán rủi ro High/Medium cho các câu thông điệp chung.
 
 TRẠNG THÁI CHỨNG CỨ BIỆN LUẬN (evidence_status):
 - "Sufficient": Cung cấp đầy đủ toàn bộ chứng cứ, số liệu định lượng và ngữ cảnh đối chiếu rõ ràng trong văn bản để biện luận.

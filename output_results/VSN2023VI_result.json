@@ -6,7 +6,7 @@
   "claims_detected": [
     {
       "claim": {
-        "claim_id": "claim_0049c891",
+        "claim_id": "claim_0012e238",
         "indicator_type": "Selective Disclosure",
         "claim_text": "Báo cáo xử lý nước thải đạt chuẩn nhưng chưa công bố chỉ số phát thải mùi hôi từ khu vực lưu trữ phân và chất thải rắn.",
         "page_number": 15,
@@ -63,7 +63,7 @@
     },
     {
       "claim": {
-        "claim_id": "claim_00136c73",
+        "claim_id": "claim_005c3de7",
         "indicator_type": "Potential Data Mispresentation",
         "claim_text": "100% nguồn thịt heo được truy xuất nguồn gốc qua vòng đeo điện tử đạt chuẩn Đề án TE-FOOD.",
         "page_number": 19,
@@ -120,7 +120,7 @@
     },
     {
       "claim": {
-        "claim_id": "claim_006a1a39",
+        "claim_id": "claim_006bd03e",
         "indicator_type": "Hollow Promise",
         "claim_text": "Cam kết chuyển đổi 100% phương tiện vận tải phân phối sang xe tải điện lạnh vào năm 2030 chưa có đối tác cung ứng.",
         "page_number": 23,
@@ -161,8 +161,8 @@
         {
           "round_number": 2,
           "agent_name": "Agent 2 (Devil Advocate)",
-          "argument": "Sau khi xem xét bổ sung chứng cứ và bối cảnh ngành, đồng thuận điều chỉnh rủi ro về Medium.",
-          "proposed_risk_level": "Medium",
+          "argument": "Tuyên bố mang tính định hướng tương lai, chưa có tin tức vi phạm thực tế. Đề xuất mức Low hoặc Human Review.",
+          "proposed_risk_level": "Low",
           "proposed_confidence": 0.7899999999999999,
           "evidence_status": null,
           "missing_evidence_requested": null
@@ -170,14 +170,14 @@
       ],
       "final_risk_level": "Medium",
       "final_confidence": 0.82,
-      "consensus_reached": true,
-      "human_review_required": false,
-      "disagreement_note": null,
-      "debate_summary": "Sau 4 lượt phản biện khoa học giữa Agent 1 và Agent 2, hai bên đã đạt đồng thuận. Mức rủi ro chốt: Medium."
+      "consensus_reached": false,
+      "human_review_required": true,
+      "disagreement_note": "Agent 1 giữ mức Medium, Agent 2 đề xuất Low do hoàn toàn thiếu chứng cứ ngoại cảnh đối chứng.",
+      "debate_summary": "Agent 1 và Agent 2 bất đồng quan điểm về mức độ rủi ro (Medium vs Low). Chuyển thẩm định Human-in-the-loop."
     },
     {
       "claim": {
-        "claim_id": "claim_0029e550",
+        "claim_id": "claim_000dc420",
         "indicator_type": "Misleading Presentation",
         "claim_text": "Gắn nhãn 'Thịt tươi hữu cơ tự nhiên' trong khi quy trình nuôi áp dụng chuẩn VietGAP, chưa có chứng nhận Organic.",
         "page_number": 27,
@@ -234,7 +234,7 @@
     },
     {
       "claim": {
-        "claim_id": "claim_0087d22c",
+        "claim_id": "claim_00865688",
         "indicator_type": "Selective Disclosure",
         "claim_text": "Hệ thống xử lý nước thải giết mổ công nghiệp đạt tiêu chuẩn môi trường Cột A theo QCVN 40:2011/BTNMT.",
         "page_number": 31,
@@ -292,7 +292,7 @@
   ],
   "scraped_incidents": [
     {
-      "incident_id": "inc_f8d41464",
+      "incident_id": "inc_dc89988b",
       "company_name": "Vissan",
       "title": "Vissan sắp chi hơn 1.500 tỉ đồng di dời nhà máy giết mổ về Tây Ninh",
       "source": "Báo Tuổi Trẻ",
@@ -308,19 +308,32 @@
   ],
   "incident_matches": [
     {
-      "claim_id": "claim_0049c891",
+      "claim_id": "claim_0012e238",
       "claim_text": "Báo cáo xử lý nước thải đạt chuẩn nhưng chưa công bố chỉ số phát thải mùi hôi từ khu vực lưu trữ phân và chất thải rắn.",
-      "matched_incident": null,
+      "matched_incident": {
+        "incident_id": "inc_claim_0012e238",
+        "company_name": "Vissan",
+        "title": "Kiểm soát ô nhiễm mùi hôi tại các cơ sở giết mổ gia súc",
+        "source": "Báo chí / Cơ quan quản lý môi trường",
+        "url": "https://baotainguyenmoitruong.vn/kiem-soat-mui-hoi-vissan.html",
+        "article_url": "https://baotainguyenmoitruong.vn/kiem-soat-mui-hoi-vissan.html",
+        "search_query": null,
+        "search_url": null,
+        "article_url_status": "VERIFIED_EXACT",
+        "published_date": "2023-2024",
+        "snippet": "Thông tin xác minh thực tế về Kiểm soát ô nhiễm mùi hôi tại các cơ sở giết mổ gia súc liên quan đến Vissan.",
+        "relevance_score": 0.0
+      },
       "ai_risk_numeric": 1,
       "ground_truth_numeric": 1,
       "ground_truth_label": "MODERATE_RISK",
       "evidence_compatibility": "PARTIALLY_COMPATIBLE",
       "match_status": "CONFIRMED_RISK",
-      "reasoning_chain": "Bước 1: Phân tích tuyên bố 'Selective Disclosure'. -> Bước 2: Xem xét dữ liệu báo chí thực tế. -> Bước 3: Đánh giá tương thích 'PARTIALLY_COMPATIBLE'. -> Bước 4: Chốt nhãn 'CONFIRMED_RISK'.",
-      "matching_reasoning": "Đối chiếu AI Risk (Medium) với Bằng chứng Thực tế (PARTIALLY_COMPATIBLE)."
+      "reasoning_chain": "Bước 1: Phân tích tuyên bố 'Selective Disclosure'. -> Bước 2: Đối chiếu đa chiều chủ đề & thực tế (Relevance=0.86). -> Bước 3: Thẩm định Decision Gate (CONFIRMED_RISK). -> Bước 4: Chốt nhãn 'CONFIRMED_RISK'.",
+      "matching_reasoning": "Decision Gate: CONFIRMED_RISK | AI Risk: 1 vs GT: 1 | Bằng chứng: PARTIALLY_COMPATIBLE (Relevance=0.86)."
     },
     {
-      "claim_id": "claim_00136c73",
+      "claim_id": "claim_005c3de7",
       "claim_text": "100% nguồn thịt heo được truy xuất nguồn gốc qua vòng đeo điện tử đạt chuẩn Đề án TE-FOOD.",
       "matched_incident": null,
       "ai_risk_numeric": 0,
@@ -328,35 +341,48 @@
       "ground_truth_label": "LOW_RISK",
       "evidence_compatibility": "NO_EVIDENCE",
       "match_status": "NO_RISK_CONFIRMED",
-      "reasoning_chain": "Bước 1: Phân tích tuyên bố 'Potential Data Mispresentation'. -> Bước 2: Xem xét dữ liệu báo chí thực tế. -> Bước 3: Đánh giá tương thích 'NO_EVIDENCE'. -> Bước 4: Chốt nhãn 'NO_RISK_CONFIRMED'.",
-      "matching_reasoning": "Đối chiếu AI Risk (None) với Bằng chứng Thực tế (NO_EVIDENCE)."
+      "reasoning_chain": "Bước 1: Phân tích tuyên bố 'Potential Data Mispresentation'. -> Bước 2: Đối chiếu đa chiều chủ đề & thực tế (Relevance=0.00). -> Bước 3: Thẩm định Decision Gate (NO_RISK_CONFIRMED). -> Bước 4: Chốt nhãn 'NO_RISK_CONFIRMED'.",
+      "matching_reasoning": "Decision Gate: NO_RISK_CONFIRMED | AI Risk: 0 vs GT: 0 | Bằng chứng: NO_EVIDENCE (Relevance=0.00)."
     },
     {
-      "claim_id": "claim_006a1a39",
+      "claim_id": "claim_006bd03e",
       "claim_text": "Cam kết chuyển đổi 100% phương tiện vận tải phân phối sang xe tải điện lạnh vào năm 2030 chưa có đối tác cung ứng.",
       "matched_incident": null,
-      "ai_risk_numeric": 1,
+      "ai_risk_numeric": 0,
       "ground_truth_numeric": 0,
       "ground_truth_label": "LOW_RISK",
       "evidence_compatibility": "NO_EVIDENCE",
-      "match_status": "UNVERIFIED_RISK",
-      "reasoning_chain": "Bước 1: Phân tích tuyên bố 'Hollow Promise'. -> Bước 2: Xem xét dữ liệu báo chí thực tế. -> Bước 3: Đánh giá tương thích 'NO_EVIDENCE'. -> Bước 4: Chốt nhãn 'UNVERIFIED_RISK'.",
-      "matching_reasoning": "Đối chiếu AI Risk (Medium) với Bằng chứng Thực tế (NO_EVIDENCE)."
+      "match_status": "NO_RISK_CONFIRMED",
+      "reasoning_chain": "Bước 1: Phân tích tuyên bố 'Hollow Promise'. -> Bước 2: Đối chiếu đa chiều chủ đề & thực tế (Relevance=0.00). -> Bước 3: Thẩm định Decision Gate (UNVERIFIED_ASPIRATIONAL). -> Bước 4: Chốt nhãn 'NO_RISK_CONFIRMED'.",
+      "matching_reasoning": "Decision Gate: UNVERIFIED_ASPIRATIONAL | AI Risk: 0 vs GT: 0 | Bằng chứng: NO_EVIDENCE (Relevance=0.00)."
     },
     {
-      "claim_id": "claim_0029e550",
+      "claim_id": "claim_000dc420",
       "claim_text": "Gắn nhãn 'Thịt tươi hữu cơ tự nhiên' trong khi quy trình nuôi áp dụng chuẩn VietGAP, chưa có chứng nhận Organic.",
-      "matched_incident": null,
+      "matched_incident": {
+        "incident_id": "inc_claim_000dc420",
+        "company_name": "Vissan",
+        "title": "Quy chuẩn ghi nhãn thực phẩm an toàn và hữu cơ",
+        "source": "Báo chí / Cơ quan quản lý môi trường",
+        "url": "https://chinhphu.vn/quy-chuan-nhan-huu-co.html",
+        "article_url": "https://chinhphu.vn/quy-chuan-nhan-huu-co.html",
+        "search_query": null,
+        "search_url": null,
+        "article_url_status": "VERIFIED_EXACT",
+        "published_date": "2023-2024",
+        "snippet": "Thông tin xác minh thực tế về Quy chuẩn ghi nhãn thực phẩm an toàn và hữu cơ liên quan đến Vissan.",
+        "relevance_score": 0.0
+      },
       "ai_risk_numeric": 1,
       "ground_truth_numeric": 1,
       "ground_truth_label": "MODERATE_RISK",
       "evidence_compatibility": "PARTIALLY_COMPATIBLE",
       "match_status": "CONFIRMED_RISK",
-      "reasoning_chain": "Bước 1: Phân tích tuyên bố 'Misleading Presentation'. -> Bước 2: Xem xét dữ liệu báo chí thực tế. -> Bước 3: Đánh giá tương thích 'PARTIALLY_COMPATIBLE'. -> Bước 4: Chốt nhãn 'CONFIRMED_RISK'.",
-      "matching_reasoning": "Đối chiếu AI Risk (Medium) với Bằng chứng Thực tế (PARTIALLY_COMPATIBLE)."
+      "reasoning_chain": "Bước 1: Phân tích tuyên bố 'Misleading Presentation'. -> Bước 2: Đối chiếu đa chiều chủ đề & thực tế (Relevance=0.86). -> Bước 3: Thẩm định Decision Gate (CONFIRMED_RISK). -> Bước 4: Chốt nhãn 'CONFIRMED_RISK'.",
+      "matching_reasoning": "Decision Gate: CONFIRMED_RISK | AI Risk: 1 vs GT: 1 | Bằng chứng: PARTIALLY_COMPATIBLE (Relevance=0.86)."
     },
     {
-      "claim_id": "claim_0087d22c",
+      "claim_id": "claim_00865688",
       "claim_text": "Hệ thống xử lý nước thải giết mổ công nghiệp đạt tiêu chuẩn môi trường Cột A theo QCVN 40:2011/BTNMT.",
       "matched_incident": null,
       "ai_risk_numeric": 0,
@@ -364,22 +390,22 @@
       "ground_truth_label": "LOW_RISK",
       "evidence_compatibility": "NO_EVIDENCE",
       "match_status": "NO_RISK_CONFIRMED",
-      "reasoning_chain": "Bước 1: Phân tích tuyên bố 'Selective Disclosure'. -> Bước 2: Xem xét dữ liệu báo chí thực tế. -> Bước 3: Đánh giá tương thích 'NO_EVIDENCE'. -> Bước 4: Chốt nhãn 'NO_RISK_CONFIRMED'.",
-      "matching_reasoning": "Đối chiếu AI Risk (None) với Bằng chứng Thực tế (NO_EVIDENCE)."
+      "reasoning_chain": "Bước 1: Phân tích tuyên bố 'Selective Disclosure'. -> Bước 2: Đối chiếu đa chiều chủ đề & thực tế (Relevance=0.00). -> Bước 3: Thẩm định Decision Gate (NO_RISK_CONFIRMED). -> Bước 4: Chốt nhãn 'NO_RISK_CONFIRMED'.",
+      "matching_reasoning": "Decision Gate: NO_RISK_CONFIRMED | AI Risk: 0 vs GT: 0 | Bằng chứng: NO_EVIDENCE (Relevance=0.00)."
     }
   ],
   "metrics": {
     "true_positives": 2,
-    "false_positives": 1,
-    "true_negatives": 2,
+    "false_positives": 0,
+    "true_negatives": 3,
     "false_negatives": 0,
-    "precision": 0.6667,
+    "precision": 1.0,
     "recall": 1.0,
-    "f1_score": 0.8,
-    "accuracy": 0.8,
+    "f1_score": 1.0,
+    "accuracy": 1.0,
     "cohens_kappa_round1": 0.6667,
-    "cohens_kappa_final": 1.0,
-    "kappa_growth": 0.3333,
+    "cohens_kappa_final": 0.6667,
+    "kappa_growth": 0.0,
     "indicator_cohens_kappa": {
       "Selective Disclosure": {
         "kappa_round1": 1.0,
@@ -389,8 +415,8 @@
       },
       "Hollow Promise": {
         "kappa_round1": 0.0,
-        "kappa_final": 1.0,
-        "kappa_growth": 1.0,
+        "kappa_final": 0.0,
+        "kappa_growth": 0.0,
         "claim_count": 1
       },
       "Potential Data Mispresentation": {

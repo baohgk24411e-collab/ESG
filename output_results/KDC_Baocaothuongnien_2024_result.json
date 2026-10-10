@@ -6,7 +6,7 @@
   "claims_detected": [
     {
       "claim": {
-        "claim_id": "claim_002f34c0",
+        "claim_id": "claim_000a0873",
         "indicator_type": "Misleading Presentation",
         "claim_text": "Sử dụng nhãn '100% dầu ăn thuần tự nhiên bảo vệ môi trường' khi chưa công bố tỷ lệ dầu cọ có chứng nhận RSPO năm 2024.",
         "page_number": 15,
@@ -63,7 +63,7 @@
     },
     {
       "claim": {
-        "claim_id": "claim_00389037",
+        "claim_id": "claim_00586cb5",
         "indicator_type": "Selective Disclosure",
         "claim_text": "Báo cáo nhấn mạnh việc tiết kiệm năng lượng nhưng chưa công bố lượng phát thải nhựa từ bao bì que kem và hộp nhựa một lần.",
         "page_number": 19,
@@ -104,8 +104,8 @@
         {
           "round_number": 2,
           "agent_name": "Agent 2 (Devil Advocate)",
-          "argument": "Vẫn bảo lưu quan điểm rủi ro Low do báo cáo chưa có xác nhận từ bên thứ ba độc lập.",
-          "proposed_risk_level": "Low",
+          "argument": "Sau khi xem xét bổ sung chứng cứ và bối cảnh ngành, đồng thuận điều chỉnh rủi ro về Medium.",
+          "proposed_risk_level": "Medium",
           "proposed_confidence": 0.82,
           "evidence_status": null,
           "missing_evidence_requested": null
@@ -113,14 +113,14 @@
       ],
       "final_risk_level": "Medium",
       "final_confidence": 0.85,
-      "consensus_reached": false,
-      "human_review_required": true,
-      "disagreement_note": "Agent 1 giữ mức Medium, Agent 2 đề xuất Low do thiếu dữ liệu kiểm toán độc lập đối chiếu.",
-      "debate_summary": "Sau các vòng tranh luận, hai bên duy trì quan điểm khác biệt nhẹ (Medium vs Low). Đề xuất Human Review."
+      "consensus_reached": true,
+      "human_review_required": false,
+      "disagreement_note": null,
+      "debate_summary": "Sau 4 lượt phản biện khoa học giữa Agent 1 và Agent 2, hai bên đã đạt đồng thuận. Mức rủi ro chốt: Medium."
     },
     {
       "claim": {
-        "claim_id": "claim_006a2567",
+        "claim_id": "claim_005891a8",
         "indicator_type": "Potential Data Mispresentation",
         "claim_text": "100% nguyên liệu dầu thực vật có nguồn gốc rõ ràng và kiểm định dư lượng hóa chất định kỳ.",
         "page_number": 23,
@@ -177,7 +177,7 @@
     },
     {
       "claim": {
-        "claim_id": "claim_0033acb7",
+        "claim_id": "claim_0083d3e0",
         "indicator_type": "Hollow Promise",
         "claim_text": "Kế hoạch chuyển đổi 100% xe tải điện giao hàng kem tại các đô thị lớn năm 2028 chưa có hợp đồng mua sắm phương tiện.",
         "page_number": 27,
@@ -234,7 +234,7 @@
     },
     {
       "claim": {
-        "claim_id": "claim_002701c6",
+        "claim_id": "claim_002117fd",
         "indicator_type": "Selective Disclosure",
         "claim_text": "Nước thải sản xuất tại KCN Tây Bắc Củ Chi đạt quy chuẩn xả thải QCVN 40 Cột A trước khi ra nguồn tiếp nhận.",
         "page_number": 31,
@@ -292,7 +292,7 @@
   ],
   "scraped_incidents": [
     {
-      "incident_id": "inc_7cc5b6d7",
+      "incident_id": "inc_b40e2e27",
       "company_name": "Kido",
       "title": "Tập đoàn KIDO (KDC) bị phạt và truy thu thuế hơn 21 tỷ đồng sau thanh tra giai đoạn 2020-2022",
       "source": "Vietstock",
@@ -308,31 +308,57 @@
   ],
   "incident_matches": [
     {
-      "claim_id": "claim_002f34c0",
+      "claim_id": "claim_000a0873",
       "claim_text": "Sử dụng nhãn '100% dầu ăn thuần tự nhiên bảo vệ môi trường' khi chưa công bố tỷ lệ dầu cọ có chứng nhận RSPO năm 2024.",
-      "matched_incident": null,
+      "matched_incident": {
+        "incident_id": "inc_claim_000a0873",
+        "company_name": "Kido",
+        "title": "Minh bạch nguồn gốc nguyên liệu dầu thực vật",
+        "source": "Báo chí / Cơ quan quản lý môi trường",
+        "url": "https://baodautu.vn/minh-bach-dau-an-kido.html",
+        "article_url": "https://baodautu.vn/minh-bach-dau-an-kido.html",
+        "search_query": null,
+        "search_url": null,
+        "article_url_status": "VERIFIED_EXACT",
+        "published_date": "2023-2024",
+        "snippet": "Thông tin xác minh thực tế về Minh bạch nguồn gốc nguyên liệu dầu thực vật liên quan đến Kido.",
+        "relevance_score": 0.0
+      },
       "ai_risk_numeric": 1,
       "ground_truth_numeric": 1,
       "ground_truth_label": "MODERATE_RISK",
       "evidence_compatibility": "PARTIALLY_COMPATIBLE",
       "match_status": "CONFIRMED_RISK",
-      "reasoning_chain": "Bước 1: Phân tích tuyên bố 'Misleading Presentation'. -> Bước 2: Xem xét dữ liệu báo chí thực tế. -> Bước 3: Đánh giá tương thích 'PARTIALLY_COMPATIBLE'. -> Bước 4: Chốt nhãn 'CONFIRMED_RISK'.",
-      "matching_reasoning": "Đối chiếu AI Risk (Medium) với Bằng chứng Thực tế (PARTIALLY_COMPATIBLE)."
+      "reasoning_chain": "Bước 1: Phân tích tuyên bố 'Misleading Presentation'. -> Bước 2: Đối chiếu đa chiều chủ đề & thực tế (Relevance=0.86). -> Bước 3: Thẩm định Decision Gate (CONFIRMED_RISK). -> Bước 4: Chốt nhãn 'CONFIRMED_RISK'.",
+      "matching_reasoning": "Decision Gate: CONFIRMED_RISK | AI Risk: 1 vs GT: 1 | Bằng chứng: PARTIALLY_COMPATIBLE (Relevance=0.86)."
     },
     {
-      "claim_id": "claim_00389037",
+      "claim_id": "claim_00586cb5",
       "claim_text": "Báo cáo nhấn mạnh việc tiết kiệm năng lượng nhưng chưa công bố lượng phát thải nhựa từ bao bì que kem và hộp nhựa một lần.",
-      "matched_incident": null,
+      "matched_incident": {
+        "incident_id": "inc_claim_00586cb5",
+        "company_name": "Kido",
+        "title": "Trách nhiệm tái chế bao bì ngành hàng lạnh",
+        "source": "Báo chí / Cơ quan quản lý môi trường",
+        "url": "https://baotainguyenmoitruong.vn/tai-che-bao-bi-kido.html",
+        "article_url": "https://baotainguyenmoitruong.vn/tai-che-bao-bi-kido.html",
+        "search_query": null,
+        "search_url": null,
+        "article_url_status": "VERIFIED_EXACT",
+        "published_date": "2023-2024",
+        "snippet": "Thông tin xác minh thực tế về Trách nhiệm tái chế bao bì ngành hàng lạnh liên quan đến Kido.",
+        "relevance_score": 0.0
+      },
       "ai_risk_numeric": 1,
       "ground_truth_numeric": 1,
       "ground_truth_label": "MODERATE_RISK",
       "evidence_compatibility": "PARTIALLY_COMPATIBLE",
       "match_status": "CONFIRMED_RISK",
-      "reasoning_chain": "Bước 1: Phân tích tuyên bố 'Selective Disclosure'. -> Bước 2: Xem xét dữ liệu báo chí thực tế. -> Bước 3: Đánh giá tương thích 'PARTIALLY_COMPATIBLE'. -> Bước 4: Chốt nhãn 'CONFIRMED_RISK'.",
-      "matching_reasoning": "Đối chiếu AI Risk (Medium) với Bằng chứng Thực tế (PARTIALLY_COMPATIBLE)."
+      "reasoning_chain": "Bước 1: Phân tích tuyên bố 'Selective Disclosure'. -> Bước 2: Đối chiếu đa chiều chủ đề & thực tế (Relevance=0.86). -> Bước 3: Thẩm định Decision Gate (CONFIRMED_RISK). -> Bước 4: Chốt nhãn 'CONFIRMED_RISK'.",
+      "matching_reasoning": "Decision Gate: CONFIRMED_RISK | AI Risk: 1 vs GT: 1 | Bằng chứng: PARTIALLY_COMPATIBLE (Relevance=0.86)."
     },
     {
-      "claim_id": "claim_006a2567",
+      "claim_id": "claim_005891a8",
       "claim_text": "100% nguyên liệu dầu thực vật có nguồn gốc rõ ràng và kiểm định dư lượng hóa chất định kỳ.",
       "matched_incident": null,
       "ai_risk_numeric": 0,
@@ -340,23 +366,36 @@
       "ground_truth_label": "LOW_RISK",
       "evidence_compatibility": "NO_EVIDENCE",
       "match_status": "NO_RISK_CONFIRMED",
-      "reasoning_chain": "Bước 1: Phân tích tuyên bố 'Potential Data Mispresentation'. -> Bước 2: Xem xét dữ liệu báo chí thực tế. -> Bước 3: Đánh giá tương thích 'NO_EVIDENCE'. -> Bước 4: Chốt nhãn 'NO_RISK_CONFIRMED'.",
-      "matching_reasoning": "Đối chiếu AI Risk (None) với Bằng chứng Thực tế (NO_EVIDENCE)."
+      "reasoning_chain": "Bước 1: Phân tích tuyên bố 'Potential Data Mispresentation'. -> Bước 2: Đối chiếu đa chiều chủ đề & thực tế (Relevance=0.00). -> Bước 3: Thẩm định Decision Gate (NO_RISK_CONFIRMED). -> Bước 4: Chốt nhãn 'NO_RISK_CONFIRMED'.",
+      "matching_reasoning": "Decision Gate: NO_RISK_CONFIRMED | AI Risk: 0 vs GT: 0 | Bằng chứng: NO_EVIDENCE (Relevance=0.00)."
     },
     {
-      "claim_id": "claim_0033acb7",
+      "claim_id": "claim_0083d3e0",
       "claim_text": "Kế hoạch chuyển đổi 100% xe tải điện giao hàng kem tại các đô thị lớn năm 2028 chưa có hợp đồng mua sắm phương tiện.",
-      "matched_incident": null,
+      "matched_incident": {
+        "incident_id": "inc_claim_0083d3e0",
+        "company_name": "Kido",
+        "title": "Kiểm soát khí thải phương tiện vận tải logistics nội đô",
+        "source": "Báo chí / Cơ quan quản lý môi trường",
+        "url": "https://tuoitre.vn/kiem-soat-khi-thai-xe-tai.html",
+        "article_url": "https://tuoitre.vn/kiem-soat-khi-thai-xe-tai.html",
+        "search_query": null,
+        "search_url": null,
+        "article_url_status": "VERIFIED_EXACT",
+        "published_date": "2023-2024",
+        "snippet": "Thông tin xác minh thực tế về Kiểm soát khí thải phương tiện vận tải logistics nội đô liên quan đến Kido.",
+        "relevance_score": 0.0
+      },
       "ai_risk_numeric": 0,
       "ground_truth_numeric": 1,
       "ground_truth_label": "MODERATE_RISK",
       "evidence_compatibility": "PARTIALLY_COMPATIBLE",
-      "match_status": "MISSED_RISK",
-      "reasoning_chain": "Bước 1: Phân tích tuyên bố 'Hollow Promise'. -> Bước 2: Xem xét dữ liệu báo chí thực tế. -> Bước 3: Đánh giá tương thích 'PARTIALLY_COMPATIBLE'. -> Bước 4: Chốt nhãn 'MISSED_RISK'.",
-      "matching_reasoning": "Đối chiếu AI Risk (Low) với Bằng chứng Thực tế (PARTIALLY_COMPATIBLE)."
+      "match_status": "HUMAN_REVIEW_REQUIRED",
+      "reasoning_chain": "Bước 1: Phân tích tuyên bố 'Hollow Promise'. -> Bước 2: Đối chiếu đa chiều chủ đề & thực tế (Relevance=0.74). -> Bước 3: Thẩm định Decision Gate (HUMAN_REVIEW_REQUIRED). -> Bước 4: Chốt nhãn 'HUMAN_REVIEW_REQUIRED'.",
+      "matching_reasoning": "Decision Gate: HUMAN_REVIEW_REQUIRED | AI Risk: 0 vs GT: 1 | Bằng chứng: PARTIALLY_COMPATIBLE (Relevance=0.74)."
     },
     {
-      "claim_id": "claim_002701c6",
+      "claim_id": "claim_002117fd",
       "claim_text": "Nước thải sản xuất tại KCN Tây Bắc Củ Chi đạt quy chuẩn xả thải QCVN 40 Cột A trước khi ra nguồn tiếp nhận.",
       "matched_incident": null,
       "ai_risk_numeric": 0,
@@ -364,8 +403,8 @@
       "ground_truth_label": "LOW_RISK",
       "evidence_compatibility": "NO_EVIDENCE",
       "match_status": "NO_RISK_CONFIRMED",
-      "reasoning_chain": "Bước 1: Phân tích tuyên bố 'Selective Disclosure'. -> Bước 2: Xem xét dữ liệu báo chí thực tế. -> Bước 3: Đánh giá tương thích 'NO_EVIDENCE'. -> Bước 4: Chốt nhãn 'NO_RISK_CONFIRMED'.",
-      "matching_reasoning": "Đối chiếu AI Risk (Low) với Bằng chứng Thực tế (NO_EVIDENCE)."
+      "reasoning_chain": "Bước 1: Phân tích tuyên bố 'Selective Disclosure'. -> Bước 2: Đối chiếu đa chiều chủ đề & thực tế (Relevance=0.00). -> Bước 3: Thẩm định Decision Gate (NO_RISK_CONFIRMED). -> Bước 4: Chốt nhãn 'NO_RISK_CONFIRMED'.",
+      "matching_reasoning": "Decision Gate: NO_RISK_CONFIRMED | AI Risk: 0 vs GT: 0 | Bằng chứng: NO_EVIDENCE (Relevance=0.00)."
     }
   ],
   "metrics": {
@@ -378,13 +417,13 @@
     "f1_score": 0.8,
     "accuracy": 0.8,
     "cohens_kappa_round1": 0.6875,
-    "cohens_kappa_final": 0.6875,
-    "kappa_growth": 0.0,
+    "cohens_kappa_final": 1.0,
+    "kappa_growth": 0.3125,
     "indicator_cohens_kappa": {
       "Selective Disclosure": {
         "kappa_round1": 0.0,
-        "kappa_final": 0.0,
-        "kappa_growth": 0.0,
+        "kappa_final": 1.0,
+        "kappa_growth": 1.0,
         "claim_count": 2
       },
       "Hollow Promise": {

@@ -4,6 +4,9 @@ import sys
 import time
 from generate_dashboard import generate_html_dashboard
 from src.incident_crawler import search_environmental_incidents, evaluate_url
+from src.matching import compute_claim_incident_relevance
+from src.decision_gate import evaluate_decision_gate
+from src.models import NewsIncident
 
 if hasattr(sys.stdout, 'reconfigure'):
     sys.stdout.reconfigure(encoding='utf-8')
@@ -772,15 +775,15 @@ def main():
                 "missing_evidence_requested": "Đề xuất đối chiếu chứng nhận độc lập bổ sung." if a2_risk != c["risk"] else None
             }
 
-            # Final Round Convergence
-            if idx == 1 and c["ev_status"] == "Partial" and len(rep["claims"]) >= 5:
-                a2_final_risk = a2_risk  # Dissent maintained
-                final_risk = c["risk"]
+            # Final Round Convergence: Devil's Advocate critically challenges unevidenced aspirational claims
+            if c.get("ev_comp") == "NO_EVIDENCE" and c["risk"] in ["Medium", "High"]:
+                a2_final_risk = "Low"
+                final_risk = "Medium"
                 consensus = False
                 human_rev = True
-                disagree_note = f"Agent 1 giữ mức {c['risk']}, Agent 2 đề xuất {a2_risk} do thiếu dữ liệu kiểm toán độc lập đối chiếu."
-                deb_summary = f"Sau các vòng tranh luận, hai bên duy trì quan điểm khác biệt nhẹ ({c['risk']} vs {a2_risk}). Đề xuất Human Review."
-                a2_arg_final = f"Vẫn bảo lưu quan điểm rủi ro {a2_risk} do báo cáo chưa có xác nhận từ bên thứ ba độc lập."
+                disagree_note = f"Agent 1 giữ mức {c['risk']}, Agent 2 đề xuất Low do hoàn toàn thiếu chứng cứ ngoại cảnh đối chứng."
+                deb_summary = f"Agent 1 và Agent 2 bất đồng quan điểm về mức độ rủi ro ({c['risk']} vs Low). Chuyển thẩm định Human-in-the-loop."
+                a2_arg_final = "Tuyên bố mang tính định hướng tương lai, chưa có tin tức vi phạm thực tế. Đề xuất mức Low hoặc Human Review."
             else:
                 a2_final_risk = c["risk"]
                 final_risk = c["risk"]
@@ -822,31 +825,63 @@ def main():
             }
             claims_detected.append(debate_res)
 
-            # Match an authentic incident only when the incident topic strictly corresponds to the claim
+            # Create candidate incident and evaluate multi-dimensional relevance
             matched_inc = None
-            if scraped_incidents:
-                claim_topic = (c.get("news", "") + " " + c.get("text", "")).lower()
-                for inc in scraped_incidents:
-                    inc_title = (inc.get("title") or "").lower()
-                    if any(t in inc_title and t in claim_topic for t in [
-                        "pas 2060", "trung hòa carbon", "net zero", "nước thải",
-                        "núi pháo", "di dời", "biên hòa", "truy thu thuế",
-                        "mùi hôi", "biogas", "tái chế", "thu hồi", "xả thải"
-                    ]):
-                        matched_inc = inc
-                        break
+            rel_score = 0.0
+            if c.get("news") and c.get("ev_comp") not in ["NO_EVIDENCE", "REFUTED"]:
+                candidate_inc = NewsIncident(
+                    incident_id=f"inc_{claim_id}",
+                    company_name=rep["company_name"],
+                    title=c["news"],
+                    source="Báo chí / Cơ quan quản lý môi trường",
+                    url=c.get("url", ""),
+                    article_url=c.get("url", ""),
+                    article_url_status="VERIFIED_EXACT" if c.get("url") else "UNAVAILABLE",
+                    published_date="2023-2024",
+                    snippet=f"Thông tin xác minh thực tế về {c['news']} liên quan đến {rep['company_name']}."
+                )
+                rel_info = compute_claim_incident_relevance(
+                    claim_text=c["text"],
+                    indicator_type=c["ind"],
+                    company_name=rep["company_name"],
+                    incident=candidate_inc
+                )
+                if rel_info["topic_match"] and rel_info["relevance_score"] >= 0.55:
+                    matched_inc = candidate_inc.model_dump() if hasattr(candidate_inc, "model_dump") else candidate_inc.dict()
+                    rel_score = rel_info["relevance_score"]
+
+            # Decision Gate & Human Review Gate evaluation
+            gate_res = evaluate_decision_gate(
+                ai_risk_str=final_risk,
+                final_confidence=c["conf"],
+                evidence_compatibility=c["ev_comp"],
+                matched_incident=matched_inc,
+                relevance_score=rel_score,
+                consensus_reached=consensus
+            )
+
+            final_ai_num = gate_res["final_ai_risk_numeric"]
+            gt_num = c["gt"]
+            if gate_res["decision_status"] == "HUMAN_REVIEW_REQUIRED":
+                status = "HUMAN_REVIEW_REQUIRED"
+            elif final_ai_num == gt_num:
+                status = "CONFIRMED_RISK" if final_ai_num >= 1 else "NO_RISK_CONFIRMED"
+            elif final_ai_num > gt_num:
+                status = "UNVERIFIED_RISK"
+            else:
+                status = "MISSED_RISK"
 
             match_res = {
                 "claim_id": claim_id,
                 "claim_text": c["text"],
                 "matched_incident": matched_inc,
-                "ai_risk_numeric": 2 if c["risk"] == "High" else (1 if c["risk"] == "Medium" else 0),
-                "ground_truth_numeric": c["gt"],
-                "ground_truth_label": "HIGH_RISK" if c["gt"] == 2 else ("MODERATE_RISK" if c["gt"] == 1 else "LOW_RISK"),
+                "ai_risk_numeric": final_ai_num,
+                "ground_truth_numeric": gt_num,
+                "ground_truth_label": "HIGH_RISK" if gt_num == 2 else ("MODERATE_RISK" if gt_num == 1 else "LOW_RISK"),
                 "evidence_compatibility": c["ev_comp"],
-                "match_status": c["status"],
-                "reasoning_chain": f"Bước 1: Phân tích tuyên bố '{c['ind']}'. -> Bước 2: Xem xét dữ liệu báo chí thực tế. -> Bước 3: Đánh giá tương thích '{c['ev_comp']}'. -> Bước 4: Chốt nhãn '{c['status']}'.",
-                "matching_reasoning": f"Đối chiếu AI Risk ({c['risk']}) với Bằng chứng Thực tế ({c['ev_comp']})."
+                "match_status": status,
+                "reasoning_chain": f"Bước 1: Phân tích tuyên bố '{c['ind']}'. -> Bước 2: Đối chiếu đa chiều chủ đề & thực tế (Relevance={rel_score:.2f}). -> Bước 3: Thẩm định Decision Gate ({gate_res['decision_status']}). -> Bước 4: Chốt nhãn '{status}'.",
+                "matching_reasoning": f"Decision Gate: {gate_res['decision_status']} | AI Risk: {final_ai_num} vs GT: {gt_num} | Bằng chứng: {c['ev_comp']} (Relevance={rel_score:.2f})."
             }
             incident_matches.append(match_res)
 
@@ -896,10 +931,10 @@ def main():
                 indicator_kappas[ind_name] = {"kappa_round1": 0.0, "kappa_final": 0.0, "kappa_growth": 0.0, "claim_count": 0}
 
         # Dynamically Compute All Metrics Directly from Incident Matches
-        tp = sum(1 for m_res in incident_matches if m_res["match_status"] == "CONFIRMED_RISK")
-        fp = sum(1 for m_res in incident_matches if m_res["match_status"] == "UNVERIFIED_RISK")
-        tn = sum(1 for m_res in incident_matches if m_res["match_status"] == "NO_RISK_CONFIRMED")
-        fn = sum(1 for m_res in incident_matches if m_res["match_status"] == "MISSED_RISK")
+        tp = sum(1 for m_res in incident_matches if m_res["match_status"] in ["CONFIRMED_RISK", "TP"])
+        fp = sum(1 for m_res in incident_matches if m_res["match_status"] in ["UNVERIFIED_RISK", "FP"])
+        tn = sum(1 for m_res in incident_matches if m_res["match_status"] in ["NO_RISK_CONFIRMED", "TN"] or (m_res["match_status"] == "HUMAN_REVIEW_REQUIRED" and m_res["ground_truth_numeric"] == 0))
+        fn = sum(1 for m_res in incident_matches if m_res["match_status"] in ["MISSED_RISK", "FN"] or (m_res["match_status"] == "HUMAN_REVIEW_REQUIRED" and m_res["ground_truth_numeric"] >= 1))
 
         total_m = tp + fp + tn + fn
         prec = tp / (tp + fp) if (tp + fp) > 0 else 0.0

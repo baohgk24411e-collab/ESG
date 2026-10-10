@@ -6,7 +6,7 @@
   "claims_detected": [
     {
       "claim": {
-        "claim_id": "claim_00525f51",
+        "claim_id": "claim_0091d644",
         "indicator_type": "Selective Disclosure",
         "claim_text": "Báo cáo tỷ lệ thu hồi bã cà phê nhưng không công bố tổng lượng nước tiêu thụ trong quy trình chiết xuất cà phê hòa tan.",
         "page_number": 15,
@@ -63,7 +63,7 @@
     },
     {
       "claim": {
-        "claim_id": "claim_005dd134",
+        "claim_id": "claim_0052da49",
         "indicator_type": "Potential Data Mispresentation",
         "claim_text": "100% bã cà phê sau chiết xuất được thu hồi làm phân bón hữu cơ sinh học phục vụ vùng nguyên liệu cà phê bền vững.",
         "page_number": 19,
@@ -120,7 +120,7 @@
     },
     {
       "claim": {
-        "claim_id": "claim_008edf2f",
+        "claim_id": "claim_00961d35",
         "indicator_type": "Hollow Promise",
         "claim_text": "Cam kết 100% chuyển đổi bao bì gói cà phê hòa tan sang vật liệu tái chế vào năm 2035 chưa có mốc tiến độ cụ thể.",
         "page_number": 23,
@@ -161,8 +161,8 @@
         {
           "round_number": 2,
           "agent_name": "Agent 2 (Devil Advocate)",
-          "argument": "Sau khi xem xét bổ sung chứng cứ và bối cảnh ngành, đồng thuận điều chỉnh rủi ro về Medium.",
-          "proposed_risk_level": "Medium",
+          "argument": "Tuyên bố mang tính định hướng tương lai, chưa có tin tức vi phạm thực tế. Đề xuất mức Low hoặc Human Review.",
+          "proposed_risk_level": "Low",
           "proposed_confidence": 0.77,
           "evidence_status": null,
           "missing_evidence_requested": null
@@ -170,14 +170,14 @@
       ],
       "final_risk_level": "Medium",
       "final_confidence": 0.8,
-      "consensus_reached": true,
-      "human_review_required": false,
-      "disagreement_note": null,
-      "debate_summary": "Sau 4 lượt phản biện khoa học giữa Agent 1 và Agent 2, hai bên đã đạt đồng thuận. Mức rủi ro chốt: Medium."
+      "consensus_reached": false,
+      "human_review_required": true,
+      "disagreement_note": "Agent 1 giữ mức Medium, Agent 2 đề xuất Low do hoàn toàn thiếu chứng cứ ngoại cảnh đối chứng.",
+      "debate_summary": "Agent 1 và Agent 2 bất đồng quan điểm về mức độ rủi ro (Medium vs Low). Chuyển thẩm định Human-in-the-loop."
     },
     {
       "claim": {
-        "claim_id": "claim_00772e65",
+        "claim_id": "claim_002ab193",
         "indicator_type": "Misleading Presentation",
         "claim_text": "Sử dụng hình ảnh lá mầm xanh và khẩu hiệu 'Cà phê xanh thuần khiết bảo vệ rừng' khi chưa công bố chứng nhận chống mất rừng EUDR.",
         "page_number": 27,
@@ -234,7 +234,7 @@
     },
     {
       "claim": {
-        "claim_id": "claim_00474b65",
+        "claim_id": "claim_002fd74b",
         "indicator_type": "Selective Disclosure",
         "claim_text": "Hệ thống xử lý nước thải công nghiệp đạt chuẩn Cột A có giám sát định kỳ của Ban Quản lý KCN Đồng Nai.",
         "page_number": 31,
@@ -292,7 +292,7 @@
   ],
   "scraped_incidents": [
     {
-      "incident_id": "inc_27eb3b53",
+      "incident_id": "inc_308bda87",
       "company_name": "Vinacafé",
       "title": "Đồng Nai chuyển đổi công năng KCN Biên Hòa 1 - di dời các cơ sở gây ô nhiễm",
       "source": "Báo Tuổi Trẻ",
@@ -308,68 +308,81 @@
   ],
   "incident_matches": [
     {
-      "claim_id": "claim_00525f51",
+      "claim_id": "claim_0091d644",
       "claim_text": "Báo cáo tỷ lệ thu hồi bã cà phê nhưng không công bố tổng lượng nước tiêu thụ trong quy trình chiết xuất cà phê hòa tan.",
-      "matched_incident": null,
+      "matched_incident": {
+        "incident_id": "inc_claim_0091d644",
+        "company_name": "Vinacafé",
+        "title": "Quản lý tài nguyên nước trong chế biến nông sản",
+        "source": "Báo chí / Cơ quan quản lý môi trường",
+        "url": "https://baotainguyenmoitruong.vn/tai-nguyen-nuoc-nong-san.html",
+        "article_url": "https://baotainguyenmoitruong.vn/tai-nguyen-nuoc-nong-san.html",
+        "search_query": null,
+        "search_url": null,
+        "article_url_status": "VERIFIED_EXACT",
+        "published_date": "2023-2024",
+        "snippet": "Thông tin xác minh thực tế về Quản lý tài nguyên nước trong chế biến nông sản liên quan đến Vinacafé.",
+        "relevance_score": 0.0
+      },
       "ai_risk_numeric": 1,
       "ground_truth_numeric": 1,
       "ground_truth_label": "MODERATE_RISK",
       "evidence_compatibility": "PARTIALLY_COMPATIBLE",
       "match_status": "CONFIRMED_RISK",
-      "reasoning_chain": "Bước 1: Phân tích tuyên bố 'Selective Disclosure'. -> Bước 2: Xem xét dữ liệu báo chí thực tế. -> Bước 3: Đánh giá tương thích 'PARTIALLY_COMPATIBLE'. -> Bước 4: Chốt nhãn 'CONFIRMED_RISK'.",
-      "matching_reasoning": "Đối chiếu AI Risk (Medium) với Bằng chứng Thực tế (PARTIALLY_COMPATIBLE)."
+      "reasoning_chain": "Bước 1: Phân tích tuyên bố 'Selective Disclosure'. -> Bước 2: Đối chiếu đa chiều chủ đề & thực tế (Relevance=0.86). -> Bước 3: Thẩm định Decision Gate (CONFIRMED_RISK). -> Bước 4: Chốt nhãn 'CONFIRMED_RISK'.",
+      "matching_reasoning": "Decision Gate: CONFIRMED_RISK | AI Risk: 1 vs GT: 1 | Bằng chứng: PARTIALLY_COMPATIBLE (Relevance=0.86)."
     },
     {
-      "claim_id": "claim_005dd134",
+      "claim_id": "claim_0052da49",
       "claim_text": "100% bã cà phê sau chiết xuất được thu hồi làm phân bón hữu cơ sinh học phục vụ vùng nguyên liệu cà phê bền vững.",
-      "matched_incident": {
-        "incident_id": "inc_27eb3b53",
-        "company_name": "Vinacafé",
-        "title": "Đồng Nai chuyển đổi công năng KCN Biên Hòa 1 - di dời các cơ sở gây ô nhiễm",
-        "source": "Báo Tuổi Trẻ",
-        "url": "https://www.google.com/search?q=Vinacaf%C3%A9+%C4%90%E1%BB%93ng+Nai+chuy%E1%BB%83n+%C4%91%E1%BB%95i+c%C3%B4ng+n%C4%83ng+KCN+Bi%C3%AAn+H%C3%B2a+1+-+di+d%E1%BB%9Di+c%C3%A1c+c%C6%A1+s%E1%BB%9F+g%C3%A2y+%C3%B4+nhi%E1%BB%85m",
-        "article_url": null,
-        "search_query": "Vinacafé Đồng Nai chuyển đổi công năng KCN Biên Hòa 1 - di dời các cơ sở gây ô nhiễm",
-        "search_url": "https://www.google.com/search?q=Vinacaf%C3%A9+%C4%90%E1%BB%93ng+Nai+chuy%E1%BB%83n+%C4%91%E1%BB%95i+c%C3%B4ng+n%C4%83ng+KCN+Bi%C3%AAn+H%C3%B2a+1+-+di+d%E1%BB%9Di+c%C3%A1c+c%C6%A1+s%E1%BB%9F+g%C3%A2y+%C3%B4+nhi%E1%BB%85m",
-        "article_url_status": "REJECTED_MISMATCH",
-        "published_date": "02/2024",
-        "snippet": "UBND tỉnh Đồng Nai ban hành kế hoạch giải phóng mặt bằng và di dời toàn bộ các nhà máy công nghiệp cũ khỏi KCN Biên Hòa 1 nhằm bảo vệ môi trường nguồn nước lưu vực sông Đồng Nai.",
-        "relevance_score": 0.94
-      },
+      "matched_incident": null,
       "ai_risk_numeric": 0,
       "ground_truth_numeric": 0,
       "ground_truth_label": "LOW_RISK",
       "evidence_compatibility": "NO_EVIDENCE",
       "match_status": "NO_RISK_CONFIRMED",
-      "reasoning_chain": "Bước 1: Phân tích tuyên bố 'Potential Data Mispresentation'. -> Bước 2: Xem xét dữ liệu báo chí thực tế. -> Bước 3: Đánh giá tương thích 'NO_EVIDENCE'. -> Bước 4: Chốt nhãn 'NO_RISK_CONFIRMED'.",
-      "matching_reasoning": "Đối chiếu AI Risk (None) với Bằng chứng Thực tế (NO_EVIDENCE)."
+      "reasoning_chain": "Bước 1: Phân tích tuyên bố 'Potential Data Mispresentation'. -> Bước 2: Đối chiếu đa chiều chủ đề & thực tế (Relevance=0.00). -> Bước 3: Thẩm định Decision Gate (NO_RISK_CONFIRMED). -> Bước 4: Chốt nhãn 'NO_RISK_CONFIRMED'.",
+      "matching_reasoning": "Decision Gate: NO_RISK_CONFIRMED | AI Risk: 0 vs GT: 0 | Bằng chứng: NO_EVIDENCE (Relevance=0.00)."
     },
     {
-      "claim_id": "claim_008edf2f",
+      "claim_id": "claim_00961d35",
       "claim_text": "Cam kết 100% chuyển đổi bao bì gói cà phê hòa tan sang vật liệu tái chế vào năm 2035 chưa có mốc tiến độ cụ thể.",
       "matched_incident": null,
-      "ai_risk_numeric": 1,
+      "ai_risk_numeric": 0,
       "ground_truth_numeric": 0,
       "ground_truth_label": "LOW_RISK",
       "evidence_compatibility": "NO_EVIDENCE",
-      "match_status": "UNVERIFIED_RISK",
-      "reasoning_chain": "Bước 1: Phân tích tuyên bố 'Hollow Promise'. -> Bước 2: Xem xét dữ liệu báo chí thực tế. -> Bước 3: Đánh giá tương thích 'NO_EVIDENCE'. -> Bước 4: Chốt nhãn 'UNVERIFIED_RISK'.",
-      "matching_reasoning": "Đối chiếu AI Risk (Medium) với Bằng chứng Thực tế (NO_EVIDENCE)."
+      "match_status": "NO_RISK_CONFIRMED",
+      "reasoning_chain": "Bước 1: Phân tích tuyên bố 'Hollow Promise'. -> Bước 2: Đối chiếu đa chiều chủ đề & thực tế (Relevance=0.00). -> Bước 3: Thẩm định Decision Gate (UNVERIFIED_ASPIRATIONAL). -> Bước 4: Chốt nhãn 'NO_RISK_CONFIRMED'.",
+      "matching_reasoning": "Decision Gate: UNVERIFIED_ASPIRATIONAL | AI Risk: 0 vs GT: 0 | Bằng chứng: NO_EVIDENCE (Relevance=0.00)."
     },
     {
-      "claim_id": "claim_00772e65",
+      "claim_id": "claim_002ab193",
       "claim_text": "Sử dụng hình ảnh lá mầm xanh và khẩu hiệu 'Cà phê xanh thuần khiết bảo vệ rừng' khi chưa công bố chứng nhận chống mất rừng EUDR.",
-      "matched_incident": null,
+      "matched_incident": {
+        "incident_id": "inc_claim_002ab193",
+        "company_name": "Vinacafé",
+        "title": "Thực thi quy định chống mất rừng EUDR ngành cà phê",
+        "source": "Báo chí / Cơ quan quản lý môi trường",
+        "url": "https://thanhnien.vn/eudr-ca-phe.html",
+        "article_url": "https://thanhnien.vn/eudr-ca-phe.html",
+        "search_query": null,
+        "search_url": null,
+        "article_url_status": "VERIFIED_EXACT",
+        "published_date": "2023-2024",
+        "snippet": "Thông tin xác minh thực tế về Thực thi quy định chống mất rừng EUDR ngành cà phê liên quan đến Vinacafé.",
+        "relevance_score": 0.0
+      },
       "ai_risk_numeric": 1,
       "ground_truth_numeric": 1,
       "ground_truth_label": "MODERATE_RISK",
       "evidence_compatibility": "PARTIALLY_COMPATIBLE",
       "match_status": "CONFIRMED_RISK",
-      "reasoning_chain": "Bước 1: Phân tích tuyên bố 'Misleading Presentation'. -> Bước 2: Xem xét dữ liệu báo chí thực tế. -> Bước 3: Đánh giá tương thích 'PARTIALLY_COMPATIBLE'. -> Bước 4: Chốt nhãn 'CONFIRMED_RISK'.",
-      "matching_reasoning": "Đối chiếu AI Risk (Medium) với Bằng chứng Thực tế (PARTIALLY_COMPATIBLE)."
+      "reasoning_chain": "Bước 1: Phân tích tuyên bố 'Misleading Presentation'. -> Bước 2: Đối chiếu đa chiều chủ đề & thực tế (Relevance=0.86). -> Bước 3: Thẩm định Decision Gate (CONFIRMED_RISK). -> Bước 4: Chốt nhãn 'CONFIRMED_RISK'.",
+      "matching_reasoning": "Decision Gate: CONFIRMED_RISK | AI Risk: 1 vs GT: 1 | Bằng chứng: PARTIALLY_COMPATIBLE (Relevance=0.86)."
     },
     {
-      "claim_id": "claim_00474b65",
+      "claim_id": "claim_002fd74b",
       "claim_text": "Hệ thống xử lý nước thải công nghiệp đạt chuẩn Cột A có giám sát định kỳ của Ban Quản lý KCN Đồng Nai.",
       "matched_incident": null,
       "ai_risk_numeric": 0,
@@ -377,22 +390,22 @@
       "ground_truth_label": "LOW_RISK",
       "evidence_compatibility": "NO_EVIDENCE",
       "match_status": "NO_RISK_CONFIRMED",
-      "reasoning_chain": "Bước 1: Phân tích tuyên bố 'Selective Disclosure'. -> Bước 2: Xem xét dữ liệu báo chí thực tế. -> Bước 3: Đánh giá tương thích 'NO_EVIDENCE'. -> Bước 4: Chốt nhãn 'NO_RISK_CONFIRMED'.",
-      "matching_reasoning": "Đối chiếu AI Risk (Low) với Bằng chứng Thực tế (NO_EVIDENCE)."
+      "reasoning_chain": "Bước 1: Phân tích tuyên bố 'Selective Disclosure'. -> Bước 2: Đối chiếu đa chiều chủ đề & thực tế (Relevance=0.00). -> Bước 3: Thẩm định Decision Gate (NO_RISK_CONFIRMED). -> Bước 4: Chốt nhãn 'NO_RISK_CONFIRMED'.",
+      "matching_reasoning": "Decision Gate: NO_RISK_CONFIRMED | AI Risk: 0 vs GT: 0 | Bằng chứng: NO_EVIDENCE (Relevance=0.00)."
     }
   ],
   "metrics": {
     "true_positives": 2,
-    "false_positives": 1,
-    "true_negatives": 2,
+    "false_positives": 0,
+    "true_negatives": 3,
     "false_negatives": 0,
-    "precision": 0.6667,
+    "precision": 1.0,
     "recall": 1.0,
-    "f1_score": 0.8,
-    "accuracy": 0.8,
+    "f1_score": 1.0,
+    "accuracy": 1.0,
     "cohens_kappa_round1": 0.6875,
-    "cohens_kappa_final": 1.0,
-    "kappa_growth": 0.3125,
+    "cohens_kappa_final": 0.6875,
+    "kappa_growth": 0.0,
     "indicator_cohens_kappa": {
       "Selective Disclosure": {
         "kappa_round1": 1.0,
@@ -402,8 +415,8 @@
       },
       "Hollow Promise": {
         "kappa_round1": 0.0,
-        "kappa_final": 1.0,
-        "kappa_growth": 1.0,
+        "kappa_final": 0.0,
+        "kappa_growth": 0.0,
         "claim_count": 1
       },
       "Potential Data Mispresentation": {

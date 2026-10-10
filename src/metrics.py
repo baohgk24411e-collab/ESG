@@ -130,6 +130,12 @@ def calculate_evaluation_metrics(
             tn += 1
         elif status in ["MISSED_RISK", "FN"]:
             fn += 1
+        elif status in ["HUMAN_REVIEW_REQUIRED"]:
+            # Human review cases are unconfirmed: if GT >= 1 it is an unconfirmed violation (FN), else safe (TN)
+            if getattr(res, "ground_truth_numeric", 0) >= 1:
+                fn += 1
+            else:
+                tn += 1
 
     total = tp + fp + tn + fn
     
